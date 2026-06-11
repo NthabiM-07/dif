@@ -1,0 +1,8 @@
+Some changes to specifications after questions highlighted the lack of information:
+
+assume 5% scrap at Cutting station
+picture indicating legs as round should be squares
+Bending of chairs are done with machines
+Orders are dispatched daily (large and small)
+All aluminium parts are bought from the given supplier
+ 
