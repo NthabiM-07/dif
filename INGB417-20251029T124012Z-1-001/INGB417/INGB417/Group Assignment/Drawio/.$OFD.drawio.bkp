@@ -1,0 +1,109 @@
+<mxfile host="Electron" modified="2025-03-24T07:16:55.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="yVSp5mWNuhyI2odBeoJD" version="23.1.5" type="device">
+  <diagram name="Page-1" id="dJmEUrKkwGFZEUCuCZB6">
+    <mxGraphModel dx="1050" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-1" target="cGy2n1fZvSlsj8nGcofe-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-1" value="Raw Material Storage&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(3 days + 4% scrap)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="235" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-2" target="cGy2n1fZvSlsj8nGcofe-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="145" y="340" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-3" value="Raw Material&lt;br style=&quot;font-size: 13px;&quot;&gt;Delivery" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="120" y="300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-4" target="cGy2n1fZvSlsj8nGcofe-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-4" value="Wire Drawing&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(36)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="415" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-5" target="cGy2n1fZvSlsj8nGcofe-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-5" value="Drawn wire coils&amp;nbsp;&lt;br style=&quot;font-size: 13px;&quot;&gt;storage" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="595" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-6" target="cGy2n1fZvSlsj8nGcofe-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-6" value="Galvanising&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(29)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="775" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-7" target="cGy2n1fZvSlsj8nGcofe-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-7" value="Galvanised wire storage" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="775" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-8" target="cGy2n1fZvSlsj8nGcofe-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-8" value="Netting&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(58)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="595" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-9" target="cGy2n1fZvSlsj8nGcofe-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-9" value="Netting storage" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="415" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Arial;fontSize=13;strokeWidth=2;strokeColor=#660066;" parent="1" source="cGy2n1fZvSlsj8nGcofe-10" target="cGy2n1fZvSlsj8nGcofe-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-10" target="cGy2n1fZvSlsj8nGcofe-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-10" value="Packaging&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(97)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="235" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-11" target="cGy2n1fZvSlsj8nGcofe-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-11" value="Small order storage&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(2 days)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="135" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-12" target="cGy2n1fZvSlsj8nGcofe-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-12" value="Large order storage&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(1 week)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="335" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="175" y="680" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#660066;fillColor=#000000;fontFamily=Arial;fontSize=13;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="375" y="680" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-15" value="Customer collection" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="165" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-16" value="Shipment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="365" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5701d03yB4cSRpYhqbz4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="cGy2n1fZvSlsj8nGcofe-29" target="5701d03yB4cSRpYhqbz4-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="670" y="230" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cGy2n1fZvSlsj8nGcofe-30" value="Zinc Ingots" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="660" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5701d03yB4cSRpYhqbz4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" source="5701d03yB4cSRpYhqbz4-1" target="cGy2n1fZvSlsj8nGcofe-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5701d03yB4cSRpYhqbz4-1" value="Zinc Ingot Storage&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;(5 days)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=13;strokeColor=#660066;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="775" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

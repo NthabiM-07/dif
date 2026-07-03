@@ -1,0 +1,142 @@
+       INGB417 Facilities Design 2026 - A Practical Facilities Design Group assignment
+
+
+Assignment 3 (Report (only Design specifications)) [no mark, only feedback] Due
+Monday 23 March 2026 (this serves as the input to Design alternatives, if there is no
+hand in of this report, there will be no marking of Assessment 4)
+
+Assignment 4 (full Report and Interviews) [/100] Report due on Monday 4 May 2026 with
+Interviews on Tuesday 5 May 2026 (bring MFP A3 size minimum, A2 preferred)
+
+This is a Group assignment. (Group size = 3) Members are assigned by the lecturer. When
+handing in the documents, please note the members’ names and student numbers and everyone’s
+individual contribution in a table on the cover page. The reason for a group is to provide an
+opportunity to learn from each other, so please don’t let any individual do things completely alone
+without sharing what was done. This project is preparation for the GA exam. The process you
+follow here is what will be expected in the exam.
+
+Work must be typed. All calculations, graphs, tables, or charts must be shown to indicate insight
+into how the facility was designed. Provide evidence for thoughts you had, assumptions you
+made, the logic you used in getting to the design. The report and interview are your evidence.
+
+This is a DESIGN project. The expectation is that you develop the ECSA Graduate Attribute
+(GA) skills specifically related to Engineering Design as applied to a Facilities Design problem.
+Remember that you will have to prove by the way you communicate what was done, how it was
+done, etc. Evaluation will only be done on the written Reports and the verbal Interviews. Use
+words wisely. ‘Sell yourselves well’ For more information on how to approach this
+project/assignment study these 3 documents uploaded onto eFundi, as you need them:
+
+   1. INGB417 aligning GA3 with FD steps Feb2026.pdf
+   2. INGB417 Clarifying Objs and Reqs Feb2025pdf
+   3. INGB417 Design Report guidance Feb2026.pdf
+
+This group project counts 60% towards your module mark.
+
+PURPOSE:
+
+   •   To develop the skills applicable to understand a design problem, including research skills
+       needed in analyzing the production process design and how to calculate design
+       requirements (eg. number of machines per process step).
+   •   From these requirements proposing and evaluating alternative solutions and presenting a
+       final detailed design that solves the facility design problem, with appropriate justification.
+   •   To develop problem solving and creative thinking skills
+   •   To develop the ability and confidence to work with people in groups to gather appropriate
+       and relevant data
+   •   To develop communication skills in report writing and doing an interview.
+
+THE ASSIGNMENT:
+
+As an Industrial Engineer you have been appointed to act as the Facility Design team leader for
+the new facility required by Hypnos Mattress Manufacturers for their new facility making
+mattresses. Your task is to DESIGN a NEW MANUFACTURING FACILITY. by the end of
+April 2026, to present to Hypnos management on 5 May 2026.
+           INGB417 Facilities Design 2026 - A Practical Facilities Design Group assignment
+
+   Refer to Appendix 1 for the company brief you will be designing the facility for. Specifications
+   and requirements are mentioned. If other information is needed, you are welcome to make your
+   own assumptions based on research. Remember to indicate all in your report.
+
+   Refer to Appendix 2 for the group members per group number. You can choose your own roles
+   and responsibilities and who is to upload the deliverables. Only one upload per group is required.
+
+   Refer to Appendix 3 for guidance on the type of data that you will have to get, calculate, or
+   assume to design a facility.
+
+   DELIVERABLES:
+
+   For Assignment 3 (no mark, only detail feedback) = The first half of your report (Design
+   requirements) must be uploaded to eFundi by Monday 23 March 2026 @ 8h00. The
+   expectation is that you will then have a clear understanding of what is supposed to be happening
+   at the new facility and have shown enough data and analysis to start with facility layouts. This
+   must include workstations levels showing detail dimensions as these are used to work out areas
+   for the next steps. Feedback will be given on account of design requirements calculations.
+
+   Groups are then required to integrate findings from data analysis to design layouts. Groups should
+   present at least 3 alternative block layouts (showing calculated areas) with an appropriate
+   evaluation process for selecting the most suitable alternative. A justification should be presented
+   for all decisions including relevant analysis where applicable to present the chosen Final Master
+   Facility Plan. The MFP must include scale, legend and dimensions of the plot, buildings and
+   outer areas.
+
+   For Assignment 4 (mark /100) A final report (Chapters 1-10) must be uploaded to eFundi on
+   Monday 4 May 2026 @ 8h00. [only one upload report per group] The report should include the
+   following: A cover page (reflecting the facility challenge), an Abstract (as for executive
+   management), the Table of Contents, Lists of Figures/tables, and then the report as per the
+   chapters indicated in the guidelines. The MFP printed on A3 (minimum), preferably A2 MUST
+   be brought to the Interview (one per group).
+
+   • A 15 minute Interview will be done with each group on Tuesday 5 May 2026. A timetable will
+   be set for these interviews.
+
+   ASSESSMENT of FINAL REPORT together with Interview:
+
+   Marks will be given on the following ECSA GA criteria like the exam. See Rubric to be used
+   below.
+
+[TIP: This is a BIG and interesting Assignment. Make sure that you start early enough to get a feeling
+for the scope so there is enough time for later design details. Do NOT underestimate the time it takes]
+        INGB417 Facilities Design 2026 - A Practical Facilities Design Group assignment
+
+GROUP NUMBER: ____________
+
+ Perform creative, procedural and non-procedural design and synthesis of components, systems, engineering works,
+ products or processes.
+                                                  EVALUATION CRITERIA
+
+                                                                     Weighting      Mark          Mark       Mark
+                                                                                 (Interview)    (Report)    (Final)
+ Clear interpretation of the design problem and                        /30
+ formulation/calculation of design requirements or
+ specifications. (includes appropriate use of analytical tools and
+ techniques.)
+
+
+
+ Practical insight shown during the design process and in the          /20
+ design solution
+
+
+
+ Sufficient detail provided in the solution to meet the design         /30
+ requirements (Receiving & Dispatch, Processes, Storage,
+ Offices, Support functions all in MFP)
+
+
+
+ Effective use of a structured and rigorous design process             /10
+ (Report structure corresponding to process steps
+
+
+
+ Effective communication of the design process and solution            /10
+
+
+
+ FINAL MARK (Interview 50: Report 50)                                  /100      Interview     Report      Total
+                                                                                 mark          total       mark
+
+
+
+
+Other comments:
+

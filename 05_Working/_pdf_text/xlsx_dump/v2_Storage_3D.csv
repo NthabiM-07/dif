@@ -1,0 +1,9 @@
+Storage sizing (3D footprint),,,,
+,,,,
+Store,Items,Racks/positions,Floor area (m2),Basis
+Raw tube,960,4,38.4,cantilever racks
+Raw sheet,240,2,10,sheet stacks
+Finished goods,91,31,59.52,"palletised, racked"
+WIP staging,5,2,3.84,decoupling buffers
+Scrap / waste,-,-,40,assumption
+Total storage area,,,151.76,

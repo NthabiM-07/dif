@@ -1,0 +1,79 @@
+<mxfile host="Electron" modified="2026-07-03T00:00:00.000Z" agent="5.0" version="24.7.5">
+  <diagram name="Station - Enclosed Powder Coating" id="stationPC">
+    <mxGraphModel dx="1300" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Enclosed Powder Coating Station — Scale 1 m = 100 px — Cycle time equipment-dependent (brief Table 1)" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="note" value="All parts (back handle, middle handle, head/hinge subassembly) converge here after polish — single enclosed, extracted area per CLAUDE.md process flow." style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="1200" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inwip" value="Input WIP&#10;Polished parts staging&#10;(all 3 streams)&#10;1.5 x 1.0 m" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="jig" value="Hanging jig / loading line" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="enclosure" value="ENCLOSED &amp; EXTRACTED ZONE" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#990000;verticalAlign=top;fontStyle=1;fontColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="500" height="360" as="geometry" />
+        </mxCell>
+
+        <mxCell id="booth" value="Powder Coat Booth&#10;interior ~1.2 x 1.2 x 2.4 m&#10;+ exhaust chamber ~1.3 m depth&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="200" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="oven" value="Cure Oven&#10;~1.5 x 1.5 m&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="650" y="180" width="150" height="150" as="geometry" />
+        </mxCell>
+
+        <mxCell id="operator" value="Operator zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="duct" value="Ventilation duct to roof extraction" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="620" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="outwip" value="Output WIP&#10;Coated parts staging&#10;1.5 x 1.0 m" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="220" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aisle" value="Trolley Aisle 1.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="150" width="150" height="260" as="geometry" />
+        </mxCell>
+
+        <mxCell id="toassy" value="&#8594; To Final Assembly&#10;(30 s/shovel — LOCKED)" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwip" target="jig">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="jig" target="booth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="booth" target="oven">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="oven" target="outwip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="toassy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="caption" value="Figure — Enclosed Powder Coating Station. Scale 1 m = 100 px. Booth and oven dimensions are SUPPLIER-BASED ESTIMATES (see assumptions_register.md) derived from typical small-part booth ranges — not a real supplier spec. Enclosure + extraction requirement is a locked design constraint (CLAUDE.md), not the booth's internal dimensions." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="1260" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

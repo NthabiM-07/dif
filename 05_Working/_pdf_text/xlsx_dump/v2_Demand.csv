@@ -1,0 +1,17 @@
+Demand and production requirement,,,
+,,,
+Measure,Value,Unit,Basis
+Annual demand,400000,shovels/yr,brief
+Workdays,220,days,brief
+Daily demand (good),1819,shovels/day,"annual/days, round up"
+Effective time,480,min/day,shift - breaks
+Hourly demand,227.375,shovels/h,daily/effective hours
+Takt time,15.83,s/shovel,effective/daily
+,,,
+Part-level daily requirement,,,
+Part,Per shovel,Good/day,Gross/day (if scrap step)
+Back handle section (tube),1,1819,
+Middle handle section (tube),1,1819,
+Handle sections cut (tube),2,3638,3829.473684
+Shovel head (sheet),1,1819,1914.736842
+Hinge connector (sheet),1,1819,1914.736842

@@ -1,0 +1,1702 @@
+INGB417 - FACILITIES DESIGN
+                  GA Assignment
+
+                    13 June 2025
+
+
+
+
+              Student: Xayaan Maasdorp
+             Student Number: 35956658
+            Lecturer: Mrs. Willemien Kruger
+
+
+North-West University: Potchefstroom Campus
+Table of Contents
+1. Background.......................................................................................... 5
+2. Design Objectives ................................................................................ 5
+3. Design Requirements .......................................................................... 6
+4. Process Flow ....................................................................................... 8
+5. Assumptions and Constraints.............................................................. 9
+6. Detail Design Specifications .............................................................. 10
+  6.1.     Raw Material Requirements................................................................................. 11
+  6.2.     Manufacturing Time ............................................................................................. 15
+  6.3.     Manufacturing Processes .................................................................................... 16
+  6.4.     Receiving & Dispatch........................................................................................... 32
+  6.5.     Space Requirements ........................................................................................... 35
+7. Design Alternatives ............................................................................ 36
+  7.1.     Alternative Evaluation .......................................................................................... 38
+8. The Final Design ............................................................................... 38
+9. Appendix A ........................................................................................ 40
+10. Appendix B ........................................................................................ 43
+11. Appendix C ........................................................................................ 45
+12. References ........................................................................................ 46
+
+
+
+
+                                                                                                                                  1
+                                                    List of Figures
+
+Figure 1: Loading Bay Standard Dimensions (in mm) ........................................................... 6
+Figure 2: Standard Office Layout........................................................................................... 7
+Figure 3: Management Office Layouts .................................................................................. 7
+Figure 4: Standard Vehicle and Truck Parking ...................................................................... 7
+Figure 5: Standard Kitchen Layout ........................................................................................ 8
+Figure 6: Standard Bathroom Stall Layout ............................................................................. 8
+Figure 7: Process Flow Diagram ........................................................................................... 8
+Figure 8: Tabletop Top View ............................................................................................... 11
+Figure 9: Slider Structure Top View..................................................................................... 11
+Figure 10: Large Table Configuration .................................................................................. 11
+Figure 11: Raw Material Bundles Diagram .......................................................................... 12
+Figure 12: Raw Material Crate ............................................................................................ 12
+Figure 13: Raw Material Crate Configuration ...................................................................... 12
+Figure 14: Electric Forklift Truck .......................................................................................... 13
+Figure 15: Pallet Storage Racks .......................................................................................... 13
+Figure 16: Portable Metal Storage Trolley ........................................................................... 14
+Figure 17: CNC Laser Machine ........................................................................................... 16
+Figure 18: Laser Cutting Workstation .................................................................................. 16
+Figure 19: Metal Scrap Bin .................................................................................................. 17
+Figure 20: Tube Cart ........................................................................................................... 17
+Figure 21: Automatic Laser Welding Robot ......................................................................... 18
+Figure 22: Automatic Welding Machine ............................................................................... 18
+Figure 23: Automatic Welding Machine Safety Cage........................................................... 18
+Figure 24: Remnant Cart ..................................................................................................... 19
+Figure 25: Manual Welding Equipment................................................................................ 19
+Figure 26: Manual Welding Workstation .............................................................................. 20
+Figure 27: Manual Welding Safety Boundary ...................................................................... 20
+Figure 28: Welding and Grinding Stand Base...................................................................... 20
+Figure 29: Angle Grinder ..................................................................................................... 21
+Figure 30: Grinding and Polishing Workstation.................................................................... 21
+Figure 31: Metal Rinsing Equipment ................................................................................... 22
+Figure 32: Drying and Curing Oven ..................................................................................... 22
+Figure 33: Powder Coating Equipment ................................................................................ 22
+Figure 34: Powder Coating Process Workstation ................................................................ 23
+Figure 35: Overhead Conveyor System .............................................................................. 24
+Figure 36: Conveyor Assembly Diagram ............................................................................. 24
+Figure 37: Screwdriver/drill Equipment ................................................................................ 25
+Figure 38: Assembly Workstation ........................................................................................ 25
+Figure 39: Assembly Work Bench ....................................................................................... 25
+Figure 40: Metal Trolley Cart ............................................................................................... 26
+Figure 41: Rubber Assembly Work Bench ........................................................................... 26
+Figure 42: Rubber Feet Inserts ........................................................................................... 27
+Figure 43: Table Set Grouping Workstation ........................................................................ 28
+Figure 44: Table Set Boxing Workstation ............................................................................ 28
+Figure 45: Carton Box Dimensions...................................................................................... 29
+Figure 46: Roller Conveyor ................................................................................................. 29
+Figure 47: Automated Bending Machine ............................................................................. 29
+Figure 48: Automated Bending Workstation ........................................................................ 30
+
+
+
+                                                                                                                                      2
+Figure 49: Rattan Delivery Configuration............................................................................. 30
+Figure 50: Chair Stacking WorkStation................................................................................ 31
+Figure 51: Chair Trolley....................................................................................................... 31
+Figure 52: Chair Stacking Trolley ........................................................................................ 31
+Figure 53: Raw Material Storage Layout ............................................................................. 32
+Figure 54: Rattan Products Storage Layout ........................................................................ 32
+Figure 55: Container Dimensions ........................................................................................ 33
+Figure 56: Finished Goods Storage Layout ......................................................................... 33
+Figure 57: Retail Store Product Display and Layout ............................................................ 34
+Figure 58: Large Orders Storage Area ................................................................................ 34
+Figure 59: Delivery Truck .................................................................................................... 34
+Figure 60: Delivery Truck Configuration .............................................................................. 34
+Figure 61: Activity Relationship Chart ................................................................................. 36
+Figure 62: Alternative Layout 1 ........................................................................................... 37
+Figure 63: Alternative Layout 2 ........................................................................................... 37
+Figure 64: Alternative Layout .............................................................................................. 37
+Figure 65: The Final MFP Layout ........................................................................................ 38
+Figure 66: MFP Material And People Flow .......................................................................... 39
+Figure 67: Enlarged Raw Material Storage Area ................................................................. 40
+Figure 68: Enlarged Rattan Products Layout ....................................................................... 41
+Figure 69:Enlarged Finished Goods Storage Layout ........................................................... 42
+Figure 70: The Legend For the MFP ................................................................................... 45
+
+
+                                                     List of Tables
+
+Table 1: Product Processing Time Constraints.................................................................... 10
+Table 2: Production Demand Requirements ........................................................................ 11
+Table 3: Raw Material Inventory Requirement (in raw material units) .................................. 12
+Table 4: Raw Material Deliveries (in units) .......................................................................... 13
+Table 5: Forklift Specifications ............................................................................................ 13
+Table 6: Pallet Storage Rack Specifications ........................................................................ 13
+Table 7: Trolley Capacity .................................................................................................... 14
+Table 8: Portable Metal Trolley Specifications ..................................................................... 14
+Table 9: Machine and Operator Requirements .................................................................... 15
+Table 10: CNC Laser Machine Specifications ..................................................................... 16
+Table 11: Metal Scrap Bin Specifications ............................................................................ 17
+Table 12: Tube Cart Specifications ..................................................................................... 17
+Table 13: Automatic Welding Robot Specifications ............................................................. 18
+Table 14: Remnant Cart Specifications ............................................................................... 19
+Table 15: Manual Welding Equipment ................................................................................. 19
+Table 16: Angle Grinder Specifications ............................................................................... 21
+Table 17: Metal Rinsing Equipment Specifications .............................................................. 22
+Table 18: Oven Specifications............................................................................................. 22
+Table 19: Powder Coating Specifications ............................................................................ 22
+Table 20: Conveyor Specifications ...................................................................................... 24
+Table 21: Screwdriver/Drill Specifications ........................................................................... 25
+Table 22: Assembly Work Bench Specifications.................................................................. 25
+Table 23: Metal Trolley Cart Specifications ......................................................................... 26
+Table 24: Rubber Work Bench Specifications ..................................................................... 26
+
+
+
+
+                                                                                                                                     3
+Table 25: Rubber Feet Inserts Specifications ...................................................................... 27
+Table 26: Roller Conveyor Specifications ............................................................................ 29
+Table 27: Bending Machine Specifications ......................................................................... 29
+Table 28: Chair Trolley Specifications ................................................................................. 31
+Table 29:Chair Stacking Trolley Specifications.................................................................... 31
+Table 30: Delivery Truck Specifications............................................................................... 34
+Table 31: Production Facility Space Requirements ............................................................. 35
+Table 32: Storage Space Requirements.............................................................................. 35
+Table 33: Supporting Facilities Space Requirements .......................................................... 36
+Table 34: Alternative Layouts Evaluation ............................................................................ 38
+Table 35: Supporting Office Staff Space Requirements ...................................................... 43
+Table 36: Amenities Space Requirements .......................................................................... 43
+Table 37: Parking Space Requirements .............................................................................. 44
+
+
+
+
+                                                                                                                              4
+1. Background
+TIPTOP TABLES has 25 years of outdoor furniture manufacturing experience and has been
+catering to the local South African Market through unique design ideas that promotes
+efficiency and customer convenience. The products sold by TIPTOP TABLES includes an
+outdoor set that is composed of a two-in-one aluminium table, and four aluminium chairs with
+a rattan covering. The two-in-one table feature enables the table size to be extended or
+compact depending on the table configuration.
+
+The aluminium patio table is water-resistant and features a charcoal grey protective powder
+paint coat. The table is lightweight, with a slanted surface for easy cleaning, and easily
+disassembled by removing the legs for easy storage when not in use. The outdoor table set is
+the only product line manufactured by TIPTOP TABLES, and demand for the product has
+increased over the years. As such, the existing manufacturing facility cannot fulfil the
+anticipated 5000 outdoor sets monthly demand. The increased demand is
+
+TIPTOP TABLES management has contracted the expertise of an Industrial Engineer to
+enable them to make strategic decisions of the location, size, and facility layout of the new
+manufacturing facility of the company. Additionally, the managing structure anticipates a 20%
+increase in the near future; therefore, facility expansion shall be incorporated as part of the
+systematic engineering design approach.
+
+The purpose of the facility design report is to communicate the systematic design approaches
+followed, by means of demand calculations, analysing the manufacturing process, conducting
+equipment research, evaluating alternative design approaches, and delivering a final master
+facility plan.
+
+
+2. Design Objectives
+The value of designing a new facility for TIPTOP TABLES will enable the company to meet
+the increased consumer demand and potentially increase the revenue of the company. The
+facility design offers the opportunity to incorporate refined workflow and material flow to
+processes.
+
+AIM
+Design a manufacturing facility for TIPTOP TABLES that meets customer demand, provides
+efficient receiving of materials and product dispatch, and facilitates future company expansion.
+
+OBJECTIVES
+      Calculate the production capacity to meet consumer demand.
+      Determine the space requirements for an effective facility layout.
+      Design a facility that shall meet current consumer demand and includes a 20% space
+       expansion based on the forecast provided by management.
+      Incorporate regulatory, and safety standards to the facility design.
+      Design spaces that are ergonomic to promote employee efficiency, and customer
+       comfort.
+      Integrate an effective product distribution system that connects to the public road,
+       which shall be easily accessible by both trucks and customers.
+
+
+
+
+                                                                                                   5
+3. Design Requirements
+The design requirements for the new TIPTOP TABLES manufacturing facility includes the
+design details that were adhered to as provided by management.
+
+PRODUCT MANUFACTURING
+The different processes have designated workstations that are designed to reduce operator
+and material movement requirements, which includes the staging of materials and
+components at the assembly stations.
+
+The automated welding machines, and manual welding workstations have separated spaces
+as a safety precaution.
+
+STORAGE FACILITIES
+The storage requirements of the facility include the area for storing raw material stock and
+finished products inventory stock. The details of the 3D-space storage requirements are
+further discussed in section 6 (Detail Design Specifications).
+
+The work in progress (WIP) products are assigned storage carts that are easily moved
+between processes.
+
+WASTE MANAGEMENT
+The facility is regularly cleaned and maintained by the operators to comply with health and
+safety regulations. Additionally, the discarding of scrap material produced during the cutting
+process is collected via a scrap bin. The placement of the scrap bin within the facility has been
+designed to accommodate easy scrap bin dispatch to remove the waste material from the
+premises.
+
+
+
+
+LOADING BAY
+The product distribution system enables suppliers to
+deliver the raw materials and components throughout
+the week by means of a loading bay. The same loading
+bay in Figure 1 is utilised for product dispatch of bulk
+order deliveries via the TIPTOP TABLES company
+fleet.
+
+
+
+
+                                                               FIGURE 1: LOADING BAY
+                                                            STANDARD DIMENSIONS (IN MM)
+
+
+
+
+                                                                                                    6
+SUPPORTING FACILITIES
+The design of the facility includes personnel facilities for office employees on site. The
+managing structure of one senior and two middle management have separate offices to allow
+for private consultations. The administrative and operational staff have different office spaces
+and layouts depending on the task-fulfilment.
+
+
+
+
+FIGURE 3: MANAGEMENT OFFICE LAYOUTS              FIGURE 2: STANDARD OFFICE LAYOUT
+
+The facility has security considerations with a secure fence and security staff to monitor the
+entrance and exit of materials, vehicles, and people. The vehicles have designated parking
+for customers, employees, and company fleet.
+
+
+
+
+                      FIGURE 4: STANDARD VEHICLE AND TRUCK PARKING
+
+
+The facility includes the following utilities:
+
+       Kitchen for employee utilisation during lunch
+       Sanitary facilities
+       Water, plumbing, and ventilation requirements as regulated by the SABS
+       Electricity and lighting infrastructures to power equipment and provide workstation
+        visibility as employees do detailed work at workstations.
+        Fire safety considerations
+
+
+
+
+                                                                                                   7
+      FIGURE 5: STANDARD KITCHEN LAYOUT
+                                               FIGURE 6: STANDARD BATHROOM STALL
+                                                             LAYOUT
+
+
+4. Process Flow
+The functionality of the facility is designed according to the production process, and
+the process flow diagram in Figure 7 was utilised to analyse these processes.
+
+
+
+
+                          FIGURE 7: PROCESS FLOW DIAGRAM
+
+
+
+
+                                                                                         8
+5. Assumptions and Constraints
+ASSUMPTIONS
+      The expected consumer demand forecast is 5 000 per month.
+      The company has an average of 20 working days per month.
+      The company business week is 5 days per week, and a month has 4 weeks.
+      The company operates on a 9-hour shift per day (08:00 – 18:00), and operators are
+       given 30 minutes for lunch, and two 15-minute tea breaks per day.
+      Overtime or a Saturday shift is only considered to provide flexibility in capacity.
+      The workday is not affected by machine set-up time, machine changeover, and
+       machine cleaning.
+      The company expects a 20% growth rate in the near future, and the space utilisation
+       calculations accounts for the increase.
+      The space allocation allows for two weeks of raw material stock.
+      The space capacity for finished goods stock storage is 4 weeks.
+      A finished product set is composed of 5 tables and 20 chairs.
+      A customer may collect a small order of less than 5 sets.
+      Large orders are more than 5 sets and delivered via the company fleet.
+      The standard aisle size is 1.5 m wide.
+      Assume that raw material is delivered every 2 weeks.
+      Assume that all the raw material is first cut to size by the CNC laser machine.
+      The Rattan assembly onto the chair frame is outsourced, and 1000 chairs are delivered
+       daily.
+      Assume there are 2 supervisors, each oversees either table or chair manufacturing.
+
+
+CONSTRAINTS
+      The cutting process is subject to a 5% material scrap rate.
+      The operators are restricted to move within the boundaries of the designated “operator
+       aisle” as a safety precaution.
+      There are workstations arrangement limitations due to movement safety and
+       ventilation requirements.
+
+Raw Materials:
+The raw materials supplied by the supplier delivers the raw material in batches of 6m tubes
+and bars.
+    Rectangular aluminium tubes (40mm x 20mm x 6000mm) to manufacture the tabletop
+       frame, and slider.
+    Aluminium flat bars (101,6mm x 9,52mm x 6000mm) forms the tabletop surface.
+    Aluminium square tubes (60mm x 60mm x 6000mm) to manufacture the table legs.
+    Aluminium round tubes (25,4mm x 1,6mm x 6000mm) to manufacture the chair frames.
+
+
+
+
+                                                                                                9
+Processing Times:
+
+                    TABLE 1: PRODUCT PROCESSING TIME CONSTRAINTS
+                         Process                            Processing Time
+      Cutting of the table frames and chairs tubes   1 min per table & 1 min per chair
+      Automated welding of the slider structure      5 min per sliding structure
+      Manual welding of tabletop surface             10min per one tabletop frame
+      Manual grinding and polishing operations       1min per tabletop
+      Table structures powder coating                30 sec per structure
+      Manual tabletops and slider assembly           5 min per table
+      Inserting rubber feet onto table legs          1min per 4 legs
+      Table set packaging                            5min per set.
+      Chair frame bending                            3min per chair
+      Manual welding of chair frame                  5 min per chair
+      Chair stacking                                 10min to stack 20 chairs
+
+
+6. Detail Design Specifications
+DEMAND
+The raw material requirement was calculated to meet the monthly customer demand of 5000
+sets. The chairs production is four times that of tables (monthly demand = 20000), as a set
+includes one table and four chairs. The daily, and hourly production requirements are
+calculated in Equation 1 to 4, and summarised in Table 2.
+                                                 𝑚𝑜𝑛𝑡ℎ𝑙𝑦 𝑓𝑜𝑟𝑒𝑐𝑎𝑠𝑡
+                     𝑑𝑎𝑖𝑙𝑦 𝑠𝑒𝑡 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 =                                              (1)
+                                              𝑤𝑜𝑟𝑘𝑖𝑛𝑔 𝑑𝑎𝑦𝑠 𝑝𝑒𝑟 𝑚𝑜𝑛𝑡ℎ
+                                          5000 𝑠𝑒𝑡𝑠
+                              =
+                                  20 𝑤𝑜𝑟𝑘𝑖𝑛𝑔 𝑑𝑎𝑦𝑠 𝑝𝑒𝑟 𝑚𝑜𝑛𝑡ℎ
+                                     = 250 𝑠𝑒𝑡𝑠 𝑝𝑒𝑟 𝑑𝑎𝑦
+
+
+                                                 𝑑𝑎𝑖𝑙𝑦 𝑠𝑒𝑡 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛
+                      ℎ𝑜𝑢𝑟𝑙𝑦 𝑠𝑒𝑡 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 =                                            (2)
+                                                   8 ℎ𝑜𝑢𝑟 𝑤𝑜𝑟𝑘 𝑑𝑎𝑦
+                                             250 𝑠𝑒𝑡𝑠
+                                     =
+                                         8 ℎ𝑜𝑢𝑟 𝑤𝑜𝑟𝑘 𝑑𝑎𝑦
+                                = 31.25 ≈ 32 𝑠𝑒𝑡𝑠 𝑝𝑒𝑟 ℎ𝑜𝑢𝑟
+
+
+                                                 𝑚𝑜𝑛𝑡ℎ𝑙𝑦 𝑓𝑜𝑟𝑒𝑐𝑎𝑠𝑡
+                  𝑑𝑎𝑖𝑙𝑦 𝑐ℎ𝑎𝑖𝑟 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 =                           ×4                  (3)
+                                              𝑤𝑜𝑟𝑘𝑖𝑛𝑔 𝑑𝑎𝑦𝑠 𝑝𝑒𝑟 𝑚𝑜𝑛𝑡ℎ
+                                                 𝑑𝑎𝑖𝑙𝑦 𝑐ℎ𝑎𝑖𝑟 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛
+                    ℎ𝑜𝑢𝑟𝑙𝑦 𝑐ℎ𝑎𝑖𝑟 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 =                                            (4)
+                                                    8 ℎ𝑜𝑢𝑟 𝑤𝑜𝑟𝑘 𝑑𝑎𝑦
+
+
+
+
+                                                                                               10
+                       TABLE 2: PRODUCTION DEMAND REQUIREMENTS
+         Product Monthly Production         Daily Production Hourly production
+                   (units/month)               (units/day)     (units/hour)
+          Table         5000                       250               32
+          Chair        20000                      1000              125
+
+
+6.1. Raw Material Requirements
+There is a 2 week (10 days) raw material stock storage stock requirement. The following raw
+material assumptions were derived from the product design specifications depicted in Figure
+8 – 10:
+      A tabletop (table frame) structure is manufactured from one 6m rectangular tube, and
+       one table requires 2 tabletops.
+      A slider structure is manufactured from one 6m rectangular tube.
+      A tabletop surface is manufactured from 2.5 flat bars.
+      One 6m square tube can manufacture 8 table legs (two tables).
+                        6𝑚 𝑠𝑞𝑢𝑎𝑟𝑒 𝑡𝑢𝑏𝑒 ÷ 0.7 𝑙𝑒𝑔 𝑙𝑒𝑛𝑔𝑡ℎ = 8.57 ≈ 8 𝑡𝑎𝑏𝑙𝑒 𝑙𝑒𝑔𝑠
+      A chair frame structure is manufactured from one 6m round tube.
+
+
+
+
+          FIGURE 8: TABLETOP TOP VIEW           FIGURE 9: SLIDER STRUCTURE TOP VIEW
+
+
+
+
+                          FIGURE 10: LARGE TABLE CONFIGURATION
+
+
+Equations 5 to 8 are used to determine the raw material required to fulfil the two-week raw
+material inventory requirements. The cutting process is the first manufacturing step, and all
+the raw material is thus subject to a 5% scrap rate that occurs during this process, calculated
+via Equation 9 and the raw material requirement is summarised in Table 3 (rounded up to the
+nearest whole number).
+
+
+
+
+                                                                                                  11
+    𝑟𝑒𝑐𝑡𝑎𝑛𝑔𝑢𝑙𝑎𝑟 𝑡𝑢𝑏𝑒𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 = 𝑑𝑎𝑖𝑙𝑦 𝑠𝑒𝑡𝑠 × (2 𝑡𝑎𝑏𝑙𝑒𝑓𝑟𝑎𝑚𝑒𝑠 + 1 𝑠𝑙𝑖𝑑𝑒𝑟) × 10 𝑑𝑎𝑦𝑠    (5)
+
+        𝑓𝑙𝑎𝑡 𝑏𝑎𝑟𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 = 2.5 𝑓𝑙𝑎𝑡 𝑏𝑎𝑟𝑠 × 𝑑𝑎𝑖𝑙𝑦 𝑠𝑒𝑡𝑠 (2𝑡𝑎𝑏𝑙𝑒𝑓𝑟𝑎𝑚𝑒𝑠) × 10 𝑑𝑎𝑦𝑠      (6)
+
+            𝑠𝑞𝑢𝑎𝑟𝑒 𝑡𝑢𝑏𝑒𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 = 𝑑𝑎𝑖𝑙𝑦 𝑠𝑒𝑡𝑠 ÷ 2 𝑡𝑎𝑏𝑙𝑒𝑠 𝑝𝑒𝑟 𝑡𝑢𝑏𝑒 × 10 𝑑𝑎𝑦𝑠          (7)
+
+               𝑟𝑜𝑢𝑛𝑑 𝑡𝑢𝑏𝑒𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 = 𝑑𝑎𝑖𝑙𝑦 𝑐ℎ𝑎𝑖𝑟 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 × 10 𝑑𝑎𝑦𝑠                (8)
+
+            𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑎𝑑𝑗𝑢𝑠𝑡𝑒𝑑 𝑓𝑜𝑟 𝑠𝑐𝑟𝑎𝑝 = 𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 × 1.05             (9)
+
+        TABLE 3: RAW MATERIAL INVENTORY REQUIREMENT (IN RAW MATERIAL UNITS)
+        Raw Material        Daily Inventory     Inventory       Inventory Stock
+          Product                Stock            Stock        Adjusted for Scrap
+    Rectangular tubes             750             7500                7875
+    Flat bars                    1250             12500              13125
+    Square tubes                  125             1250                1313
+    Round tubes                  1000             10000              10500
+
+
+The raw material is delivered in bundles of 20 (Figure 11) as summarised in Table 4 and
+delivered per crate load, separated per raw material product. The crate size is 6000𝑚𝑚 ×
+1000𝑚𝑚 × 1500𝑚𝑚 depicted in Figure 12, and the raw material is packed according to the
+configuration in Figure 13.
+     𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑏𝑢𝑛𝑑𝑙𝑒𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡 = 𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑎𝑑𝑗𝑢𝑠𝑡𝑒𝑑 𝑓𝑜𝑟 𝑠𝑐𝑟𝑎𝑝 ÷ 20         (10)
+
+
+
+
+                        FIGURE 11: RAW MATERIAL BUNDLES DIAGRAM
+
+
+
+
+                                                  FIGURE 13: RAW MATERIAL CRATE
+     FIGURE 12: RAW MATERIAL CRATE                        CONFIGURATION
+
+
+
+
+                                                                                            12
+Material Handling
+The number of pallets delivered every 2 weeks is determined by Equation 11 and summarised
+in Table 4. The raw material is offloaded via a forklift, Figure 14, and stacked onto the racks
+in Figure 15.
+
+           𝑏𝑖𝑤𝑒𝑒𝑘𝑙𝑦 𝑝𝑎𝑙𝑙𝑒𝑡 𝑑𝑒𝑙𝑖𝑣𝑒𝑟𝑦 = 𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑏𝑢𝑛𝑑𝑙𝑒𝑠 ÷ (𝑟𝑜𝑤𝑠 × 𝑐𝑜𝑙𝑢𝑚𝑛𝑠)             (11)
+
+                       TABLE 4: RAW MATERIAL DELIVERIES (IN UNITS)
+    Raw Material        Rows Columns            Bundle                Biweekly Delivery
+      Product                                 Requirement           (pallets every 2 weeks)
+  Rectangular tubes       3        13             394                          11
+      Flat bars           2        21             657                          16
+    Square tubes          3        4              66                            6
+    Round tubes           7        7              525                          11
+                Total biweekly pallet delivery                                 44
+
+
+
+
+                                                TABLE 5: FORKLIFT SPECIFICATIONS
+                                                      Equipment Specifications
+                                               Dimensions
+                                                                3.33 m x 1.2 m x 2 m
+                                               (L x W x H)
+                                              Load Capacity             2.5 t
+                                                Operator                  1
+                                              Machine cost          R 175 212.00
+
+FIGURE 14: ELECTRIC FORKLIFT TRUCK
+
+
+
+
+                            FIGURE 15: PALLET STORAGE RACKS
+
+
+                      TABLE 6: PALLET STORAGE RACK SPECIFICATIONS
+                                Equipment Specifications
+                         Dimensions
+                                          2.3 m x 1 .1 m x 1.3 m
+                          (L x W x H)
+                        Load Capacity              2.5 t
+                        Equipment cost         R 3550,95
+
+
+
+
+                                                                                                  13
+A total of 36 pallets are delivered biweekly, as such 36 storage racks are required, of which 4
+can be stacked on top of each other. The total floor space requirement is calculated in
+Equation 12.
+                      𝑡𝑜𝑡𝑎𝑙 𝑠𝑡𝑎𝑐𝑘𝑒𝑑 𝑟𝑎𝑐𝑘𝑠 = 44 ÷ 4 = 11 𝑠𝑡𝑎𝑐𝑘𝑒𝑑 𝑟𝑎𝑐𝑘𝑠
+                𝑅𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑠𝑡𝑜𝑟𝑎𝑔𝑒 𝑎𝑟𝑒𝑎 = (𝑝𝑎𝑙𝑙𝑒𝑡 𝐿 × 𝑟𝑎𝑐𝑘 𝑊 × 9) + 20%                  (12)
+
+                                 = (6𝑚 × 1.1𝑚 × 11) + 20%
+
+                                          = 87.12 𝑚 2
+The raw material is unboxed to satisfy the daily production requirements (Equation 13) and
+stacked onto a portable metal storage trolley, Figure 16. The portable trolleys facilitate
+transporting the raw material to the cutting process, each trolley contains one raw material
+product and therefore 4 trolleys are required.
+
+                        𝑡𝑟𝑜𝑙𝑙𝑒𝑦 𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦 = 𝑑𝑎𝑖𝑙𝑦 𝑖𝑛𝑣𝑒𝑛𝑡𝑜𝑟𝑦 𝑠𝑡𝑜𝑐𝑘 ÷ 20                      (13)
+
+                                 TABLE 7: TROLLEY CAPACITY
+                              Raw Material         Trolley Capacity
+                                Product             (bundle units)
+                          Rectangular tubes               38
+                          Flat bars                       63
+                          Square tubes                     7
+                          Round tubes                     50
+
+
+
+
+                                         TABLE 8: PORTABLE METAL TROLLEY SPECIFICATIONS
+                                                       Equipment Specifications
+                                               Dimensions
+                                                                 1.5 m x 1.2 m x 1.2 m
+                                                (L x W x H)
+                                              Load Capacity             500 kg
+                                                 Operator                  1
+                                              Equipment cost          R 2700,00
+
+
+  FIGURE 16: PORTABLE METAL
+      STORAGE TROLLEY
+
+             𝑃𝑜𝑟𝑡𝑎𝑏𝑙𝑒 𝑡𝑟𝑜𝑙𝑙𝑒𝑦 𝑠𝑡𝑜𝑟𝑎𝑔𝑒 𝑎𝑟𝑒𝑎 = (𝑡𝑟𝑜𝑙𝑙𝑒𝑦 𝐿 × 𝑡𝑟𝑜𝑙𝑙𝑒𝑦 𝑊 × 4) + 20%             (14)
+
+                                 = (1.5𝑚 × 1.2𝑚 × 4) + 20%
+
+                                          = 8.64 𝑚 2
+The aisle space required for the forklift accommodates the length of the pallet crate and enable
+turning, similarly the aisle size of the portable trolley rack accommodates the 6m length of the
+raw material.
+
+
+
+
+                                                                                                   14
+𝑓𝑜𝑟𝑘𝑙𝑖𝑓𝑡 𝑎𝑖𝑠𝑙𝑒 𝑤𝑖𝑑𝑡ℎ = 𝑡𝑢𝑟𝑛𝑖𝑛𝑔 𝑟𝑎𝑑𝑖𝑢𝑠 + 𝑓𝑜𝑟𝑘 𝑙𝑒𝑛𝑔𝑡ℎ + 𝑙𝑜𝑎𝑑 𝑙𝑒𝑛𝑔𝑡ℎ + 𝑠𝑎𝑓𝑒𝑡𝑦 𝑐𝑙𝑒𝑎𝑟𝑎𝑛𝑐𝑒 (15)
+
+                           = (2 + 1.07 + 6 + 0.2) + 20% = 11.12 𝑚
+          𝑡𝑟𝑜𝑙𝑙𝑒𝑦 𝑎𝑖𝑠𝑙𝑒 𝑤𝑖𝑑𝑡ℎ = 𝑡𝑢𝑟𝑛𝑖𝑛𝑔 𝑟𝑎𝑑𝑖𝑢𝑠 + 𝑙𝑜𝑎𝑑 𝑙𝑒𝑛𝑔𝑡ℎ + 𝑠𝑎𝑓𝑒𝑡𝑦 𝑐𝑙𝑒𝑎𝑟𝑎𝑛𝑐𝑒            (16)
+
+                              = (1.5 + 6 + 0.2) + 20% = 9.24𝑚
+The receiving facility layout is discussed in section 6.4 (Receiving & Dispatch).
+
+6.2. Manufacturing Time
+The manufacturing processes have processing time constraints as mentioned in Table 1, and
+with the daily production information from Table 2 the machine requirements were calculated
+via Equation 17 and summarised in Table 9. Note that available processing time is
+8ℎ𝑟 𝑤𝑜𝑟𝑘 𝑑𝑎𝑦 × 60𝑚𝑖𝑛𝑠 = 480𝑚𝑖𝑛/𝑑𝑎𝑦.
+Assumptions
+      The table is composed of 4 parts which are then powder coated, namely 2 tabletops,
+       1 slider, and 1 legs (the four leg components are treated as a unit)
+      The tables and chairs are processed by the same CNC cutting machine, and the same
+       manual welding equipment is used for processing the tables and chairs.
+      The machines and operators work at an 80% efficiency rate.
+                        𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑚𝑎𝑐ℎ𝑖𝑛𝑒 𝑜𝑟 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟𝑠 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑑 =
+                        𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑖𝑛𝑔 𝑡𝑖𝑚𝑒 ÷ 𝑎𝑣𝑎𝑖𝑙𝑎𝑏𝑙𝑒 𝑝𝑟𝑜𝑐𝑒𝑠𝑠𝑖𝑛𝑔 𝑡𝑖𝑚𝑒                        (17)
+
+TABLE 9: MACHINE AND OPERATOR REQUIREMENTS
+                               Daily         Processing Time        Number of Machines
+        Process             Production      (𝒑𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈 𝒕𝒊𝒎𝒆           or Operators
+                           (𝒖𝒏𝒊𝒕𝒔/𝒅𝒂𝒚)      × 𝒖𝒏𝒊𝒕𝒔 𝒑𝒓𝒐𝒄𝒆𝒔𝒔𝒆𝒅)           Required
+   Cutting of table &        263 𝑡𝑎𝑏𝑙𝑒𝑠
+                                                 1313 𝑚𝑖𝑛𝑠            2.74 ≈ 3 𝑚𝑎𝑐ℎ𝑖𝑛𝑒𝑠
+   chair raw material       1050 𝑐ℎ𝑎𝑖𝑟𝑠
+   Automated sliding
+                           250 𝑠𝑙𝑖𝑑𝑒𝑟𝑠           1250 𝑚𝑖𝑛𝑠            2.60 ≈ 3 𝑚𝑎𝑐ℎ𝑖𝑛𝑒𝑠
+   structure welding
+   Manual tabletop &      500 𝑡𝑎𝑏𝑙𝑒𝑡𝑜𝑝𝑠
+                                                 10000 𝑚𝑖𝑛𝑠         20.83 ≈ 21 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟𝑠
+   chair welding           1000 𝑐ℎ𝑎𝑖𝑟𝑠
+   Tabletop grinding
+                          500 𝑡𝑎𝑏𝑙𝑒𝑡𝑜𝑝𝑠           500 𝑚𝑖𝑛𝑠            1.04 ≈ 2 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟𝑠
+   and finishing
+   Powder coating              1000
+                                                  500 𝑚𝑖𝑛𝑠            1.04 ≈ 2 𝑚𝑎𝑐ℎ𝑖𝑛𝑒𝑠
+   table structures      𝑡𝑎𝑏𝑙𝑒 𝑠𝑡𝑟𝑢𝑐𝑡𝑢𝑟𝑒𝑠
+   Table assembly           250 𝑡𝑎𝑏𝑙𝑒𝑠           1250 𝑚𝑖𝑛𝑠            2.60 ≈ 3 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟𝑠
+   Applying rubber
+                            250 𝑡𝑎𝑏𝑙𝑒𝑠            250 𝑚𝑖𝑛𝑠            0.52 ≈ 1 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟
+   inserts to legs
+   Table packaging            50 𝑠𝑒𝑡𝑠             250 𝑚𝑖𝑛𝑠            0.52 ≈ 1 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟
+   Bending chair
+                           1000 𝑐ℎ𝑎𝑖𝑟𝑠           3000 𝑚𝑖𝑛𝑠            6.25 ≈ 7 𝑚𝑎𝑐ℎ𝑖𝑛𝑒𝑠
+   frame
+   Stacking chairs          50 𝑠𝑡𝑎𝑐𝑘𝑠             500 𝑚𝑖𝑛𝑠            1.04 ≈ 2 𝑜𝑝𝑒𝑟𝑎𝑡𝑜𝑟𝑠
+
+
+
+
+                                                                                                  15
+6.3. Manufacturing Processes
+CUTTING
+Process
+A computer numerical control (CNC) laser cutting machine is used to cut materials at a high
+precision rate to reduce material waste during the manufacturing process. The laser cutting
+machine focuses a high-energy beam to trigger rapid melting of the target material and
+enables the cutting of materials of various size, including round pipes, square tubes,
+rectangular tubes, and flat bars. The cut piece is then released from the machine, ready to be
+removed by an operator.
+Machine
+
+
+                                            TABLE 10: CNC LASER MACHINE SPECIFICATIONS
+                                                      Equipment Specifications
+                                               Dimensions
+                                                              13.5 m x 3.2 m x 2.5 m
+                                               (L x W x H)
+                                              Load Material            Metal
+                                                Operator                 1
+                                              Machine cost        R 530 500,20
+
+
+
+
+     FIGURE 17: CNC LASER MACHINE
+
+Cutting Workstation
+The CNC laser machine is automatic; however, it requires an operator to feed the raw material
+into the machine and collect the WIP parts from the machine. An operator aisle is provided to
+enable the operator to safely move between the raw material loading area, computer interface,
+and the WIP parts collection. The total floor space of the laser cutting workstations was
+calculated using Equation 18.
+
+
+
+
+                         FIGURE 18: LASER CUTTING WORKSTATION
+
+
+
+
+                                                                                                 16
+                                            𝑚𝑎𝑐ℎ𝑖𝑛𝑒 𝑎𝑟𝑒𝑎 + 𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 𝑎𝑟𝑒𝑎
+ 𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑠𝑡𝑎𝑡𝑖𝑜𝑛𝑠 (                                    ) + 20% (18)
+                                                +𝑊𝐼𝑃 𝑎𝑟𝑒𝑎 + 𝑎𝑖𝑠𝑙𝑒 𝑠𝑝𝑎𝑐𝑒
+
+                       = 3(43.2 + 6 + 6.9 + 29.25) + 20% = 307.26 𝑚 2
+The waste management during the cutting process is via a metal scrap bin, the scrap bin can
+accommodate 6t of metal waste which is sufficient to handle a week’s worth of aluminium
+scraps until it is collected and discarded by a third-party collector.
+
+
+                                               TABLE 11: METAL SCRAP BIN SPECIFICATIONS
+                                                    Equipment Specifications
+                                             Dimensions
+                                                              2.5 m x 1.3 m x 1.3 m
+                                             (L x W x H)
+                                            Load Material       Aluminium Scraps
+                                              Operator                  1
+                                           Equipment Cost          R 10 400.00
+
+
+    FIGURE 19: METAL SCRAP BIN
+
+
+Material Handling
+The WIP parts are loaded onto a tube cart to move the long materials, the tiers allow
+separation of the varying tubes and bars, and the stop at the end prevents objects from falling
+off. As seen in Figure 20, 4 carts are utilised, and a cart is stacked on an hourly basis after
+which it is transported to the next process.
+
+
+                                                  TABLE 12: TUBE CART SPECIFICATIONS
+                                                     Equipment Specifications
+                                              Dimensions
+                                                               1.3 m x 1.1 m x 1.8 m
+                                              (L x W x H)
+                                             Load Material    Aluminium tubes & bars
+                                               Operator                  1
+                                            Equipment cost          R 1700,00
+
+
+
+   FIGURE 20: TUBE CART
+
+
+AUTOMATIC WELDING
+Process
+The automatic laser welding robot is a 6-axis robot with high flexibility, which can complete
+the welding of complex workpieces. The workpiece is placed onto the welding stand by an
+operator, the operator then starts the welding machine, and when the welded piece is
+complete, the operator removes it from the welding stand.
+
+
+
+
+                                                                                                  17
+Machine
+
+
+
+                                     TABLE 13: AUTOMATIC WELDING ROBOT SPECIFICATIONS
+                                                     Equipment Specifications
+                                              Dimensions
+                                                              1.3 m x 1.1 m x 1.8 m
+                                              (L x W x H)
+                                             Load Material Aluminium rectangular tubes
+                                               Operator                 1
+                                             Machine cost         R190 300,50
+
+
+
+
+  FIGURE 21: AUTOMATIC LASER
+       WELDING ROBOT
+
+Automatic Welding Workstation
+
+
+
+
+                         FIGURE 22: AUTOMATIC WELDING MACHINE
+
+
+
+
+The workstation in Figure 22 includes a 3m x 3m Safety
+Cage where the robot is housed to ensure the safety of the
+operator, as well as a designated operator aisle. The total
+floor space was calculated using Equation 19.
+
+
+
+                                                              FIGURE 23: AUTOMATIC WELDING
+                                                                  MACHINE SAFETY CAGE
+
+
+
+                                                                                         18
+                                              𝑚𝑎𝑐ℎ𝑖𝑛𝑒 𝑎𝑟𝑒𝑎 + 𝑊𝐼𝑃 𝑏𝑒𝑓𝑜𝑟𝑒
+      𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑠𝑡𝑎𝑡𝑖𝑜𝑛𝑠 (                          ) + 20%           (19)
+                                               +𝑊𝐼𝑃 𝑎𝑓𝑡𝑒𝑟 + 𝑎𝑖𝑠𝑙𝑒 𝑠𝑝𝑎𝑐𝑒
+
+                           = 3(9 + 2.86 + 2.86 + 14.1) = 103.75 𝑚 2
+
+
+ Material Handling
+ The WIP pieces are delivered via the tube cart from the cutting process and then placed onto
+ the robot weld-stand. After the completion of the WIP part it is loaded onto the remnant cart,
+ where it is transported to the next process.
+
+
+                                               TABLE 14: REMNANT CART SPECIFICATIONS
+                                                     Equipment Specifications
+                                             Dimensions
+                                                               2.2 m x 0.8 m x 1.2 m
+                                              (L x W x H)
+                                               Operator                  1
+                                            Equipment cost          R 3800,00
+
+
+
+   FIGURE 24: REMNANT CART
+
+ MANUAL WELDING
+ Process
+ The manual welding process involves an operator joining the aluminium flat bars to the table
+ frame to form the tabletops of the table, and making the chair frame. The operator receives
+ the parts from the automatic welding station.
+ Machine
+
+
+
+
+                                                   TABLE 15: MANUAL WELDING EQUIPMENT
+                                                       Equipment Specifications
+                                                Dimensions
+                                                                0.9 m x 0.6 m x 1.8 m
+                                                (L x W x H)
+                                               Load Material   Table and chair frames
+                                                 Operator                 1
+                                               Machine cost         R 35 879.00
+
+
+
+
+FIGURE 25: MANUAL WELDING EQUIPMENT
+
+
+
+                                                                                                  19
+Manual Welding Workstation
+
+
+
+
+                        FIGURE 26: MANUAL WELDING WORKSTATION
+The workstation in Figure 26 includes a 2m x 1m safety boundary ensures safety by protecting
+other operators passing by from sparks, intense light, and fumes. It also defines the work area
+which prevents unauthorized access and reducing the risk of accidents. Additionally, the
+welding and grinding stand base (2m x 1.2m x 0.9 m) is equipped with holes for the extraction
+of dust and gases generated during grinding or welding.
+
+
+
+
+    FIGURE 27: MANUAL WELDING SAFETY             FIGURE 28: WELDING AND GRINDING STAND
+                BOUNDARY                                         BASE
+
+
+The total floor space was calculated by using Equation 19:
+
+        𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 21(2.4 + 1.76 + 1.76 + 9.6) + 20% = 391.10 𝑚 2
+Material Handling
+The WIP pieces are delivered via the remnant cart and transported to the next process with a
+remnant cart, the remnant cart is depicted in Figure 24. (The material handling for all the
+processes is similar, until after assembly workstation)
+
+
+
+
+                                                                                                  20
+GRINDING AND POLISHING
+Process
+The tabletop structures obtained from the welding processes are grinded and polished
+manually to achieve a smooth finish.
+Machine
+                                                 TABLE 16: ANGLE GRINDER SPECIFICATIONS
+                                                      Equipment Specifications
+                                               Dimensions
+                                                               0.3 m x 0.3 m x 0.1 m
+                                               (L x W x H)
+                                              Load Material     Tabletop structures
+                                                Operator                 1
+                                              Machine cost          R 1 900.00
+
+
+
+       FIGURE 29: ANGLE GRINDER
+
+Grinding and Polishing Workstation
+
+
+
+
+                     FIGURE 30: GRINDING AND POLISHING WORKSTATION
+The grinding station utilises the same 2m x 1.2m x 0.9 m welding and grinding stand base
+depicted in Figure 28, to extract the dust and particles generated during the grinding process.
+An operator aisle is a safety precaution, similar to the aforementioned processes.
+The total floor space was calculated by using Equation 19:
+           𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 2(2 + 1.76 + 1.76 + 9.6) + 20% = 36.29 𝑚 2
+
+
+
+POWDER COATING
+Process
+The powder coating process contains sub-processes explained below [1]:
+       Pre-treatment process cleans and prepares the aluminium surfaces for powder coating
+        to promote adhesion and finish quality. The aluminium parts are cleaned through a
+        chemical rinse, manually applied at the wash station.
+       The pre-treated parts are then fed through drying ovens to dry the parts.
+
+
+
+                                                                                                  21
+     The parts are then ready to be fed through the automated powder coating booths; the
+      booths contain a ventilation system which ensures proper airflow to capture overspray
+      and maintain a clean environment.
+     The powder coat is melted and fused onto the surface of the parts during the curing
+      process as the parts are fed through the curing oven.
+     The cured parts are fed through a cooling chamber to cooldown gradually to avoid coat
+      warping or defects.
+
+
+  Machines
+
+
+
+
+                                        TABLE 17: METAL RINSING EQUIPMENT SPECIFICATIONS
+                                                   Equipment Specifications
+                                            Dimensions
+                                                            0.1 m x 0.05 m x 1 m
+                                            (L x W x H)
+                                           Load Material      Table structures
+                                             Operator                 1
+                                           Machine cost          R 5 300,50
+
+
+
+
+      FIGURE 31: METAL RINSING
+             EQUIPMENT
+
+
+                                                     TABLE 18: OVEN SPECIFICATIONS
+                                                   Equipment Specifications
+                                            Dimensions
+                                                              5 m x 0.9 m x 2 m
+                                            (L x W x H)
+                                           Load Material       Table structures
+                                           Machine cost        R 1 595 000,00
+
+
+
+ FIGURE 32: DRYING AND CURING OVEN
+
+
+
+                                             TABLE 19: POWDER COATING SPECIFICATIONS
+                                                   Equipment Specifications
+                                            Dimensions
+                                                              5 m x 0.8 m x 2 m
+                                            (L x W x H)
+                                           Load Material       Table structures
+                                           Machine cost         R 580 000,00
+
+
+
+
+FIGURE 33: POWDER COATING EQUIPMENT
+
+
+                                                                                              22
+Powder Coating Workstation
+The workstation for the powder coating
+process is depicted in Figure 34. As this
+workstation has multiple sub-process, the total
+floor pace was calculated as the workstation
+area.
+ 𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒
+                = 𝑛𝑟 𝑜𝑓 𝑠𝑡𝑎𝑡𝑖𝑜𝑛𝑠(𝐿 × 𝐵) + 20%
+        = 2(35 𝑚 × 13 𝑚 ) + 20% = 1092 𝑚 2
+
+
+
+
+                                                  FIGURE 34: POWDER COATING PROCESS WORKSTATION
+                                                                                             23
+Material Handling
+The powder coating process utilises an overhead conveyor system that hangs parts from
+hooks for continuous production with loading and unloading stations to move parts onto and
+off the conveyor system. A technician (operator) ensures that the conveyor speed and break
+time happens efficiently.
+
+
+                                                   TABLE 20: CONVEYOR SPECIFICATIONS
+                                                       Equipment Specifications
+                                                Dimensions
+                                                                 95 m x 2.3 m x 2 m
+                                                (L x W x H)
+                                               Load Material      Table structures
+                                                 Operator                 1
+                                               Machine cost        R 1 775 000,00
+
+
+
+      FIGURE 35: OVERHEAD CONVEYOR
+                  SYSTEM
+
+
+
+
+                         FIGURE 36: CONVEYOR ASSEMBLY DIAGRAM
+The pillars are not indicated on the workstation diagram, but Figure 36 illustrates the overhead
+conveyor system structural assembly. The 95 m length dimension, it the overall length of the
+conveyor system.
+
+
+
+TABLE ASSEMBLY
+Process
+The table assembly involves manually joining two tabletops with the sliding structure to create
+the 2-in-1 table. The operators align the parts, fit the sliding mechanism, and secure
+components using a screwdriver/drill to screw in 20 screws per table. The process is made
+more convenient as the equipment is battery operated, allowing for more operator flexibility.
+
+
+
+
+                                                                                                   24
+Machine
+
+
+                                             TABLE 21: SCREWDRIVER/DRILL SPECIFICATIONS
+                                                       Equipment Specifications
+                                                Dimensions
+                                                                0.2 m x 0.3 m x 0.1 m
+                                                (L x W x H)
+                                               Load Material     Tabletop structures
+                                                 Operator                 1
+                                               Machine cost          R 1 250.00
+  FIGURE 37: SCREWDRIVER/DRILL
+           EQUIPMENT
+
+Assembly Workstation
+
+
+
+
+                            FIGURE 38: ASSEMBLY WORKSTATION
+The workstation has a central flow element, where the WIP before and WIP after are on either
+side of the table being assembled. This layout allows for minimal movement between areas,
+while allowing enough space to enable comfortable motion.
+The total area was calculated using the length and width dimensions of the workspace:
+                   𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑠𝑡𝑎𝑡𝑖𝑜𝑛𝑠(𝐿 × 𝐵) + 20%                     (20)
+
+                              = 3(7.5𝑚 × 5𝑚 ) + 20% = 135𝑚 2
+The assembly work bench includes overhead lights, screw storage bins, and shall be equipped
+with cabinets to house the screwdriver/drill equipment, as well as electric wall outlets to plug
+in the drill to charge when not in use.
+
+
+                                          TABLE 22: ASSEMBLY WORK BENCH SPECIFICATIONS
+                                                     Equipment Specifications
+                                              Dimensions
+                                                               2.8 m x 1.2 m x 0.9 m
+                                              (L x W x H)
+                                             Load Material      Tabletop structures
+                                               Operator                  1
+                                            Equipment cost         R 10 400,50
+
+
+
+FIGURE 39: ASSEMBLY WORK BENCH
+                                                                                                   25
+  Material Handling
+  The WIP before parts are received via the remnant carts, and since the cart has 10 slots the
+  parts received can assemble 2 table sets of 5 (10 tables), which fulfils the hourly production
+  criteria. The WIP after is loaded onto the disassembled wire mesh trolley cage, and once all
+  the sets are completed the trolley is assembled and ready to be transported to the set packing
+  process. The wire mesh cage is lined with a soft material to prevent scratches to the table part
+  surfaces.
+
+
+                                              TABLE 23: METAL TROLLEY CART SPECIFICATIONS
+                                                       Equipment Specifications
+                                               Dimensions
+                                                                  2.3 m x 1.2 m x 1 m
+                                                (L x W x H)
+                                                 Operator                  1
+                                              Equipment cost          R 1 400,00
+
+
+
+  FIGURE 40: METAL TROLLEY CART
+
+
+  RUBBER LEVELERS ASSEMBLY
+  Process
+
+  The process of inserting rubber feet onto the table legs involves manually pressing the rubber
+  feet into place. This feature makes the table more stable and prevents wobbling. The work
+  bench in Figure 41 can be tilted to make assembly easier, the rubber feet are contained in the
+  bins above, and an overhead light assists with visibility. The rubber feet are 60 mm x 60 mm
+  and supplied by the online marketplace, eBay [2].
+  Equipment
+
+
+
+
+                                              TABLE 24: RUBBER WORK BENCH SPECIFICATIONS
+                                                       Equipment Specifications
+                                                Dimensions
+                                                                 1.2 m x 1.5 m x 0.9 m
+                                                (L x W x H)
+                                               Load Material          Tablet legs
+                                                 Operator                  1
+                                              Equipment cost         R 10 400,50
+
+
+
+FIGURE 41: RUBBER ASSEMBLY WORK BENCH
+
+
+
+
+                                                                                                     26
+                                            TABLE 25: RUBBER FEET INSERTS SPECIFICATIONS
+                                                       Equipment Specifications
+                                               Dimensions
+                                                              60mm x 60mm x 33.7mm
+                                               (L x W x H)
+                                              Load Material         Table legs
+                                              Material cost    R 1360,00 / 50 pieces
+ FIGURE 42: RUBBER FEET INSERTS
+
+Rubber Assembly Workstation
+
+
+
+
+Similar to the table assembly workstation, the material has been placed on either side of the
+work bench which allows for minimal movement. The total area was calculated using
+Equation 20:
+                     𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 1(7.5𝑚 × 4𝑚 ) + 20% = 36𝑚 2
+Material Handling
+
+Tube carts, depicted in Figure 20, is used to facilitate WIP before and WIP after material
+handling.
+
+
+
+TABLE SETS PACKAGING
+Process
+The table sets are hand packaged which serves as a final inspection to ensure each table
+meets quality standards. A packaged set consists of 5 tables, along with their legs, are packed
+into one carton box.
+Equipment
+An assembly work bench, Figure 39, is utilised to group the tabletops and table legs for a more
+efficient packaging process. The work bench is modified and does not include the stands for
+work bins and overhead lighting.
+
+
+
+
+                                                                                                  27
+Table Set Packaging Workstations
+
+
+
+
+                       FIGURE 43: TABLE SET GROUPING WORKSTATION
+The material has been placed on either side of the work bench which allows for minimal
+movement. The total area was calculated using Equation 20:
+                      𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 1(8𝑚 × 5𝑚 ) + 20% = 48 𝑚 2
+
+
+
+
+                        FIGURE 44: TABLE SET BOXING WORKSTATION
+The finished sets are transported to the boxing workstation, where 5 sets are placed into
+carton boxes. The carton boxes are in close proximity to the boxing station. The total area
+was calculated using Equation 20:
+
+                      𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 1(10𝑚 × 5𝑚 ) + 20% = 60 𝑚 2
+Material Handling
+The tabletops are transported using the metal trolley cart, the table legs are transported using
+the tube cart, and the finished sets are transported using a remnant cart. The empty carton
+box is transported via metal trolley carts. The empty carton box is placed on a floor roller
+conveyor, the carton box is packaged, and the sealed box is moved on a roller conveyor to be
+stacked on a metal trolley cart (Figure 40).
+
+
+
+
+                                                                                                   28
+                            FIGURE 45: CARTON BOX DIMENSIONS
+
+
+
+
+                                              TABLE 26: ROLLER CONVEYOR SPECIFICATIONS
+                                                    Equipment Specifications
+                                            Dimensions
+                                                                   9m x 0.5m
+                                               (L x W)
+                                           Equipment cost         R 45 000.00
+
+
+
+  FIGURE 46: ROLLER CONVEYOR
+
+
+
+
+  AUTOMATED BENDING
+  Process
+  The automated bending of tubes to the required angles and shapes forms the frame parts of
+  the chair at high accuracy and uniformity.
+
+  Equipment
+
+
+                                              TABLE 27: BENDING MACHINE SPECIFICATIONS
+                                                      Equipment Specifications
+                                               Dimensions
+                                                               3.9 m x 0.7 m x 1.2 m
+                                               (L x W x H)
+                                              Load Material         Chair tubes
+                                                Operator                 1
+                                              Machine cost          R 89000,00
+
+FIGURE 47: AUTOMATED BENDING MACHINE
+
+
+
+
+                                                                                              29
+Automated Bending Workstation
+
+
+
+
+                       FIGURE 48: AUTOMATED BENDING WORKSTATION
+The operator feeds the into the bending machine, the operator then places the finished WIP
+part onto a trolley rack. The total floor space was calculated by using Equation 19:
+          𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 7(2.73 + 7.4 + 7.4 + 13.5) + 20% = 260.65 𝑚 2
+
+
+
+RATTAN OUTSOURCING
+Process
+The process of attaching rattan to the chair frames is outsourced to specialized vendors,
+where skilled workers manually weave or attach synthetic rattan onto the frames.
+Material Handling
+The rattan chairs are delivered in a similar fashion as the raw material tubes and bars. The
+rattan chairs are delivered per crate load where the crate size is 6000𝑚𝑚 × 1000𝑚𝑚 ×
+700𝑚𝑚 depicted in Figure 12, and the chairs are packaged to the configuration in Figure 50,
+2 rows of 25 chairs are delivered this way. Therefore, 50 chairs arrive per pallet crate, and
+thus 20 pallet crates are delivered every day.
+
+
+
+
+                        FIGURE 49: RATTAN DELIVERY CONFIGURATION
+The pallets are stacked similarly to Figure 15, and the total floor space requirement is
+calculated via Equation 12:
+                       𝑡𝑜𝑡𝑎𝑙 𝑠𝑡𝑎𝑐𝑘𝑒𝑑 𝑟𝑎𝑐𝑘𝑠 = 20 ÷ 4 = 5 𝑠𝑡𝑎𝑐𝑘𝑒𝑑 𝑟𝑎𝑐𝑘𝑠
+               𝑅𝑎𝑡𝑡𝑎𝑛 𝑐ℎ𝑎𝑖𝑟 𝑠𝑡𝑜𝑟𝑎𝑔𝑒 𝑎𝑟𝑒𝑎 = (6𝑚 × 0.7𝑚 × 5) + 20% = 25.2 𝑚 2
+The outsourced rattan chairs receiving area is discussed in section 6.4 (Receiving & Dispatch).
+
+
+
+
+                                                                                                  30
+CHAIR STACKING
+Process
+Chairs are stacked and secured with tie-straps, awaiting combination with tabletops to form
+complete sets.
+Chair Stacking Workstation
+
+
+                                              The chairs are unloaded from the pallet crate as
+                                              received from the rattan processing supplier.
+                                              The chairs are unloaded to facilitate the hourly
+                                              production requirements and placed onto the
+                                              WIP before area; 5 chairs are stacked onto
+                                              each other. The chairs are then stacked onto a
+                                              chair stack trolley, tied together with tie-straps,
+                                              and placed on the WIP after area. The total area
+                                              was calculated using Equation 20:
+                                                 𝑡𝑜𝑡𝑎𝑙 𝑓𝑙𝑜𝑜𝑟 𝑠𝑝𝑎𝑐𝑒 = 1(8𝑚 × 6.5𝑚 ) + 20%
+                                                                = 62.40 𝑚 2
+
+
+
+FIGURE 50: CHAIR STACKING WORKSTATION
+Material Handling
+                                             TABLE 28: CHAIR TROLLEY SPECIFICATIONS
+                                                   Equipment Specifications
+                                           Dimensions
+                                                              1.1m x 0.5m x 0.8m
+                                            (L x W x H)
+                                             Operator                  1
+                                          Equipment cost          R 2 200,50
+
+                                          The chairs are unloaded from the supplier pallet
+                                          crate and transported to the WIP before area via
+   FIGURE 51: CHAIR TROLLEY               chair trolley.
+
+
+The chair stacking trolley has been customised to facilitate stacking 20 chairs. To
+accommodate operator height requirements, a step ladder is utilised.
+                                       TABLE 29:CHAIR STACKING TROLLEY SPECIFICATIONS
+                                                   Equipment Specifications
+                                           Dimensions
+                                                             1.5 m x 0.8 m x 2.4 m
+                                            (L x W x H)
+                                             Operator                  1
+                                          Equipment cost          R 9 800,75
+
+
+
+
+ FIGURE 52: CHAIR STACKING TROLLEY
+
+                                                                                                    31
+6.4. Receiving & Dispatch
+Process
+The raw materials and rattan chair WIP components are received via the loading bay and
+stored in the designated goods receiving areas. The finished goods stock requires a storage
+capacity to retain 4 weeks’ worth of products to be exported overseas via shipments.
+Additionally, the distribution storage area facilitates customer collections (small orders), and
+large order truck dispatch. Refer to Appendix A for enlarged images of the storage area
+layouts.
+Raw Material Receiving Storage Area
+
+
+
+
+                        FIGURE 53: RAW MATERIAL STORAGE LAYOUT
+Rattan Product Storage Layout
+
+
+
+
+                      FIGURE 54: RATTAN PRODUCTS STORAGE LAYOUT
+
+
+
+                                                                                                   32
+Finished Goods Storage Layout
+      Assume the facility already has a 4-week shipment stock on hand
+The packaged boxes (table sets) are stacked onto metal trolley carts as in Figure 40, the
+boxes are transported to and packed into containers, Figure 56. The chair stacks are
+transported as units, secured by the tie-straps, and also packed into their respective
+containers. The containers are loaded onto shipment trucks via the forklift in Figure 14.
+
+
+
+
+                                FIGURE 55: CONTAINER DIMENSIONS
+The number of table set containers required is calculated in Equation 21:
+
+             𝑛𝑚𝑟 𝑜𝑓 𝑡𝑎𝑏𝑙𝑒 𝑐𝑜𝑛𝑡𝑎𝑖𝑛𝑒𝑟𝑠 = 1000 ÷ ((𝑐 𝐿 ÷ 𝑠𝑒𝑡 𝑊 ) × (𝑐 𝐻 ÷ 𝑠𝑒𝑡 𝐻))          (21)
+
+    = 1000 ÷ ((12.03 ÷ 0.4) × (2.59 ÷ 1.2)) = 1000 ÷ (30 × 2) = 16.67 ≈ 17 𝑐𝑜𝑛𝑡𝑎𝑖𝑛𝑒𝑟𝑠
+
+
+
+The number of chair stacks containers required was calculated using Equation 22:
+
+          𝑛𝑚𝑟 𝑜𝑓 𝑡𝑎𝑏𝑙𝑒 𝑐𝑜𝑛𝑡𝑎𝑖𝑛𝑒𝑟𝑠 = 1000 ÷ ((𝑐 𝐿 ÷ 𝑠𝑡𝑎𝑐𝑘 𝐿) × (𝑐 𝑊 ÷ 𝑠𝑡𝑎𝑐𝑘 𝑊 ))         (22)
+
+    = 1000 ÷ ((12.03 ÷ 0.52) × (2.44 ÷ 0.48)) = 1000 ÷ (23 × 5) = 8.70 ≈ 9 𝑐𝑜𝑛𝑡𝑎𝑖𝑛𝑒𝑟𝑠
+
+
+
+
+                       FIGURE 56: FINISHED GOODS STORAGE LAYOUT
+Customer Dispatch Layout
+        Assume the facility stores one daily production output to sell to customers:
+            o 30% of the finished goods are on display or on shelves (75 table sets)
+            o 70% are packaged sets to be delivered via truck (35 packaged sets)
+
+
+
+
+                                                                                               33
+                    FIGURE 57: RETAIL STORE PRODUCT DISPLAY AND LAYOUT
+
+
+
+
+                          FIGURE 58: LARGE ORDERS STORAGE AREA
+                                             TABLE 30: DELIVERY TRUCK SPECIFICATIONS
+                                                    Equipment Specifications
+                                           Dimensions
+                                                               9.4m x 2.4m x 2.6m
+                                            (L x W x H)
+                                             Operator                    1
+                                          Equipment cost          R 475 000.00
+
+
+
+                                           The cargo truck has a cargo size of 8.5m x 2.4 m
+       FIGURE 59: DELIVERY TRUCK           x 1.6 m (L x W x H), and has a load capacity of 20
+                                           packaged sets as in the configuration in Figure 60:
+                                                 20 table sets (2 box rows)
+                                                 20 chair stacks (5 vertical chair rows)
+                                           ∴The truck makes 2 deliveries per day; thus 1
+                                           truck is required
+FIGURE 60: DELIVERY TRUCK CONFIGURATION
+                                                                                                 34
+   6.5. Space Requirements
+           Assume that the machines and operators have an efficiency level of 80%.
+   The efficiency level will influence the space requirements, and total machinery required.
+   Equation 23 was applied to all processes (see Table 9 and area calculations) to determine the
+   overall space requirements of the facility as summarised in Table 31.
+                                            𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 𝑜𝑢𝑡𝑝𝑢𝑡 100
+                      𝐸𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑎𝑐𝑡𝑜𝑟 =                    =    = 1.25
+                                            𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 𝑖𝑛𝑝𝑢𝑡   80
+             𝑊𝑜𝑟𝑘𝑠𝑡𝑎𝑡𝑖𝑜𝑛 𝑎𝑑𝑗𝑢𝑠𝑡𝑚𝑒𝑛𝑡 = 𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝑤𝑜𝑟𝑘𝑠𝑡𝑎𝑡𝑖𝑜𝑛𝑠 × 𝑒𝑓𝑓𝑖𝑐𝑖𝑒𝑛𝑐𝑦 𝑓𝑎𝑐𝑡𝑜𝑟             (23)
+
+                     TABLE 31: PRODUCTION FACILITY SPACE REQUIREMENTS
+                           Current      Workstation
+                                                        Area with Efficiency      Nr of Employees
+      Process            Workspace      Adjustment
+                                                         Adjustment (𝒎𝟐)         (80% adjustment)
+                        Requirement      (𝑠𝑡𝑎𝑡𝑖𝑜𝑛𝑠)
+Cutting                      2.74         3.43 ≈ 4                     409.68            4
+Welding (auto)               2.60         3.25 ≈ 4                     138.34            4
+Welding (manual)            20.83        26.04 ≈ 27                    502.85            27
+Grinding & Polishing         1.04         1.30 ≈ 2                      36.29            2
+Powder Coating               1.04         1.30 ≈ 2                    1092.00            2
+Tabletop Assembly            2.60         3.25 ≈ 4                     180.00            4
+Rubber Inserts               0.52         0.65 ≈ 1                      36.00            1
+Packaging                    0.52         0.65 ≈ 1                     108.00            1
+Bending                      6.25         7.81 ≈ 8                     297.89            8
+Stacking                     1.04          1.3 ≈ 2                     124.80            2
+                         Total                                        2516.17            55
+                  30% Aisle Space                                      754.85             -
+                   Final Total Area                                   3271.02             -
+
+
+
+   The storage space requirements from section 6.4 (Receiving & Dispatch) were calculated
+   using Equation 20 and summarised in Table 32:
+                           TABLE 32: STORAGE SPACE REQUIREMENTS
+                         Storage Area          Area (𝒎𝟐) Nr of Employees
+                    Raw Material Storage         1087.80        1
+                    Rattan Products Storage       595.20        1
+                    Finished Goods Storage       1848.00        1
+                    Retail Store                   46.80        1
+                    Large Orders Storage          105.00        1
+                              Total              3682.80        5
+                        30% Aisle Space          1104.84         -
+                        Final Total Area         4787.67         -
+
+
+
+
+                                                                                                   35
+The supporting facilities space requirements are summarised in Table 33 as calculated in
+Appendix B:
+                  TABLE 33: SUPPORTING FACILITIES SPACE REQUIREMENTS
+                                  Storage Area     Area (𝒎𝟐)
+                                  Office Space        282.48
+                                  Amenities            95.62
+                                  Parking            1591.76
+                                  Loading Bay        1267.20
+                                       Total         3237.06
+
+
+
+7. Design Alternatives
+The Activity Relationship Chart was partially completed by a shopfloor worker (in black),
+indicating that the placement of the automated robot welding should not be close to the areas
+indicated with an X due to safety and ventilation concerns. I completed the rest of the chart in
+blue and assessed the number of “closeness” ratings between processes. Three alternatives,
+in the form of block layouts, were designed using this information.
+
+
+
+
+                          FIGURE 61: ACTIVITY RELATIONSHIP CHART
+
+
+
+
+                                                                                                   36
+                                    The first alternative was
+                                    developed by placing the
+                                    automated welding block
+                                    first as it has the most
+                                    restrictions. The layout has
+                                    a lot of empty spaces, and
+                                    the loading bay is only
+                                    close to the raw material
+                                    storage, and not finished
+                                    goods, or larger orders.
+
+  FIGURE 62: ALTERNATIVE LAYOUT 1
+
+
+
+
+                                      For alternative 2, the focus was
+                                      on grouping similar processes
+                                      together (raw material, cutting,
+                                      welding). However, there is a
+                                      central open space, and raw
+                                      material is far from the loading
+                                      bay.
+
+
+
+
+ FIGURE 63: ALTERNATIVE LAYOUT 2
+
+
+
+
+                                         The loading bay was the
+                                         focus for alternative 3, and
+                                         the goal was to ensure that
+                                         the receiving and dispatch
+                                         activities are close to it.
+                                         Additionally, the common
+                                         processes are grouped
+                                         together and there is
+                                         minimal wasted space.
+
+
+
+
+FIGURE 64: ALTERNATIVE LAYOUT
+
+
+
+                                                                         37
+7.1. Alternative Evaluation
+An acceptance criteria table, Table 34, was used to evaluate the different alternatives. The
+“best” alternative was chosen based on whether the requirements are met, where the
+alternative with the highest ranking is considered the best. The scoring is given as, Low=1,
+Medium=2, and High=3.
+                        TABLE 34: ALTERNATIVE LAYOUTS EVALUATION
+                 Criteria                   Alternative 1 Alternative 2 Alternative 3
+ Total distance travelled
+                                                High          Med            Low
+ (here a lower ranking is better)
+ Space utilisation                               Low          Med           High
+ Effective process flow                          Low          High          High
+ Ease of adding future business                 Med           High           Low
+ Fulfilment of activity chart prerequisites     High          Med           Med
+ Material Handling                               Low           Low          High
+ Parking in an effective place                  Med            Low          Med
+          Alternative Rankings                    12            14            17
+Therefore, alternative 3 is the best choice for developing the Master Facility Plan.
+
+
+8. The Final Design
+The final master facility layout was developed in Figure 65 with the legend in appendix C.
+
+
+
+
+                             FIGURE 65: THE FINAL MFP LAYOUT
+
+
+
+                                                                                               38
+                       FIGURE 66: MFP MATERIAL AND PEOPLE FLOW
+Figure 66 showcases the flow of people and materials throughout the facility.
+
+
+
+
+                                                                                39
+9. Appendix A
+
+
+
+
+            FIGURE 67: ENLARGED RAW MATERIAL STORAGE AREA
+
+
+
+
+                                                            40
+FIGURE 68: ENLARGED RATTAN PRODUCTS LAYOUT
+
+
+
+                                             41
+FIGURE 69:ENLARGED FINISHED GOODS STORAGE LAYOUT
+                                                   42
+10. Appendix B
+SUPPORTING STAFF
+The office staff and their respective office sizes (based on Equation 20 and Figures 2 - 3) are
+summarised in Table 35:
+                TABLE 35: SUPPORTING OFFICE STAFF SPACE REQUIREMENTS
+                    Job Title       Office Size (𝒎𝟐) Nmr of Employees
+              Senior Management                28.50         1
+              Middle Management                27.98         2
+              Operations Supervisor            40.50         2
+              Accountant                       15.52         1
+              Sales Representative             81.00         4
+              Administrative Staff             79.38         5
+              Security Personnel                9.60         2
+                       Total                  282.48         17
+
+
+Thus, the total number of employees is calculated as:
+      𝑡𝑜𝑡𝑎𝑙 𝑒𝑚𝑝𝑙𝑜𝑦𝑒𝑒𝑠 = 𝑝𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 𝑠𝑡𝑎𝑓𝑓 + 𝑤𝑎𝑟𝑒ℎ𝑜𝑢𝑠𝑖𝑛𝑔 𝑠𝑡𝑎𝑓𝑓 + 𝑠𝑢𝑝𝑝𝑜𝑟𝑡𝑖𝑛𝑔 𝑠𝑡𝑎𝑓𝑓
+
+                               = 55 + 5 + 17 = 77 𝑒𝑚𝑝𝑙𝑜𝑦𝑒𝑒𝑠
+
+
+
+AMENITIES
+The supporting amenities space requirement was calculated using Equation 20 and Figures
+5 – 6 and summarised in Table 36:
+Assumptions
+
+      There is 1 bathroom stall for every 30 employees (male & female)
+      There are separate bathroom facilities for customers (male & female)
+                𝐸𝑚𝑝𝑙𝑜𝑦𝑒𝑒 𝐵𝑎𝑡ℎ𝑟𝑜𝑜𝑚𝑠 = 77 ÷ 30 × 2 = 5.13 ≈ 6 𝑏𝑎𝑡ℎ𝑟𝑜𝑜𝑚 𝑠𝑡𝑎𝑙𝑙𝑠
+         𝐶𝑢𝑠𝑡𝑜𝑚𝑒𝑟 𝐵𝑎𝑡ℎ𝑟𝑜𝑜𝑚𝑠 = 15 ÷ 30 × 2 = 1 ≈ 2 𝑏𝑎𝑡ℎ𝑟𝑜𝑜𝑚 𝑠𝑡𝑎𝑙𝑙𝑠 (male & female)
+                        TABLE 36: AMENITIES SPACE REQUIREMENTS
+                      Facility         Nmr of Facilities Facility Area (𝒎𝟐)
+         Kitchen (3.2m x 3.15m):
+                                              1                       12.10
+         Office Staff
+         Kitchen (6.4m x 5m):
+                                              1                       38.40
+         Production & Warehouse Staff
+         Employee Bathroom (4.7m x 3m)        2                       33.84
+         Customer Bathroom (4.7m x 1m)        2                       11.28
+                       Total                  5                       95.62
+
+
+
+
+                                                                                                  43
+PARKING
+The parking spaces required was calculated using Equation 20 and Figures 4 and
+summarised in Table 37:
+Assumptions
+       1 parking space for each employee
+       The customer parking is a ration of 1:5, respective to the total employee parking
+       There are 5 truck parking spaces
+                        TABLE 37: PARKING SPACE REQUIREMENTS
+              Parking  Nmr of Parking Spaces Total Parking Size (𝒎𝟐)
+             Employees          77                          1100.23
+             Customers          15                            214.33
+             Trucks              5                            277.20
+                Total           97                          1591.76
+
+
+
+
+LOADING BAY
+The loading bay area was designed with five loading docks, two docks for raw materials and
+components receiving, one dock for large orders dispatch (TIPTOP TABLES fleet), and two
+docks for container loading of export shipments.
+     𝑙𝑜𝑎𝑑𝑖𝑛𝑔 𝑑𝑜𝑐𝑘 𝑠𝑝𝑎𝑐𝑒 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡 = 𝑛𝑚𝑟 𝑙𝑜𝑎𝑑𝑖𝑛𝑔 𝑑𝑜𝑐𝑘𝑠(𝑑𝑜𝑐𝑘 𝐿 × 𝑑𝑜𝑐𝑘 𝑊 ) + 20%
+
+                            = 5(32 × 6.6) + 20% = 1267.20 𝑚 2
+
+
+
+
+                                                                                             44
+11. Appendix C
+
+
+
+
+                 FIGURE 70: THE LEGEND FOR THE MFP
+
+
+
+
+                                                     45
+12. References
+
+[1]    Aerguvan, “Powder Coating Machine Setup | Powder Coating Equipment,” Powder
+Coating Equipment | Powder Coating Booth, Powder Curing and Drying Oven, Automatic
+and Manual Powder Coating Equipment Manufacturer, Nov. 30, 2022. https://ems-
+powdercoating.com/powder-coating-machine-setup/ (accessed Jun. 11, 2025).
+
+[2] “Chair Leg Floor Protector Furniture Table Feet Square Cover Rubber Cap Pads
+Caps,” eBay Australia, 2025. https://www.ebay.com.au/itm/354457779294 (accessed Jun.
+11, 2025).
+
+
+
+
+                                                                                       46
+

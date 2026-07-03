@@ -1,0 +1,15 @@
+Recommended machinery (types and sources; dimensions/cost supplier-based),,,,,
+,,,,,
+Process / area,Recommended type,Throughput / source note,Dimensions,Cost,Status
+Cut handle,"Automatic non-ferrous cold saw, auto bar-feed, bundle cutting",bundle cutting available (Addison Saws; Profifeed A550),supplier,quote,verify
+Threads + knurl,Thread-rolling machine + knurling head,15-60+ parts/min (PowerTransmission; IQS),supplier,quote,verify
+Stamping (head/hinge/narrow),Mechanical power press + progressive die,standard,supplier,quote,verify
+Bending,Press brake,standard,supplier,quote,verify
+Sharpen / serrate,Automated grinding / serrating machine,replaces 2 min / 1 min manual,supplier,quote,verify
+Rivet,Pneumatic / hydraulic riveter,standard,supplier,quote,verify
+Heat treat,T6 artificial-ageing batch oven,5-8 h cycle (ARC; Aluminium-guide),supplier,quote,verify
+Sandblast,Enclosed blast booth + extraction,equipment-dependent,supplier,quote,verify
+Powder coat,Conveyorised powder line (booth + oven),~600 parts/h; cure ~10-20 min (TheFabricator),supplier,quote,verify
+Assembly / packaging,Manual workstations,by hand + visual check (brief),-,-,stations from Capacity
+,,,,,
+No machine dimensions or costs are invented; obtain from supplier quotations.,,,,,

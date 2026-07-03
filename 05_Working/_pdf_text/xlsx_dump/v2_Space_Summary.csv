@@ -1,0 +1,19 @@
+Space summary and total footprint,,
+,,
+Area / department,Floor area (m2),Basis
+Production workstations,204,machines x area/workstation
+Powder coating (enclosed),120,supplier-based estimate
+Heat treat + sandblast,80,supplier-based estimate
+Raw material + WIP + scrap storage,92.24,from Storage_3D
+Finished goods storage,59.52,from Storage_3D
+Receiving + dispatch,250,docks + staging (assumption)
+Offices,260,non-operator staff x area/person
+Amenities (lockers/restrooms/cafeteria),240,headcount x area/person
+Subtotal (functional floor),1305.76,
+Circulation / aisles,391.728,allowance
+Building subtotal,1697.488,
+Future expansion (~10%),170,
+TOTAL BUILDING,1867,
+,,
+Parking + truck fleet (site),2110,from Parking
+INDICATIVE SITE FOOTPRINT,3977,

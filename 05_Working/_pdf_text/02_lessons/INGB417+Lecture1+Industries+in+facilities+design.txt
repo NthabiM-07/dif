@@ -1,0 +1,142 @@
+Introduction to :
+Industry types
+Feb 2026
+W Kruger
+Different
+Industries
+             Different
+
+                   Different
+Products – transport (airplanes, trains, boats, cars,
+bikes, bicycles) clothes, food(fresh, cooked, tinned),
+Equipment (kitchen eg. kettle, oven, washing
+machine, office eg. computers, printers, stationary)
+work eg artisan tools, sport eg rackets, balls, hockey
+sticks), packaging, books, toys etc.
+
+Services – restaurants, cafés, shopping malls,
+stadiums, events, airports, taxi ranks, administration
+offices, packaging, cooling, storing facilities, parking
+lots, schools, universities, homes, flats, sports etc.
+Let’s have a look at some… Notice
+
+• Differences in flows (materials, people and info)
+• Interactions of machines vs people
+• Design requirements (what are the critical
+  factors for THAT facility)
+• How this affects Facility Design
+
+A look at Swartland wooden Doors and Windows factory:
+        https://www.swartland.co.za/videos/#gallery-4
+Product manufacturing - Cars
+Product manufacturing - Cellphones
+Product manufacturing - Food
+Services - Hospital
+Services - Airport
+Services Theme park
+Building vs Rebuilding a facility
+From scratch = Green field
+      eg. a new home, a
+new store, a new plant, a
+      new site
+
+Upgrading or redefining a
+facility = Brown field
+eg. When a store is sold to
+another company, when a
+place need to be revamped
+or repurposed, improved
+FACILITIES DESIGN is always the big
+     money – that is why the
+        DESIGN is so critical
+
+  A Cost example
+
+  • Let’s say average construction cost = R10 000/sqm
+  • Determine the cost of this lecture hall
+  • What do you need to estimate?
+  • 𝑅𝑅10000 × 𝑥𝑥 = 𝑅𝑅_____________
+A facility affects:
+• Operating costs
+• Operational effectiveness
+• Handling and maintenance costs
+• Productivity
+• Employee morale
+• Flexibility to adapt to customer requirements
+• Sustainability over the longterm
+
+          So some BIG implications!
+Some characteristics of designs
+ • Flexible (if possible)
+ • Modular
+ • Upgradable
+ • Adaptable
+ • Scalable
+ • Repeatable
+ • Environment and energy friendly
+6 key questions to answer before
+Starting a design…
+ 1. WHAT is produced / or service to be given?
+ 2. HOW …
+ 3. HOW MUCH… (capacity planning)
+ 4. WHERE ….
+ 5. WHEN…
+ 6. For HOW LONG…
+
+                           Refer Ch2 textbook
+Facilities design is an
+
+    INTEGRATED            SCM
+       course
+                  OM      Facilities
+                           Design      QM
+
+
+                           BM
+In manufacturing the specifics include:
+                             Production Schedule
+                             A      B       C
+                             x              x
+
+Product
+                                    x
+                                            x
+
+specs                        Scheduling
+                             specs
+            Process flow
+
+      Equipment specs
+ Product               Process
+ design tools          design tools
+• Quality Function   • Bill of Materials
+  Deployment           (BOM)
+  (QFD)              • Route sheets
+• Benchmarking       • Assembly chart
+• Prototyping        • Operation process
+• Assembly             flow charts
+  drawings           • Precedence diagrams
+• Photos             • Material
+                       Requirements
+                       Planning (MRP)
+Management and Planning tools
+  1.   Affinity diagram
+  2.   Interrelationship graphs
+  3.   Tree diagrams                       Refer textbook
+  4.   Prioritization matrices             Fig 2.26 p73
+
+  5.   Matrix diagrams
+  6.   Process decision program chart
+  7.   Activity network diagram
+
+  also Process Flow charts or
+         Value Stream Maps (VSM) but MOST NB: you need
+  to clearly understand the production or service process
+Bottom line of all tools….
+
+             To help you have
+                 ENOUGH
+                ACCURATE
+                   DATA
+     to do calculations and work with
+

@@ -1,0 +1,181 @@
+INGB417 Facilities Design 2026 – Group project Appendix 1                Revision: 30March2026
+
+
+                      Facilities Design: Group Project brief
+    (manufacturing 1 finished product, complex production processes involving
+                            machines and manual work)
+
+
+Hypnos Mattress Manufacturers is a leading South African producer of premium-quality mattresses. A
+recent increase in market demand left the company unable to fulfil production requirements with their
+current strategy. The board of directors decided to develop a new facility specifically for the company’s
+double-size pocket spring mattress, thereby freeing up production capacity for their other product lines
+in the current facility. At the new facility the production processes have to be redesigned to meet the
+increased demand. Current demand projections are estimated at 200 000 mattresses per year. The
+management team appointed a facility design team to develop a detailed facility plan to aid with the
+strategic decision of where the new facility should be located.
+
+To maintain their competitive edge and signature mattress style, Hypnos Mattress Manufacturers
+produces its own polyurethane foam with a unique chemical structure for the internal cushioning layers
+on-site, rather than relying on external suppliers for this key component of their mattresses. The core of
+the pocket spring mattress consists of wire springs wrapped in a lightweight non-woven polypropylene
+fabric, which is secured in place through ultrasonic or thermal welding of the fabric. The additional
+cushioning and protective layers of the mattress are then added and sewn into place before packaging
+the mattresses for distribution to customers. The company’s current production process can be seen in
+the following video:
+
+https://www.youtube.com/watch?v=S2UjKJCQlxc
+
+The design team must use the production process illustrated in this video as a base for the production
+process design used in the new facility, with adjustments and upgraded material handling methods as
+required to develop the new facility.
+
+Product specifications
+The dimensions and internal structure of the mattress are shown in Figure 1.
+
+
+
+
+               Figure 1: Double Pocket Spring Mattress Dimensions and Internal Structure
+INGB417 Facilities Design 2026 – Group project Appendix 1                     Revision: 30March2026
+
+The company’s current raw material suppliers are provided in Table 1. As the new facility will be
+developed as a separate entity from the existing production plant, no supplier contracts are in place and
+any of these suppliers could be replaced if the design team deems alternative suppliers more suitable.
+
+Table 1: Raw Materials and Current Suppliers
+
+ Mattress         Application            Material              Current Supplier
+ Component
+ Polyurethane     Sponge cushion         Liquid polyol         https://gzsunray.en.made-in-
+ foam             layer, two             (have to be stored    china.com/product/tFUGClmTJNcf/China-
+                  hardnesses per         outside the           Polyurethane-PU-Flexible-Mattress-Foam-
+                  mattress.              building for safety   Systems-Blend-Polyol-Isocyanate-with-Good-
+                                         reasons)              Price.html
+ Pocket spring    Cover and connect      White 60 gsm          https://vitatex.co.za/vitatex-
+ cover fabric     the wire springs.      non-woven             products/spunbond/spunbond-technical-
+                                         polypropylene         datasheet/
+ Wire springs     Main mattress          1.8 mm diameter       https://www.wiresupplies.co.za/products/be
+                  structure.             steel wire coils      dding-seating-wire/
+ Edge rod         Stiﬀness around        3 mm diameter         Same supplier as spring wire coil
+                  the mattress edge.     steel wire
+ Internal side    Insulation and         Needle punch felt     https://www.ginnispectra.com/needle-
+ cover            protective layer                             punch-felt.html *
+                  around the side of
+                  the springs.
+ Mattress outer   Outer quilted          Premium ticking       https://sinocomfort.com/product/soft-and-
+ top              mattress layer.        fabric                breathable-mattress-ticking-fabric/ *
+ Outer quilt      Layer for additional   Dacron polyester      https://vnpolyﬁber.com/product/dacron-
+ batting          plushness and          batting               polyester-batting-in-upholstery/ *
+                  quilting aesthetics.
+ Side cover       Durable outer side     Woven ticking         https://ladetech.en.made-in-
+                  cover.                 fabric                china.com/product/ywFfUdgJﬂro/China-
+                                                               High-Quality-Mattress-Jacquard-Ticking-
+                                                               Knitted-Fabric-180-450-GSM.html *
+*Make own assumptions on raw material dimensions where not provided.
+
+Consumables include sewing thread, branding labels, staples for attaching the edge rod to the pocket
+spring unit, packaging materials and machine spares. No suppliers need to be considered for these
+items, as the company has existing contracts with suppliers. Storage and material handling requirements
+for these items must still be considered in the design.
+INGB417 Facilities Design 2026 – Group project Appendix 1                Revision: 30March2026
+
+Operation specifications
+Although the process is already defined below, management expects you to recommend appropriate
+equipment as part of the production process design. Present the process in a detailed process flow chart.
+
+Table 2: Mattress manufacturing process steps and estimated processing times
+
+ Production Step                                                   Estimated Processing Time
+ Polyurethane foam production: piping, expansion,                  12 min per large slab
+ setting, demoulding and plastic wrapping.
+ Foam pressing                                                     2 min per large slab
+ Foam cutting. Assume each foam slab produces 8 sheets             8 min per large slab (1 min per
+ of foam                                                           sheet)
+ Wire springs coiling                                              Show own calculations
+ Spring wrapping.                                                  As above
+ Arrange, cut and align springs to form mattress base              As above
+ Seal top and bottom cover sheets                                  5 min per mattress
+ Automated quilting (two layers of ticking fabric with             30 s per meter of quilt produced
+ batting in between).
+ Hand ﬁnishing of quilt.                                           1 m per quilt
+ Sewing of side cover: wide strip, narrow strip and logo.          2 min per set
+ Side cover assembly.                                              12 min per mattress
+ Mattress assembly: add and sew 2 foam sheet layers, top           15 min per mattress
+ quilt and bottom quilt.
+ Preparation for packing include few steps: plastic wrap,          13 min per mattress
+ press, vacuum seal and roll mattress.
+ Final quality check, box/pack and seal.                           12 min per mattress
+Assume that setup times is included in process times.
+
+Recommended machinery for all critical manufacturing processes must be provided.
+
+All assumptions regarding lot sizes, equipment used and process speed should be mentioned and
+justified accordingly. Machinery equipment specifications are critical to consider and must be clearly
+shown in calculations.
+
+Scrap is only produced where the foam part of the mattress is produced. Assume 5% scrap and propose
+scrap handling and management strategies. Assume no scrap at springs production, as the machines are
+highly efficient and calibrated daily.
+INGB417 Facilities Design 2026 – Group project Appendix 1                 Revision: 30March2026
+
+
+
+
+Manufacturing and management policies to be considered when designing facilities:
+
+
+   1. Manufacturing Operating Times:
+      The company operates for one 9-hour shift per day, 5 days a week. Operators receive a 30-
+      minute lunch break and two 15-minute tea breaks per day. A total of 220 working days per year
+      can be assumed. Overtime or a Saturday shift is possible, but management would prefer to
+      avoid it where possible, unless flexible capacity is required for unforeseen spikes in demand.
+
+   2. Inventory Levels:
+      The company’s inventory policy stipulates that 5 days’ worth of raw materials must be kept in
+      stock due to long supplier lead times. Finished goods storage must be sufficient for 2 weeks of
+      stock, as the Hypnos Mattress Manufacturers has an international customer footprint and needs
+      to ship large batches at a time. The Work-in-Progress inventory levels and space allocation must
+      be determined by the design team.
+
+   3. Deliveries and Collections:
+      The facility must allow space for small order collection on-site by customers and the dispatch of
+      large orders from the facility. Hypnos Mattress Manufacturers has its own fleet of delivery
+      trucks serving the current facility, but the fleet will not have sufficient capacity to transport the
+      new facility’s products as well. The design team must advise the management on a suitable
+      delivery protocol for bulk orders from the new facility. Also advise management on a raw
+      material delivery schedule dependent on the facility warehousing capacity. The finished goods
+      dispatch schedule must also be recommended based on the design of the facility and the
+      delivery protocol.
+
+Management policies:
+
+   •    Raw material receival and storage/warehouse areas, material and component staging areas
+        during manufacturing and assembly, as well as Finished goods storage/warehouse and staging
+        areas must be clearly indicated.
+    •   Clear indication on entry and exit to the premises must be visible on the layout.
+    •   Parking must be provided for all personnel. Personnel include management, administration and
+        operators. Reasoning and calculations for determining parking space must be provided.
+    •   Lockers for plant personnel are provided as well as a cafeteria providing basic food, but no
+        Health services are provided. There should be enough Rest Rooms provided in both offices as
+        well as in the Manufacturing areas, as per standards.
+    •   Maintenance and Spare parts storage rooms need to be available in the facility, although the
+        layout detail of those do not have to be done.
+    •   Office space must be allocated to the Senior Plant Manager, Operations Manager, Inventory
+        Manager, the administrative team, including Reception (for customers and suppliers visiting the
+        offices), Purchasing, Sales, Finance, Marketing and Human Resources employees, and the plant
+INGB417 Facilities Design 2026 – Group project Appendix 1               Revision: 30March2026
+
+       supervisors. The number of supervisors will depend on the facility design and must be clarified by
+       the design team.
+   •   Make logical assumptions regarding Facility support systems eg. Lightning, Atmospheric, Safety
+       and other factory requirements. Management is considering sustainable energy options.
+       Recommend at least one other strategy they can consider incorporating into the new facility
+       design.
+   •   Utility considerations, including electricity, water and plumbing should be discussed, even though
+       it is not necessary to indicate in the layout.
+   •   As Hypnos mattresses are very popular, management expects 15% extra space allowed for
+       expansion possibilities in the next 5 years.
+   •   Define small and large orders that makes sense depending on warehouse policy and dispatch
+       schedules.
+

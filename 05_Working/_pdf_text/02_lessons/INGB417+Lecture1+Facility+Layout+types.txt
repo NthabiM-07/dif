@@ -1,0 +1,84 @@
+Introduction to :
+Layout types
+
+
+
+
+Feb 2026
+W Kruger
+Volume-variety layout classification
+                Product /                      Fig 3.21
+         high
+                Assembly
+                line
+                               Cellular /
+                               Group
+Volume
+
+
+
+
+         med                   technology
+
+                                            Process /
+                Fixed location /            Jobshop /
+         low    project                     Work centre
+                  low              med         high
+                          Variety
+4 Major Layout Types (Ch3&6)
+
+ 1. Assembly Line / Product centred
+    layout
+ 2. Project layout / Fixed position
+    layout
+ 3. Work Centre / Job Shop / Process
+    centred layout
+ 4. Cellular / Product family / Group
+    layout
+Assembly Line / Product centred
+layout/Production line product layout
+
+           1              2              3
+Based on the process sequence of parts being
+produced
+
+Material flows from one station to the next
+                                    at certain rate
+Project / Fixed position Layout/Fixed
+Product Layout
+Workstations brought to the material/product
+
+                      1                 2
+
+
+
+        5
+
+
+                      3                 4
+Work Centre / Job Shop /
+Process centred Layout
+ Similar functions/equipment/processes grouped
+                     together
+Cellular layout/Product family layout
+• Group products according to common
+  characteristics
+• Product family treated as a pseudo-product
+• Processing equipment placed in a manufacturing
+  cell
+Block vs Detail design layout (Ch6)
+Use
+                        1                    2
+Depends
+on goal    BLOCK = high
+           level = planning
+                        3                    4
+
+
+
+
+                              DETAIL = micro
+                              level = detail design
+Block layouts (Ch6 FP or Ch8 OM)
+Detail layouts (Ch6 FP or Ch8 OM)
+

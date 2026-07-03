@@ -1,0 +1,484 @@
+Material Handling
+concepts
+
+
+March 2026
+W Kruger
+Introduction
+
+
+
+
+               2
+DHL logistics and their warehouses
+
+
+
+
+                                     3
+Ch5 Page 176   Importance of Material Handling
+• Material refers to commodities, information, people
+• Material handling accounts Final
+                                for:product storage
+ o 25% of employees   Order
+                         in apreparation   / accumulation
+                              typical factory
+ o 55% of factory space          Order  shipment
+ o 87% of production time          Distribution
+                                  Maintenance
+• An effective materials handling system can reduce operating costs by 15-30%
+• Between 3-5% of material Tool  storagebecomes
+                              handled     and control
+                                                  damaged
+                               Personnel services
+• Causes a lot of industrial accidents
+• Objective should be to eliminate Offices
+                                      & simplify material handling activities
+• Important influence on operations design and layout design
+
+
+   4
+               Relationship between MH & facility layout
+• The relationship between the two design elements involve:
+                            Final product storage
+                     Order preparation
+  o Common data required                 / accumulation
+                             for the design  of each activity
+                               Order
+  o A common goal to minimize costs   shipment
+                                 Distribution
+  o Both designs determine the effective use of space
+                                Maintenance
+  o Both determine the flow patterns in the facility
+                          Tool storage and control
+• Ideal approach - solve bothPersonnel
+                               problemsservices
+                                          simultaneously
+• Complexity in practice – requiresOffices
+                                    sequential design with iterations
+
+
+
+   5
+                         Additional information
+  Page 176        Definitions of Material Handling
+
+Definition 1                   Definition 2
+                                Final product storage          Definition 3
+
+     Material handling       Order preparation   / accumulation     Materials handling
+                                    Material handling is the
+   includes all the basic            Order    shipment             means providing the
+                                      art and science of
+   operations involved in                                       right amount of the right
+                                       moving,  storing,
+                                        Distribution
+  the movement of bulk                                             material at the right
+                                       protecting and
+  material, unit loads and             Maintenance
+                                     controlling material        place, time, sequence,
+   individual products in        Tool storage and control        condition, position and
+  any form, solid, liquid or                                      cost by using the right
+     gas, by means of               Personnel services                  methods
+  machinery or by hand,                    Offices
+  within the boundaries of
+     a place or business
+
+
+
+    6
+                Objectives of Material Handling
+If designed well it can:
+    Increase throughput,     Final product storage
+                       Order preparation / accumulation
+       reduce inventories and operating costs
+                                Order shipment
+                                   Distribution
+How to start this as part of your facility design?
+                                  Maintenance
+1. Investigate current handling practices (use Audit sheet Table5.1)
+                            Tool storage and control
+2. Investigate and map process     flow  (distinguish
+                               Personnel services     Operations, Transport,
+   Storage and Inspection)         Officesp185
+3. Complete Material Handling Planning chart (Fig 5.2 ) p185
+4. Design total integrated ‘system’ (not just equipment)
+5. Investigate equipment options last (keep track of new developments)
+    7
+Auditing current Material Handling processes
+
+                  Final product storage
+            Order preparation / accumulation
+                     Order shipment
+                       Distribution
+                      Maintenance
+                Tool storage and control
+                   Personnel services
+                          Offices
+
+
+
+8
+    Material Handling planning chart
+
+                 Final product storage
+           Order preparation / accumulation
+                    Order shipment
+                      Distribution
+                     Maintenance
+               Tool storage and control
+                  Personnel services
+                         Offices
+
+
+
+9
+  Engineering Design Process as applied to MH p181
+1. Define the objectives and scope of the material handling system
+2. Analyze the requirements for   moving,
+                               Final productstoring, protecting and controlling
+                                               storage
+   material              Order preparation / accumulation
+3. Generate alternative designs for  meeting   material
+                                  Order shipment         handling system  requirements
+4. Evaluate alternative material handling   systems
+                                     Distribution
+5. Select the preferred design for moving,   sorting,
+                                    Maintenance       protecting and  controlling
+   material                   Tool storage and control
+6. Implement the preferred design including the selection of suppliers, training of
+                                Personnel services
+   personnel, installation, debug and start-up equipment and periodic audits of
+                                       Offices
+   system performance
+
+
+
+    10
+                  MHS Design Factors to be considered
+
+•        Capital requirements concerning  equipment
+                              Final product storage and unitizing of unit
+                           Order  preparation
+         loads, availability of funds          / accumulation
+                                    Order shipment
+•        Physical properties of facility  and available space
+                                       Distribution
+                                      Maintenance
+•        Management policy in terms of safety and working environment
+                                Tool storage and control
+•        Interdependence between        handling
+                                   Personnel      and processing
+                                              services
+                                         Offices
+
+
+
+    11
+                           Additional Information
+Page 183     MHS Design Equation
+      Material + Movement + Methods = Recommended Systems
+                        Final product storage
+                  Order preparation / accumulation
+                           Order shipment
+                             Distribution
+                            Maintenance
+                      Tool storage and control
+                         Personnel services
+                                Offices
+
+
+                              Figure 5.1
+ 12
+                Problems In the Design of a MHS
+• Interdependency between materials handling and layout
+                                Final product    storage
+• Wide variety of available equipment!!!! See p204 for classification and
+                         Order
+  Appendix 5B for examples      preparation    / accumulation
+                                   Order   shipment
+• Some characteristics of equipment are difficult to quantify (for example
+  flexibility, mobility and effort)   Distribution
+                                     Maintenance
+• Objectives other than minimum cost (utilization, safety, maintenance, ease of
+  expansion etc.)             Tool  storage  and   control
+                                 Personnel    services
+• Some information required for the design of the system (e.g. movement time
+  and equipment running cost) cannot    Offices
+                                            be determined accurately
+• Application of an analytical model usually requires complex calculations with
+  no guarantee for an optimal system design e.g. p194-202
+
+    13
+              Characteristics of an efficient MHS
+
+•    Combines handling with   processing
+                           Final           where possible
+                                 product storage
+•    Automation where
+                    Orderpossible
+                           preparation / accumulation
+•    Safe                     Order shipment
+•    Provides protection for material
+                                 Distribution
+•    Standardization in types ofMaintenance
+                                 equipment
+•    Maximum utilizationTool
+                          of equipment
+                               storage and control
+•    Minimum backtracking,Personnel
+                             cross flows   and handling
+                                        services
+•    Minimum congestion or delays  Offices
+•    Economical
+
+
+14
+                        Additional Information
+ Ch5 p179           20 Material Handling Principles
+1. Orientation
+ •                                Final product
+          Study the problem to identify           storage problems and physical and
+                                        existing methods,
+                           Ordertopreparation
+          economical constraints                / accumulation
+                                    establish future requirements and goals
+2. Planning                     Order shipment
+ • Establish a plan to include basic
+                                   Distribution
+                                      requirements, desirable options and the
+    consideration of contingenciesMaintenance
+                                    for all material handling storage facilities
+3. Systems                  Tool storage and control
+ • Integrate economically viable     handling
+                              Personnel        and storage facilities into a
+                                           services
+    coordinated system of operations Offices
+4. Unit load
+ •        Handle product in as large unit loads as practical/economical
+
+     15
+                        from Experienced Facility Designer
+Page 179-181         Material Handling Principles (cont)
+5. Space utilization
+  •        Make effective use of all Final
+                                     cubicproduct
+                                           space storage
+6. Standardization Order preparation / accumulation
+                             Order shipment
+ • Standardize methods and equipment    where possible
+7. Ergonomic                   Distribution
+ • Recognize human capabilitiesMaintenance
+                                and limitations by designing material handling
+                        Tool for
+    equipment and procedures storage  and control
+                                 an effective interaction with people using the
+    system                 Personnel services
+8. Energy                         Offices
+  •        Include energy consumption of material handling systems and material
+           handling procedures when making comparisons or preparing economic
+           justifications
+      16
+                          5.3 Material Handling Principles
+Page 179-181         Material Handling Principles (cont)
+9. Ecology
+  •                              Final product
+           Use equipment and procedures        storageadverse effects on the
+                                         that minimize
+           environment    Order preparation / accumulation
+10. Mechanization                 Order shipment
+ • Mechanize where feasible to Distribution
+                                    increase efficiency and economy
+11. Flexibility                    Maintenance
+ • Use methods and equipment Tool storage   and
+                                     that can   controla variety of tasks under a
+                                              perform
+      variety of operating conditions
+                                Personnel services
+12. Simplification                     Offices
+  •        Eliminate/reduce/combine movement and equipment
+13. Gravity
+  •        Utilize gravity to move material where possible
+      17
+                          5.3 Material Handling Principles
+Page 179-181         Material Handling Principles (cont)
+14. Safety
+  •                               Finalmethods
+           Provide safe equipment and   product(OHS
+                                                storage
+                                                     act)
+15. Computerization Order preparation / accumulation
+ • Consider computerization inOrder    shipment
+                                  handling and storage systems for improved
+     material and information flowDistribution
+16. System flow                   Maintenance
+ • Integrate data flow withTool  storage
+                             physical    and control
+                                      flow
+17. Layout                    Personnel services
+ • Prepare an operations sequenceOffices
+                                      and equipment layout for all viable system
+           solutions – then select the alternative system which best integrates efficiency
+           and effectiveness
+
+      18
+                           5.3 Material Handling Principles
+Page 179-181        Material Handling Principles (4)
+18. Cost
+  •                               Final product
+           Compare economic justification        storageand methods as measured by
+                                          in equipment
+           expenses per unitOrder preparation / accumulation
+                            handled
+19. Maintenance                Order shipment
+ • Prepare a plan for preventativeDistribution
+                                    maintenance and scheduled repairs on
+     material handling equipmentMaintenance
+20. Obsolescence           Tool storage and control
+ • Prepare a long-range and Personnel
+                             economically   sound policy for replacement of
+                                         services
+     obsolete equipment methods with    consideration of after-tax life cycle costs
+                                    Offices
+
+
+
+      19
+                         5.3 Material Handling Principles
+               Mechanization of Material Handling scale
+1. Handling by hand - dependent on physical strain
+                             Final product storage
+2. Mechanized handling  replace human   handling
+                      Order preparation / accumulation
+                                Order shipment
+3. Mechanization complemented by    computers
+                                  Distribution - generate documents and specify
+   movements and processes
+                                 Maintenance
+                           Tool storage and control
+4. Automated – minimal human intervention (BMW)
+                              Personnel services
+                                     Offices
+5. Fully automated – computer supply real-time control, no human intervention
+
+             DO YOU SEE THE IMPORTANCE OF THINKING PROCESS?
+
+   20
+     Fully Automated Factory BMW
+
+               Final product storage
+         Order preparation / accumulation
+                  Order shipment
+                    Distribution
+                   Maintenance
+             Tool storage and control
+                Personnel services
+                       Offices
+
+
+
+21
+                Cost of Material Handling
+• Initial cost of equipment and training
+• Operating and Maintenance      costs
+                              Final product storage
+• Purchasing price forOrder
+                        unitizing material /ofaccumulation
+                              preparation      unit loads
+• Cost of packaging material Order shipment
+• Cost of material damages         Distribution
+Reduce costs how                  Maintenance
+                                             •
+• Minimize standing time Tool storage and controlEliminate  unsafe practices
+• Minimize back flow/double handling         •
+                               Personnel servicesStandardize
+• Reduce handling distances           Offices•   Use  gravity where possible
+• Plan maintenance procedures               •    Replace obsolete equipment
+• Correct equipment reduces damages         •    Utilize unit loads where
+                                                 possible
+
+    22
+  Page 186      Unit Load design p187
+• What is a UNIT? A single item, or items grouped together or bulk material
+                              Final product storage
+  that is arranged and restrained so it be stored, picked up and moved as a
+                        Order preparation / accumulation
+  single mass
+                                 Order shipment
+                                    Distribution
+• The movement defines a unit load, and this specification determines
+                                   Maintenance
+  material handling system design
+                            Tool storage and control
+                                Personnel services
+• A unit load affects trade-offs – schedules, transport, WIP job completion
+                                      Offices
+• Capability to handle more items at a time thus reducing the number of trips,
+  handling costs, loading and unloading times and product damage
+
+    23
+                            5.5 Unit load design
+               Factors Determining the Size of Unit Load
+• Type, mass, size and shape of materials/items to be handled
+• Quantity and frequency handled
+                             Final product storage
+• Susceptibility to damage
+                       Order preparation / accumulation
+• Extent of handling (distance Order
+                                etc.) shipment
+• Environment (available space, Distribution
+                                   aisle etc.)
+• Reconcilability with the total logistics system
+                                  Maintenance
+ o Other unit loads in system
+                            Tool storage and control
+ o Material handling and transport   equipment
+                              Personnel          in system
+                                           services
+ o Method of receiving, storing, shipping   and
+                                      Offices   handling
+• Cost of unitizing load
+• Additional processes in unitizing a unit load such as stacking and protection
+  materials
+    24
+               Factors Determining Equipment Choice
+Material
+ • Type, size, volume, shape,  weight,
+                            Final       unitstorage
+                                  product     load of materials
+Movement requirements Order preparation / accumulation
+ • Distance, frequency, path, aisle
+                               Orderwidth,   loading/unloading mechanism
+                                       shipment
+Storage requirements              Distribution
+ • Area, height, shape and obstructions    in storage facilities, storage
+                                 Maintenance
+     equipment and policiesTool storage and control
+Cost                         Personnel services
+ • Capital and operating cost of equipment,
+                                    Offices interest rates, depreciation and
+     lifespan
+Other factors
+ • Flexibility and obsolescence
+   25
+                Equipment classification p204
+1. Containers and unitizing equipment :
+  • Containers – Pallets (see p192), skids andstorage
+                               Final product    skid boxes, tote pans
+  • Unitizers – Straps/stretch-wrap, palletizers
+                        Order preparation / accumulation
+                                 Order shipment
+2. Material transport equipment: Distribution        See both TEXTBOOKS
+  • Conveyers                      Maintenance           for variety of
+  • Industrial vehicles
+                             Tool storage and control equipment ideas
+  • Monorails, cranes and hoists
+                               Personnel services
+                                      Offices          Tompkins App 5B
+3. Storage and retrieval equipment:
+                                                     Stephens Ch 10 & 11
+ • Racks and stacks
+ • Shelves, bins, cabinets
+
+   26
+

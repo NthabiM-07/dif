@@ -1,0 +1,223 @@
+Systematic
+Layout
+Planning (SLP)
+
+March 2026
+W Kruger
+  What is a facility:
+A FACILITY includes all fixed assets to achieve a production/service objective
+
+• Design year = 5-10 years into future
+• Implying lots of uncertainty, designers inflate estimates to ‘hedge their bets’
+• Major stages in factory include: Supply (purchasing), manufacture
+  (production/operations) and distribution (sales)
+• Overall flow from raw materials to finished goods = logistics or supply chain
+  management system
+• Input (receiving) and Output (dispatch) – this can happen for whole facility or
+  between ‘departments’ or even workstations (input/pickup/ingress to
+  output/delivery/egress)
+• Definition of ‘workstation’(3.6.1) vs ‘department’ (3.6.2) definition
+ What is an Activity in a facility?
+• An activity is a process or part of a process or step in a process
+• Not all activities need machines, but all need functional space (e.g. meetings
+  where strategy is planned and decisions made)
+• Measuring ‘’activities’’ between departments influence design e.g. physical
+  material flow or information flow
+• challenge is to define what is meant by ‘activity’ and to measure either qualitatively
+  or quantitively e.g. nr of movements between, if costly, then more is not effective,
+  so aim for less)
+• If idea is to minimize cost of flow:
+   • Eliminating UNNECESSARY movements
+   • Minimizing travel distances
+   • Eliminating manual handling
+   • Reducing flow density
+If this activity includes material
+flow (amount moved) then
+From-To chart is useful as an
+Activity relationship chart (but
+this is not the only
+measurement)
+
+
+                                     Just as distance was used between
+                                     towns, flow between departments
+                                     can be used to determine
+                                     Closeness relationship
+Definition of SLP
+Jacobs & Chase : SLP is a technique for solving layout problems when the use
+of numerical flow data between departments is not practical. An activity
+relationship chart is adjusted by trial and error until a satisfactory adjacency
+pattern is obtained.
+
+Tompkins: SLP is a procedure where block layouts are developed logically and
+sequentially following a step by step process and requires a good
+understanding of the process flow and relationships between activities.
+  SLP diagram logic
+
+
+
+
+ Equipment      Equipment       Material   Person    Total
+                area needed     area       nel
+                                needed     area
+                                           needed
+
+
+ Lathes (5)     4x12=48x5=240   20x5=100   20x5=1    240+100+100=440
+                                           00
+
+
+ Screw m/c      4x15=60x6=360   40x6=240   20x6=1    360+240+120=720
+ (6)                                       20
+
+
+ Chuckers (2)   6x5=30x2=60     50x2=100   20x2=4    60+100+40= 200
+                                           0
+
+
+                                           Nett      440+720+200=136
+                                           total     0+desk=1364
+
+
+                                           Aisle %   177
+
+
+                                           TOTAL     1364+177=1541sq
+                                           AREA      m
+
+
+
+
+Planning ‘departments’ or functional areas or Production process clusters = key
+Input data & Activities
+WHAT is produced at each step in the process? (finished goods, assemblies, parts, components, raw
+materials needed)
+
+HOW MUCH at each step in the process? (pieces/day, units/hour or minute etc, demand)
+
+Activities understanding needed:
+
+HOW or with WHAT will it be processed? (machines, operations, manual labor)
+What is the SEQUENCE, logical steps? (activities in series, parallel, outsourced, produced)
+HOW is it moved between steps in the process?
+WHEN and HOW LONG does it take?
+
+Understand the flow of materials
+Systematic Layout Planning for a Floor of a store with 5
+departments – example1 to illustrate SLP logic
+                                                         1 A Between where is A?                 Rule of thumb
+                                                         1E                                      Code      % used
+                                                         2I                                      A         5%
+                                                         4U                                      E         10%
+                                                         2 X Between where is X’s?               I         15%
+                                                                                                 O         25%
+
+
+
+
+                                                                  Why or when is X applicable in typical production plant?
+                                      Not allowed                 Noise, smell, dust, heat, cold, danger, explosion risk
+
+Reasons are subjective e.g. movement between departments can be another logical reason based on expert opinions
+and input from shopfloor                                                                                                     8
+Systematic Layout Planning for a Floor of a Department
+Store – example to illustrate SLP logic
+
+
+
+
+                                     Note that above is just a layout – other
+                                     possibilities would also have been
+                                     correct e.g. 4 next to 2 and 3 next to 1
+
+
+
+
+                                                                                9
+                          SLP – example2 p300
+                          to illustrate SLP logic
+                          with activity
+                          relationship chart given
+               REASONS =
+               Out of Scope
+
+                A – 10
+                E–7
+                I–0
+                O–7
+                U – 8 no line
+                X-2
+
+
+
+Activity
+relationship
+chart
+Resulting
+Relationship
+diagram
+ Resulting Space
+ relationship diagram
+
+ (imagine rubber bands)
+
+
+Where does one get department
+sizes?
+
+From workstations footprints (refer
+Stephens Ch7 p163-167 x nr of
+workstations needed to make
+production demand
+
+Block – squares or rectangles most
+easy to use, but you will have to ‘fit’
+it into a building anyway
+Resulting Alternative Block
+Layouts 9 departments
+
+
+
+
+                                               fig_06_07
+
+
+
+
+     Can you see the logic from the space relationship diagram, but then also the creative side?
+     Intuition, judgment and experience help in this process.
+                  From-To chart                 SLP – example 6.1
+                                                starting from From-
+                                                To chart Ex 6.1-6.4
+                                                 H = expansion space
+
+
+
+
+table_06_03                                     Activity relationship chart
+
+  Ranking (or given, gut feel,
+  or sometimes calculation):
+  Max = 90 / 5 = intervals
+   0-18 = U
+  19–36 = O
+  37-54 = I
+  55-72 = E
+  73-90 = A
+                                  table_06_04
+SLP – resulting block layout 8 departments
+SLP – further examples….
+
+
+   Let us work through problem 6.10 in Tompkins book – 7 departments,
+   different sizes
+Problem 6.10 – 7 departments
+6.10
+Other learning materials on SLP….
+
+Muther himself: https://www.youtube.com/watch?v=3orNXGODkis
+
+https://www.youtube.com/watch?v=9xlA--aZoSM
+
+www.richardmuther.com for free working forms.(RMA130)
+

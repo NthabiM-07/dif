@@ -1,0 +1,175 @@
+Concepts of :
+Flow,
+Activities and
+Space
+March 2026
+W Kruger
+Flow systems in a typical manufacturing facility
+• Materials Management system = purchasing
+   • Info associated with it include: Production forecasts, demand forecasts, inventory records,
+     purchase orders, stock requisitions, bills of lading, receiving reports, move tickets, order
+     payments
+• Material Flow system = production
+   • Info associated with it include: Production schedules, work order releases, bar codes, route
+     sheets, assembly charts, warehouse records
+• Physical distribution system
+   • Info associated with it include: sales orders, packing lists, shipping reports and releases,
+     invoices, bills of lading
+
+
+• Parkinson’s Law : “Things will expand to fill all available capacity
+  sooner than you plan”
+Input and Output
+points variations
+
+Whether for the
+whole facility or
+between
+‘departments’ or
+areas
+
+
+
+
+                    fig_03_11
+Differences in
+                                      Production
+department
+                                      line idea
+definition, influencing
+layout
+
+                                      Machine clusters,
+                                      related per operator?
+
+
+
+                                      Clusters of machines,
+                                      related to product
+                                      clusters
+
+
+
+                                      Machine types
+                                      grouped
+                                      together
+
+                          fig_03_37
+Flow of material within product departments
+
+
+
+
+                                              fig_03_05
+Flow of material within process departments
+
+
+
+
+                                          fig_03_06
+Flow affected by material handling e.g. conveyors, carts, robots, guided vehicles etc
+
+
+
+
+                                                   fig_03_07
+Good vs Bad layouts ito flow
+
+
+
+
+                               8
+Some more
+        2
+
+
+
+
+            9
+Space specs
+Design principle is from Bottom Up
+      (e.g. from workstation/desk to units/depts to groups/faculties to head
+              office/campus)
+
+
+Space incl. equipment, materials and personnel
+
+Think: workstations, inventory, tools, storage, maintenance, operators,
+machines
+
+      Visualization helps – from above, 2D or 3D
+Aisle space to promote effective FLOW
+
+• Too narrow will cause congestion
+• Too wide is wasted space
+• 80-100cm around machines
+• Standard specs for people, forklifts, doors, trucks etc.
+• Usually calculated as allowance % of netto area
+
+Again, Visualization helps…
+This is A
+workstation                              The machine
+example….to start
+Bottom up design
+
+
+                                        operator
+                Materials
+
+                                          locker
+
+
+
+
+                            fig_03_44
+Exercise – Calculate floor space (example 3.5)
+Data given:
+13 machines performing turning operations
+5 x Turret lathes (4mx12m) material storage 20sqm
+6 x Automatic screw machines (4mx15m) material storage 40sqm
+2 x Chuckers (6mx5m) material storage 50sqm
+Personnel footprints 4mx5m (1 operator per machine)
+Include Supervisor desk 4sqm
+Aisle space allowance of 13% (round off)
+
+          Total space sqm required = ___________________
+Exercise – Calculate floor space for a department
+Equipment       Equipment     Material      Personnel           Total
+                area needed   area needed   area needed
+
+
+Lathes (5)
+
+Screw m/c (6)
+
+Chuckers (2)
+
+                                            Nett total + desk
+
+
+
+                                            Aisle %
+
+                                            TOTAL AREA
+Exercise – Calculate floor space
+Equipment       Equipment       Material      Personnel     Total
+                area needed     area needed   area needed
+
+
+Lathes (5)      4x12=48x5=240   20x5=100      20x5=100      240+100+100=440
+
+Screw m/c (6)   4x15=60x6=360   40x6=240      20x6=120      360+240+120=720
+
+Chuckers (2)    6x5=30x2=60     50x2=100      20x2=40       60+100+40= 200
+
+                                              Nett total    440+720+200=1360+desk=1
+                                                            364
+
+
+                                              Aisle %       177
+
+                                              TOTAL AREA
+                                                            1364+177=1541sqm
+Management approaches also influence
+design e.g.Visual factory scenario below
+

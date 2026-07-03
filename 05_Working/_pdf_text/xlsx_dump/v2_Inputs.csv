@@ -1,0 +1,60 @@
+DigMore Folding Mini Shovel - Facility Design Calculations (single source of truth),,,,
+Blue = input you can change; black = formula; green = link from another sheet. Yellow = key designer assumption to confirm.,,,,
+,,,,
+,Parameter,Value,Unit,Note / source
+,Annual demand,400000,shovels/yr,2026 brief
+,Workdays per year,220,days,2026 brief
+,Daily demand (good),1819,shovels/day,rounded up
+,Shift length,540,min,9 h (brief)
+,Breaks,60,min,30+15+15 (brief)
+,Effective time,480,min/day,shift - breaks
+,Availability (1.0 = brief basis),1,fraction,sized on 480 effective min; lower for a setup/breakdown sensitivity
+,Available time / machine,480,min/day,effective time x availability
+,Takt time,15.83,s/shovel,effective/daily demand
+,Scrap rate (cut & stamp),0.05,fraction,brief (those two steps)
+,Yield,0.95,fraction,1 - scrap
+,Pipes per cut,1,pipes,bundle cutting raises this
+,Operators per machine,1,-,baseline 1:1
+,Packaging cycle (assumed),30,s/shovel,brief: workstation-dependent
+,Tube stock length,6,m,to verify with supplier
+,Handle section length,0.15,m,brief (150 mm)
+,Sections per tube,40,sections,kerf ignored
+,Tube sections per shovel,2,sections,back + middle
+,Sheet length,2.5,m,standard sheet (assumption)
+,Sheet width,1.25,m,standard sheet (assumption)
+,Nesting efficiency,0.75,fraction,assumption
+,Head blank length,0.17,m,finished 150 + allowance (assumption)
+,Head blank width,0.14,m,finished 120 + allowance (assumption)
+,Hinge blank length,0.08,m,assumption
+,Hinge blank width,0.05,m,assumption
+,Raw material cover,10,days,2 weeks (brief)
+,Finished goods cover,20,days,4 weeks (brief)
+,WIP buffer,1,days,about one shift (assumption)
+,Units per box,10,shovels,assumption
+,Boxes per pallet,40,boxes,assumption
+,Units per pallet,400,shovels,box x pallet
+,Pallet length,1.2,m,standard (assumption)
+,Pallet width,1,m,standard (assumption)
+,Pallet footprint,1.2,m2,
+,Storage levels (racking),3,-,assumption
+,Tubes per cantilever rack,250,tubes,assumption
+,Cantilever rack footprint,6,m2,6 m x 1 m (assumption)
+,Sheets per stack,200,sheets,assumption
+,Storage aisle factor,1.6,-,floor area x this (assumption)
+,Heat-treat cycle,6,h,T6 ageing 5-8 h (supplier)
+,Powder line rate,600,parts/h,typical conveyor (supplier)
+,Coated items per shovel,3,items,2 handles + 1 subassembly
+,Area per workstation,6,m2,incl operator space (assumption)
+,Circulation / aisle allowance,0.3,fraction,assumption
+,Future expansion,0.1,fraction,brief (~10%)
+,Powder-coat area (enclosed),120,m2,supplier-based estimate
+,Heat-treat + sandblast area,80,m2,supplier-based estimate
+,Scrap / waste store,40,m2,assumption
+,Receiving + dispatch area,250,m2,docks + staging (assumption)
+,Office area per office worker,10,m2,assumption
+,Amenity area per employee,4,m2,lockers/restrooms/cafeteria (assumption)
+,Parking bays per employee,1,-,brief: all personnel
+,Visitor + collection bays,10,bays,assumption
+,Area per parking bay,25,m2,bay + aisle (assumption)
+,Truck fleet bays,6,bays,own fleet (assumption)
+,Area per truck bay,60,m2,incl manoeuvre (assumption)

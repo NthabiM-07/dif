@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2026-07-03T00:00:00.000Z" agent="5.0" version="24.7.5">
+  <diagram name="Station 2 - Tube Cutting" id="station2">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="title" value="Station 2: Tube Cutting Station — Scale 1 m = 100 px — Cycle time 15 s/cut (brief Table 1 — LOCKED)" style="text;html=1;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1100" height="30" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inwip" value="Input WIP&#10;Raw tube staging&#10;(from RM store)&#10;1.5 x 1.0 m" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="clear" value="Safety clearance 0.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#990000;verticalAlign=top;fontSize=10;fontColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="300" height="260" as="geometry" />
+        </mxCell>
+
+        <mxCell id="machine" value="Tube Cutting Machine&#10;footprint 2.0 x 1.0 m&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="200" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="operator" value="Operator zone&#10;0.8 x 1.0 m" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="80" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="scrap" value="Scrap Bin&#10;5% scrap here — LOCKED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="outwip" value="Output WIP&#10;Cut tube segments&#10;1.5 x 1.0 m" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aisle" value="Trolley Aisle 1.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="800" y="150" width="150" height="260" as="geometry" />
+        </mxCell>
+
+        <mxCell id="toback" value="&#8594; To Grip Narrowing / Knurl+Thread&#10;(back handle stream)" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="980" y="180" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tomid" value="&#8594; To Internal Threading&#10;(middle handle stream)" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="980" y="340" width="200" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwip" target="machine">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;" edge="1" parent="1" source="machine" target="scrap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="machine" target="outwip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="toback">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="tomid">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="caption" value="Figure — Station 2: Tube Cutting Station. Scale 1 m = 100 px. Cycle time 15 s/cut (brief Table 1, LOCKED). Scrap 5% (LOCKED — see assumptions_register.md). Machine footprint is a placeholder — SUPPLIER-BASED ESTIMATE REQUIRED, must be replaced with a real machine spec before the MFP is finalised." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="1160" height="60" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

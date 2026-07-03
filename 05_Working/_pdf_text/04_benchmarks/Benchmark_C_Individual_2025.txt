@@ -1,0 +1,1022 @@
+GA ASSIGNMENT
+INGB417
+
+Submitted to:            Mrs W Kruger
+Date:                    13 June 2025
+Author:                  Karla van Dyk
+Student number:          37511459
+
+
+
+
+          North-West University: Potchefstroom Campus
+                                                 Table of Contents
+
+1.          Academic Integrity ............................................................................................ 4
+2.          Executive Summary.......................................................................................... 4
+3.          Background ...................................................................................................... 5
+4.          Design Problem and Objectives ....................................................................... 5
+5.          Design Requirements ....................................................................................... 5
+6.          Design Assumptions and Constraints ............................................................... 6
+     6.1.      Process Flow .......................................................................................................... 6
+     6.2.      Assumptions & Constraints ..................................................................................... 6
+7.          Detail Design Specifications ............................................................................. 9
+     7.1.      Production Volumes ................................................................................................ 9
+     7.2.      Departments ......................................................................................................... 10
+     7.3.      Distribution of large orders .................................................................................... 22
+8.          Design Alternatives ........................................................................................ 23
+     8.1.      Alternative 1 .......................................................................................................... 25
+     8.2.      Alternative 2 .......................................................................................................... 26
+     8.3.      Alternative 3 .......................................................................................................... 27
+     8.4.      Alternative Evaluation ........................................................................................... 28
+9.          Final Design ................................................................................................... 29
+10.         Business Case ............................................................................................... 31
+     10.1.        Capital Cost Estimates ...................................................................................... 31
+     10.2.        Risks and Mitigations......................................................................................... 31
+     10.3.        Schedule ........................................................................................................... 32
+
+
+
+
+                                                                                                                                             1
+                                                     List of Figures
+Figure 6.1: High-level Process Flow Chart ............................................................................ 6
+Figure 6.2: Rectangular Tube................................................................................................ 6
+Figure 6.3: Flat Bar ............................................................................................................... 6
+Figure 6.4: Square Tube ....................................................................................................... 7
+Figure 6.5: Round Tube ........................................................................................................ 7
+Figure 6.6: Levelling Feet ...................................................................................................... 7
+Figure 6.7: Finished Expanded Table.................................................................................... 8
+Figure 6.8: Small Configuration ............................................................................................. 8
+Figure 6.9: Large Configuration............................................................................................. 8
+Figure 6.10: Chair ................................................................................................................. 8
+Figure 7.1: Cantilever Rack ................................................................................................. 10
+Figure 7.2: Workstation Layout Cantilever Rack.................................................................. 11
+Figure 7.3: Storage Racks .................................................................................................. 11
+Figure 7.4: Cutting Machine ................................................................................................ 13
+Figure 7.5: Cutoff bin........................................................................................................... 13
+Figure 7.6: Cutting Workstation Layout ............................................................................... 14
+Figure 7.7: Bending Machine .............................................................................................. 14
+Figure 7.8: Bending Workstation Layout ............................................................................. 14
+Figure 7.9: Automated Welding Machine............................................................................. 15
+Figure 7.10: Manual Welding Machine ................................................................................ 15
+Figure 7.11: Automated Welding Workstation Layout .......................................................... 16
+Figure 7.12: Manual Welding Workstation Layout ............................................................... 16
+Figure 7.13: Handheld Grinder ............................................................................................ 16
+Figure 7.14: Handheld Polisher ........................................................................................... 16
+Figure 7.15: Grinding & Polishing Workstation Layout......................................................... 17
+Figure 7.16: Powder Coating Machine ................................................................................ 17
+Figure 7.17: Powder Coating Workstation Layout ............................................................... 18
+Figure 7.18: Assembly Workbench...................................................................................... 18
+Figure 7.19: Trolley ............................................................................................................. 19
+Figure 7.20: Assembly Workstation Layout ......................................................................... 19
+Figure 7.21: Dolly with wheels ............................................................................................. 20
+Figure 7.22: Plastic Wrap Dispenser ................................................................................... 20
+Figure 7.23: Packaging Workstation Layout ........................................................................ 21
+Figure 8.1: Activity Relationship Chart ................................................................................ 23
+Figure 8.2: Alternative Block Layout 1 ................................................................................. 25
+Figure 8.3: Alternative Block Layout 2 ................................................................................. 26
+Figure 8.4: Alternative Block Layout 3 ................................................................................. 27
+Figure 9.1: Master Facility Plan ........................................................................................... 30
+Figure 10.1: Schedule ......................................................................................................... 32
+
+
+                                                      List of Tables
+Table 6.1: Raw Material Item, Dimensions and Use .............................................................. 6
+Table 6.2: Product Description .............................................................................................. 7
+Table 7.1: Machines Calculations ......................................................................................... 9
+Table 7.2: Number of 6m bars and tubes needed for daily production ................................. 10
+Table 7.3: Cantilever Rack Calculations .............................................................................. 11
+Table 7.4: Work-in-Progress Space Calculations ................................................................ 12
+
+
+
+
+                                                                                                                                         2
+Table 7.5: Cutting Calculations ........................................................................................... 12
+Table 7.6: Cutting Machine Specifications........................................................................... 13
+Table 7.7: Cutoff volume calculations.................................................................................. 13
+Table 7.8: Bending Machine Specifications ......................................................................... 14
+Table 7.9: Welding Machines Specifications ....................................................................... 15
+Table 7.10: Grinding & Polishing Specifications .................................................................. 17
+Table 7.11: Powder Coating Machine Specifications ........................................................... 17
+Table 7.12: Assembly Workbench Specifications ................................................................ 19
+Table 7.13: Plastic Wrap Dispenser Specifications ............................................................. 21
+Table 7.14: Supporting Facilities ......................................................................................... 22
+Table 8.1: Department Dimensions ..................................................................................... 24
+Table 8.2: Alternative Evaluation ......................................................................................... 28
+Table 10.1: Equipment Costs .............................................................................................. 31
+Table 10.2: Capital Cost Estimates ..................................................................................... 31
+Table 10.3: Risks & Mitigation Strategies ............................................................................ 32
+
+
+
+
+                                                                                                                                 3
+1. Academic Integrity
+I conducted this project with full academic integrity, ensuring that all work is original and
+completed in accordance with the ethical standards and guidelines of the North-West
+University and its Faculty of Engineering.
+
+
+2. Executive Summary
+An industrial engineers has been appointed as facility designers to design a new facility for
+TIPTOP TABLES. The facility has to be designed from scratch. The facility is required to make
+lightweight aluminium outdoor tables and accompanying chairs with rattan backing. A 20%
+expansion must also be considered within the next few years. The facility must meet a demand
+of 5 000 units monthly.
+
+
+
+
+                                                                                                4
+3. Background
+TIPTOP TABLES is a South African manufacturer that has supplied outdoor tables and chairs
+for over 25 years. Due to increasing demand, especially for a lightweight, configurable
+aluminium outdoor table set (1 table + 4 chairs), the company now forecasts monthly sales of
+up to 5 000 sets. The existing facility cannot meet this demand, prompting the need for a new
+purpose-built manufacturing facility focused solely on this product line. The company requires
+a comprehensive facility design that incorporates production processes, storage, shipping,
+receiving and potential for future expansion (20% spare capacity), developed through a
+systematic engineering design approach.
+
+
+4. Design Problem and Objectives
+The core design problem is to develop a fully functional and scalable facility layout that meets
+the forecasted production demand of 5 000 outdoor table sets per month. This must include:
+   •   Efficient space allocation for all production and non-production functions
+   •   Logical material and product flow throughout the facility
+   •   Compliance with safety and operational constraints (e.g., isolated welding areas,
+       safety zones for robots)
+   •   Integrated support areas including offices, employee facilities and logistics zones
+   •   Alignment with inventory and delivery policies, ensuring adequate storage capacity
+   •   Flexible layout with provision for future capacity expansion
+
+
+5. Design Requirements
+   •   Meet monthly demand of 5000 units
+   •   20% expansion space
+   •   Isolated areas for welding
+   •   Safety space around where robots are working
+   •   Should conform to activity relationship chart
+   •   Optimise facility layout
+   •   Sufficient external interface
+   •   Logical flow of material
+   •   Access to roads
+   •   Should be easy to implement or construct
+
+
+
+
+                                                                                                   5
+6. Design Assumptions and Constraints
+6.1. Process Flow
+
+
+
+
+                        Figure 6.1: High-level Process Flow Chart
+
+
+6.2. Assumptions & Constraints
+   •   All bars and tubes are assumed to be 6m in length before being cut
+   •   A unit is one set, including 1 tabletop, four legs and four chairs
+   •   Small orders are 20% of total orders
+   •   20 working days per month
+   •   Productivity is 7.5hrs daily
+   •   Setup time and breakdowns take up 0.5hrs daily
+   •   5% scrap rate from aluminium delivered by supplier
+Table 6.1: Raw Material Item, Dimensions and Use
+    Item & Dimensions                     Image                            Use
+    Rectangular Tubes                                               Frame for tabletop
+  (40mmx20mmx1,2mm)                                                  Sliding structure
+
+
+
+
+                               Figure 6.2: Rectangular Tube
+
+        Flat Bars                                                       Tabletop
+   (101,6mmx9,52mm)
+
+
+
+                                   Figure 6.3: Flat Bar
+
+
+
+
+                                                                                         6
+       Square Tubes                                                     Table legs
+      (60mmx60mm)
+
+
+
+
+                                  Figure 6.4: Square Tube
+
+       Round Tubes                                                        Chairs
+     (25,4mmx1,6mm)
+
+
+
+
+                                  Figure 6.5: Round Tube
+
+  Rubber Levelling Feet                                              Levelling Tables
+
+
+
+
+                                 Figure 6.6: Levelling Feet
+
+
+The product dimensions can be seen in table 6.2 below. The length and number of slats used
+for the second tabletop is calculated by working out the length difference between the large
+and small configuration of tables and then using that ratio to determine the amount of slats
+(flat bars) needed. Product images can be seen in figures 6.7 – 6.10.
+                             Table 6.2: Product Description
+                            Item              Dimensions (l*w*h)
+                          Tabletop 1            1.52m*1m*0.04m
+                                                   15 flat bars
+                          Tabletop 2            0.96m*1m*0.04m
+                                                   10 flatbars
+                          Slider insert         0.94m*1m*0.04m
+                              Legs             0.06m*0.06m*0.7m
+                              Chair           0.55m*0.59m*0.76m
+
+
+
+
+                                                                                               7
+                     Figure 6.7: Finished Expanded Table
+
+
+
+
+Figure 6.8: Small Configuration              Figure 6.9: Large Configuration
+
+
+
+
+                              Figure 6.10: Chair
+
+
+
+
+                                                                               8
+7. Detail Design Specifications
+7.1. Production Volumes
+The daily production volumes are calculated by taking the monthly demand (5000 units) and
+dividing it by 12 months and then dividing that value with 20 working days per month. This
+results in a total of 250 units that have to be produced daily. This is a total of 250 sliders, 500
+tabletops, 1000 legs and 1000 chairs.
+The amount of machines needed per type is calculated by multiplying the number of units per
+process by the processing time per item and dividing by the minutes per day (450mins). A
+summary of the amount of machines needed for each process can be seen in table 7.1 below.
+Table 7.1: Machines Calculations
+     Machine              Units         Processing Time         Productivity         Machines
+                                            (mins)             per day (mins)         Needed
+     Cutting           250x tables             1                    450                 3
+                      1000x chairs
+   Bending             1000 chairs               3                    450                7
+  Automated             250 slider               5                    450                3
+   Welding                insert
+    Manual            500 tabletops        10 (tabletop)              450                24
+   Welding             1000 chairs            5 (chair)
+    Grinder           500 tabletops              0.5                  450                1
+   Polisher           500 tabletops              0.5                  450                1
+ Powder Coater        500 tabletops              1.5                  450                1
+                        250 slider         (30sec for 1st
+                         inserts         tabletop + 10sec
+                        1000 legs           for each 2nd
+                                          tabletop, slider
+                                            insert, legs)
+   Packaging             50 sets                  5                   450                1
+
+
+
+
+                                                                                                      9
+7.2. Departments
+Raw Material Storage
+In order to determine how many 6m bars and tubes of each type have to ordered, the total
+length of each type for one unit is calculated first. This is done by adding the lengths of all cut
+pieces up per type of bar or tube and then dividing that by 6m (length of bar/tube). This final
+value is then rounded up to get the number of bars or tubes needed per type per unit. The
+final amounts are calculated by multiplying the unit amount by 250 (daily demand). A summary
+of these calculations can be seen in table 7.2 below.
+Raw materials are delivered once daily. Four workers are employed by TIPTOP TABLES to
+pack the racks and check for defects. Forklifts are used to unload the delivery trucks, after
+which smaller batches are put in trolleys for easier distribution between the racks.
+Table 7.2: Number of 6m bars and tubes needed for daily production
+       Item           Cut pieces per       Bars per     Bars per day         2-Weekly raw
+                            unit             unit        (250 units)      materials with scrap
+   Rectangular           3x1.52m            2.836           709                  7464
+      Bars                 7x1m
+                         3x0.96m
+                         2x0.94m
+    Flat Bars             25x1m             4.168            1042                 10969
+  Square Tubes           4x0.7m              0.5              125                 1316
+  Round Tubes              4x6m               4              1000                 10527
+     Totals                  -              11.504           2876                 30276
+
+Cantilever racking is used to store the 6m tubes and bars. The racks have a height of 2m, arm
+length of 0.8m and peg height of 0.3m. It is assumed that each rack has a height of 0.6m and
+length of 6m. The type of rack that will be used can be seen in figure 7.1 below. The
+calculations for the number of racks needed can also be seen below in table 7.3. Five of these
+racks are allocated to the defective tubes and bars received. The workstation layout of one of
+these racks is depicted below in figure 7.2.
+
+
+
+
+                                  Figure 7.1: Cantilever Rack
+
+
+
+
+                                                                                                      10
+Table 7.3: Cantilever Rack Calculations
+     Item          Bars or    Bars/Tubes in       Layers per                 Racks
+                   Tubes         a layer             rack
+                  received
+ Calculation          -         𝑅𝑎𝑐𝑘 𝑤𝑖𝑑𝑡ℎ     𝑅𝑎𝑐𝑘 ℎ𝑒𝑖𝑔ℎ𝑡   𝑟𝑎𝑤 𝑚𝑎𝑡𝑒𝑟𝑖𝑎𝑙 + 5% 𝑠𝑐𝑟𝑎𝑝
+                              𝑏𝑎𝑟/𝑡𝑢𝑏𝑒 𝑤𝑖𝑑𝑡ℎ 𝑏𝑎𝑟/𝑡𝑢𝑏𝑒 ℎ𝑒𝑖𝑔ℎ𝑡 6 ∗ 𝑙𝑎𝑦𝑒𝑟𝑠 ∗ 𝑖𝑡𝑒𝑚𝑠 𝑖𝑛 𝑙𝑎𝑦𝑒𝑟
+ Rectangular        7464            20             15                     5
+     Bar
+   Flat Bar        10969         7,874016          3,151261                    74
+ Square Tube        1316         13,33333              5                       4
+ Round Tube        10527         31,49606          11,81102                    5
+    Total          30276         72,70341          34,96228                    88
+
+
+
+
+                       Figure 7.2: Workstation Layout Cantilever Rack
+
+
+Work-in-Progress
+Racks are used to store the bars after they have been cut after which they are then taken to
+the next work areas. These racks are placed after each workstation to accommodate work-in-
+progress (WIP) materials. An example of the type of racks used is depicted in figure 7.3 below.
+
+
+
+
+                                  Figure 7.3: Storage Racks
+
+
+
+
+                                                                                                  11
+These racks have the dimensions of 2mx0.6mx2m. By calculating the area needed for all the
+items, the number of racks needed can be found by dividing this area by the shelf space of
+one rack (area of one shelf multiplied by six shelves). Items are packed in two layers on each
+rack and thus effectively doubles the area a rack can take. From this it is calculated that a total
+of 35 racks is needed at each WIP area. 19 of these racks are for the tables and 16 for the
+chairs. The chair storage is only used at the cutting process and welding process. As pieces
+are used by the following station as soon as possible, only half of the racks are needed. The
+calculations can be seen in table 7.4 below.
+Table 7.4: Work-in-Progress Space Calculations
+
+    Item         Area (m2)       Quantity       Area Needed (m2)       Rack Area       Racks Needed
+ Tabletop 1         1,52           250                380                 48                 8
+ Tabletop 2         0,96           250                240                 48                 5
+    Legs           0,042          1000                 42                 48                 1
+   Slider
+   Insert           0,94            250                 235                 48                5
+ Chair Cut
+   Pieces          0,1524           5000                762                 48                16
+   Totals                                                                                     35
+
+
+Cutting
+Pieces are cut in bulk in order to reduce the number of cutoffs from each 6m bar or tube. The
+following table (table 7.5) indicates how many of which cuts are made as well as the number
+of bars needed daily when the 5% scrap rate is considered.
+Table 7.5: Cutting Calculations
+   Type of        Pieces cut from      6m bars/tubes       6m bars/tubes         Length utilised
+   bar/tube             6m                needed           with 5% scrap             per 6m
+                                                                                    tube/bar
+                  3x1,52m + 1x1m             250              263,1578947             5,56
+ Rectangular           6x1m                  250              263,1578947               6
+    Bars              6x0,94m                84               88,42105263             5,64
+                      6x0,96m                125              131,5789474             5,76
+   Flat Bars           6x1m                 1042              1096,842105               6
+    Square
+    Tubes              8x0,7m                125              131,5789474              5,6
+    Round
+    Tubes               1x6m                1000              1052,631579               6
+    Totals                -                 2876              3027,368421               -
+
+From table 7.5 above it is calculated that 3 machines are needed to meet demand. The same
+machine is used for all bars and tubes and once one type is finished being cut, the next type’s
+dimensions are put in and cut. The machine is depicted in figure 7.4 and the workstation layout
+in figure 7.4 below. The specifications of the machine can be seen in table 7.6 below.
+
+
+
+
+                                                                                                      12
+                                 Figure 7.4: Cutting Machine
+
+                       Table 7.6: Cutting Machine Specifications
+                     Dimensions (l×w×h)              8.55 × 1.3× 2 (m)
+                     Operators per machine           2
+                     Machines Needed                 3
+
+The total volume needed for cutoffs is 0.3162m³. The calculations for this is summarised in
+table 7.7 below. The cutoff length per bar is multiplied with the amount of bars or tubes of that
+type, the width and height of that type of bar or tube.
+Table 7.7: Cutoff volume calculations
+
+ Pieces x length (in 6m)      6m Bars/Tubes       Cutoff length     Cutoff pieces volume (m³)
+    3x1,52m + 1x1m                 250                0,44                     0,088
+         6x1m                      250                  0                        0
+        6x0,94m                     84                0,36                   0,024192
+        6x0,96m                    125                0,24                     0,024
+         6x1m                     1042                  0                        0
+        8x0,7m                     125                0,4                      0,18
+         1x6m                     1000                  0                        0
+          Total                      -                  -                     0,3162
+
+One bin of volume 0.11m³ is placed at each cutting machine for the cutoffs. The bin is depicted
+in figure 7.5 below. The cutoffs in these bins are collected daily and taken away.
+
+
+
+
+                                     Figure 7.5: Cutoff bin
+
+
+
+                                                                                                    13
+                            Figure 7.6: Cutting Workstation Layout
+
+
+Bending
+All cut round bar pieces are moved to the bending machines from the cutting area. From table
+7.1 above it is calculated that 7 machines are needed. The bending machine is depicted in
+figure 7.7 and its workstation layout in figure 7.8 below. The specifications of the machine can
+be seen in table 7.8 below. There are no racks used at the WIP area of the bending as it is
+easier and more space efficient to stack the chairs in the allocated WIP area. Three stacks of
+chairs can be put next to each other and moved to the rattan backing area.
+
+
+
+
+                                 Figure 7.7: Bending Machine
+
+                      Table 7.8: Bending Machine Specifications
+                     Dimensions (l×w×h)             2.6 × 0.6 × 1.2 (m)
+                     Operators per machine          1
+                     Machines Needed                7
+
+
+
+
+                           Figure 7.8: Bending Workstation Layout
+
+
+
+                                                                                                   14
+Welding
+After bending, the pieces are taken to the welding area. The rest of the cut pieces to be used
+for the tables are brought from the cutting area to the welding area. Automated welding
+machines are used to make the slider insert while manual welding machines are used to make
+the tabletops and chairs.
+From table 7.1 above it is calculated that 3 automated welding machines and 24 manual
+welding machines are needed. These machines and their specifications are depicted in figures
+7.9 & 7.10 and table 7.9 below.
+
+
+
+
+   Figure 7.9: Automated Welding Machine           Figure 7.10: Manual Welding Machine
+
+                      Table 7.9: Welding Machines Specifications
+                                     Automated           Manual
+           Dimensions (l×w×h)        1.7 × 0.8 × 1.6 (m) 0.8 × 1.4 × 1.4 (m)
+           Operators per machine     1                   1
+           Machines Needed           3                   24
+
+Both workstations also have additional tables at which the machines are used. These tables
+are big enough for one tabletop to be welded at a time. The workstation layouts are depicted
+in figures 7.11 and 7.12. A 1m safety space is added all around the workstation of the
+automated welding robots.
+
+
+
+
+                                                                                                 15
+      Figure 7.11: Automated Welding              Figure 7.12: Manual Welding Workstation
+             Workstation Layout                                     Layout
+
+
+Grinding & Polishing
+The table’s welded pieces are taken to the grinding & polishing area. The welded chairs are
+taken to the rattan backing storage area. Handheld grinders and polishers are used to grind
+excess welding away on the tables and to polish the pieces before they are ready for the
+powder coating.
+From table 7.1 above it is calculated that 1 grinder and 1 polisher are needed. These machines
+and their specifications are depicted in figures 7.13 & 7.14 and table 7.10 below. The amount
+of grinder discs needed daily is also indicated. This was calculated by taking the average life
+span of a grinder disc (30min of continuous grinding) and dividing the productivity minutes
+(450min) by that. This results in 15 discs per grinder per day. The discs needed for the polisher
+is calculated in the same way. The average polisher disc lifetime is 40mins and this results in
+12 disks needed per day per polisher. The polishers and grinders’ dimensions are small, but
+the workstation must be big enough to accommodate one tabletop at a time. The workstation
+layouts can also be seen below in figure 7.15.
+
+
+
+
+        Figure 7.13: Handheld Grinder                   Figure 7.14: Handheld Polisher
+
+
+
+
+                                                                                                    16
+                      Table 7.10: Grinding & Polishing Specifications
+                                      Grinder           Polisher
+           Operators per machine      1                 1
+           Machines Needed            2                 2
+           Discs Needed               15                12
+
+
+
+
+                    Figure 7.15: Grinding & Polishing Workstation Layout
+
+
+Powder Coating
+From the grinding and polishing areas, the table’s welded pieces are taken to the powder
+coating machine. Here all seven items used to make a table is sent through the powder coater
+with 10sec intervals in-between each item. It is thus assumed that it takes 1.5mins for all items
+to go through the powder coater. This consists of 30secs for the first item plus an additional
+10secs for the next items. Only one powder coater is needed to meet demand.
+The powder coating machine is depicted in figure 7.16 below. The specifications can be seen
+in table 7.11 below. The workstation layout is depicted in figure 7.17.
+
+
+
+
+                            Figure 7.16: Powder Coating Machine
+
+                   Table 7.11: Powder Coating Machine Specifications
+                     Dimensions (l×w×h)              30 × 18 × 3 (m)
+                     Operators per machine           6
+                     Machines Needed                 1
+
+
+
+
+                                                                                                    17
+                      Figure 7.17: Powder Coating Workstation Layout
+
+
+Assembly
+No machinery is used with the assembly of the tables. Workbenches are however required for
+the tables to be assembled on. From table 7.1 above it can be seen that 3 workbenches are
+necessary to meet daily demand. An example of the type of workbench to be used can be
+seen in figure 7.18 below. The specifications are also shown below in table 7.12. WIP storage
+racks are placed between the powder coater and the workstations to account for bottlenecks
+that might occur as the powder coater is
+
+
+
+
+                             Figure 7.18: Assembly Workbench
+
+
+
+
+                                                                                                18
+                     Table 7.12: Assembly Workbench Specifications
+                     Dimensions (l×w×h)              1.7 × 0.8 × 0.7 (m)
+                     Operators per workbench         3
+                     Workbenches Needed              3
+
+Rubber levelling feet are placed on the bottom of all the table legs. These feet fit snugly into
+the square tubing used for the legs. After adding the rubber feet and checking that the legs fit,
+the legs are removed. This is done to make the packaging process easier. From this area two
+workers pack five sets of tables on a trolley and move it to the packaging area. An example of
+the type of trolly used is seen below in Figure 7.19.
+
+
+
+
+                                      Figure 7.19: Trolley
+
+
+
+
+                          Figure 7.20: Assembly Workstation Layout
+
+
+
+
+                                                                                                    19
+Rattan Backing Chair Storage
+Enough storage space has to be allotted for one day’s chairs with backing and without backing
+(2000 chairs). Chairs without rattan backing are swopped with chairs with backing everyday
+by the outsourced people. The chairs are placed on dollies with wheels to ease their
+movement, since 20 chairs are stacked on top of one another. This means that 100 dollies are
+needed to accommodate both backed and unbacked chairs. One stack of 20 chairs takes up
+a floor area of 0.48m2 (0.8m x 0.6m). Multiplying this by 100 dollies, it can be seen that rounded
+up, 50m2 are needed for the storage area. Two employees receive and move the finished and
+unfinished stacks to and from the trucks. Another two move the finished chairs to the finished
+goods storage area.
+The dolly with wheel being used is depicted in figure 7.21 below. The height of the dolly is
+0.2m. Using this, the height of one chair (0.76m) and the added height of each additionally
+stacked chair (0.1m), it can be calculated that the height of a stack of 20 chairs plus the dolly
+is 2.86m. The finished chairs are tie strapped when received back, ready for delivery.
+
+
+
+
+                                 Figure 7.21: Dolly with wheels
+
+
+Packaging
+The de-assembled tables and chairs are taken to the packaging area. A plastic wrap dispenser
+is used to package a table and legs together after which 5 sets of tables and legs are then
+placed in a carton box with dimensions 1.55m x 3.25m x 1m. Unfolded boxes (50) boxes are
+stacked and stores next to the machine for each day 10 pallets are also stored here to stack
+5 boxes on each. Two workers stack these boxes on a forklift and forklifts are used to move it
+from here to the finished goods area. From table 7.1 above it is calculated that 1 machine is
+needed. The machine and its specifications are depicted below in figure 7.22 and the
+workstation layout in figure 7.23 and table 7.13.
+
+
+
+
+                             Figure 7.22: Plastic Wrap Dispenser
+
+
+                                                                                                     20
+                   Table 7.13: Plastic Wrap Dispenser Specifications
+                    Dimensions (l×w×h)             1.2 × 1.8 × 2.2 (m)
+                    Operators per machine          4
+                    Machines Needed                3
+
+
+
+
+                         Figure 7.23: Packaging Workstation Layout
+
+
+Finished Goods Storage
+The dimensions of a box with 5 sets of tables are 1.55m x 3.25m x 1m. As there are 5 sets of
+tables in a box, the total amount of boxes stored for one month is 1000. Two forklifts will be
+used to move these boxes to the finished goods storage area. Another two will be used to
+assist on the loading docks. The boxes are stacked 5 on top of one each other. This results in
+200 stacks with a floor space of 5.1m2 each. Chairs are moved on their dollies by two workers
+from the rattan backing area to the finished goods storage. 20 000 chairs are stored in this
+area in a 1000 stacks of 20 chairs each with a floor area of 0.48m2 each.
+It is assumed that small orders make up 10% of total orders. These orders are removed from
+the carton boxes and tie strapped stacks as customers come to collect them. Two workers are
+employed to manage the finished goods storage and dispatching of the items. The final quality
+inspection is also done at these areas.
+
+Supporting Facilities
+Supporting facilities inside the facility include offices, reception, bathrooms, cafeteria and
+breakroom and locker rooms. Outside of the facility, parking and security gates and checks
+are considered. The following areas and dimensions as can be seen in table 7.14 below are
+allocated to these supporting facilities. All of these areas are based on various different
+national and international standards like SANS 10400.
+
+
+
+
+                                                                                                 21
+                               Table 7.14: Supporting Facilities
+                    Facility                Quantity           Area per item (m²)
+              Executive Office                 1                     12–20
+                Private Office                 2                      8–12
+              Open-plan office                 1                 4-5 per person
+                  Reception                    1                      8–15
+               Meeting Room                    1                     15–25
+                 File storage                  1                      4–10
+              Office Bathrooms                 2                       6–8
+             Operator Bathroom                 1                     70-90
+               & Locker Room
+                   Cafeteria                    1                    95-105
+
+                  Parking                     100                      12.5
+               Security Checks                 3                        9
+
+
+7.3. Distribution of large orders
+To determine the needs in terms of trucks, the total floorspace that the tables and chairs take
+up (calculated above) is divided by the available floor space in a standard 12m high cube
+truck. A truck of this side has a useable floorspace of 28 m². Dividing this by the 0.48m² one
+stack of chairs take up, it is found that one truck can take 58 stacks of chairs. It is decided to
+only transport 40 stacks in a truck and thus two trucks are needed daily for distribution
+purposes. For the outsourcing of the rattan backing another two trucks are needed as 1000
+chairs are taken to the rattan backers and another 1000 is brought back in the same truck.
+For the tables, the floorspace needed is 5m² per box. When packing the boxes in two layers,
+it is calculated that 10 boxes can be shipped per truck. Four trucks are thus needed to meet
+the daily 80% large order demand.
+
+
+
+
+                                                                                                     22
+8. Design Alternatives
+The following Activity Relationship Chart in figure 8.1 below is setup by using the specifications
+and limitations by management as well as observing the current manufacturing process.
+
+
+
+
+                            Figure 8.1: Activity Relationship Chart
+
+The following minimum areas are allotted for the different processes and supporting facilities
+in the block layouts and Master Facility Plan (MFP). A summary of these areas (rounded up)
+can be seen in table 8.1. These dimensions include aisle space and safety space
+considerations around machinery and storage areas. The area of one machine is calculated
+by taking the size of the machine and adding 1.5m walking space around it for operators and
+3m where forklifts are used. The total area is calculated multiplying the area of one machine
+(including aisles and working space) with the number of machines or stations needed. An
+expansion space of 20% is added to the below areas in the MFP and block layouts can be
+seen in the last column of the table.
+
+
+
+
+                                                                                                     23
+Table 8.1: Department Dimensions
+                     Area of one                                 Expanded
+     Department      machine (m²)   Machines   Total Area (m²)   Area (m²)
+    Raw Material
+       Storage       21,87613636       88          1925,1         2310,12
+        Cutting         60,75          3           182,25          218,7
+       Bending         13,6125         7          95,2875         114,345
+  Manual Welding          14           24           336            403,2
+     Automated
+       Welding           20.8          3            62.4           74,88
+      Grinding &
+      Polishing           32           2             64            76,8
+  Powder Coating          693          1            693            831,6
+      Assembly          16,8625        3          50,5875         60,705
+   Rattan Backing        0,48         100            75             90
+  Loading Area for
+    Rattan Chairs         24           1             24            28,8
+      Packaging         27,4725        3          82,4175         98,901
+   Finished Tables       11,27        200          2254           2704,8
+   Finished Chairs       1,056        1000         1056           1267,2
+       Forklifts         30,8          1            30.8           36,96
+        Offices           62           1             62            74,4
+  Office Bathrooms        16           2             32            38,4
+ Operator Bathroom
+   & Locker Room          96           1             96            115,2
+       Cafeteria         206           1            206            247,2
+       Parking           12,5         100           1250           1500
+        Totals             -           -            8577          10 293
+
+
+
+
+                                                                             24
+8.1. Alternative 1
+For this alternative, the focus was to keep to the areas and dimensions discussed above in
+table 8.1. Only a few of the departments’ dimensions were adjusted to allow for a more U-
+shaped design of the building. The flow starts at the raw material loading bays and storage.
+From there it moves to the various departments as manufacturing process goes until it reaches
+the finished goods areas. The supporting facilities are placed towards the middle of the facility
+to allow for easy access.
+One of the main issues with this design is the use of corridors for the movement of chairs from
+the bending department to the rattan backing storage area, where it is then transported
+through another corridor to reach the loading bay. It is also difficult to reach the finished table
+storage area from reception. When people come to pick up their small orders they will have to
+drive from reception to the storage area to collect the items. An employee from reception will
+have to either drive with them or walk to that area. This design takes up 14 415m² without
+expansion and with 20% expansion 17 298m².
+
+
+
+
+                             Figure 8.2: Alternative Block Layout 1
+
+
+
+
+                                                                                                      25
+8.2. Alternative 2
+This design is a bit more compact than alternative 1 in the sense that there is less unused
+space outside. On the inside however, most of the departments’ size is increased a bit to
+accommodate for better flow. Especially at the bending department where welded materials
+for the tables are moved through the are to the polishing & grinding area. The finished goods
+areas are also put together here, making it easier for both small and large order dispatching,
+The reception area can also directly go into the finished goods storage area. The rattan
+backing storage area also has its own loading bay, contrasting alternative 1. Workers also
+have easier access from the parking area to the locker room and offices.
+The shape of the building itself is a bit less modular than alternative 1, but better than that of
+alternative 3. It would still allow for relatively easy construction. One of the small
+disadvantages of this layout is that a corridor is used again to move chairs from the rattan
+backing area to the finished goods storage. This corridor is shorter than the one in alternative
+1 and is only used for half the amount of chairs (finished chairs). This design takes up
+15 224m² without expansion and with 20% expansion 18 293m².
+
+
+
+
+                             Figure 8.3: Alternative Block Layout 2
+
+
+
+                                                                                                     26
+8.3. Alternative 3
+This layout has by far the most complex shape. This was done in order to try and split the
+operations between chair and table as far as possible and by putting the common departments
+in the middle of the design. The flow of this design is a bit simpler due to this design choice,
+but the odd shape outweighs the small improvement the flow has compared to other
+alternatives above.
+Similarly to alternative 1, in this design there is no direct path for employees in reception (who
+manages the small orders) to get to the finished chair storage area. Another issue is that the
+rattan backed and unbacked chairs have to move through the finished goods storage to be
+loaded and unloaded from trucks. The welding area is also in the middle of the layout, which
+although it is shut off with walls from the rest of the areas, is not ideal. This design takes up
+15 829m² without expansion and with 20% expansion 18 995m².
+
+
+
+
+                             Figure 8.4: Alternative Block Layout 3
+
+
+                                                                                                     27
+8.4. Alternative Evaluation
+A weighted decision matrix is set up in table 8.2 below to score and evaluate the different
+alternatives explained and shown above. The matrix is setup with the design requirements as
+criteria. Each alternative is then scored out of ten based on the criteria. This score is then
+multiplied by the weights. The weights add up to one. The alternative design with the highest
+score is selected to base the MFP on.
+                              Table 8.2: Alternative Evaluation
+
+                                Alternative 1         Alternative 2          Alternative 2
+                                      Weighted              Weighted                Weighted
+      Criteria      Weight   Score     Score       Score     Score        Score      Score
+ Meet monthly
+    demand of
+    5000 units       0,15      10         1,5        10         1,5         10          1,5
+20% expansion
+       space         0,15      10         1,5        10         1,5         10          1,5
+ Isolated areas
+   for welding       0,15       9        1,35         8         1,2         6           0,9
+      Should
+    conform to
+      activity
+   relationship
+       chart         0,1        9         0,9         8         0,8         6           0,6
+     Optimise
+  facility layout    0,05       6         0,3         7        0,35         8           0,4
+     Sufficient
+      external
+     interface       0,1        8         0,8        10          1          8           0,8
+ Logical flow of
+      material       0,1        6         0,6         8         0,8         8           0,8
+    Access to
+       roads         0,1        7         0,7         8         0,8         9           0,9
+      Ease of
+implementation
+or construction      0,1        9        0,9          8        0,8           7          0,7
+       Totals         1        74        8,55        77        8,75         72          8,1
+
+From the evaluation above it is evident that alternative layout 2 has the highest score (77/100)
+and is the best one to utilise as base for the MFP. Some small changes might be made to the
+layout based on the evaluation and discussions above and will be discussed in the next
+section.
+
+
+
+
+                                                                                                   28
+9. Final Design
+Although the basic layout of alternative 2 was used for the design, many adjustments and
+necessary additions were made. In terms of the general layout was the finished chair storage
+and finished table storage combines. Similarly, the offices & reception and manual &
+automated welding were also combined to allow for better flow. The powder coating area was
+also increased in size to allow for better ventilation around the machine. The parking area was
+reduced in size to allow for better flow of traffic.
+Some additions that were made were that more space was allocated to WIP racks and loading
+docks were added to the loading bays to make it easier for trucks to park and items to be
+loaded. Forklift parkings were also added at raw material storage and finished goods storage.
+The parking in the finished goods areas are to be used by both packaging and finished goods
+and distribution. Motor gates and security check points were also added to the internal roads
+before trucks and commercial vehicles enter the grounds, which are surrounded with a fence.
+An outdoor area next to the cafeteria was added to increase the amount of people that can
+take a break at once. This is especially beneficial when 20% increase in personnel is also
+considered.
+Clear roofing panels made from polycarbonate sheets are installed on the roof in strategic
+places. This is done as there is little to no windows in the facility, due a focus on security and
+theft prevention as well as cost savings on construction and maintenance. Small orders are
+collected at the same warehouse as large orders, but at the overhead door closest to
+reception. In this way employees handling the deliveries can easily move between these two
+areas.
+Another important note is that at the intersection next to the parking area, trucks and small
+order collection vehicles will have right of way and other vehicles must yield when approaching
+the intersection. This should however not be a major issue as very few people will enter and
+exit the grounds during operating hours when the trucks come.
+The facility (excluding roads & undeveloped areas) has a total area of 20 444m2. The building
+itself has an area of 13 036m2 and a height 7m, resulting in a building volume of 91 252m³.
+The total facility surrounded by a fence has an area of 43 462m2. The roads (excluding
+parking) takes up an additional 8638m2, resulting in a total developed area of 29 082m2. The
+MFP can be seen in figure 9.1 on the next page.
+
+
+
+
+                                                                                                     29
+Figure 9.1: Master Facility Plan
+
+
+
+
+                                   30
+10. Business Case
+10.1. Capital Cost Estimates
+The total capital cost estimates (including the equipment costs calculated above) is calculated
+and can be seen in table 10.2 below. A breakdown of the equipment costs can be seen in
+table 10.1 below. Operational and procurement costs are not taken into account as it does not
+form part of the facility costs.
+Table 10.1: Equipment Costs
+     Equipment            Rate (R/equipment)       No. of equipment            Cost (R)
+  Cantilever Racks               15 000                    88                 R1 320 000
+ WIP Storage Racks               4 000                    175                  R700 000
+  Cutting Machine               250 000                    3                   R750 000
+    Cutoff Bins                  4 000                     3                   R12 000
+ Bending Machine                 60 000                    7                   R420 000
+   Manual Welder                 45 000                    24                 R1 080 000
+ Automated Welder               200 000                    3                   R600 000
+      Grinder                     600                      2                    R1 200
+      Polisher                    350                      2                     R700
+   Powder Coater               1 200 000                   1                  R1 200 000
+   Workbenches                   2 000                     3                    R6 000
+       Trolley                   4 000                     3                   R12 000
+  Electric Forklifts            400 000                    8                  R3 200 000
+ Dolly with Wheels               1 500                    850                 R1 275 000
+     Packaging
+                                 40 000                     3                  R120 000
+      Machine
+        Total                                                                 R10 696 900
+
+Table 10.2: Capital Cost Estimates
+    Component                Rate (R/ m2)              Total m2                Cost (R)
+      Building                  7 000                   13 036               R91 252 000
+       Offices                 10 000                    112                  R1 120 000
+      Cafeteria                10 000                    210                  R2 100 000
+  Parking & Roads               1000                    10 206               R10 206 000
+    Restrooms                   7 500                    105                   R787 500
+      Electrical                1 500                   13 500               R20 250 000
+      Lighting                  1000                    13 500               R13 500 000
+     Ventilation                1 000                   13 036               R13 036 000
+     Fire Safety                 300                    13 500                R4 050 000
+    Equipment                                                                R10 696 900
+     Total Cost                                                              R166 998 400
+
+
+10.2. Risks and Mitigations
+Table 10.3 below outlines the potential risks identified for the project along with their impacts
+and proposed mitigation strategies.
+
+
+
+
+                                                                                                    31
+Table 10.3: Risks & Mitigation Strategies
+            Risk                          Impact                   Mitigation Strategy
+   Construction delays –           Project timeline slip;        Early engagement with
+  Late site preparation or              increased               local authorities for fast-
+         permitting              labour/equipment costs         track permitting; Include
+                                                                10% time contingency in
+                                                                         schedule
+ Cost overruns – Material         Budget exceedance;           Lock-in key material prices
+      price volatility           reduced profit margins           via forward contracts;
+       (aluminium)                                                Maintain 10% budget
+                                                                   contingency reserve
+ Equipment selection risk       Delayed commissioning;             Pre-qualify multiple
+  – Delivery or selection        lost production days              suppliers; negotiate
+    times longer than                                            penalty clauses for late
+         planned                                                   delivery and include
+                                                                     delivery buffers
+   Labour shortages or          Production can’t start; lost      Start recruitment and
+  delays in hiring skilled      production days and profit             training early
+         workers
+
+
+10.3. Schedule
+A high-level depiction of the project schedule can be seen below in figure 10.1.
+
+
+
+
+                                    Figure 10.1: Schedule
+
+
+
+
+                                                                                              32
+

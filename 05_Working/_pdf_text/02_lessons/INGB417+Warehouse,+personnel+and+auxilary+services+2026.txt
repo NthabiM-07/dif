@@ -1,0 +1,105 @@
+ Warehouses
+ Personnel
+ Auxilary services
+Tompkins Ch4,7,9 and Stephens Ch8,9,12
+
+
+ March 2025
+ W Kruger
+  Ch7: Warehouse functions
+• Sometimes it is difficult to understand whose responsibility it is…operations? Logistics? Operation
+  excellence? Purchasing/procurement? Or IT?
+• Sometimes a company’s core business = warehousing (Take-a-Lot, DHL,DSV)
+• “planning and management of warehouses are very challenging – we must turn to simplification and
+  process improvement…”
+• Functions:
+                • Receiving of materials
+                • Inspection and quality control
+                • Repackaging as needed
+                • Categorization
+                • Putaway to Storage
+                • Order picking
+                • Sorting
+                • Packing and shipping of orders
+
+• Warehouse design/Inventory management are subjects
+ in their own right
+    Ch7: Warehouse context
+Large warehouses often include RECEIVING and
+SHIPPING functions (p392)
+
+However, distinguish between warehousing and
+distribution centres
+
+Facility requirements can include: (p392)
+• Process start the moment the carriers cross the
+  PROPERTY line
+• Security and access policies
+• Docking stations
+• Dock levelers
+• Loading/unloading methods
+• Sufficient staging and preparation areas
+• Technology integration to systems
+• Safe effective material handling
+  Ch7: Warehouse space planning
+                        stuff must be stored such that it can be FOUND
+Steps to determine SPACE requirements p399)
+   • Step1 Determine WHAT, HOW MUCH and WHEN stuff is to be received and shipped (fig 7.4)
+     Ch7: Warehouse space planning
+    • Step2 Determine the NUMBER and TYPE of ‘docks’ (waiting line analyses, historical data, work
+      sampling, time studies. Sometimes there are standards e.g. fig 7.5)
+
+                      “considerable effort is required to obtain the information…”
+
+    • Step3 Determine space for In/Out WITHIN facility (remember the ‘holding’ area as well as the
+      need for maneuvering of transport)
+
+• Tips on Truck guidelines p401-406
+
+• Include convenience/waiting areas, trash disposal, pallet and packing material storage, trucker’s
+  lounge (share silos story), buffer/staging areas, material handling equipment storage and movement
+  areas
+
+• Dock operations (levelers, locations, expansions) guidelines p407-415
+Ch7: Storage space planning template
+ Ch7: Warehouse operations
+• Ex 7.1 – note all the detail specs that determines the calc
+• Storage space planning (influenced by Inventory management policies)
+• Ex 7.2 as it relates to Inventory management decisions
+• Ex 7.4 ABC layout idea demonstrated (A most moving vs C least moving items)
+• Storage layout planning according to principles (p424 NB)
+Popularity/ Similarity/ Size/ Characteristics (eg perishable, oddly shaped, crushable, hazardous,
+security, compatibility eg chemicals)
+
+
+• Fig 7.28 Proper and improper layout examples
+• Concept of a unit load = NB design determining parameter
+• Use 3D space as there is less movement
+• Determination of aisles = key factor in warehouse design
+Ch4 : Office sample
+Ch4 : Personnel requirements include
+• Parking (Fig4.1, 4.2 and Table4.1, Examples 4.1 and 4.2)
+• Entrance/exit
+• Lockers for storage of personal belongings (
+• Restrooms (4.3)
+• Food services (4.4)
+• Health/medical services
+• Recreational services
+• Offices (4.7) (also SMART offices)
+Difficult to plan due as it is dependent on management philosophies
+(see examples in book on how it can differ)
+ Ch9: Facility auxiliary systems
+• These are often architects, civil engineers & builder’s responsibilities
+• BUT the facility planner need to know WHAT systems are required WHERE
+• Systems to include:
+   • Structural (walls, columns, roofs) (9.2)
+   • Enclosure (barriers against wind/water/humans incl: walls, windows, floors and for comfort incl:
+     doors, ventilation, thermal) (9.3)
+   • Atmospheric (temperature incl heating/cooling, humidity, clothing, ‘’clean’’ rooms) (9.4)
+   • Electrical (lighting and other systems requiring electricity) (9.5)
+   • Life safety (fire protection, seismic events and power failures) (9.6)
+   • Sanitation (water, plumbing) (9.7)
+
+• The idea of Automation (think SMART)
+• Sometimes Maintenance functions are also seen as part of auxiliary systems
+

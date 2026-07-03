@@ -1,0 +1,57 @@
+<mxfile host="Electron" modified="2026-07-03T00:00:00.000Z" agent="5.0" version="24.7.5">
+  <diagram name="Station 8 - Sharpen and Serrate BOTTLENECK" id="station8">
+    <mxGraphModel dx="1300" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="620" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Station 8: Sharpening + Serrating — Scale 1 m = 100 px — 2 min sharpen + 1 min serrate = 180 s/shovel (brief Table 1 — LOCKED)" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bottleneck" value="BOTTLENECK: 180 s/shovel vs. 15.84 s takt (LOCKED) &#8594; ceil(180/15.84) = 12 parallel stations needed (8 sharpen + 4 serrate) — by far the largest footprint/labour requirement in the process. See report Section 7 capacity logic — do not hide this in an appendix." style="text;html=1;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#990000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="45" width="1250" height="40" as="geometry" />
+        </mxCell>
+
+        <mxCell id="inwip" value="Input WIP&#10;Formed shovel heads&#10;(from Head Stamp/Shape)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sharpblock" value="Sharpening Stations x 8&#10;(parallel, to meet takt)&#10;2 min/shovel each&#10;footprint ~1.0 x 1.0 m each&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="260" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="serrateblock" value="Serrating Stations x 4&#10;(parallel, to meet takt)&#10;1 min/shovel each&#10;footprint ~1.0 x 1.0 m each&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="220" height="180" as="geometry" />
+        </mxCell>
+
+        <mxCell id="operator" value="Operator zones&#10;(1 per station — 12 total)&#10;DESIGNER ASSUMPTION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="260" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ppe" value="PPE / dust extraction note:&#10;grinding + serration = fines and&#10;sharp-edge hazard — see safety note" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#990000;fontColor=#990000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="260" y="420" width="540" height="60" as="geometry" />
+        </mxCell>
+
+        <mxCell id="outwip" value="Output WIP&#10;Sharpened + serrated heads&#10;(await Riveting)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="150" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="aisle" value="Trolley Aisle 1.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="150" width="120" height="200" as="geometry" />
+        </mxCell>
+
+        <mxCell id="nextlabel" value="&#8594; To Riveting Station&#10;(joins with Hinge stream)" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="200" width="100" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwip" target="sharpblock"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="sharpblock" target="serrateblock"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="serrateblock" target="outwip"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="nextlabel"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="caption" value="Figure — Station 8: Sharpening + Serrating. THIS IS THE PROCESS BOTTLENECK. Sharpen 2 min + serrate 1 min = 180 s/shovel (LOCKED) vs. takt 15.84 s/shovel (LOCKED): parallel stations needed = ceil(180/15.84) = 12 (8 sharpen + 4 serrate, split by sub-operation). No scrap adjustment — downstream of the sheet-stamping scrap point. Compare against alternative block layouts before finalising floor area here." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="540" width="1250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

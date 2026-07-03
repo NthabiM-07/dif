@@ -1,0 +1,200 @@
+                 The 7-step
+                Engineering
+                (Re)Design
+                  Process
+
+
+INGB417
+February 2026
+Let us have a quick look at a facility where cars are
+made…notice space use, equipment, workers, process
+                     Facilities Design
+                             always include 2 ‘designs’
+Total Plant layout
+design in context
+
+                                         Detail production process
+                                          layout = Manufacturing
+                                              Process design
+                     Definitions
+
+Facilities design is the organization of a company’s
+physical assets (buildings, equipment, materials) to
+promote efficient use of resources. Facilities design
+therefore includes location, plant/factory layouts
+and material handlings systems.
+
+Manufacturing process design includes designing
+the products, then designing the required
+manufacturing process activities to make these
+products. (this may involve several options and
+many interrelationships between activities)
+                   Responsibilities
+
+Building design is an architect’s job together with
+civil engineers.
+
+Manufacturing process design is an (inter-)
+discipline specific engineering job,
+resulting in the LAYOUT as deliverable. (Layout
+means - the physical arrangement of production
+machines and equipment, workstations, operators,
+materials in all kinds of stages, and the material
+handling equipment.)
+          The 7 steps : Engineering Design process
+Step 1: DEFINE the Design Problem / improvement opportunity
+
+     Step 2: ANALYZE the Problem and
+
+           Step 3: DETERMINE design requirements (including process
+           capacity CALCULATIONS/specifications)
+
+                  Step 4: Develop ALTERNATIVE Designs
+
+                       Step 5: EVALUATE the Alternatives against
+                                    design requirements
+                             Step 6: CHOOSE a solution
+     The neat
+    structured
+    theoretical                   Step 7: DEVELOP the MASTER
+       way                        FACILITY PLAN (MFP) to present
+The Design Process
+     reality
+        1. DEFINE the (design) ‘’problem’’
+
+
+•Identify issues (e.g. needs, frustrations,
+ inefficiencies or improvement
+ opportunities)
+
+•Understand the goals,
+               the scope,
+                   assumptions,
+                       constraints.
+             1. DEFINE the problem
+
+Ask the right questions e.g.
+ •   Ask WHY (re)design facility?
+ •   Purpose (or re-) of facility
+ •   Align to business goals / objectives
+ •   Define Customer/User requirements
+ •   Investigate/map current state &
+ •   Rules and regulations to adhere to
+ •   Ask WHAT-IF’s and other questions
+             2. ANALYZE the problem
+
+• Research factors influencing the
+  problem, if possible, get to root cause
+  (e.g. is space really the problem if
+  equipment can change?)
+• Identify spaces,
+                process flow,
+                    equipment
+• Gather relevant operational and facility
+  data and analyze for insight
+                3. Determine DESIGN
+                   REQUIREMENTS
+• Focus on space and functional needs for all the
+  relevant things happening in a facility eg (for
+  production factory):
+
+  • Raw materials / parts receiving, storage
+  • Production process activities, workstations,
+    departments, operators, equipment, material
+    handling strategies
+  • Work-in-progress storage
+  • Finished goods storage, dispatch
+  • All administrative and management personnel
+    offices
+  • Parking for staff, deliveries and customers
+  • Security
+                       Use IE Tools and
+                         techniques
+•   Physical observations
+•   Talking to people (operators/managers) [sometimes this
+    is called a Gemba walk, but usually it is just a plant tour]
+•   Current state measurements (layout and workstation
+    dimensions)
+•   Time studies as necessary (to determine cycle time)
+•   Process flows mapping (or ValueStreamMapping)
+•   Get DATA on process times, to determine cycle times,
+•   Get DATA on distances, as this can verify improvement
+•   Develop simulation models if it will help
+•   Do Capacity calculations
+•   Get machine specifications, dimensions
+Use IE Tools and
+  techniques
+                                 4. DEVELOP
+                                 Alternatives
+
+
+
+
+• Brainstorm possible solutions
+  in different ways
+• Explore different ideas per
+  work area, material handling
+  equipment, layout etc
+• Alternatives are usually
+  BLOCK LAYOUTS
+Detail DESIGN of some areas
+ can be useful before this
+Workstation level footprints will be very
+  valuable (ground up design idea)
+5. EVALUATE the
+  Alternatives
+          • Compare solutions based on
+            feasibility, cost, effectiveness
+            or other criteria
+          • Also consider sustainability
+          • Ideally get input and
+            feedback from customer
+6. CHOOSE (a)
+   design(s)
+
+
+
+    • Ensure the solution meet the
+      design requirements
+    • Involve customer to ensure
+      alignment of expectations
+    • Justify the choice with DATA and
+      reasoning
+7. Develop MFP
+Put detail in MFP
+Detailed Design
+    phase
+
+
+
+
+Note dimensions strategically shown
+         Communication and collaboration
+
+
+Present the plans
+informally or formally
+to stakeholders during
+process, but then also
+
+Present the Master
+Facility Plan & Business
+Case formally for
+management approval
+                   Design Acceptance
+                   = formal milestone
+Once a design has been FORMALLY
+ACCEPTED = Signed off by the relevant
+authority, then the project is entering
+Build, Commission and Handover
+phase (= new project)
+
+BUYING, BUILDING and SETUP can
+start = completely different project,
+different project team
+
+When that is finished there should be
+a FORMAL HANDOVER to OPERATIONS
+to start work, also different team
+Show examples of MFP’s
+

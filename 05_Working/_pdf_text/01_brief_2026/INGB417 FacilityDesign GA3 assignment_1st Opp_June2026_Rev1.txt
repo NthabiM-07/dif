@@ -1,0 +1,400 @@
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+Tipe Assessering/ Type of Assessment:   GA Assignment
+
+Kwalifikasie/ Qualification:            B Eng (Industrial)
+Modulekode/ Module code:                INGB417            Tydsduur/ Duration:    5-12 June 2026
+
+Module beskrywing/ Module description: Facilities Design           Maks/ Max:             100
+Eksaminator(e)/ Examiner(s):    Willemien Kruger (BEng Industrial, MEng, PrEng)
+Internal Moderator:             Carla Troskie (BEng Industrial)
+External Examiner:             Su-Anrie Aucamp (BEng Industrial, PrEng)
+
+
+
+Instructions:
+Read the DESIGN BRIEF as given below, then do appropriate and relevant research to develop your
+FACILITY DESIGN. This is to be presented in a Facility Design Report (like the Group Assignment report),
+including all relevant chapters to demonstrate your understanding of the Engineering Design process. An
+online Q&A session will be held on Friday 5 June 13h00-13h30
+(Teams link: https://teams.microsoft.com/l/meetup-
+join/19%3ameeting_MDEwZWVjNTAtZmQ2NC00YmZmLWE2N2YtNzQ1YTIyNGY1NjA2%40thread.v2/0
+?context=%7b%22Tid%22%3a%22b14d86f1-83ba-4b13-a702-
+b5c0231b9337%22%2c%22Oid%22%3a%22b9f2f887-cab4-4485-8af9-242477d1508c%22%7d) to
+clarify expectations and answer any questions you may have.
+
+
+Your FACILITY DESIGN Report must be uploaded (pdf), to eFundi on Friday 12 June 2025 by 8h00.
+Your MFP must be uploaded as 2 separate documents: the original source file (Draw.io or Rayon
+format) and a PDF version. You will be penalized if both versions are not uploaded.
+
+
+You do not have to submit a printed report.
+The body of the report should be no longer than 40 pages. Appendices may be included and will not count
+towards the 40 pages. Appendices will only be considered if they are appropriately referred to in the body of
+the report. No additional files, drawings or spreadsheets will be considered by the examiners.
+Remember that more words do not necessarily reflect better insight and since this subject is about a Layout
+plan and the supporting key assumptions and calculations, focus on getting that right.
+
+
+No changes to the report will be accepted once it is uploaded to eFundi. No late or resubmissions will be
+accepted. The MFP you bring to the interview will be matched with the one submitted.
+
+
+Exit interviews will be done with an examiner panel on Wednesday 17 June (8h30-16h00) as well as
+Thursday 18 June 2026 (9h00-13h00). The detail schedule and venue have been communicated in the
+week of 25 May 2026 for individual planning purposes. Please bring only a colour PRINTED A2 minimum
+size, printed on normal paper (or larger if you wish) of the MASTER FACILITY PLAN to the interview to
+be part of the discussion. Please note: If no Alternatives and/or Final MFP design was presented in the
+report, GA3 is failed and no interview will be scheduled.
+
+
+The main purpose of this assignment is to assess your ability to make use of a systematic engineering
+design approach (as applied to facility design) as the Graduate Attribute (GA) 3 to graduate as an Industrial
+Engineer. You must obtain at least 50% for the exam report as well as passing GA3. Failure to demonstrate
+competence in this GA will result in failure of this assessment and the module.
+
+
+
+
+                                                                                                              1
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+DESIGN BRIEF:          DIGMORE mini shovel
+
+The DigMore Co. is a shovel manufacturing company with an established history in the industry and
+a broad customer base. The company’s management team decided to expand their product lines
+with a new shovel design: an all-purpose folding shovel ideal for camping. With the recent surge in
+market demand for this shovel design, the DigMore Co.’s current production facility does not have
+sufficient capacity to produce this new product, a new facility is needed dedicated to this.
+Management has asked for the plans for a new facility to make strategic decisions. You can assume
+that access to the facility from public roads will be a requirement. The facility must leave about 10%
+space available for future expansion needs.
+
+
+DIGMORE requires you, as Industrial Engineer, to apply a systematic engineering design
+approach to develop a comprehensive FACILITIES LAYOUT for the new manufacturing facility.
+Apart from providing space for the main production processes, the facility needs to accept
+delivery vehicles/trucks from suppliers bringing raw materials to offload, it needs to store all
+materials inside the facility, as well as provide a place for customers collecting orders, or their
+own trucks loading orders for delivery to customers.
+
+
+THE PRODUCT – mini shovel
+The shovel is similar to the design shown in Figure 1 below, with a slightly shorter handle.
+
+
+
+
+                              Figure 1: Folding Shovel Concept Design The
+folding shovel consists of three parts:
+   •   Back of handle: 150 mm long section of round tube narrowed at one end with an external
+       thread cut on this end and a knurled grip at the other end.
+   •   Middle section of handle: 150 mm long section of round tube with an internal thread cut to
+       connect this section of the handle to the handle grip part. This part is attached to the shovel
+       head using a hinge attached with a rivet.
+   •   Shovel head: The shovel head and hinge connector part are stamped from sheet metal, bent
+       to the correct shape and riveted together. The finished shovel head is 150 mm long and 120
+       mm wide.
+
+
+
+
+                                                                                                      2
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+PRODUCT AND MANUFACTURING INFORMATION
+
+The easiest way to understand the manufacturing process is to watch the current process where a
+variety of shovels are made: https://www.youtube.com/watch?v=vnK7-VnF_Zw
+[please note that the video is for background and information purposes only]
+In the new facility they will be doing things similarly, but they may need to purchase more machines
+and get more labour to fulfil demand. You are required to help management with these calculations
+on work and capacity demand for this particular shovel only.
+
+
+Table 1 provides the main production steps with estimated production times for this shovel. Some of
+these steps will be visible in the video and where not, please use own discretion and research to
+make own assumptions.
+
+
+Table 1: Folding Shovel Production Steps and Estimated Processing Times
+ Production Step                                    Estimated Processing Time
+ Cut handle                                         15 s per cut (number of pipes per cut
+                                                    depends on chosen equipment)
+ Internal thread on the middle section              20 s per pipe
+ Stamp form the end of the grip section to narrow   5 s per pipe
+ Knurling and external thread on the grip section   1 min per pipe
+ Stamp hinge connector                              2 s per part
+ Bend hinge connector                               5 s per part
+ Stamp shovel head                                  2 s per part
+ Sharpen the shovel head blade                      2 min per shovel
+ Serrate shovel head blade edge                     1 min per shovel
+ Shape/bend the shovel head                         2 s per shovel head
+ Rivet hinge connector to shovel head               5 s per shovel
+ Heat treat shovel head subassembly                 Depends on equipment
+ Sandblasting shovel heads                          Depends on equipment
+ Hand polish to remove burrs                        1 min per shovel head
+ Powder-coat all parts (black colour)               Depends on equipment
+ Assemble the shovel head and handle section        30 s per shovel
+ Packaging (first into small bags that are bought   Depends on workstation design
+ from an outside supplier, then into boxes)
+
+
+Raw Materials and Suppliers:
+The raw materials used to make the shovels are aluminium round tubes and aluminium sheets. The
+current supplier for the round tube, with an outer diameter of 31.70 mm and a wall thickness of 3.18
+
+                                                                                                  3
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+mm,        is       Aluminium         Trading        (https://www.aluminiumtrading.co.za/aluminium-
+extrusions/aluminiumround-tubes/). The same supplier also supplies aluminium sheets or coils of
+rolled aluminium with a thickness of 2.5 mm (https://www.aluminiumtrading.co.za/rolled-aluminium-
+products/), although the management team will consider a different supplier suggested by the facility
+designer if preferred.
+
+
+Facility Requirements:
+Some specific requirements management needs are to have the powder coating in a separate totally
+enclosed area within the building, as the fumes is a safety consideration.
+
+
+If any other details are needed to determine space requirements, you can make assumptions. You
+are also required to define your own departments to develop alternative block layouts for
+management to evaluate. Process flow charts must form part of their Quality Management System.
+You may use other tools and techniques to design an effective Facility Layout.
+
+
+Other policies to consider include:
+
+Manufacturing Operating Times
+       The company operates for one 9-hour shift per day for 5 days a week. Operators receive a
+       30-minute lunch break and two 15-minute tea breaks on a full shift. Overtime is possible if
+       flexible capacity is required, but management would prefer to avoid it where possible. A total
+       of 220 workdays can be assumed per year.
+
+
+Inventory Levels
+       The company’s inventory policy stipulates that 2 weeks’ worth of raw materials must be kept
+       in stock due to long supplier lead times. Finished goods storage must be sufficient for 4 weeks
+       of stock, as the company has an international market and must ship larger orders at a time.
+       Work-in-Progress inventory levels and space allocation are based on the design of the facility
+       and must be stipulated by the designer.
+
+
+Deliveries and Collections
+       The facility must make provision for small order collection on-site by customers and the
+       dispatch of large orders from the facility. As the DigMore makes use of its own fleet of delivery
+       trucks for large orders, space must be allocated on the premises for the truck fleet. The raw
+       material delivery and finished goods dispatch schedules can be negotiated, but all deliveries
+       and collections must occur during working hours on weekdays. The definition of small and
+       large order units must be determined by the facility designer.
+
+                                                                                                      4
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+
+The management team also provided the following assumptions and constraints for the new facility:
+   •   The current projected market demand is 400 000 folding shovels per year.
+   •   A scrap rate of 5% each can be assumed for tube cutting and sheet stamping processes. No
+       other scrap rates are required.
+   •   Space must be allocated to allow for 10% expansion to meet projected growth within the next
+       5 years.
+   •   All packaging is performed by hand to ensure a final visual check before shipping.
+   •   Powder-coating and sandblasting are assumed to have a negligible effect on the mass of the
+       final products.
+
+
+FACILITY DESIGN EXPECTATIONS
+The following provides detail expected to see in the Final Design.
+
+• Materials Receiving and Storage Design considerations
+   •   Clear receiving space for all suppliers,
+   •   storage of all raw materials and components including details of 3D space requirements
+       based on calculations, material flow and layout and material handling equipment
+       recommendations.
+   •   Staging of materials and components at manufacturing and assembly.
+• Manufacturing Operations Design
+   •   Process flow charts to indicate clear understanding of the manufacturing processes required,
+       including insight into bottlenecks, workstations and departments.
+   •   Production capacity analysis (including detail calculations) compared to forecast demand to
+       improve on process design so that the manufacturing processes can meet demand. Some
+       changes will have to be made to meet future demand.
+   •   Capacity analysis for all manufacturing processes including machine and personnel
+       requirements organized in workstations.
+   •   Recommended machinery for all critical manufacturing processes.
+   •   Operator and material movement requirements including movement between manufacturing
+       processes and movement of material from raw material storage to the WIP in manufacturing
+       areas and then to finished goods storage. This can be summarised as flow and should be
+       indicated on the final layout.
+   •   Detailed workstation layout and space planning for all workstations and WIP stations where
+       required.
+
+
+• Finished Product Storage and Shipping Operations Design
+   •   Finished product and order storage capacity including details of 3D space requirements
+       based on calculations, flow and layout and equipment and materials handling
+       recommendations.
+   •   Clear and logical staging and dispatch operation space for customers getting their small
+       orders or
+   •   Shipping operations where the company has their own trucks taking large orders to
+       distribution centres.
+
+
+
+
+                                                                                                 5
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+• Supporting Facilities & Services Design
+     •    Overall security considerations, entrance, exit and goods vehicle flow on-site including
+          parking.
+     •    Parking facilities for all employees on site. Personnel include the facility’s management,
+          administrative staff, security personnel and operators. Reasoning and calculations for
+          determining parking space must be provided.
+     •    Restrooms, lockers and cafeteria access must be available to all personnel.
+     •    Office space must be allocated to the Senior Plant Manager, Operations Manager, Inventory
+          Manager, the administrative team, including Reception, Purchasing, Sales, Finance,
+          Marketing and Human Resources employees, and the plant supervisors. The number of
+          supervisors will depend on the facility design and must be clarified by the design team.
+
+     •    Waste handling and management.
+     •    Utility requirements including water, electricity, plumbing etc.
+
+
+THE DELIVERABLES
+
+This project requires you to apply a systematic engineering design approach to develop a
+comprehensive facilities layout (Master Facility Plan) that identifies and meets the needs of the
+client.
+DIGMORE has specifically asked you to include the following in your report:
+1.        A set of detailed facility design requirements.
+2.        A thorough capacity/demand analysis to clearly demonstrate production capacity needs.
+3.        At least three alternative design solutions. All considerations must be communicated.
+4.        A detailed justification of chosen design(s) including evaluation criteria.
+5.        A detailed master facilities plan that includes sufficient details of workstation, material
+          handling, storage, receiving, dispatch and personnel space requirements to present to
+          management.
+6.        A well-prepared Facility Design Report.
+
+
+The report must include comprehensive evidence to indicate that you followed a systematic
+Engineering Design process and summarise your key assumptions and capacity calculations.
+
+
+An opportunity to explain how you approached this project will be given in an EXIT INTERVIEW
+where you will have 10 minutes to explain how you approached the design problem, what you have
+done practically to develop design options, and explain the logic of your Master Facility Plan. This
+is not a presentation, but question and answers session with examiners to test insight. Remember
+to bring with the 2D layout colour printed in A2 format (min size) to use as reference.
+
+
+Attached the Rubric that will be used for marking each student individually.
+
+
+                                                                                                    6
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+
+                Facilities Design – INGB417 – Examiner & Moderator mark sheet for use in 2026
+  Student details
+  Initials                Surname                                                Student number
+
+
+  Examiner or Moderator details (circle)
+  Initials                Surname                                                Internal or External (circle)
+
+
+
+  GA 3: Engineering Design
+  Design creative solutions for complex engineering problems and design systems , components or processes
+  to meet identified needs.
+
+
+  EVALUATION CRITERIA
+                                                                                   Weighting          Mark          Mark
+                                                                                                   (Interview)    (Report)
+  Clear interpretation of the design problem and formulation/calculation of            /30
+  design requirements or specifications. (includes appropriate use of
+  analytical tools and techniques.)
+
+
+
+  Practical insight shown during the design process and demonstrate the /20          ability to
+  justify assumptions and decisions made in the design solution
+
+
+
+  Defendable final design solution to meet the design requirements /30
+  (Receiving & Dispatch, Production processes, Storage, Warehouses,
+  Offices, Support functions all in MFP)
+
+
+
+  Effective application of a structured and rigorous design process, /10
+  including comparing alternatives systematically and selecting a final design
+  based on defensible criteria
+
+
+
+
+  Effective communication of the design process and solution                           /10
+
+
+
+  FINAL MARK (Interview 50: Report 50)                                                /100        Interview      Report
+                                                                                                  mark           total
+
+
+  Moderators / examiners comments and marks
+
+
+
+                                                                                   FINAL MARK
+
+
+                                       ASSESSMENT OF GA 3 (ENGINEERING DESIGN)
+
+ GA Achieved?
+ YES/NO
+
+                                                                                                                             7
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2026
+
+
+ Comments:
+
+
+
+
+ Assessment Dat e:          Signature:
+
+
+
+
+                                         8
+

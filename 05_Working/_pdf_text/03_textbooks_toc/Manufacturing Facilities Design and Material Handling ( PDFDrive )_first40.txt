@@ -1,0 +1,1356 @@
+  Manufacturing
+Facilities Design and
+ Material Handling
+        FIFTH Edition
+
+
+
+
+      Matthew P. Stephens
+        Fred E. Meyers
+
+
+
+
+         Purdue University Press
+         West Lafayette, Indiana
+Credits and acknowledgments borrowed from other sources and reproduced, with permission, in this
+textbook appear on appropriate page within text. Unless otherwise stated, all figures and tables belong
+to the authors.
+
+Copyright © 2013 by Matthew P. Stephens. All rights reserved. Manufactured in the United States of
+America. This publication is protected by Copyright, and permission should be obtained from the pub-
+lisher prior to any prohibited reproduction, storage in a retrieval system, or transmission in any form or
+by any means, electronic, mechanical, photocopying, recording, or likewise.
+
+Many of the designations by manufacturers and sellers to distinguish their products are claimed as
+­trademarks. Where those designations appear in this book, and the publisher was aware of a trade-
+ mark claim, the designations have been printed in initial caps or all caps.
+
+This book was previously published by: Pearson Education, Inc.
+
+
+
+
+Cataloging-in-Publication data on file at the Library of Congress.
+
+ISBN-13: 978-1-55753-650-1
+ISBN-10: 1-55753-650-3
+To my son Ethan
+Preface
+
+   The fifth edition of Manufacturing Facilities Design and Material Handling
+   embraces the same practical approach to facilities planning as the previous edi-
+   tions. Building on the same systematic approach, it expands upon an important
+   and relevant topic of lean manufacturing. In addition to a rich collection of
+   discussion questions and problems that follow each chapter, a comprehensive
+   case study has been added. This case study is presented as an Appendix and
+   clearly illustrates the step-by-step approach in facilities planning as explained
+   in the textbook, leading to the development of a complete example of a facility
+   design and layout.
+        Layout-iQ, a state-of-the-art facilities planning and simulation software package
+   is introduced in this edition, and access to the software is included for purchasers
+   of the book.
+        The goals of this project-oriented facilities design and material handling
+   textbook are to provide students and practitioners with a practical resource that
+   describes the techniques and procedures for developing an efficient facility layout,
+   and to introduce some of the state-of-the-art tools such as computer simulation.
+        This how-to book leads the reader through the collection, analysis, and develop-
+   ment of vital and relevant data to produce a functional plant layout. Our systematic
+   and methodical approach allows the novice to follow along step-by-step. However,
+   the textbook has been structured so that it may also be used easily and productively
+   by more experienced planners and serve as a useful guide and reference.
+        The mathematical background and requirements have been intentionally kept
+   at the level of high school algebra. Although quantitative analyses and the manipu-
+   lation of numbers are extremely important for planning an efficient facility, these
+   skills can be developed without confusing the process with obscure mathematical
+   procedures.
+        Some experience with computers and computer-aided design (CAD) software
+   packages will prove beneficial for the facilities planner and for other professionals
+   in manufacturing and technology. Those techniques are discussed and emphasized.
+        On the average, a manufacturing facility will undergo some layout modification
+   and change once every 18 months. Furthermore, the efficiency, productivity, and
+   profitability of any given enterprise are directly correlated with the efficiency of the
+   layout and the material handling systems. Thus, individuals with skills in this area
+   are in demand and are well compensated.
+        The design of the facility and material handling systems starts with collecting
+   data from various departments. Chapter 2 describes the sources and the significance
+                                                                                         v
+vi   preface
+
+
+
+     of this information. The marketing department provides data on various customer
+     requirements that determine production volume and various manufacturing capa-
+     bilities. The product engineering department supplies engineering drawings and
+     bills of materials, and assists with equipment requirement determination. Inventory
+     and investment policies are determined according to management policies which
+     in turn dictate space requirements, make or buy decisions, production start dates,
+     and so on.
+          Among the most basic and fundamental data are principles of time and motion
+     economy and time standards. On the basis of this information, machine and per-
+     sonnel requirements are calculated, assembly lines are balanced, and workload in
+     manufacturing cells are leveled. Chapter 3 introduces the reader to the concepts of
+     motion and time study.
+          Chapter 4 describes the development of route sheets, the sequence of opera-
+     tions, assembly charts, assembly line balancing, and fraction equipment calculation.
+     Use of computer simulation has also been added. Chapter 5 analyzes material flow
+     to ensure proper placement of machines and departments to minimize costs. Seven
+     techniques are discussed in the chapter, as well as the use of computer-aided flow
+     design and analysis.
+          Chapter 6 describes the activity relationship diagram. The importance of rela-
+     tionships among departments, people, offices, and services, and their effect on the
+     layout is explored. The activity relationship leads to the creation of the dimension-
+     less block diagram.
+          Space calculation and ergonomic considerations are major and significant
+     aspects of facilities planning. Chapter 7 discusses workstation design, Chapter 8 cov-
+     ers auxiliary services’ space requirements, Chapter 9 discusses employee services’
+     space requirements, and Chapter 12 covers office layout techniques and space
+     requirements.
+          The dimensionless block diagram, which was developed in Chapter 6, is used as
+     a guide to area allocation and is discussed in Chapter 13. The area allocation proce-
+     dure results in an area allocation diagram. At this point, a plot plan and a detailed
+     layout are created. Chapter 14 discusses various layout construction techniques.
+          Many other functions require space. Some of these areas need as much space
+     as the production department. The stores and warehouse departments are good
+     examples. Good analysis and knowledge of design criteria can save much space and
+     promote efficiency of both personnel and equipment. Other functions and spaces
+     such as receiving, shipping, lunchroom, restrooms, first-aid rooms, and offices need
+     careful consideration by the facilities planner. The location and size of each activity
+     can have an effect on the overall operational efficiency. Chapters 8, 9, and 12 are
+     dedicated to these topics.
+          Material handling systems are discussed in Chapters 10 and 11. The reader
+     is introduced to new and exciting material handling concepts and equipment.
+     Application of automatic identification and data capture (AIDC) and ergonomic
+     considerations are emphasized. The reader is encouraged to integrate material
+     handling with other functions to increase productivity and efficiency.
+        vii
+	Preface
+
+
+
+    Chapter 15 discusses the concept of simulation and introduces the reader to
+various applications and the power of computer simulation in the facilities plan-
+ning arena. Some state-of-the-art simulation software packages are introduced to
+the reader, and case studies are discussed. As stated earlier, access to Layout-iQ is
+provided for hands-on application and use of layout design software.
+    Chapter 16 covers selling the layout through a project report and oral presenta-
+tion, an important part of any project.
+    The resultant facility design is only as good as the data and the data analyses
+upon which the plan has been based. Probably no single factor affects the opera-
+tional efficiency and safety of an enterprise more than its layout and material han-
+dling system.
+
+
+                                                                 Matthew P. Stephens
+                                                                      Fred E. Meyers
+Acknowledgments
+
+  I would like to express my gratitude to the reviewers and the wonderful staff at
+  Purdue University Press whose generous help, efforts, and guidance has made the
+  fifth edition of the Manufacturing Facilities Design and Material Handling a reality.
+  A very special note of gratitude goes to Mr. Nelson E. Lee and Rapid Modeling
+  Corporation for generously and kindly providing the users of this edition with links
+  to Layout-iQ, a state-of-the-art simulation and planning software. I would like to
+  acknowledge and thank Manny Cuevas, Michael Thoma, Bryan Orozco, Jarrett
+  Hullinger, and Ben Unger for their hard work and efforts in developing the S. S.
+  Turbo Manufacturing case study. I would like to express a heartfelt “thank-you” to
+  Mr. Shaharyar Masood for his tireless and invaluable assistance with the necessary
+  research and development of this edition.
+                                                                   Matthew P. Stephens
+
+
+
+
+                                                                                     ix
+	Contents
+  Chapter Title xi
+
+
+
+
+About the Authors
+
+   Matthew P. Stephens, Ph.D., CQE, is a Professor and Faculty Scholar in the
+   Department of Technology Leadership and Innovation at Purdue University, where
+   he teaches graduate and undergraduate courses in facilities planning, statistical
+   quality control, and total productive maintenance (TPM). Dr. Stephens holds
+   undergraduate and graduate degrees from Southern Illinois University and the
+   University of Arkansas, with specialization in operations management and statistics.
+       Prior to joining academe, Dr. Stephens spent 9 years with several manufactur-
+   ing and business enterprises, including flatbed trailer, and washer and dryer manu-
+   facturers. He has been extensively involved as a consultant with a number of major
+   manufacturing companies.
+       Dr. Stephens has numerous publications in the areas of simulation, quality
+   and productivity, and lean production systems. He has served various professional
+   organizations, including the Association of Technology, Management, and Applied
+   Engineering (ATMAE) and the American Society for Quality (ASQ), where he
+   obtained his Certified Quality Engineering and Six Sigma Black Belt training.
+   Dr. Stephens is also the author of the Productivity and Reliability-Based Maintenance
+   Management textbook (Purdue University Press, 2010).
+
+   Fred E. Meyers, PE, is president of Fred Meyers and Associates, an industrial engi-
+   neering management consulting company. Mr. Meyers is a registered professional
+   industrial engineer and a senior member of the Institute of Industrial Engineers. He
+   is a Professor Emeritus in the College of Engineering at Southern Illinois University–
+   Carbondale.
+
+
+
+
+                                                                                       xi
+Contents
+
+Chapter 1   Introduction to Manufacturing Facilities Design
+            and Material Handling  1
+            Objectives  1
+            The Importance of Manufacturing Facilities Design and Material Handling  1
+            Lean Thinking and Lean Manufacturing  4
+            The Goals of Manufacturing Facilities Design and Material Handling  6
+            The Manufacturing Facilities Design Procedure  12
+            Types and Sources of Manufacturing Facilities Design Projects  14
+            Computers and Simulation in Manufacturing Facilities Design  15
+              ISO 9000 and Facilities Planning  16
+            Glossary of Some Major Terms and Concepts in Facilities Planning  18
+            Questions  21
+
+
+Chapter 2   Sources of Information for Manufacturing
+            Facilities Design  22
+            Objectives  22
+            The Marketing Department  23
+              Determining Takt Time or Plant Rate  24
+              Calculating Scrap and Rework Rates  25
+            The Product Design Department  27
+              The Indented Bill of Material   32
+            Management Policy Information  36
+              Inventory Policy  36
+              Lean Thinking and Muda as Part of Management Policy  36
+              Investment Policy  37
+              Startup Schedule  37
+              Make or Buy Decisions  38
+              Organizational Relationships  39
+              Feasibility Studies  39
+            Conclusion  40
+            Questions  41
+
+                                                                                         xiii
+xiv   contents
+
+
+
+Chapter 3   Time Study  42
+            Objectives  42
+            What is a Time Standard?  43
+            The Importance and Uses of Time Study  44
+              1. How Many Machines Do We Need?  46
+              2. How Many People Should We Hire?  47
+              3. How Much Will Our Product Cost?  50
+              4. When Should We Start a Job, and How Much Work Can We Handle with the
+                 Equipment and People We Have? Or, How Do We Schedule and Load Machines, Work
+                 Centers, Departments, and Plants?  51
+              5. How Do We Determine the Assembly Line Balance and the Conveyor Belt Speed,
+                 Load the Work Cells with the Correct Amount of Work, and Balance the
+                 Work Cells?  52
+              6. How Do We Measure Productivity?  53
+              7. How Can We Pay Our People for Outstanding Performance?  54
+              8. How Can We Select the Best Method or Evaluate Cost Reduction
+                 Ideas?  55
+              9. How Do We Evaluate New Equipment Purchases to Justify Their
+                 Expense?  57
+              10. How Do We Develop a Personnel Budget?  57
+            Techniques of Time Study  57
+              Predetermined Time Standards Systems  58
+              Stopwatch Time Study  58
+            Time Study Procedure and the Step-by-Step Form  62
+              Rating, Leveling, and Normalizing  71
+            Allowances  73
+               Types of Allowances  73
+               Methods of Applying Allowances  77
+               Work Sampling  80
+               Standard Data  81
+               Expert Opinion Time Standards and Historical Data  82
+            Time Standards for Manufacturing Facilities Design  83
+            Questions  84
+
+Chapter 4   Process Design  86
+            Objectives  86
+            Fabrication: Making the Individual Parts  87
+               Route Sheets  87
+               The Number of Machines Needed  91
+            Work Cell Load Chart  92
+              Step-by-Step Procedure for Preparing a Work Cell Load Chart  94
+         xv
+	Contents
+
+
+            Assembly and Packout Process Analysis  97
+               The Assembly Chart  97
+               Time Standards for Every Task  97
+               Plant Rate and Conveyor Speed  97
+               Paint Conveyor Speed  99
+               Assembly Line Balancing  101
+            Step-by-Step Procedure for Completing the Assembly Line
+                  Balancing Form  105
+            Calculating the Efficiency of the Assembly Line  108
+               Use of Computer Simulation  109
+            Layout Orientation  112
+            Questions  113
+
+
+Chapter 5   Flow Analysis Techniques  115
+            Objectives  115
+            Fabrication of Individual Parts  119
+               String Diagram  119
+               Multicolumn Process Chart  121
+               From-To Chart  123
+               Process Chart  125
+               Step-by-Step Description for the Process Chart  127
+            Total Plant Flow  131
+              Flow Diagrams  131
+              Step-by-Step Procedure for Developing a Flow Diagram  134
+              The Operations Chart  135
+              Step-by-Step Procedure for Preparing an Operations Chart  135
+              Flow Process Chart  137
+              Step-by-Step Procedure for Preparing a Flow Process Chart  139
+            Computer-Aided Flow Design and Analysis   139
+            Conclusion  144
+            Questions  144
+
+Chapter 6   Activity Relationship Analysis  145
+            Objectives  145
+            Activity Relationship Diagram  146
+               Determining the Relationship Code  148
+            Worksheet  150
+            Dimensionless Block Diagram  150
+xvi   contents
+
+
+            Flow Analysis  153
+            Computer-Generated Activity Relationship Chart  153
+            Questions  156
+
+Chapter 7   Ergonomics and Workstation Design Space
+            Requirements  158
+            Objectives  158
+            Workstation Design  158
+            Ergonomics and the Principles of Motion Economy  160
+               Principle 1: Hand Motions  161
+               Principle 2: Basic Motion Types  165
+               Principle 3: Location of Parts and Tools  166
+               Principle 4: Freeing the Hands from as Much Work as Possible  168
+               Principle 5: Gravity  169
+               Principle 6: Operator Safety and Health Considerations  169
+            Space Determination  170
+            Questions  173
+
+Chapter 8   Auxiliary Services Requirement Space  174
+            Objectives  174
+            Receiving and Shipping  174
+              Advantages and Disadvantages of Centralized Receiving
+                  and Shipping  175
+              The Trucking Industry’s Effect on Receiving and Shipping  175
+              Functions of a Receiving Department  176
+              Facilities Required for a Receiving Department  178
+              Space Requirements for a Receiving Department  180
+              Functions of a Shipping Department  180
+            Storage  186
+               Just-in-Time Inventories  188
+               Maximizing the Use of the Cubic Space  188
+               Providing Immediate Access to Everything (Selectivity)  190
+               Providing Safekeeping  199
+            Warehousing  199
+              Warehouse Design Criteria  200
+            Functions of a Warehouse  202
+              Procedure for Sales Analysis of ABC Inventory  203
+              ABC Inventory Layout of a Hand Tool Manufacturing Company’s Warehouse  204
+              Warehouse Space Determination  207
+              Warehouse Equipment  209
+              Conclusion  209
+         xvii
+	Contents
+
+
+             Maintenance and Tool Room  211
+             Utilities, Heating, and Air Conditioning   212
+             Questions  212
+
+Chapter 9    Employee Services—Space Requirements  214
+             Objectives  214
+             Parking Lots  215
+             Employee Entrance  217
+             Locker Rooms  219
+             Restrooms and Toilets  220
+             Cafeterias or Lunchrooms  220
+             Recreational Facilities  225
+             Drinking Fountains  225
+             Aisles  225
+             Medical Facilities  226
+             Break Areas and Lounges  228
+             Miscellaneous Employee Services  228
+             Questions  230
+
+Chapter 10   Material Handling  231
+             Objectives  231
+             Cost Justification  232
+               Sample Material Handling Cost Problem  233
+             Goals of Material Handling  234
+             Ten Principles of Material Handling  234
+               Planning Principle  239
+               Systems Principle  241
+               Work Principle  242
+               Space Utilization Principle  242
+               Unit Load Principle  243
+               Automation Principle  244
+               Standardization Principle  244
+             The Material Handling Problem-Solving Procedure  245
+             Questions  250
+xviii   contents
+
+
+
+Chapter 11   Material Handling Equipment  251
+             Objectives  251
+             Receiving and Shipping  252
+               Receiving and Shipping Docks  252
+               Dock Equipment  256
+               Moving Equipment  256
+               Telescopic Conveyor  261
+               Weight Scale  263
+               Systems Required on Receiving and Shipping Docks  263
+             Stores  264
+                Storage Units  264
+                Stores Mobile Equipment  267
+                Systems Required for the Stores Department  269
+             Fabrication  273
+                Shop Containers  273
+                Tubs and Baskets  274
+                Workstation Material Handling Devices  278
+                Manipulators and Lifting Devices  278
+                Mobile Fabrication Equipment  285
+             Assembly and Paint  292
+                Belt Conveyors  293
+                Powered Roller Conveyors  293
+                Car-Type Conveyors  294
+                Slat Conveyors  294
+                Tow Conveyors  295
+                Overhead Trolley Conveyors  296
+                Power and Free Conveyors  298
+             Packout  298
+                Box Formers  299
+                Automatic Taping, Gluing, and Stapling  299
+                Palletizers  301
+                Pick and Place Robots  301
+                Banding  301
+                Stretch Wrap  306
+             Warehousing  306
+               Picking Carts  306
+               Gravity Flow Bins  306
+               Tractor-Trailer Picking Carts  306
+               Clamp Trucks  306
+               Rotary Conveyor Bins  310
+               Vertical Warehouse and Picking Cars  310
+               Packing Station  312
+               Shipping Containers  312
+         xix
+	Contents
+
+
+             Bulk Material Handling  315
+               Bulk Material Conveyors  316
+             Computer-Integrated Material Handling Systems  318
+               Cross-Docking and Flow-Through  318
+             Questions  324
+
+
+Chapter   12	Office Layout Techniques and Space
+             Requirements  325
+             Objectives  325
+             Goals of Office Layout Design  326
+             Types of Office Space  327
+               Supervisors’ Offices  327
+               Open Office Space  327
+               Conventional Offices  330
+               The Modern Office  330
+             Special Requirements and Considerations  333
+             Techniques of Office Layout  337
+               Organizational Chart  338
+               Flowchart  339
+               Communications Force Diagram  339
+               Activity Relationship Diagram  342
+               Activity Worksheet  343
+               Dimensionless Block Diagram  344
+               Office Space Determination  347
+               Detailed Master Layout  347
+             Questions  349
+
+Chapter 13   Area Allocation  350
+             Objectives  350
+             Space Requirements Planning  350
+               Under the Floor  352
+               Overhead or Clear Space Areas  352
+               Truss Level  353
+               Roof  353
+             Building Size Determination  353
+             Dimensionless Block Diagram  354
+             Area Allocation Procedure  355
+             Office Area Allocation  356
+             Questions  360
+xx     contents
+
+
+Chapter 14   Facilities Design—the Layout  361
+             Objectives  361
+             Plot Plan  361
+                Plant Layout Methods  364
+             Master Plan  365
+               Three-Dimensional (3-D) Models  368
+               Computer-Aided Design (CAD) Technique  368
+               Advanced Computer Systems  369
+             Plant Layout Procedure—Toolbox Plant  372
+                Office Layout for the Toolbox Plant  375
+             Evaluation  377
+             Questions  382
+
+
+Chapter 15   Application of Computer Simulation and Modeling  383
+             Objectives  383
+             Introduction  383
+             Defining Computer Simulation  384
+             Advantages and Disadvantages of Simulation  385
+             Simulation in Facilities Planning  386
+             How Simulation Works  387
+             An Overview of Layout and Simulation Software  389
+             Computer-Aided Layout Design  389
+               Computer-Assisted Layout Performance Analysis  391
+             Layout-iQ: Computer-based Workspace Planning  397
+                Process-Routing  398
+                From-To Trips  399
+                Subjective Analysis  399
+                Model Building Wizard  400
+                Tutorials and Modeling Exercises  401
+             Case Studies  401
+               Simulation in Manufacturing  401
+               Simulation in Health Care  401
+               Simulation in Waste Handling  402
+             Questions  403
+
+Chapter 16   Selling the Layout  404
+             Objectives  404
+             The Project Report  404
+         xxi
+	Contents
+
+
+ The Presentation  406
+ Adjustments  407
+ Approval  407
+ The Rest of the Project  408
+   Sourcing  408
+   Installation  408
+   Engineering Plot  409
+   Production Start  409
+   Debugging and Follow-Up  409
+ Conclusion  410
+
+ Answers   411
+
+ Appendix   423
+
+ Index   496
+                                            c     h    a     p     t    e    r
+                                                                                     1
+
+
+Introduction to Manufacturing
+Facilities Design and
+Material Handling
+
+     Objectives:
+     Upon the completion of this chapter, the reader should:
+     • Understand the importance of a systematic approach to facilities planning
+     • Be able to define facilities planning and material handling
+     • Understand the relationship between facilities planning and lean thinking
+     • Be able to identify various types of waste, “muda”
+     • Understand the goals of facilities planning and material handling
+     • Understand the systematic layout procedure
+
+
+
+n The Importance of Manufacturing Facilities
+  Design and Material Handling
+     Facilities planning is a multi-faceted process, influenced by numerous factors and
+     variables which are not always necessarily in concert and at times may even have
+     contradictory impact on the decision-making process. One of the fundamental
+     aspects of facilities planning is site selection or the location strategy. This decision
+     is usually made at the highest corporate level and may be more influenced by such
+     factors as economics, i.e. tax incentives, or geopolitical considerations that may
+     have very little or no relationship with engineering principles such as proximity to
+     raw material or transportation systems that an industrial engineer may consider to
+     be guiding factors in site selection.
+                                                                                           1
+2   Chapter 1
+
+
+
+         The factors that may influence the location strategy can vary from the availabil-
+    ity of resources such as raw material, energy, and so on, to abundance of human
+    resources and lower labor costs. A manufacturing site may be selected based on prox-
+    imity to sources of raw material, markets, and transportation systems such as highways,
+    railroads, or waterways. It may seem desirable to locate a research facility near a think-
+    tank environment such as a research university. However, factors influencing location
+    selection are not always quite as altruistic. Incentives to attract production facilities
+    vary from corporate tax abatement and low-cost land, to relaxed environmental regu-
+    lations. These attractions not only impact plant locations within the United States,
+    but also result in migration of these facilities outside of the country.
+         Global economy probably has had its biggest impact on the location of manu-
+    facturing facilities. Due to various incentives offered by local and state governments,
+    not only have we seen a steady migration of manufacturing facilities in a southwardly
+    direction in the United States, but also, as trade barriers are eased or completely
+    removed, this migration has continued beyond the borders to such far places as India
+    or China. It can perhaps be argued that in the past the product market location might
+    have been a secondary factor, whereas labor costs and other incentives may have been
+    an overriding factor in the plant location decision-making process. With the current
+    soaring cost of energy and the resulting expenditures to transport the products to the
+    market, it might be interesting to observe at what point the location strategy equation
+    may be rewritten. Further discussion of this topic is more appropriate for a political
+    science or economics class and is beyond the scope of this text.
+         Manufacturing facilities design is the organization of the company’s physical
+    assets to promote the efficient use of resources such as people, material, equipment,
+    and energy. Facilities design includes plant location, building design, plant layout,
+    and material handling systems. As stated above, plant location strategy decisions are
+    made at the top corporate level, often for reasons that have little to do with opera-
+    tion efficiency or effectiveness, and may not always be an engineering decision.
+         Manufacturing facilities design and material handling affect the productivity
+    and profitability of a company more than almost any other major corporate deci-
+    sion. The quality and cost of the product and, therefore, the supply/demand ratio
+    are directly affected by the facility design. A plant layout project (facility design)
+    is one of the most challenging and enjoyable projects that an industrial or manu-
+    facturing engineer will ever have. The project engineer or, at a higher level, the
+    project manager, after receiving corporate approval, will be responsible for spend-
+    ing a great deal of money. The project manager will also be held responsible for the
+    timely, cost-effective achievement of the goals stated in the project proposal and
+    cost budget. The responsibilities of a project manager approach those of a com-
+    pany’s president, and only project managers who achieve or beat the stated goals
+    will be given bigger projects.
+         Building design is an architectural job, thus the architectural firm’s expertise in
+    building design and construction techniques is extremely important to the facilities
+    design project. The architectural firm will report to the facility design project ­manager.
+         Layout is the physical arrangement of production machines and equipment,
+    workstations, people, location of materials of all kinds and stages, and material
+   Introduction to Manufacturing Facilities Design and Material Handling               3
+
+
+­handling equipment. The plant layout is the end result of a manufacturing facility
+ design project and is the main focus of this book. In addition to the need for devel-
+ oping new manufacturing facilities, existing plants undergo some changes continu-
+ ally. Major relayouts of plants occur on the average of every 18 months as a result of
+ changes in product design, methods, materials, and process.
+      Material handling is defined simply as moving material. Improvements in material
+ handling have positively affected workers more than any other area of work design
+ and ergonomics. Today, physical drudgery has been eliminated from work by mate-
+ rial handling equipment. Every expense in business must be cost-justified, and mate-
+ rial handling equipment is no exception. The money to pay for material handling
+ equipment must come from reduced labor, material, or overhead costs, and these
+ expenses must be recovered in 2 years or less (50 percent return on investment [ROI]
+ or higher). Chapters 10 and 11 will discuss material handling systems, procedures, and
+ equipment. Material handling is so entwined with the physical layout of equipment
+ that the two subjects, facilities planning and material handling, are usually treated as
+ one subject in practice. As a result, material handling is part of nearly every step of a
+ facility design process and material handling equipment choice will affect the layout.
+      New manufacturing plant construction is one of the largest expenses that a
+ company will ever undertake and the layout will affect the employees for years to
+ come. The cost of the plant’s products will be affected as well. Continuing improve-
+ ments will be needed to keep the company current and competitive. The need for
+continuous improvement and implementation of lean manufacturing concepts is
+ discussed throughout the text.
+      It is said that if you improve the flow of material, you will automatically reduce
+production costs. The shorter the flow is through the plant, the better the reduction
+ costs are. Material handling accounts for about 50 percent of all industrial injuries
+ and from 40 to 80 percent of all operating costs. The cost of equipment is also high,
+ but a proper ROI can be obtained. Keep in mind that many industrial problems can
+ be eliminated with material handling equipment. In no area of industrial history has
+ more improvement been made than by the use of material handling equipment.
+ Today, material handling systems can easily be incorporated with cutting edge tech-
+ nologies in automatic data capture equipment and automatic inspection systems for
+ a variety of quality and productivity purposes. Item tracking and inventory control
+ systems can be implemented as part of the material handling procedures.
+      The cost reduction formula is valuable when working with manufacturing facili-
+ ties design and material handling. Some examples of a cost reduction formula follow:
+
+                 Ask­         For Every­            So We Can­
+                 Why­   Operation­      Eliminate­
+                 Who­   Transportation­ Combine­
+                 What­  Inspection­     Change sequence­
+                 Where­ Storage­        Simplify­
+                 When­  Delay­
+                 How­
+4    Chapter 1
+
+
+
+          Facilities planners ask the six questions (column one) about everything that
+     can happen to a part flowing through the manufacturing facility (column two)
+     to eliminate steps, combine steps, change sequence of steps or simplify (column
+     three). This requires studying the company’s products in depth to identify every
+     step in the process. The best advice is not to take shortcuts or to skip steps in the
+     proposed manufacturing facility design procedure. There are many tools and tech-
+     niques to help identify the steps in the process. These are described in detail in the
+     following sections.
+          Implementing the five (5) S’s and five why’s will also help reduce costs. The
+     5 S’s principles are
+      1. Sifting (organization).   Keeping the minimum of what is required will save
+         space (affects the facility layout), inventory, and money.
+      2. Sorting (arrangement).  Everything has a specific place, and everything in its
+         place is a visual management philosophy that affects the facility layout.
+      3. Sweeping (cleaning).  A clean plant is a result of a facility layout that has been
+         thought to provide room for everything.
+      4. Spick and span (hygiene).   A safe plant is a result of good layout planning.
+      5. Strict (discipline).   Following the procedures and standardized methods and
+         making them a habit will keep the plant operating efficiently and safely.
+         The five why’s will ensure that the solution to a problem is not a symptom of
+     the problem, but rather, the base cause. For example: A machine broke down.
+      1. Why?
+      2. The machine jammed up. Why?
+      3. The machine was not cleaned. Why?
+      4. The operator didn’t clean it out at regular intervals. Why?
+      5. Was it because of lack of training? Why?
+      6. The supervisors forgot. They make a written instruction to be mounted on the
+         machine. It will not happen again.
+     The planners could have asked six or seven why’s. The important thing is to arrive
+     at a final solution that will eliminate the problem from occurring again.
+
+
+n Lean Thinking and Lean Manufacturing
+     A new vocabulary has developed in the past few years that stems from the Toyota
+     production system and a book titled Lean Thinking by James Womack and Daniel
+     Jones. Lean manufacturing is a concept whereby all production people work
+     together to eliminate waste. Industrial engineers, industrial technologists, and
+     other groups within management have been attempting this since the beginning
+     of the industrial revolution, but with a well-educated, motivated production work-
+     force, modern manufacturing management has discovered the advantage of seek-
+     ing the workforce’s help in eliminating waste. The Japanese word for waste is muda,
+     which is the focus of much attention all over the world. Who knows better than the
+   Introduction to Manufacturing Facilities Design and Material Handling          5
+
+
+ production employee—who spends 8 hours a day on a job—how to reduce waste?
+ The goal is to tap this resource by giving production employees the best tools
+­available.
+     Muda (waste) is defined as any expense that does not help produce value.
+ There are eight kinds of muda: overproduction, waiting, transportation, process-
+ ing, inventory, motion, rework, and poor people utilization. The goal is to try to
+eliminate or reduce these costs. One of the techniques for doing this is asking “why”
+five times (five why’s). Asking “why” about any problem or cost at least five times
+attempts to get to the root cause of the problem.
+     Toyota’s employees are encouraged to stop the production line or process if a
+problem exists. A lighted visual indicator board (called an andon) is located above
+the production line. When operations are normal, a green light is on. A yellow light
+indicates an operator needs help, and if the operator needs to turn off the line, a
+red light flashes. The term autonomation ( jidoka) has been coined to indicate the
+transmission of the human element into automation. An example is the employee
+turning off the production line if a problem is detected.
+     In the culture of continuous improvement, kaizen is another effective tool that
+can be easily applied to different aspects of facilities planning and material han-
+dling. Kaizen is the Japanese word for constant, or continuous, improvement. The
+main element of kaizen is the people involved in the improvement process. Kaizen
+touches upon all levels of the organization and requires the participation of all
+employees—from the top management throughout various levels of the organiza-
+tional chart and production teams. Every person in the company is encouraged to
+search for new ideas and opportunities to further improve the organization and its
+processes including reducing waste.
+     One of the requirements of kaizen that has been found particularly effective
+is the need to begin improvements immediately other than waiting until there is a
+sound plan in place. Kaizen differs from reengineering by the level of change that
+happens at one time; there are no major breakthroughs with kaizen. Some criticize
+kaizen because the process makes only small improvements at a time which may, in
+some cases, lead to further problems.
+     Kanban is another technique that affects manufacturing facilities design.
+Kanban is a signal board that communicates the need for material and visually tells
+the operator to produce another unit or quantity. The kanban system, also referred
+to as a “pull” system, differs from the traditional inventory “push” systems such as
+just-in-time ( JIT) or material requirements planning (MRP). With push systems,
+parts are produced only when the need arises and they have been requested or
+there is “pull” from production operations.
+     Value-stream mapping (VSM) is a major waste reduction and productivity
+improvement tool that an organization can employ to evaluate its processes. Value-
+stream mapping can be defined as the process of assessment of each component or
+the step of production to determine the extent to which it contributes to opera-
+tional efficiency or product quality. Value-stream mapping is clearly linked with and
+is an important component of lean manufacturing. Using the tools and resources of
+VSM, a company can document and develop the flow of information and material
+6    Chapter 1
+
+
+
+     through the system as an aid in eliminating non-value-added operations or com-
+     ponents, reducing costs, and making the necessary improvements. This continu-
+     ous improvement process goes through three repeating stages: assessment, analysis,
+     and adjustment. Through these three stages, changes and modifications can be
+     made to further improve the process and eliminate waste.
+          The advantages in using value-stream mapping are numerous. They include
+     improved profitability, efficiency, and productivity for the company or institution.
+     Particular to facilities design and material handling, VSM can clearly reduce or
+     eliminate excessive material handling, eliminate wasted space, create a better con-
+     trol of all forms of inventories (e.g., raw materials, in-process, and finished goods),
+     and streamline various production steps.
+
+
+n The Goals of Manufacturing Facilities Design
+  and Material Handling
+       A good set of goals ensures a successful facility design. Without goals, facilities
+       p
+       ­ lanners are without direction and a primary mission statement is the first step.
+       A well-thought-out mission statement ensures that the project engineer or man-
+       ager and the company’s management share the same visions and objectives for the
+       project. It also opens communication lines between management and designer:
+       Feedback and suggested changes at this early stage save much work and even head-
+       aches later on.
+             A mission statement communicates the primary goals and the culture of the
+       organization to the facilities planner. The mission statement defines the purpose
+       for the existence of the enterprise. The statement should be short enough so that
+       its essence is not lost and can be easily remembered, and it must be timeless so that
+       it is easily adaptable to the organizational changes. For the most part, the mission
+       statement is a philosophical statement that sets the cultural tone of the organiza-
+       tion. The mission of a corporation must go beyond expectation of profits and prof-
+       itability for its shareholders; as a member of the society, it should strive to extend
+       these benefits to its customers and employees. A company may state its mission
+       as follows: “ACME is dedicated to the pursuit of manufacturing the safest, high-
+       est quality, and the most reliable bicycles while maintaining the lowest possible
+       price and a strongest commitment to customer satisfaction. ACME recognizes that
+      it is only through strong commitment to our employees that we can achieve our
+     ­mission.”
+             Although the mission statement is developed by the corporate management, it
+      provides a clear signal and a guiding light for developing strategies at all levels of
+     the company activities including the design of the physical facilities. For example,
+     a mission statement that signals a strong commitment to employee development
+     and training, communicates the need for such facilities in the overall design of the
+       plant layout.
+             Production goals and objectives that are consistent with the mission of the
+      ­corporation can then be derived from the mission statement.
+   Introduction to Manufacturing Facilities Design and Material Handling                 7
+
+
+    Subgoals are added to help achieve specific goals. Potential goals may include
+ 1. Minimize unit and project costs.
+ 2. Optimize quality.
+ 3. Promote the effective use of (a) people, (b) equipment, (c) space, and
+    (d) energy.
+ 4. Provide for (a) employee convenience, (b) employee safety, and (c) employee
+    comfort.
+ 5. Control project costs.
+ 6. Achieve the production start date.
+ 7. Build flexibility into the plan.
+ 8. Reduce or eliminate excessive inventory.
+ 9. Achieve miscellaneous goals.
+     A mission statement should be simple and should be used to keep the facilities
+planner on track and to help in all project decisions. As planner, your goal is to
+provide a specific number of quality units per period of time at the lowest possible
+cost—not to show off your advanced manufacturing knowledge or to have a show-
+place for your computers and robots. The mission statement intends to remind you
+to stay on track, and will assist your decision making along the process.
+     Let us take a closer look at the subgoals:
+     1.   Minimize unit and project costs. This means that every dollar expended in
+excess of the most economical method of getting into production must be cost-
+justified. It does not mean buying the cheapest machine because the most expensive
+ machine may produce the lowest unit cost. When products are new, production
+­volume may be low. Not much can be spent on advanced manufacturing technol-
+ogy, but you still need equipment. This is when you buy the cheapest ones available.
+     2.   Optimize quality. Quality is critical and difficult to measure. Everyone knows
+ that a near-perfect car is available—a Rolls-Royce—but how many can you sell? You
+can make a better product if you buy better materials, machine closer tolerances,
+add additional options, and the like. But is there enough of a market for this high-
+quality, high-cost item?
+     Mass production is made possible by providing products that the masses can
+afford. This calls for lowering the designed strength of material, cost of produc-
+tion, and, therefore, the actual quality of the finished product. Top management
+of the auto industry might state this as a quality standard:
+    Let’s design a utility automobile that will last 100,000 miles. If we wanted higher
+    quality, why not design it for 200,000 miles? Cost is “why.” How many people can
+    afford this more costly automobile?
+
+    Once the design criteria have been established, the product designers will
+design every part with these goals in mind. They may state more clearly that 95
+percent of the autos will last 100,000 miles or more. The average, therefore, would
+be higher, but any cost spent to create any one part of better quality will be money
+misspent. Manufacturing facilities designers strive to achieve the design criteria by
+8   Chapter 1
+
+
+
+     selecting equipment, designing workstations, and establishing work methods
+     that produce quality parts and assemblies. Quality and cost are the two primary
+    ­competitive fronts. Controlling one without the other will lead to failure. You
+     must constantly balance cost and quality. In manufacturing facilities design and
+     material handling, the planner must consider quality in every phase and do
+    ­nothing to harm quality. Space must be provided for quality control facilities.
+         3.   Promote the effective use of people, equipment, space, and energy. This is another
+     way of saying “reduce costs,” or “eliminate muda.” People, equipment, space, and
+     energy are a company’s resources. They are expensive and you want to use them
+     effectively. Productivity is a measure of use and is the ratio of output over (divided
+     by) input. To increase productivity, you need to increase output, reduce input, or
+     a combination of the two. The location of services like restrooms, locker rooms,
+     cafeterias, tool cribs, and any other service will affect employee productivity and,
+     therefore, the employees’ utilization or effectiveness. It is said that you can run
+     pipe and wire, but you cannot run people. Providing convenient locations for
+    ­services will increase productivity.
+         Equipment can be very expensive and the operating costs must be recovered
+     by charging each part produced on that machine a portion of the cost. The more
+     parts run on one machine, the lower is the unit cost that each part must carry. So
+     to achieve the second supporting objective, namely, to reduce cost, you must strive
+     to get as much out of each machine as possible. Calculate how many machines are
+     required in the beginning for maximum machine use. Remember, machine loca-
+     tion, material flow, material handling, and workstation design all affect equipment
+     usage.
+         Space is also costly, thus designers need to promote effective use of the space.
+     Good workstation layout procedures will include everything required to operate
+     that workstation, but no extra space. Normally, planners can do a good job of
+     using floor space, but what about the other spaces?
+
+            a. Under the floor (basements) is a good place for utility tunnels, walkways
+               between buildings, under-the-floor conveyors for material delivery or
+               trash removal, and tanks under the floor for storage. Use your imagina-
+               tion and save expensive floor space.
+            b. Overhead (from 7 feet to rafters) is usable space. This space can be used
+               for overhead conveyors, pallet racks, mezzanines, shelves or bins for stor-
+               age, balcony offices, pneumatic delivery systems, dryers, ovens, and so on.
+               Again, use your imagination and save floor space.
+            c. Ceiling space under the roof (in the rafters or trusses) is space that can
+               be used for utilities, heating and cooling, sprinkler systems, catwalks, and
+               some storage.
+            d. On the roof, space can be used for parking, weather testing of a product,
+               utility units, ovens, golf driving range, tennis court, and so on.
+
+       As stated, designers want to promote the use of all the space in the plant. This
+    concept is known as “utilizing the building cube.” The idea consists of utilizing the
+    Introduction to Manufacturing Facilities Design and Material Handling               9
+
+
+vertical dimensions as well as the horizontal dimensions of the facility. Keep in
+mind that whereas land is purchased based on square units, space is obtained in
+cubic units. Oftentimes management asks industrial engineering to help justify
+more building space, and after the initial study, finds there is plenty of space if
+they just go vertical. Floor space gets the most attention, but there is so much
+more space available. Planners must use their imaginations and create space,
+focusing first on using the present space more efficiently.
+      Energy costs can be excessive: Million-dollar utility budgets are common. You
+can promote energy efficiency by good facilities design techniques. Opening dock
+doors allows heating and cooling energy to escape. Placing hot equipment where
+energy can be contained could reduce energy requirements. A “silly” example
+would be running the air conditioning while having a fire in the fireplace; how-
+ever, this is what manufacturing facilities are doing all the time with hot opera-
+tions. Isolating these operations and controlling heat can save big dollars. Another
+example is that heat rises, thus dryers can be placed near the ceiling to reduce the
+heat needed. Electricity, gas, water, steam, oil, and telephone must all be used effi-
+ciently. The plant layout will greatly affect these costs.
+      4.   Provide for the convenience, safety, and comfort of our employees. Although con-
+venience has already been discussed, in addition to being a productivity factor,
+it is also an employee relations concern. If you design plants with inconvenient
+employee services, you are telling the employees every day that the company
+does not care about them. Drinking fountains, parking lot design and location,
+employee entrances, as well as restrooms and cafeterias must be convenient to all
+employees.
+      Employee safety is a moral and legal responsibility of the manufacturing facili-
+ties designer. The weight of tools and products, the size of aisles, the design of
+workstations, and housekeeping all affect the safety of the employees. Every deci-
+sion made in manufacturing facilities design and material handling design must
+include safety considerations and consequences. Material handling equipment
+has reduced the physical demands of work and, therefore, has improved industrial
+safety.
+      But material handling equipment itself can be dangerous. The industrial
+safety statistics indicate that 50 percent of all industrial accidents occur on ship-
+ping and receiving docks while handling material. Designers must continue the
+fight to reduce injury by every means possible.
+      Good housekeeping means having a place for everything and having every-
+thing in its place. The term “everything” is all-inclusive—tools, materials, supplies,
+empty containers, scrap, waste, and so on. If the manufacturing facilities design
+hasn’t considered any one of these items, a housekeeping problem will result and
+this clutter is dangerous and costly.
+      “Comfort” is a term that could communicate plush, costly surroundings, but in
+workstation design and ergonomics, it refers to working at the correct work
+height, having sufficient lighting, and standing or sitting alternately, and so on.
+You don’t want to add fatigue to the operator. When operators are on a break, you
+10   Chapter 1
+
+
+
+     want to provide comfortable surroundings so that they can recuperate and return
+     to work refreshed and, therefore, more productive.
+          5.   Control project costs. The cost of the facility design and material handling
+     project must be determined before presenting the plan to management for
+     approval. What top management approves is the “spending” of money. Once the
+     project is approved, the project manager is authorized to spend the budgeted
+     monies. Going back for more money could be harmful for your career. Budgeting
+     and then living within the budget are two things that successful managers and
+     engineers learn to do early in their careers.
+          6.   Achieve the production start date. Early in the life cycle of a new product, the
+     production start date is set. The success of the project depends on whether the
+     product gets to the market on time. Thus, the planner must meet these goals. If
+     there is a late start, the employees may not be able to make up for the lost produc-
+     tion. This is especially true for seasonable products. In fact, if you miss the season,
+     you miss the whole year. Fast-moving consumer products companies, like toy
+     companies, will set the production start date and schedule backward to establish
+     a product schedule. Figure 1–1 shows such a schedule. Each important project
+     milestone is identified and listed in the first column. Subsequent columns are used
+     to track each product. The product number, product name, and the responsible
+     project engineer in the column heading identify each product. For example, the
+     third column is used to track product 1810, known by the product name Gizmo.
+     The project engineer for this product is identified as Stephens. For each product,
+     the scheduled completion date is listed across from each project step. For exam-
+     ple, for product 1810, all time standards are to be set by April 5, shown as 4-5.
+     Upon the completion of each step, an X is placed next to the scheduled comple-
+     tion date.
+          In this example, steps 10 and 11 are behind schedule for product number
+     1670, known as Wizbang. Notice that the date of this report is March 11. Both
+     steps 10 and 11 for product 1670 were to have been completed on March 10
+     according to the scheduled completion date. The absence of the X by the sched-
+     uled completion date indicates that these steps are behind schedule for this prod-
+     uct. On the other hand, steps 5 and 6 are ahead of schedule for product 1810 as
+     indicated by the presence of the X next to the scheduled completion dates. Note
+     that for this product, the scheduled completion date for steps 5 and 6 is listed as
+     April 1, hence ahead of schedule as compared with the current (report date) of
+     March 11.
+          Work schedules such as the one shown in Figure 1–1 are used to keep upper
+     management informed. If anything is behind schedule, management will want to
+     know what you are doing to catch up. If you need help, ask for it, but do not miss
+     the production start date. It cannot be overstated that schedules must be met.
+          7.   Build flexibility into the plan. It is certain that things will change, and
+     ­designers need to anticipate where they are going to expand, select equipment
+      that is versatile and movable, and design buildings that will be able to support
+      a wide ­variety of uses.
+                  Introduction to Manufacturing Facilities Design and Material Handling             11
+
+
+Engineer _________________________________________              Date __3_/11/XX
+                                                                         ___________________________
+ 1. Obtain product number                       1670                   1810         1900        1700
+ 2. Create product name                     Wizbang                  Gizmo
+ 3. Select project engineer                   Meyers              Stephens
+ 4. Determine production rate per shift      1,500                  1,750
+ 5. Complete manufacturing plan                 3-1 X                 4-1 X
+ 6. Complete material handling plan             3-1 X                 4-1 X
+ 7. Set time standards                          3-5 X                  4-5
+ 8. Determine number of                         3-6 X                  4-6
+    a. fabrication machines needed              3-6 X                  4-6
+    b. assembly stations needed                 3-6 X                  4-6
+ 9. Issue flow chart                          3-10 X                 4-10
+10. Design workstations                       3-10                   4-10
+11. Select material handling equipment        3-10                   4-10
+12. Prepare budget plan                       3-12                   4-15
+13. Prepare layout plan                       3-14                   4-15
+14. Present to management                     3-15                   4-15
+15. Write work orders to build stations       3-25                   4-15
+16. Issue purchase orders                     3-15                   4-15
+17. Develop quality control requirements        4-1                    5-1
+18. Try out first workstations                  4-1                    5-1
+19. Install equipment                         4-14                   5-14
+20. Write work methods sheets                 4-14                   5-14
+21. Run production pilot                      4-15                   5-15
+22. Start production                            5-1                  5-30
+23. Recheck everything
+Note: X means this step is complete.
+
+Figure 1–1   New product work progress report to be completed by one engineer.
+
+
+
+
+                  8.   Reduce or eliminate excessive inventory. Inventory costs a company about 35
+              percent a year to hold. These costs include
+
+                        a. The cost of space and its supporting cost
+                        b. The cost of money tied up in inventory
+                        c. The cost for employees required to move and manage the inventory
+                        d. The loss due to damage, obsolescence, and shrinkage
+                        e. The cost for material handling equipment
+
+                  All these costs add up to big money, so minimize all forms (raw material, work
+              in process, finished goods) of inventory.
+12   Chapter 1
+
+
+
+         9.   Achieve miscellaneous goals. These include additional goals and objectives of
+     the facilities and material handling plan. These should be added as you and the
+     management decide something is important. For example, you may want to
+
+             1. Restrict operator lifting to one part. This will require the designer to
+                select material handling equipment that will eliminate the operator lift-
+                ing boxes to a work area and off the station. This will also be a payback
+                with lower back injury problems.
+             2. Use work cells. This will reduce inventory and material handling.
+             3. Use plug-in-plug-out equipment to allow operators to move equipment
+                easily for flexibility.
+             4. Minimize work in process because inventory is expensive.
+             5. Build kanban (signal board or instruction card) or just-in-time inventory
+                philosophy into the manufacturing facility design.
+             6. Build visual management systems into the design to improve factory man-
+                agement.
+             7. Design for first-in-first-out inventory for inventory control.
+
+         Whatever you think is important and want to accomplish by your new facility
+     design should be stated as a goal. Goals are to strive for but not always to achieve
+     perfectly. However, without goals designers have much less chance to achieve all
+     they want to do. Two last thoughts about goals: They should be measurable and
+     achievable.
+
+
+n The Manufacturing Facilities Design Procedure
+     The quality of a manufacturing facility design (the plant layout blueprint) depends
+     on how well the planner collects and analyzes the basic data. The blueprint is the
+     final step of the design process and the step during which novice planners want to
+     start. This is like reading the last page of a book first. Resist jumping into the layout
+     phase before collecting and analyzing the basic data. If you have faith and follow
+     the procedure, a great design will, like magic, automatically appear. The following
+     is a systematic way of thinking about a project:
+
+      1. Determine what will be produced; for example, a toolbox or swing set or lawn
+         mower.
+      2. Determine how many will be made per unit of time; for example, 1,500 per
+          8-hour shift.
+      3. Determine what parts will be made or purchased complete—some companies
+         buy out all parts, and they are called assembly plants. Those parts the company
+         makes itself require fabrication equipment and considerably more design
+         work.
+      4. Determine how each part will be fabricated. This is called process planning
+         and is usually done by a manufacturing engineer, but in many projects, the
+   Introduction to Manufacturing Facilities Design and Material Handling          13
+
+
+    manufacturing facilities designer is also responsible for tool, equipment, and
+    workstation design.
+ 5. Determine the sequence of assembly. This is called assembly line balancing. The
+    topic is covered in depth throughout this book.
+ 6. Set time standards for each operation. It is impossible to design a plant layout
+    without time standards.
+ 7. Determine the plant rate (takt time). This is how fast the facility needs to pro-
+    duce. For example, it needs to make 1,500 units in 8 hours (480 minutes), so
+    480 minutes divided by 1,500 units equals .32 minute. The speed of the plant
+    and every operation in the plant must make a part every .32 minute (about
+    three parts per minute).
+ 8. Determine the number of machines needed. Once you know the plant rate
+    and the time standard for each operation, divide the time standard by the line
+    rate and the number of machines results. For example, you have an operation
+    with a time standard of .75 minute and a line rate of .32 minute. How many
+    machines are needed (.75 divided by .32 equals 2.34 machines)? You will need
+    to purchase three machines. If you buy only two, you will never produce 1,500
+    units per shift without working overtime. This will cause a bottleneck.
+ 9. Balance assembly lines or work cells. This is dividing work among assemblers
+    or cell operators according to the line rate. Try to give everyone as close to the
+    same amount of work as possible.
+10. Study the material flow patterns to establish the best (shortest distance
+    through the facility) flow possible.
+    a. string diagram
+    b. multiproduct process chart
+    c. from-to chart
+    d. process chart
+    e. flow process chart
+    f. flow diagram
+11. Determine activity relationships—How close do departments need to be to
+    each other to minimize people and material movement?
+12. Lay out each workstation. These layouts will lead to department layouts, and
+    then to a facilitywide layout.
+13. Identify needs for personal and plant services, and provide the space needed.
+14. Identify office needs and layout as necessary.
+15. Develop total space requirements from the above information.
+16. Select material handling equipment.
+17. Allocate the area according to the space needed and the activity relationships
+    established in item 11 above.
+18. Develop a plot plan and the building shape. How will the facility fit on the
+    property?
+19. Construct a master plan. This is the manufacturing facility design—the last
+    page of the project and the result of all the data collected and the decisions
+    made over the past months.
+14   Chapter 1
+
+
+
+     20. Seek input and adjust. Ask your peer-level engineers and managers to review
+         your plan to see if they can punch holes in your design before you present it
+         to management for approval.
+     21. Seek approvals, take advice, and change as needed.
+     22. Install the layout. At this stage, the plan comes together and is one of the most
+         rewarding times, as well as one of the most stressful.
+     23. Start production. Anticipate that many things will go wrong. No one has
+         started up any production line without some problems; don’t expect you will
+         be the first. You will get better each time, but it will never be perfect.
+     24. Adjust as needed and finalize project report and budget performance.
+
+          Many engineering professors and industrial consulting firms are trying to
+     develop a computer formula for manufacturing facilities design. So far, they have
+     developed computer algorithms and simulations for parts of the analysis. Facilities
+     planners will use these tools like any other tool, but the quality of the design will
+     depend on how well they analyze the data, not the computer’s ability to solve prob-
+     lems. Therefore, it is best to take a systematic approach, one step at a time, and to
+     add information at each step. When completed this way, the results appear like
+     magic (a great plant layout result). A mature layout technician knows that a good
+     layout is inevitable if the procedure is followed.
+          The manufacturing facilities design procedure is a general plan of the project.
+     Each step will include some techniques that will not be used in every situation.
+     Skipping steps is permissible if considered and determined not to be necessary. The
+     24-step procedure just presented is the basic outline for the remainder of the book.
+     If you are doing a layout project, you might use this list as an outline.
+
+
+
+n Types and Sources of Manufacturing Facilities
+  Design Projects
+      1. New facility.   This is by far the most fun and where the most influence can be
+         made with a new manufacturing facility project. There are fewer restrictions
+         and constraints placed on a new project because you do not have to be con-
+         cerned about old facilities.
+      2. New product.  The company sets aside a corner of the plant for a new product.
+         The new product must be incorporated into the flow of the rest of the plant,
+         and some common equipment may be shared with old products.
+      3. Design changes.   Product design changes are always being made to improve the
+         cost and quality of the product. The layout may be affected by these changes,
+         and the facility designer should review every design change.
+      4. Cost reduction.   The plant facility designer may find a better layout that will
+         produce more products with less worker effort. Others within the company
+         may make suggestions for improvements and cost reductions that will affect
+         the layout. All must be considered.
+        Introduction to Manufacturing Facilities Design and Material Handling             15
+
+
+      5. Retrofit.  Because many old plants are poorly laid out, older manufacturing
+         facilities designers may spend most of their time working on making these
+         facilities more productive. The procedure for retrofit is the same as for a
+         new plant—except there are more constraints. These constraints include:
+         existing walls, floor pits, low ceilings, and any other permanent fixtures that
+         may pose an obstacle to an efficient material flow.
+     Every area of human activity has material or people flows. Disney World’s flow is
+     people; hospitals have flows of patients, medical supplies, and food service; stores
+     have flows of customers and merchandise; kitchens have flows of cooks and foods.
+     If designers study the flow, they can improve it by changing the facilities layout.
+     Opportunities are everywhere.
+          Although it is said that only death and taxes are certain, there exists a third
+     ­certainty—a plant layout will change. Some industries are more changeable than
+      others. For example, a toy company may have new products added to its product
+     line every month. Plant layout work would be continuous in such a company. In
+      a paper mill, the layout would change very little from year to year, so plant layout
+      work would be minimal.
+
+
+n Computers and Simulation in Manufacturing
+  Facilities Design
+     Computer simulation and modeling are rapidly becoming important in the manufac-
+     turing and service segment of American industry. As a result of market dynamics and
+     fierce global competition, manufacturing and service enterprises are forced to provide
+     a better quality product or service on a more cost-effective basis while trying to reduce
+     the production or service lead time. The quest for the competitive edge requires con-
+     tinuous improvement and changes in the processes and implementation of new tech-
+     nologies. Unfortunately, even the most carefully planned, highly automated, sophis-
+     ticated manufacturing systems are not always immune from costly design blunders
+     or unanticipated failures. Among the common examples of these costly mistakes are
+     insufficient space to hold in-process inventory, mismatches in machine capacities, inef-
+     ficient material flow, and congested paths for automatic guided vehicles (AGVs).
+          Although computer simulation and modeling are not new to solving compli-
+     cated mathematical problems or to providing insights into sophisticated statistical
+     distributions, the power of the new generation software has dramatically increased
+     the application of computer modeling as a problem-solving tool in the facilities
+     design arena. Simulation packages currently available no longer require a strong
+     background in mathematics or computer programming languages in order to per-
+     form real-world simulations. There are a number of user-friendly advanced sim­
+     ulation packages available that allow the user to simulate either the working of a
+     factory, a just-in-time inventory environment, a warehousing and logistics problem,
+     or the behavior of a group technology system. These simulation packages have
+     been demonstrated to be a valuable aid in the decision-making processes. They also
+16   Chapter 1
+
+
+
+     require a relatively small investment of time on the part of the novice in order to
+     develop a working knowledge of the simulation process.
+          Simulation can be used to predict the behavior of a manufacturing or service
+     system by actually tracking the movements and interaction of the system compo-
+     nents and aiding in optimizing such systems. The simulation software generates
+     reports and detailed statistics describing the behavior of the system under study.
+     Based on these reports, the physical layouts, equipment selection, operating proce-
+     dures, resource allocation and utilization, inventory policies, and other important
+     system characteristics can be evaluated.
+          Simulation modeling is dynamic, in that the behavior of the model is tracked
+     over time. Second, simulation is a stochastic process, meaning random occurrences
+     can be studied.
+          In the scope of facilities planning and design, computer simulation can be uti-
+     lized to study and optimize the layout and capacity, JIT inventory policies, mate-
+     rial handling systems, and warehousing and logistics planning. Computer simula-
+     tion allows the comparison of different alternatives and studies various scenarios in
+     order to select the most suitable setup.
+          Currently, there are a number of user-friendly advanced simulation packages
+     available to assist the facility planners in achieving the best possible results. Computer
+     simulation and its application are discussed in greater detail in Chapter 15.
+
+
+     ISO 9000 and Facilities Planning
+     ISO 9000 and other quality standards have become a major contributing factor in
+     the operations of many manufacturing and service enterprises. The ISO series of
+     international standards were first published in 1987 by the International Organ­
+     ization for Standardization (ISO). All or part of these standards can be adopted
+     by an organization depending on the size and the scope of the operation of the
+     enterprise. A large number of corporations demand that their vendors be regis-
+     tered under this or other similar quality standards. Indeed, such registration is now
+     a primary prerequisite for many vendors. ISO 9000 standards and requirements can
+     have a direct influence on facilities design. Considerations must be given during
+     the initial planning of the facilities in order to incorporate and facilitate the imple-
+     mentation of these standards. The latest revision of the ISO 9000 standard empha-
+     sizes the “process approach” to the organization of the enterprise. When analyzing
+     the facilities planning from a macroscale approach, each and every aspect of the
+     enterprise—from receiving to shipping, with all the intermediate and support func-
+     tions of the facility—should function as an integrated and a cohesive system sup-
+     porting the process. Some of the specifics are as follows.
+          A facility layout is only as effective as the management team and the plan that
+     the team follows to run the company. An effective quality management system rein-
+     forces and complements the physical aspects of the facilities and aims to maximize
+     the return on the investments in the organization’s physical assets such as produc-
+     tion equipment. The company must develop, document, implement, and main-
+     tain an effective quality management system. This system needs to outline critical
+   Introduction to Manufacturing Facilities Design and Material Handling           17
+
+
+ processes and records that are to be maintained. The documented quality sys-
+ tem needs to be controlled to ensure that the company is operating on current
+standards and correct procedures. The company must have upper management’s
+c­ ommitment to producing a quality product. Personnel’s responsibilities must be
+outlined and understood at all levels. Top management must ensure that customer
+requirements are determined and met to promote customer satisfaction.
+     Management must regularly review the company’s quality management system
+to ensure that the current practices indeed adhere to the stated policies and that the
+current standards are adequate for the company’s capabilities. This includes capa-
+bility analyses of equipment, personnel, and space resources of the organization.
+Management must continually monitor operations for improvement opportunities.
+     In addition, the company must ensure that it has adequate resources. These
+resources are, but are not limited to, qualified personnel, proper equipment, and
+sufficient levels of inventory. The company must determine and provide adequate
+resources needed to implement and maintain the quality management system
+and enhance customer satisfaction. The work environment needs to be suitable to
+achieve conformity to product and customer requirements. The responsibility and
+role of the facility planner in determining the required level of these resources is of
+paramount importance.
+     A company must have a well-defined and a structured system for manag-
+ing its inventory in order to ensure that parts are being completed on schedule
+and within customer specifications. The organization must have a written and
+w
+­ ell-documented plan on how products and components will be traced from receipt,
+through all stages of processing, and finally, delivery. When batch or product trace-
+ability is required, data collection capabilities can be built into material handling
+equipment and also incorporated as part of the workstation design. Handheld or
+stationary scanners, for the purposes of data collection and item tracking, should
+be designed as part of the workstation design and facilities planning.
+     The company must plan and develop the processes needed for product realiza-
+tion. Customer requirements need to be considered and specific processes must be
+determined to achieve customer satisfaction. These customer requirements must
+be reviewed and approved prior to acceptance to ensure that the equipment and
+process capabilities that are required to meet these requirements do exist.
+     The design and development process must be considered as well. Beginning
+ with customers’ specifications to the outputs from the facility, all procedures and
+ processes must tie back to achieving customer satisfaction. The company is required
+to ensure that production of the product is maintained under controlled condi-
+tions. This requirement can be tied directly to JIT, MRP, kanban, or other produc-
+tion control systems. In addition, consideration must be given by the planners in
+the initial stages of facilities design as to how to incorporate procedures for quality
+assurance or verification at receiving, work in process (WIP), and finally, during the
+final stage of production.
+     There are specific processes that need to be measured and analyzed to adhere
+to customer requirements. An example would be testing the hardness of steel to
+ensure it conforms to stated customer requirements. Those processes need to be
+

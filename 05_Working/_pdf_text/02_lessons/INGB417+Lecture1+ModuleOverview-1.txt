@@ -1,0 +1,272 @@
+          Welcome to INGB417
+          Facilities Design 2026
+Lecturer: Mrs Willemien Kruger
+Contact nr: 083 7112246
+Email: Willemien.Kruger@nwu.ac.za
+Office: 109
+Consulting hours : any day
+         except Thursdays
+BUSINESS ‘PROCESSES’                                                   Any PROCESS
+                                                              Inputs     TRANSFORM                 Outputs
+
+                                                                                         © Willemien Kruger 2024
+
+
+
+
+                          MANAGEMENT PROCESSES
+
+
+                                   PRODUCTION/
+                    Raw materials                              Useful ‘designed’ Product
+                                  MANUFACTURING
+                                 OPERATIONS
+                                                              Process had to be ‘designed’
+                              PROCESSES = CORE
+                                       SERVICE
+       Time & effort                                           Useful ‘designed’ Service
+                                       DELIVERY
+
+
+
+
+                               SUPPORT PROCESSES
+
+ Financial support, Administration, Purchasing, Inventory management, Marketing, Sales & Distribution,
+ Research & Development, Projects/Programs, Facilities and equipment, Information technology/Systems
+© McGraw Hill LLC
+      GA3: Engineering Design
+ The purpose of this module is to develop your ability to
+      DESIGN creative solutions,
+for complex engineering problems and
+              DESIGN
+          systems, components or processes to
+              meet identified needs(=GA3)
+
+      In the context of doing a FACILITY DESIGN….
+
+
+ “CREATING PLACES THAT
+  MAXIMIZE EFFICIENCY”
+
+
+INGB417 includes both FACILITY DESIGN and
+     PRODUCTION PROCESS DESIGN
+          (they affect each other)
+Textbooks
+
+    Prescribed textbook:
+    Tompkins JA, White JA, Bozer YA,
+    Tanchoco JMA, Facilities
+    Planning, 4th Edition, Wiley &
+    Sons, 2010, ISBN : 978-0-470-
+    44404-7.
+    Additional textbook:
+    Stephens, Matthew P,
+    Manufacturing Facilities Design
+    & Material Handling,
+    5th or 6th edition,
+    Purdue University Press,
+    2019,
+    ISBN: 978-1-61249-573-6
+                                 Study content
+
+• Industry and layout types
+
+• The Design Process
+
+• Design requirements and operational activities interrelationships
+
+• Tools and Techniques e.g. calculation of space requirements, block layouts,
+  capacity calculations and meeting demand, production process flow charts ,
+  activity relationship charts
+
+• Development of space layouts alternatives in the design of a facility
+
+• Evaluating design alternatives
+
+• Development of a Master Facility Plan
+
+• Concept of sustainable (green offices) facility design
+                      Assessment Plan
+                                                       Exam/
+  Participation mark (50% ratio)
+                                                   GA Assignment
+(Need 40% to participate in exam)
+                                                    (50% ratio)
+
+1 Assignment in class = 10%
+1 Practical = 10%                            Subminimum of 40%
+1 Group Project (2 parts) = 60%              Pass GA3 (YES/NO)
+1 Semester Test = 20%
+
+My expectation is that you ATTEND CLASSES – this is a contact based university,
+and this module is especially NB, some classes are practical work and I say a lot
+   of things in class that may be missed on the slides. So you will NOT have
+                         enough context with only slides.
+
+    There are only 10 classes and 1 outing…so I NEED TO SEE YOU in class!
+
+        This is a BIG module, with a BIG assignment as the main focus…
+                      Assessment details
+
+1. Ass 1 (Individual layout) – in class on 10 Feb 2026 (upload to
+   eFundi 16 Feb 2026 at 8h00)
+2. Ass 2 (Group practical) – in Learning factory on 17 Feb 2026
+3. Ass 3 (Group project phase 1) - Hand out on 24 Feb 2026
+   Due Monday 23 March 2026 at 8h00 (upload to eFundi)
+4. Ass 4 (Group Project Report and Evidence Interview) - Hand out
+   on 24 Feb 2026. Report due Monday 4 May 2026 @ 8h00 (upload
+   to eFundi) and Interviews on Tuesday 5 May 2026 (morning)
+5. Ass 5 (Semester test) - during Assessment week in April 2026
+
+
+6. GA EXAM (Individual Project design exam) includes
+              a Report and Interview during June 2025
+                     Assessment criteria
+   The Evaluation Criteria for the assessments that form part of this
+                      module (usually) include:
+• Clear interpretation of design problem and formulation and
+  calculation of design requirements (this includes the use of analytical
+  tools) *** 30%
+• Practical insight shown in the design process and the design
+  solution ** 20%
+• Sufficient solution DETAIL provided to meet the design
+  requirements *** 30%
+• Effective use of a structured and rigorous design approach *10%
+• Effective communication of the design process and solution *10%
+
+
+ Remember you need to proof that you have DESIGN and PROBLEM
+     SOLVING skills to solve complex engineering problems.
+                  Exam Rubric
+
+
+If you hand in
+an Incomplete
+or NO Design
+or Alternatives
+or an
+Incomplete or
+No MFP =
+FAIL!!!
+                          How the module will
+                            practically work
+• ALL classes are presented in person – attend the classes!
+
+• Read the textbooks (this is Self Study)
+
+• Do the assessments to the best of your ability (DO NOT COPY and PASTE,
+  seek shortcuts with or without AI, or compare too much to your peers)
+
+• You need to learn the DESIGN skill yourself
+
+• Be creative, think outside of the box (this is an exciting module!)
+
+• Note: AI is really bad with facilities design, so do not even try.
+
+• This is an opportunity to learn a really useful skill, use it
+                                                             Lecture plan 2026
+INGB417 FACILITIES DESIGN MODULE PLAN
+                                                                                                                                                                 Textbook     Textbook
+contact session       day   date      time planned   Plan                                                                                           study unit   (Tompkins)   (Stephens)
+
+                  1            10-Feb 8h00-10h45     417Overview, Industry types, Layout types lectures and Ass1 Practical measurement              1
+
+                                      12h45-14h15    practical help with draw.io or other software for Ass1&2
+
+                  2            17-Feb 8h00-10h45     Learning Factory Practical 3hrs
+
+                                      12h45-14h15    Assessments feedback
+
+                  3            24-Feb 8h00-10h45     Design process lecture +understanding GA3 + Assignment3&4 groups assign, handout and explain   2            Ch1          Ch1
+
+                                      12h45-14h15    Assessment 3&4 group work opportunity + questions + recap capacity calculations
+
+                  4           03-Mar 8h00-10h45      Production process Design and Requirements (Demand to Capacity) calculations [demi]            2,3,4        Ch2          Ch2,3,4,5
+
+                                      12h45-14h15    no class
+
+                  5           10-Mar 8h00-10h45      Systematic Layout Planning (SLP) lecture + Tutorial work                                       5,6          Ch3,6        Ch 6,7,13
+
+                                      12h45-14h15    Flow, activities and Space requirements lecture
+
+                  6           17-Mar 8h00-10h45      Material handling theory and variety                                                           6            Ch5          Ch10,11
+
+                                      12h45-14h15    if needed extra tutorial on SLP
+
+                  7           24-Mar 8h00-10h45      Personnel offices, auxilary services, warehouse and production stations                        7            Ch4,7,9      Ch8,9,12
+
+                                      12h45-14h15    no class
+
+Assessment5=SemTest 30March -10 April 2026
+
+                  8            14-Apr 8h00-10h45     Alternatives and Evaluation and MFP incl Business case and FEEDBACK on Ass3                    8            Ch11,12      Ch14, 16
+
+                                      12h45-14h15    available for questions regarding Ass4. Show good & bad reports/MFP's.
+
+                               21-Apr No class       Work on GROUP PROJECT. Redo Ass3 based on feedback and do Ass4 DESIGN
+
+                              04-May Monday          at 8h00 Ass4 report due date on eFundi
+
+                  9           05-May 8h00-10h45      Group project interviews
+
+                                      12h45-14h15    Discuss Ass4 feedback as prep for exam
+
+              10              12-May 8h00-10h45      Servicescape and SMART offices
+
+                                      12h45-14h15    OUTING ?
+
+                              19-May 9h00-11h00      OUTING ?
+                                How do I FAIL…
+• It’s not about enough content...it’s about clever logical simple DESIGN.
+• Design is an Art and a Science – so you can be creative, but stay logical and
+  practical
+
+• It’s not about just the rubric, it’s about your attitude, the way you talk and
+  explain, level of detail you really understand etc.
+
+• It is about the WORDS and PICS you use to communicate your ideas. Not
+  communicating effectively and not including details (but remember more is not
+  always better, so communicate well)
+
+• Thinking you can depend on buddies or AI, just NO, but you can learn from
+  buddies in the GROUP assignment
+
+• Not planning and using your TIME effectively, there are a lot of work to do...do
+  not underestimate it!
+How do I FAIL…
+             AI struggle with this
+You need to’s…
+                                                               Raw material is what? Where?
+
+
+
+•   You need to be able to understand production processes….
+
+
+
+                                                                     Finished good is what?
+•   You need to be able to visualize the
+flow of materials and how it changes through the production process
+•   You need to understand the concept of a ‘workstation’ (Machine,operator,WIP, scrap)
+•   and the idea of ‘functional areas’ and ‘department’ groups
+•   You need to understand movement between groups
+•   You need to understand scale…making 1000 vs 10 000
+•   – group together
+•   You need to think logically!
+•   You need to understand floor spaces and open spaces
+•   You need to think about the inside of a building but also the outside logistics, how to get
+    there, where to park and the flow of people logic
+                                                                                                  14
+Examples –
+• There are GOOD, OK and BAD facility designs
+• It can be plain wrong, but if you can explain the logic and assumptions
+  behind your design, show it clearly and have evidence
+• Show physical size of an MFP and a report
+• Show other slideshow with samples
+
+
+
+        Are you looking forward to learning the skill of DESIGN??
+

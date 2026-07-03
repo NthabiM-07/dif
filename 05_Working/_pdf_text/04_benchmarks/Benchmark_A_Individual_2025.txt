@@ -1,0 +1,1909 @@
+                      Faculty of Industrial
+                         Engineering
+
+                   INGB 417:
+          GA Exam Individual Assignment
+
+
+                                           By
+                          Kaylee Courtney Meyer
+                                     41763939
+
+                            Submitted in pursuit of the degree
+
+                             BACHELOR OF ENGINEERING
+                                         In
+                              INDUSTRIAL ENGINEERING
+
+
+
+
+Lecturer: Mrs Willemien Kruger
+
+
+
+
+                                                                 1
+Table of Contents
+1.     Executive Summary ........................................................................................................ 6
+
+2.     Problem Background ...................................................................................................... 6
+
+3.     Design Objectives ........................................................................................................... 6
+
+4.     Design Requirements ...................................................................................................... 7
+
+5.     Assumptions and Constraints ......................................................................................... 7
+
+6.     Detail Design Specification ............................................................................................. 8
+
+     6.1       Product and Raw Material Overview ........................................................................ 8
+
+       6.1.1      Product Overview ............................................................................................... 8
+
+       6.1.2      Raw Materials Overview ...................................................................................... 9
+
+     6.2       Unit Description ..................................................................................................... 9
+
+       6.2.1      Tabletop ........................................................................................................... 10
+
+       6.2.2      Sliding Structure ............................................................................................... 10
+
+       6.2.3      Table Legs ........................................................................................................ 11
+
+       6.2.4      Chairs .............................................................................................................. 11
+
+       6.2.5      Unit Summary................................................................................................... 11
+
+     6.3       Daily Demand Calculation .................................................................................... 12
+
+       6.3.1      Finished Goods Demand ................................................................................... 12
+
+       6.3.2      Raw Materials Demand ..................................................................................... 12
+
+     6.4       Manufacturing Process ......................................................................................... 13
+
+     6.5       Machinery, Capacity Planning and Labour ............................................................. 14
+
+       6.5.1      Cutting Operation ............................................................................................. 14
+
+       6.5.2      Bending Operation ............................................................................................ 14
+
+       6.5.3      Welding Operation ............................................................................................ 15
+
+       6.5.4      Powder Coating ................................................................................................ 17
+
+       6.5.5      Rubber Levelling Operation ............................................................................... 18
+
+       6.5.6      Assembling Operation ...................................................................................... 18
+
+       6.5.7      Packing Operation ............................................................................................ 19
+
+
+                                                                                                                                        2
+        6.5.2 Visual Summary ................................................................................................... 20
+
+     6.6        Department Classification .................................................................................... 22
+
+        6.6.1      Processing Departments................................................................................... 22
+
+        6.6.2      Holding and Handling Departments ................................................................... 31
+
+        6.6.3      Visual Summary of All Departments .................................................................. 39
+
+7.      Design Alternatives ....................................................................................................... 40
+
+     7.1        Department Blocks ............................................................................................... 40
+
+     7.2        Systematic Layout Planning .................................................................................. 40
+
+        7.2.1      Alternative 1 ..................................................................................................... 40
+
+     7.2 Systematic Layout Planning ........................................................................................ 40
+
+        7.2.2      Alternative 1 ..................................................................................................... 41
+
+        7.2.3      Alternative 2 ..................................................................................................... 42
+
+        7.2.4      Alternative 3 ..................................................................................................... 42
+
+8.      Evaluating Alternatives .................................................................................................. 43
+
+9.      Final Design .................................................................................................................. 44
+
+10.         Business Case ......................................................................................................... 45
+
+11.         Final Recommendations and Remarks ...................................................................... 46
+
+Appendix ............................................................................................................................. 47
+
+     Appendix A ....................................................................................................................... 47
+
+        A1: Raised Staging Area ................................................................................................. 47
+
+        A2: Forklifts utilised: ..................................................................................................... 47
+
+        A3: Low-laying Gravity Roller ......................................................................................... 47
+
+     Appendix B ....................................................................................................................... 48
+
+        B1: Activity Relationship Diagram .................................................................................. 48
+
+
+
+
+List of Tables
+Table 1: Assumptions and Constraints .................................................................................... 8
+Table 2: Product Specification (Table) ..................................................................................... 8
+
+
+                                                                                                                                        3
+Table 3: Product Specification (Chair) ..................................................................................... 9
+Table 4: Raw Materials ........................................................................................................... 9
+Table 5: Raw Materials per Unit............................................................................................. 11
+Table 6: Total Raw Materials per Unit .................................................................................... 12
+Table 7: Finished Goods Daily Requirements ........................................................................ 12
+Table 8: Raw Material Demand ............................................................................................. 12
+Table 9: Cutting Operation.................................................................................................... 14
+Table 10: Bending................................................................................................................. 15
+Table 11: Automated Welding ............................................................................................... 15
+Table 12: Manual Welding .................................................................................................... 16
+Table 13: Automatic Powder Coating Booth .......................................................................... 17
+Table 14: Rubber Levelling .................................................................................................... 18
+Table 15: Assembly .............................................................................................................. 19
+Table 16: Packing ................................................................................................................. 20
+Table 17: Area of Processing Departments ............................................................................ 31
+Table 18: Raw Material Storage ............................................................................................. 32
+Table 19: Volume of Containers ............................................................................................ 33
+Table 20: Prepared WIP ........................................................................................................ 34
+Table 21: Welded WIP .......................................................................................................... 35
+Table 22: Painted WIP .......................................................................................................... 35
+Table 23: Assembled WIP ..................................................................................................... 36
+Table 24: Finished Goods Storage ......................................................................................... 37
+Table 25: Amenities .............................................................................................................. 38
+Table 26: Holding & Handling Summary ................................................................................ 38
+Table 27: Closeness Index .................................................................................................... 40
+Table 28: Final Relationship Chart ........................................................................................ 40
+Table 29: Weighted Factor Comparison Evaluation................................................................ 43
+Table 30: Capital Cost Calculations ...................................................................................... 45
+Table 31: Risk and Mitigations............................................................................................... 45
+Table 32: High-Level Implementation Schedule..................................................................... 45
+Table 33: Forklift Specs ........................................................................................................ 47
+
+
+
+List of Figures
+Figure 1: Table Configurations ................................................................................................ 8
+
+
+                                                                                                                                    4
+Figure 2: Rattan Backing Chair ................................................................................................ 9
+Figure 3: Table Frames ......................................................................................................... 10
+Figure 4: Sliding Structure .................................................................................................... 10
+Figure 5: Entire Process Flowchart ........................................................................................ 13
+Figure 6: Cutting Station ....................................................................................................... 22
+Figure 7: Bending Station ...................................................................................................... 23
+Figure 8: Auto-Weld Station .................................................................................................. 24
+Figure 9: Man-Weld & Grind Station...................................................................................... 25
+Figure 10: Coating Station .................................................................................................... 26
+Figure 11: Levelling Station ................................................................................................... 27
+Figure 12: Assembly Station ................................................................................................. 28
+Figure 13: Packing Station .................................................................................................... 29
+Figure 14: Stacking Station ................................................................................................... 30
+Figure 15: Bundled Raw Material........................................................................................... 31
+Figure 16: Stack & Bundle Measurements ............................................................................. 32
+Figure 17: Containers ........................................................................................................... 33
+Figure 18: Shelf .................................................................................................................... 34
+Figure 19: Large Order vs Small Order ................................................................................... 37
+Figure 20: Visual Summary of All Departments ...................................................................... 39
+Figure 21: Department Blocks .............................................................................................. 40
+Figure 22: Relationship Diagram ........................................................................................... 41
+Figure 23: Alternative 1 ......................................................................................................... 41
+Figure 24: Alternative 2 ......................................................................................................... 42
+Figure 25: Alternative 3 ......................................................................................................... 42
+Figure 26: MFP ..................................................................................................................... 44
+Figure 27: Raised Staging Area .............................................................................................. 47
+Figure 28: Forklift ................................................................................................................. 47
+Figure 29: Low-laying Gravity Roller ...................................................................................... 47
+Figure 30: Activity Relationship Diagram ............................................................................... 48
+
+
+
+
+                                                                                                                                      5
+1. Executive Summary
+This report presents the comprehensive design of a new manufacturing facility for TIPTOP
+TABLES, which has a need for a new manufacturing plant for only their outdoor table 3-in-1 set.
+The project involved identifying the machinery and equipment required for the production of the
+company’s product, as well as planning and designing each workstation. In addition, appropriate
+material handling and storage strategies were chosen.
+
+Three alternative facility layouts were developed and assessed based on the design objectives
+and requirements, with the most suitable option selected for further refinement into the final
+master facility plan. The business case for the new facility was also carefully examined to
+determine the cost, risk mitigations and schedule.
+
+
+
+2. Problem Background
+TIPTOP TABLES has been a manufacturer of outdoor tables and chairs in the South African
+market for the past 25 years. Among its product offerings, the company has recently experienced
+an increase in demand for its versatile 2-in-1 lightweight aluminium outdoor table set, which
+includes one table, designed to expand into a larger table if needed, and four matching chairs.
+
+Current forecasts suggest a demand of up to 5 000 sets per month for this specific product line.
+However, TIPTOP TABLES' existing manufacturing facility is unable to meet this demand, as it is
+also used for the production of various other products. To address this challenge, management
+has identified the need for a new facility dedicated solely to the production of this outdoor set.
+
+
+3. Design Objectives
+The following design objectives, categorised under their relevant headings, have been
+established to ensure the successful design of TIPTOP TABLES' new manufacturing facility:
+➢ Production:
+    To design a manufacturing facility capable of meeting the projected monthly demand of
+    5000 aluminium outdoor sets, with built-in flexibility for future expansion.
+➢   Site:
+    To design and recommend a site that has access from public roads for all delivery and
+    collection vehicles, complies with zoning and industrial safety regulations, and
+    accommodates both current and future operational requirements.
+
+➢   Layout and Flow:
+    To develop a layout that minimises material handling and unnecessary movement of
+    operators and goods, reduces bottlenecks, and has a logical flow of materials, from
+    receiving to shipping, on a greenfield site.
+➢   Equipment and Machinery:
+    To select suitable machinery and equipment specifically for cutting, welding, grinding,
+    powder coating, assembly, and packaging aluminium components that meet throughput
+    requirements, ensure product quality, prioritise worker safety, and minimise downtime.
+
+
+
+
+                                                                                                6
+4. Design Requirements
+The following design requirements, categorised under their relevant headings, have been
+established to ensure the successful design of TIPTOP TABLES' new manufacturing facility:
+➢ Production:
+    The facility shall:
+        o Produce a minimum of 5 000 aluminium outdoor sets per month.
+        o Stock enough raw materials to support two weeks of production.
+        o A 5% scrap rate must be factored in during the cutting stage of production.
+➢ Site:
+  The facility shall:
+      o Be accessible to public roads for delivery and collection.
+      o Allow space for truck deliveries and customer pickups.
+      o Store all raw materials and components indoors.
+      o Provide a designated collection point for customer orders.
+      o Allocate 20% of the floor area for future expansion.
+      o Include a separate enclosed welding area, considering safety and ventilation.
+      o Provide robot safety zones around the automated welding stations.
+
+➢ Layout and Flow:
+  The facility shall:
+     o Provide clear paths for material and operator movement between processes.
+     o Include vehicle access routes for incoming and outgoing goods.
+     o Allow for work-in-progress (WIP) storage areas between operations.
+     o Accommodate stacking and temporary storage of outsourced chairs awaiting
+         assembly.
+
+
+➢ Specific Design Requirements
+  The facility shall adhere to the following specific requirements set by TIPTOP TABLES:
+
+       o   Welded WIP shall have access to outside for the onloading of chairs.
+       o   Assembly WIP shall have access to the outside for the offloading of chairs.
+       o   Raw materials shall not be close to the automated welding operation.
+       o   The cutting process shall not be close to the automated welding operation
+       o   The WIP of cut parts shall not be close to the automated welding operation.
+       o   Manual welding shall not be close to the powder coating operation.
+       o   Manual welding shall not be close to the assembly operation.
+       o   Manual welding shall not be close to the packing operation.
+       o   Manual welding shall not be close to the finished goods storage.
+       o   Raw materials shall be close to the cutting operation.
+       o   The cutting operation shall be close to the WIP of cut parts.
+       o   Automated and manual welding shall be close to each other.
+       o   WIP of structures and tabletops shall be close to each other.
+       o   Packaging and finished goods shall be close to each other.
+
+
+5. Assumptions and Constraints
+Table 1 outlines some constraints and assumptions made throughout the design process. Other
+relevant assumptions are mentioned in the document where applicable.
+
+
+                                                                                           7
+Table 1: Assumptions and Constraints
+     Assumption/Constraint                                              Details
+ 20 working days per month.              The company currently operates a 9 hour shift per day, 5 days per
+ 8 working hours per day.                week. Operators are given 30 minutes for lunch and two 15 minute
+                                         tea breaks per day. Assume an average of 20 working days per
+                                         month. Overtime or a Saturday shift is possible but should only be
+                                         considered to provide flexibility in capacity.
+ 1 unit.                                 A unit will be considered the entire aluminium outdoor set, that
+                                         contains one table and four chairs. Components of the unit will be
+                                         referred to as sub-units.
+ The thickness of the flat bar is        The table has a height of 0.7 m, with the only additional height
+ considered negligible.                  coming from the flat bars, which are less than 0.01 m thick and
+                                         therefore considered negligible for the purposes of this study.
+ 80/20 large and small orders.           Since TIPTOP TABLES is a manufacturer, we will assume that 80%
+                                         of the products are sold wholesale and 20% are sold directly from
+                                         the factory. Therefore, 80% of the daily demand will be packed in
+                                         sets of five (large orders), while the remainder will be sold
+                                         individually (small orders).
+
+
+
+
+6. Detail Design Specification
+6.1 Product and Raw Material Overview
+This section provides an overview of the product produced and the raw materials used. This will
+form the background for a detailed unit description that follows.
+
+6.1.1 Product Overview
+Table 2 below lists the measurements of the table from aluminium outdoor set.
+
+Table 2: Product Specification (Table)
+           Measurement (m)                Small Table Configuration          Large Table Configuration
+               Length                               1,52                               2,48
+               Width                                1,00                               1,00
+               Height                               0,70                               0,70
+
+Figure 1 below visually illustrates the small and large table configuration with all relevant
+measurements.
+
+
+
+
+Figure 1: Table Configurations
+
+
+Table 3 below lists the details of the chairs from aluminium outdoor set.
+
+
+
+
+                                                                                                          8
+Table 3: Product Specification (Chair)
+                      Chair Section                                           Details
+                       Chair frame                                Made from 6m aluminium pipe tube
+                         Rattan                                             Outsourced
+
+Figure 3 below visually illustrates the chair form the aluminium outdoor set. As mentioned in
+problem background, each aluminium outdoor set consists of four rattan backing chairs.
+
+
+
+
+Figure 2: Rattan Backing Chair
+
+
+6.1.2 Raw Materials Overview
+The aluminium outdoor sets are manufactured using raw materials and is detailed in the table
+below. All raw materials are sourced from Aluminium Trading.
+
+Table 4: Raw Materials
+     Raw Material                           Usage               Length    Mass            Visual
+ Rectangular tubes               Used to make the frame for
+ (40mmx20mmx1,2mm)               the tabletop as well as the
+ (height x width x thickness)    inserted structure that
+                                                                 6m      0,350 kg
+                                 allows the two tabletops to
+                                 slide together for the small
+                                 configuration.
+ Flat bars                       Used for the tabletop (this
+ (101,6mmx9,52mm)                is welded to a frame).          6m      2,621 kg
+
+
+ Square tubes                    Used to make the table
+ (60mmx60mm)                     legs.
+                                                                 6m      1,854 kg
+
+
+ Round tubes                     Used for making the
+ (25,4mmx1,6mm)                  chairs.
+                                                                 6m      0,328 kg
+
+
+
+
+6.2 Unit Description
+This section provides a more detailed description of a unit and specifically how the raw materials
+are applied and positioned to form it. This will enable a clearer understanding of the demand
+calculations presented in the following section. One aluminium outdoor unit consists of one
+table and four chairs and can be broken down into sub-units: Tabletop, Sliding Structure, Table
+Legs and Chairs. Below follows details on each sub-unit.
+
+
+
+                                                                                                     9
+6.2.1 Tabletop
+Each unit consists of two tabletops, and each tabletop can further be broken down to: Table
+Frame and Table Surface.
+6.2.1.1 Table Frame
+As shown in Table 4, rectangular tubes are used to manufacture the table frames. However, to
+achieve the final product dimensions of 1,52 m in length and 1 m in width in its small
+configuration, the raw material must be cut to the specific lengths indicated in the figure below.
+
+It is evident in the figure that the rectangular tube is positioned in a way that the 20 mm width is
+the measurement considered. The figure also highlights the key welding points, which account
+for this slight adjustment in material dimensions.
+
+
+
+
+Figure 3: Table Frames
+A total of 6,38m is needed for the table frame. After adding 5% scrap rate to account for the
+material loss in the cutting process a net total of 6,70m is needed. As mentioned in table 4, each
+rectangular tube only comes in 6m lengths, thus we will need 2 rectangular tubes for each table
+frame.
+
+6.2.1.2 Table Surface
+As mentioned in table 4, flat bars are used for the surface of the tabletop. Each tabletop consists
+of 15 flat bars each a 1m long, thus 15m is required per tabletop, and 30m per table, that is 5x 6m
+flat bars per table. It is assumed that no scrap is generated when cutting the flat bars therefore
+exactly 5x 6m flat bares are required. The
+
+
+6.2.2 Sliding Structure
+This structure allows for the two tabletops to slide into and apart from each other allowing a small
+or large configuration. Each unit requires one sliding structure and 20 screws to attach it. The
+figure below indicated the relevant measurements and welding spots.
+
+
+
+
+Figure 4: Sliding Structure                                                                      10
+A total of 4,76m is needed for the sliding structure. After adding 5% scrap rate to account for the
+material loss in the cutting process a net total of 5,00m is needed. As mentioned in table 4, each
+rectangular tube only comes in 6m lengths, thus we will need 1 rectangular tube for each sliding
+structure.
+
+
+6.2.3 Table Legs
+Square aluminium bars are used to manufacture the legs of the outdoor furniture sets, with each
+set requiring four legs. These legs are fitted into square sockets welded to the underside of the
+tabletop corners. The sockets will be sourced as raw materials. Rubber levelling feet will be
+attached to the bottom of each leg.
+
+Each leg must be 0.69 m tall (0.70 m minus the 9.52 mm thickness of the flat bars). For simplicity,
+we round this to 0.70 m, considering the flat bar thickness negligible. As the square bars are
+supplied in 6 m lengths (see Table 4), and 2.94 m of tubing is needed per unit, including a 5%
+scrap allowance for cutting, each furniture set requires approximately 0.5 square tubes.
+
+
+6.2.4 Chairs
+As mentioned in table 4, round tubes are bent to produce the chairs. Each chair is made out of
+one 6 m round tube cut into 5, it is assumed the cutting of chairs 5% scrap rate is already included
+in the required 6m. The rattan backing is outsourced. Each unit consists of four chairs, thus 24m
+or 4x 6m round tubes are required per unit.
+
+
+6.2.5 Unit Summary
+The table below provides a summary of the detailed unit description above.
+
+Table 5: Raw Materials per Unit
+                                                 Raw Material Requirements per Unit
+
+      Sub-Unit                 Raw Material Required
+                                                                     Sum of Raw Material              Number of Tubes/Bars/Parts
+                                                                         Required                             Required
+            -                                -                        Summing of Raw Material                   Summing of Raw Material
+
+                           3x 1,46 m Rectangular Tube
+ Tabletop: Table
+                           2x 1 m Rectangular Tube                 6,7 m Rectangular Tube                                 2
+ Frame
+                           5% scrap: [0,319m]
+ Tabletop: Table
+                           30x 1m Flat Bars                        30 m Flat Bars                                         5
+ Surface
+                           2x 0,9 m Rectangular Tube
+                           2x 1 m Rectangular Tube
+ Sliding Structure                                                 5 m Rectangular Tube                                   1
+                           1x 0,96 Rectangular Tube
+                           5% scrap: [0,238m]
+                           4x 0,7 m Square Tube
+ Table Legs                                                        2,94 m Square Tube                                    0,5
+                           5% scrap: [0,14m]
+                           20x 1,2m Round Tube
+ Chairs                                                            24 m Round Tube                                        4
+                           (scrap included)
+ *Square-holds             4 x 1 Hold                              4 Holds                                                4
+ *Screws                   20x 1 Screw                             20 Screws                                             20
+*Note that these aren’t considered ‘sub-units’, but rather raw material used in the application of sub-units.
+
+
+
+
+                                                                                                                                     11
+The information in the table above can be further simplified by grouping identical raw materials
+to calculate the total amount required per unit, as shown in the table below. The table below will
+also serve as a reference for the upcoming daily demand calculations.
+Table 6: Total Raw Materials per Unit
+                      Raw Material                                                Amount Required
+                     Rectangular Tube                                                   3
+                         Flat Bars                                                      5
+                       Square Tube                                                     0,5
+                       Round Tube                                                       4
+                      Square-holds                                                      4
+                          Screws                                                       20
+
+
+
+6.3 Daily Demand Calculation
+This section will make use of the information in table 5 for both finished goods and raw material
+demand calculations.
+
+6.3.1 Finished Goods Demand
+The total number of units and sub-units required per day is shown in the table below.
+Table 7: Finished Goods Daily Requirements
+                                    Number of Sub-                                          Weekly                Daily
+                                                             Monthly Demand
+                                     Units per Unit                                         Demand               Demand
+                                   Mentioned under each   Number of Sub-units per Unit   Monthly Demand /     Weekly Demand
+         Extra information:
+                                     sub-unit section               * Units                  4 weeks          / 5 working days
+ Outdoor Sets (Units)                       -                       5 000                      1250                250
+ Tabletop (Sub-unit)                        2                       10000                      2500                500
+ Sliding Structure (Sub-unit)               1                       5000                       1250                250
+ Table Legs (Sub-unit)                      4                       20000                      5000                1000
+ Chairs (Sub-unit)                          4                       20000                      5000                1000
+
+
+6.3.2 Raw Materials Demand
+Using the information from Tables 6 and 7, the daily raw material requirements were calculated,
+as shown in the table below. Since the raw material inventory must consistently reflect two
+weeks’ worth of stock, the corresponding two-week stock levels are also provided. It is assumed
+that deliveries occur once daily in the morning, with each delivery supplying one day’s worth of
+raw materials.
+Table 8: Raw Material Demand
+                                             Raw Materials Demand
+                                        Amount per Unit      Amount per Day                       2 Week-Stock-Level
+                                                              Amount per Unit * Daily Demand
+           Extra information:                                                                         Amount per Unit * 10
+                                                                      of Units (250)
+ Rectangular Tube                               3                           750                              7500
+ Flat Bars                                      5                         25000                              6250
+ Square Tube                                    0,5                         125                              1250
+ Round Tube                                      4                         1000                             10000
+ Square-holds                                    4                         1000                             10000
+ Screws                                         20                         5000                             50000
+ *Large orders: Carton Boxes                    0,2                          40                               400
+ *Small orders: Carton Boxes                     1                           50                               500
+*As per our assumption, 80% of the orders are large -40 bulk orders, each consisting of 5 outdoor sets. The remaining
+30% are small orders, totalling 50 individual sets.
+
+                                                                                                                             12
+   6.4 Manufacturing Process
+   The figure below presents a flowchart that visually outlines the complete production process of the aluminium outdoor set, including both the table
+   and chairs. All operations and ‘work-in-progress’ areas are indicated.
+
+   Note important assumptions that were made regarding the production process:
+      o The chair frame needs not to be grinded and polished after it is manually welded together.
+      o The legs’ edges need not to be deburred after cutting.
+
+
+
+
+Figure 5: Entire Process Flowchart
+
+                                                                                                                                                   13
+6.5 Machinery, Capacity Planning and Labour
+This section further provides details on machinery and equipment required for each
+operation(squares) as seen in the flowchart above. The capacity planning section outlines the
+necessary number of machines and/or equipment as well as the required labour to operate them
+effectively. This whole section serves as an introduction to station planning that follows.
+
+
+6.5.1 Cutting Operation
+The purpose of this operation is to use a Laser Cutting LF3015CNR Machine to cut rectangular
+tubes, square tubes and flat bars for the tables - and round tubes for the chairs. To meet
+production demands, a total of three machines are required.
+
+Based on industry standards and the machine's features, it's typical for such machines to be
+operated by a single trained operator. The operator's responsibilities usually include, setting up
+the machine and loading materials and monitoring the cutting process. To meet production
+demands, a total of three operators are required.
+
+Table 9: Cutting Operation
+                                                        Cutting
+                    https://coastalengineering.co.za/cnc-plasma-cutting-machines/lf3015cnr/
+                                             Machine Specifications
+                         Model                                                    LF3015CNR
+                          Laser                                             1000 – 8000 w (Optional)
+                        Accuracy                                                   ±0.02 mm
+                         Length                                                    4 600 mm
+                         Width                                                     2 450 mm
+                         Height                                                    1 700 mm
+                                                    Capacity Planning
+                                        Cutting Time     Time Needed         Time Available
+                          Demand
+                                        for All Parts   for Cutting per     per Machine per         Machines Required
+                          per Day
+                                         (minutes)      Day (minutes)        Day (minutes)
+                                                        Demand per Day*                          Time Available per Machine per
+   Extra information:         -               -          Cutting Time for      8 hours*60         Day/Time Needed for Cutting
+                                                            All Parts                                per Day [rounded up]
+       Tables                 250            1                250                480                           1
+       Chairs                1000            1               1000                480                           2
+                                                                                     TOTAL                     3
+                                                          Labour
+                            Number of             Operators Required per
+                                                                                       Total Operators Required
+                         Machines Required              Machine
+                                                                              Number of Machines Required*Operators Required
+   Extra information:               -                       -                                  per Machine
+       Tables                       1                       1                                       1
+       Chairs                       2                       1                                       2
+                                                                    TOTAL                           3
+
+
+
+6.5.2 Bending Operation
+The purpose of this operation is to use a UNI76 21314 Bending Machine for bending the round
+tubes. To meet production demands, a total of seven machines are required.
+
+                                                                                                                        14
+Based on industry practices and operational materials, one trained operator is sufficient to run a
+single bending machine. Thus, to meet production demands, a total of seven operators are
+required.
+
+Table 10: Bending
+                                                   Bending
+                                          https://tinyurl.com/bdfebxu4
+                                            Machine Specifications
+                          Model                                             UNI76 21314
+                          Length                                             1000mm
+                          Width                                                710mm
+                          Height                                              1100mm
+                                               Capacity Planning
+                                        Bending    Time Needed
+                                                                     Time Available
+                            Demand      Time for    for Bending
+                                                                    per Machine per          Machines Required
+                            per Day       Part        per Day
+                                                                     Day (minutes)
+                                       (minutes)     (minutes)
+                                                    Demand per                            Time Available per Machine per
+   Extra information:           -          -        Day* Bending       8 hours*60          Day/Time Needed for Bending
+                                                    Time for Part                              per Day [rounded up]
+       Chairs                 1000        3            3000               480                           7
+                                                                                TOTAL                   7
+                                                    Labour
+                           Machines     Operators Required per
+                                                                              Total Operators Required
+                           Required           Machine
+   Extra information:         -                    -                 Machines Required*Operators Required per Machine
+       Chairs                 7                   1                                         7
+                                                          TOTAL                             7
+
+
+
+6.5.3 Welding Operation
+The welding operation is divided in two sections: Automated Welding and Manual Welding.
+
+6.5.3.1 Automated Welding
+The purpose of this operation is to use a Kawasaki BA006N-A Welding Robot Arm to automate the
+welding operation for the sliding structures. To meet production demands, a total of three robot
+arms are required.
+
+Based on industry practices and Kawasaki’s operational materials:
+   o One trained operator is usually sufficient to run a single welding robot arm.
+   o One person must always watch for fire hazards, as per safety instructions
+Thus, one operator per robot arm is required, and therefore we need a total of three operators.
+
+Table 11: Automated Welding
+                                               Automated Welding
+ https://kawasakirobotics.nl/index.php?id_product=38&rewrite=ba006n&controller=product&id_lang=1&utm
+                                          Machine Specifications
+                           Model                                                 BA006N-A
+                        Installation                                     Floor or Ceiling Mounting
+
+
+                                                                                                                   15
+                           Length                                                                  500 mm
+                           Width                                                                   430 mm
+                        Radius of Arm                                                              1800 mm
+                                                          Capacity Planning
+                                          Welding Time         Time Needed for        Time Available per
+                           Demand
+                                          for All Parts        Welding per Day         Machine per Day                  Robots Required
+                           per Day
+                                           (minutes)              (minutes)               (minutes)
+                                                               Demand per Day*                                     Time Available per Machine per
+  Extra information:           -                -              Welding Time for All           8 hours*60            Day/Time Needed for Welding
+                                                                     Parts                                              per Day [rounded up]
+     Sliding
+                             250               5                     1250                       480                              3
+   Structures
+                                                                                                      TOTAL                      3
+                                                                   Labour
+                          Number of
+                           Robots         Operators Required per Machine                              Total Operators Required
+                          Required
+       Extra                                                                              Number of Robots Required*Operators Required per
+                               -                           -                                                 Machine
+   information:
+     Sliding
+                              3                            1                                                        3
+   Structures
+                                                                           TOTAL                                    3
+
+
+6.5.3.2 Manual Welding
+The purpose of this operation is to use a Pinnacle ProMIG Welder for the manual welding of tabletops
+and chairs. This operation doesn’t necessarily have a machine but rather a set of equipment. This
+set consists of a ProMIG Welder and a work bench. To meet production demands, a total of
+twenty-one sets are required. Specifically, eleven for tabletops and ten for chairs.
+
+Only one operator can handle a piece of welding equipment at a time, therefore only one operator
+is required per set. To meet production demands, a total of twenty-one operators are required.
+
+Table 12: Manual Welding
+                                                     Manual Welding
+                                               Set of Equipment Specifications
+                   Pinnacle ProMIG Welder                                 https://tinyurl.com/46tc7fh5
+                       1x Work Bench                                                   https://tinyurl.com/4pc74cm5
+                        Work Bench: Length                                                          1600mm
+                        Work Bench: Width                                                           1100mm
+                        Work Bench: Height                                                          1500mm
+                                                      Capacity Planning
+                                                Welding Time          Time Needed for            Time Available                Sets of
+                           Demand per Day         for Part            Welding per Day            per Set per Day             Equipment
+                                                 (minutes)               (minutes)                 (minutes)                  Required
+                                                                                                                          Time Available per
+                                                                       Demand per Day*                                     Set per Day/Time
+   Extra information:               -                 -                                               8 hours*60
+                                                                      Welding Time for Part                              Needed for Welding
+                                                                                                                         per Day [rounded up]
+    Tabletops                       500              10                      5000                          480                    11
+     Chairs                        1000               5                      5000                          480                    10
+
+                                                                                                                                       16
+                                                                                                  TOTAL               21
+                                                          Labour
+                             Sets of
+                           Equipment             Operators Required per Set                 Total Operators Required
+                            Required
+                                                                                         Sets of Equipment Required *Operators
+ Extra information:              -                           -                                       Required per Set
+     Tabletops                   11                          1                                            11
+      Chairs                     10                          1                                            10
+                                                                          TOTAL                           21
+
+
+Since grinding and polishing the tabletops is a quick task performed after welding to ensure a
+smooth finish, this operation will be integrated into the manual welding process. A die grinder
+will be added to the welder’s equipment, allowing the welder to grind each tabletop as needed (1
+minute per tabletop). As a result, no additional operators or a separate grinding and polishing
+section are required.
+
+
+6.5.4 Powder Coating
+The purpose of this operation is to use an Automatic Powder Coating Booth to coat all structural
+components of the table. Please note that TIPTOP TABLES has specified that only the table is to
+be coated, not the chairs. The table structures include the tabletop, sliding structure, and legs.
+The booth accommodates five structures at a time, and based on the required throughput, one
+booth will be sufficient to meet production demand.
+
+The one booth requires three operators for efficient operation: two operators will handle the
+loading and unloading of the structures, while one operator will manually assist the automatic
+spray system to ensure complete and even coating coverage.
+
+Table 13: Automatic Powder Coating Booth
+                                  Automatic Powder Coating Booth
+                                        https://tinyurl.com/3hzz63wd
+                                       Set of Equipment Specifications
+                 Model                                               COLO-S-0825
+                 Length                                               5000 mm
+                 Width                                                 1200 mm
+                 Height                                               2580 mm
+                                                Capacity Planning
+                                                                              Time
+                                         Coating        Time Needed
+                                                                          Available per
+                          Demand         Time per        for Coating
+                                                                             Coating             Booths Required
+                          per Day          Batch           per Day
+                                                                          Booth per Day
+                                        (minutes)         (minutes)
+                                                                            (minutes)
+                                                                                              Time Available per Machine
+                                                       Demand per Day*
+                                                                                               per Day/Time Needed for
+   Extra information:        -              -          Bending Time for     8 hours*60
+                                                                                               Bending per Day [rounded
+                                                            Part
+                                                                                                          up]
+     Tabletops             500             0,5              250               480                        0,5
+ Sliding Structure         250             0,5              125               480                        0,3
+       Legs                1000            0,5              500               480                        1,0
+
+
+                                                                                                                           17
+                                                                                        TOTAL                   1
+                                                           Labour
+                          Booths              Operators Required per
+                                                                                       Total Operators Required
+                         Required                   Machine
+                                                                                  Machines Required*Operators Required per
+ Extra information:           -                            -                                      Machine
+
+  Powder Coating
+                              1                            3                                         3
+      Booth
+                                    TOTAL                                                            3
+
+
+
+6.5.5 Rubber Levelling Operation
+The purpose of this operation is to install the rubber levelling feet into the table legs. This
+operation does not require a machine, but rather a simple set of equipment, which includes one
+rubber mallet and a workbench. The workbench is designed in a U-shaped steel frame, allowing
+the table legs to be securely positioned for hammering. More detail on this will be available in the
+following section.
+
+To meet production demand, only one set of equipment is needed. As only one operator can
+handle the rubber mallet at a time, the total required operators is one.
+
+Table 14: Rubber Levelling
+                                                     Rubber Levelling
+                                              Set of Equipment Specifications
+                    Rubber Mallet                                     https://tinyurl.com/2vpzu4r4
+                  Work Bench: Length                                                      1000 mm
+                  Work Bench: Width                                                        65 mm
+                  Work Bench: Height                                                      650 mm
+                                                         Capacity Planning
+                                             Levelling         Time Needed          Time
+                         Demand              Time per           for Levelling   Available per
+                                                                                                             Sets Required
+                         per Day               Leg                per Day        Set per Day
+                                            (minutes)            (minutes)        (minutes)
+                                                                Demand per                        Time Available per Set per Day/Time
+   Extra information:         -                 -              Day* Levelling    8 hours*60      Needed for Levelling per Day [rounded
+                                                                Time per Leg                                      up]
+        Legs                 1000             0,25                 250              480                             1
+                                                                                      TOTAL                         1
+                                                                 Labour
+                           Sets
+                                            Operators Required per Set                     Total Operators Required
+                         Required
+   Extra information:       -                              -                          Sets Required*Operators Required per Set
+        Legs                1                              1                                             1
+                                                                      TOTAL                              1
+
+
+
+6.5.6 Assembling Operation
+The purpose of the assembly operation is to attach the two tabletops to the sliding structure. This
+task does not require a machine but instead relies on a basic set of equipment, consisting of two
+
+                                                                                                                                 18
+screwdrivers and a workbench. To meet production demand, three sets of equipment will be
+required.
+
+The operation is best performed by two operators per set: one responsible for positioning the
+tabletops, and the other for positioning the sliding structure. Once aligned, both operators will
+insert and tighten 10 screws each using the screwdrivers. Therefore, to run three sets of
+equipment simultaneously, a total of six operators will be required.
+
+Table 15: Assembly
+                                                   Assembly
+                                       Set of Equipment Specifications
+                   2x Screw Drivers                                https://tinyurl.com/3nrr9ds9
+                  Work Bench: Length                                          1600mm
+                  Work Bench: Width                                           1100mm
+                  Work Bench: Height                                        15000mm
+                                               Capacity Planning
+                                       Assembly                               Time
+                                                      Time Needed for
+                         Demand         Time per                          Available per
+                                                     Assembly per Day                             Sets Required
+                         per Day          Table                           Assembly per
+                                                         (minutes)
+                                       (minutes)                          Day (minutes)
+                                                                                               Time Available per
+                                                      Demand per Day*
+                                                                                             Assembly per Day/Time
+   Extra information:        -             -          Assembly Time per     8 hours*60
+                                                                                             Needed for Assembly per
+                                                           Table
+                                                                                                Day [rounded up]
+        Table               250            5               1250                480                      3
+                                                                                  TOTAL                 3
+                                                    Labour
+                           Sets
+                                         Operators Required per Set             Total Operators Required
+                         Required
+
+   Extra information:        -                       -                     Sets Required*Operators Required per Set
+
+
+        Table                3                       2                                        6
+                                                                  TOTAL                       6
+
+
+
+6.5.7 Packing Operation
+The purpose of this operation is to pack the final products. Tables are packed in carton boxes,
+with their legs loosely placed inside each box. Based on the assumption that 80% of orders are
+large, 40 carton boxes - each containing five table sets - are packed per day. The remaining 20%
+are small, individual orders, with 50 carton boxes packed daily, each containing one table set.
+Chairs are packed by stacking: up to 20 chairs per stack for large orders, and 4 chairs per stack
+for small orders.
+
+This task does not require machinery but instead relies on a basic set of manual equipment: one
+carton sealing tape dispenser for taping the carton boxes and one manual strapping tool for
+securing chair stacks.
+
+To meet production demand, four sets of equipment will be used. Each table-packing station
+requires two operators - one for placing items in the carton and another for sealing it. Similarly,
+
+
+                                                                                                                      19
+each chair-packing station also requires two operators- one for stacking chairs and the other for
+strapping. In total, six operators will be needed across all stations.
+
+Table 16: Packing
+                                                       Packing
+                                      Set of Equipment Specifications
+            Carton Sealing Tape Dispenser                       https://tinyurl.com/23whn5zx
+                Manual Strapping Tool                            https://tinyurl.com/yc74exxf
+                                              Capacity Planning
+                                                Packing                                    Time
+                              Total                            Time Needed for
+                                                Time per                                Available for      Set of Equipment
+                          Tables/Chairs                        Packing per Day
+                                              Table/Chair                               Packing per            Required
+                           per Orders                             (minutes)
+                                               (minutes)                               Day (minutes)
+                                                                                                             Time Available for
+                                                                Demand per Day*                             Packing per Day/Time
+     Extra information:         -                  -                                     8 hours*60
+                                                               Packing Time per Part                       Needed for Packing per
+                                                                                                              Day [rounded up]
+ 40 Large Orders: Table       200                 5                   1000                  480                      3
+ 50 Small Order: Table         50                 5                    250                  480                      1
+ 40 Large Order: Chair        200                0,5                   100                  480                      1
+ 50 Small Order: Chair         50                0,5                    25                  480                      1
+                                                                                              TOTAL                  6
+                                                            Labour
+
+                             Sets of Equipment               Operators Required
+                                                                                             Total Operators Required
+                                 Required                         per Set
+
+     Extra information:              -                                 -                Sets Required*Operators Required per Set
+ 40 Large Orders: Table              3                                 2                                   6
+ 50 Small Order: Table               1                                 2                                   2
+ 40 Large Order: Chair               1                                 2                                   2
+ 50 Small Order: Chair               1                                 2                                   2
+                                                                             TOTAL                        12
+
+
+
+
+6.5.2 Visual Summary
+The table below provides a visual summary for all machines and/or equipment used by each
+operation discussed above.
+
+             Operation              Labour                              Machinery/Equipment
+
+
+               Cutting                    3
+
+
+
+
+                                                                                                                         20
+     Bending        7
+
+
+
+
+Automated Welding   3
+
+
+
+
+ Manual Welding     21
+
+                         *Note that the workbench will be customised to
+                            incorporate clamps to hold down parts.
+
+
+
+
+ Powder Coating     3
+
+
+
+
+ Rubber Levelling   1
+
+
+
+
+    Assembly        6
+
+
+
+
+     Packing        6
+
+
+
+
+     TOTAL          52                 -
+
+
+
+
+                                                                          21
+6.6 Department Classification
+6.6.1 Processing Departments
+The departments listed below are those directly involved in processing. The work-in-progress (WIP) and storage areas will be considered Holding &
+Handling Departments, which will be discussed in the following section (6.6.2 Holding & Handling Departments).
+
+6.6.1.1 Preparation Department
+This department is responsible for preparing the raw material for further steps in the process. It will consist of the cutting and bending operations.
+
+Cutting
+Table 9 indicated that 3 cutting machines are required. Each cutting station will consist of one machine. We thus, require 3 cutting stations, one
+specifically for cutting table parts, and two for cutting chair parts, to meet production demand. The figure below shows a detailed cutting station.
+
+
+
+
+Figure 6: Cutting Station
+
+
+
+
+                                                                                                                                                         22
+Bending
+Table 10 indicated that 7 bending machines are required. Each bending station will consist of one machine. We thus, require 7 bending stations, to
+meet production demand. The figure below shows a detailed bending station.
+
+
+
+
+Figure 7: Bending Station
+
+
+
+
+                                                                                                                                               23
+6.6.1.2 Welding Department
+This department is responsible for all the welding work required in the process, as well as the post-grinding work to ensure a smooth finish. It will
+consist of the automated welding, manual welding and grinding & polishing operations.
+
+
+Automated Welding
+Table 11 indicated that 3 automated welding robot arms are required. Each auto-weld station will consist of one robot. We thus, require 3 auto-weld
+stations, to meet production demand. The figure below shows a detailed auto-weld station.
+
+
+
+
+                                                              Safety Area
+
+
+
+
+Figure 8: Auto-Weld Station
+
+
+
+
+                                                                                                                                                  24
+Manual Welding & Grinding
+Table 12 indicated that 21 sets of manual welding equipment are required. Each set consists of a workbench with clamps on to position parts for welding,
+a Pinnacle ProMIG Welder and an additional Die Grinder. Each man-weld & grind station will consist of one set of equipment. We thus, require 21 man-
+weld stations (11 for table tops and 10 for chairs), to meet production demand. The figure below shows a detailed man-weld & grind station.
+
+
+
+
+Figure 9: Man-Weld & Grind Station
+
+
+
+
+                                                                                                                                                     25
+   6.6.1.3 Painting Department
+   This department is responsible for all the coating work required in the process. It will consist of
+   only the powder coating operation.
+
+   Powder Coating
+   Table 14 indicated that one powder coating booth is required for tabletops, sliding structures and
+   legs. A coating station will consist of one powder coating booth. We thus, require 1 coating
+   station, to meet production demand. The figure below shows a detailed coating station.
+
+
+
+
+Figure 10: Coating Station
+
+
+
+
+                                                                                                   26
+6.6.1.4 Assembly Department
+This department is responsible for all the assembling work in the process. It will consist of the rubber levelling and assembly operation.
+
+Rubber Levelling Operation
+Table 15 indicated that one set of equipment is required for the levelling of legs. Each set consists of a workbench and a rubber mallet. Each levelling
+station will consist of one set of equipment. We thus, require 1 levelling stations, to meet production demand. The figure below shows a detailed
+grinding & polishing station.
+
+
+
+
+Figure 11: Levelling Station
+
+
+
+                                                                                                                                                     27
+Assembly
+Table 16 indicated that three sets of equipment is required for the assembly process. Each set consists of a workbench and two screwdrivers. Each
+assembly station will consist of one set of equipment. We thus, require 3 assembly stations, to meet production demand. The figure below shows a
+detailed assembly station.
+
+
+
+
+Figure 12: Assembly Station
+
+
+
+
+                                                                                                                                              28
+6.6.1.5 Packing Department
+This department is responsible for all the packing work required in the process. It will consist of
+the packing and stacking operations both touched on in table 17.
+Packing
+Table 17 shows that three sets of equipment are required for the table packing process, with each
+packing station comprising one complete set. To meet production demand, 4 packing stations
+will be needed.
+
+Three of these stations will be dedicated to large orders, while one will be allocated to small
+orders. Although all packing stations will have the same layout and components, the main
+difference lies in the 'rollable shelf with flat boxes.' For large orders, the shelf will hold 13 to 14
+larger boxes, whereas for small orders, it will hold 50 smaller boxes. Despite this difference in
+box size, the shelf dimensions will remain unchanged, as the smaller boxes will still fit within the
+same space. The table on the side will hold the tape dispenser and the necessary tape. We will
+assume one tape roll is used per 10 boxes. Therefore, each large order packing station will require
+2 rolls a day, while the small order packing station will require 5. A total of 7 rolls are needed per
+day, but the table will be stocked with a month’s worth of tape and filled once a month.
+
+The figure below illustrates the detailed layout of a packing station.
+
+
+
+
+ Figure 13: Packing Station
+                                                                                                    29
+   Stacking
+   Table 17 shows that two sets of equipment are required for the chair stacking process, with each stacking station comprising one complete set. To
+   meet production demand, 2 stacking stations will be needed.
+
+   One of these stations will be dedicated to large orders, while one will be allocated to small orders. Both stacking stations will look similar. The figure
+   below illustrates the detailed layout of a stacking station – as there isn’t equipment, only a manual strapping tool the floor work area, where the
+   stacking will mainly take place, is indicated. We will assume that each station goes through one roll of strapping per day, thus a total of 2 strapping
+   rolls are required per day. The table will however be stocked with a month’s worth of strapping rolls.
+
+
+
+
+Figure 14: Stacking Station
+
+
+
+                                                                                                                                                          30
+ 6.6.1.6 Processing Department Summary
+ The table below now serves as a summary of all processing departments’ stations and total area
+ requirements for departments. It is evident that the space required for all processing
+ departments is 1174,98 m².
+
+ Table 17: Area of Processing Departments
+                                                                                           Extra         Total Area
+                                         Area of          Number of          Sum of        Walk              for
+   Department          Stations
+                                       Station (m²)        Stations         Area (m²)     Room          Department
+                                                                                           20%              (m²)
+                       Cutting              41,42                3           124,26       149,11
+   Preparation                                                                                            217,40
+                       Bending              8,13                 7           56,91        68,29
+                     Auto-Weld              43,63                3           130,89       157,07
+     Welding                                                                                              632,34
+                  Man-Weld & Grind          18,86               21           396,06       475,27
+     Painting          Coating              79,86                1            79,86       95,83           95,83
+                       Levelling            6,15                 1            6,15        7,38
+    Assembly                                                                                              75,28
+                      Assembly              18,86                3            56,58       67,90
+                       Packing              23,97                4            95,88       115,06
+     Packing                                                                                              154,13
+                       Stacking             16,28                2            32,56       39,07
+                                                                                           TOTAL         1174,98
+ * Our facility will include 20% “empty floor space” in each department to accommodate future growth.
+
+
+ 6.6.2 Holding and Handling Departments
+ The departments listed below are not directly involved in wire processing but are responsible for
+ its transportation and storage between different areas; this section also includes a discussion of
+ the amenities department.
+
+ 6.6.2.1 Raw Material Storage
+ The purpose of this department is to store all raw materials mainly the aluminium products,
+ rectangular-, square-, round tubes and flat bars, bought from Aluminium Trading. It is assumed
+ that enough square-holds, screws and carton boxes are bought for 6 months at a time and held
+ in their respective workstations.
+
+ As outlined in the daily demand calculations, one day’s worth of raw materials is delivered each
+ morning. It is assumed that the supplier uses only back-door trucks for deliveries. A designated
+ staging area will be provided for unloading, sized to accommodate the simultaneous operation
+ of two forklifts, as both will be used during the offloading process. To facilitate easier unloading,
+ the staging area will be elevated above ground level. The raised staging area, along with the
+ forklifts and their specifications used in the facility, is illustrated in Appendix A1 and A2.
+
+ Raw materials will be stacked by forklift up to 20 levels high, except for square tubes, which will
+ be limited to 10 levels. Each level contains 10 bundles, sorted by product type. All bundles
+ contain 10 units, except for flat bars, which have 40 units per bundle.
+
+ Raw material will be moved from stacks to the cutting department via the two forklifts. Thus, a
+ total of two employees are need for this entire department.
+ The figure below illustrates the arrangement of bundles, levels, and stacks.
+
+                                                      Bundle
+
+                                              Level
+                                                               Stack
+                                                                                                                   31
+
+Figure 15: Bundled Raw Material
+      The figure below illustrates the stacks and bundles, highlighting key measurements. For
+      simplicity, all stacks are represented as squares, while bundles retain their correct shapes. Note
+      that the figure is not to scale and is intended for calculation explanatory purposes only.
+
+
+
+
+Figure 16: Stack & Bundle Measurements
+
+      Using information and figures above, the following table was developed to determine the net total
+      area needed for the raw storage material.
+
+      Table 18: Raw Material Storage
+                                                      Raw Materials Storage
+                                     2 Week-Stock-     Number of        Number of            Area of 1       Total Area of
+                                         Level          Bundles           Stacks            Stack (m²)       Stacks (m²)
+                                                                            Number of
+                                                       2 Week-Stock-
+                                                                         Bundles/ Bundles                    Area of 1 Stack x
+           Extra information:              -          Level/Number per                      Length x Width
+                                                                         per stack [round                    Number of Stacks
+                                                           bundle
+                                                                                up]
+       Rectangular Tube                   7500             750                  4                10                40
+       Flat Bars                         12500            312,5                 2              24,28              48,56
+       Square Tube                        1250             125                  2              14,4                28,8
+       Round Tube                        10000            1000                  5                7                  35
+                                                                                               TOTAL            152,36
+                                                   Operator & Forklift Movement Area (18% of total)              27,42
+                                                            Staging Area (10% of total) [1 day worth]            15,24
+                                SUB-TOTAL (total + operator & forklift movement area + staging area)            195,02
+                                                                              Future Growth (20%)                39,00
+                                                                              NET TOTAL AREA (m²)               234,02
+                                                                            Number of employees                    2
+
+      6.6.2.2 Prepared WIP
+      The purpose of this department is to store all parts that have been cut and bent in the preparation
+      department and also to transport it from the preparation department to the welding department.
+      We shall have enough storage capacity for 1 days’ worth of processing to ensure no bottlenecks
+      form.
+
+      All parts will be stored in clearly labelled containers, grouped according to tube type and specific
+      length. This ensures that operators at the next station can quickly and easily retrieve the required
+
+                                                                                                                          32
+parts for their tasks. The tubes will travel to the specific container via low laying gravity rollers
+that can be visualised in Appendix A1. There will be different levels of these low-laying rollers,
+and the operator just needs to put the correct cut pieces on the correct roller for. One operator
+for each cutting machine is required to collect the cut pieces and place them on the correct low-
+laying gravity roller, thus a total of 3 are required. The table below, based on data from Table 5
+and Figure 17, outlines the required volume for each container.
+
+Table 19: Volume of Containers
+                                                       Volume of Containers
+                           Raw                                                        Total
+                                                                                                     Department
+                         Material           Total of Each        Volume of         Volume of                              Station it
+         Part                                                                                         it needs to
+                         Required           Part Per Day          Part (m³)         All Parts                           needs to go to
+                                                                                                          go to
+                         per Unit                                                     (m³)
+                                              Raw Material                         Volume of Part
+                                                                 l x w x h using
+  Extra information:     From Table 5       Required per Unit                      x Total of Each           -                -
+                                                                    Figure 17
+                                                 * 250                              Part Per Day
+                         3x 1,46 m          750x 1,46 m           0,00139              1,04                              Man-Weld
+                          2x 1 m             500x 1 m             0,00095              0,47                              Man-Weld
+ Cut Rectangular
+                         2x 0,9 m           500x 0,9 m            0,00085              0,43             Welding          Auto-Weld
+ Tube
+                          2x 1 m             500x 1 m             0,00095              0,47                              Auto-Weld
+                          1x 0,96            250x 0,96            0,00091              0,23                              Auto-Weld
+ Cut Flat Bars            30x 1m             7500x 1m             0,00097              7,25             Welding           Man-Weld
+ Cut Square
+                         4x 0,7 m           1000x 0,7 m           0,00252              2,52             Painting           Coating
+ Tube
+ Cut & Bent
+                         20x 1,2m           5000x 1,2m            0,00077              3,87             Welding           Man-Weld
+ Round Tube
+
+Each container will be 0,7 m high and equipped with a spring-loaded or counterbalanced floor
+that automatically adjusts to the container’s weight. As more parts are added, the floor lowers;
+as parts are removed, it rises. The floor will always be slightly slanted towards the next operation.
+This all ensures easy access without requiring operators to bend inside the container or walk
+around it to get a part. Using the volumes from Table 20 and the equation below, the dimensions
+of each container were calculated. The resulting container designs are illustrated in the figure
+below.
+                                                        𝑉𝑜𝑙𝑢𝑚𝑒 + 0.5(𝐦3 ) ∗
+                                                𝑠𝑖𝑑𝑒 = √
+                                                               0,7
+                       *0.5(m³) extra buffer is added to all volumes to accommodate for parts that may lay weird etc.
+
+
+
+
+                                        3
+                                                          4
+
+
+     1                                  2                 5             6               7                        8
+
+
+Figure 17: Containers
+
+The table below thus indicates the total area required for the Prepared WIP Department.
+
+
+                                                                                                                                     33
+Table 20: Prepared WIP
+                                         Prepared WIP
+                                   Container                                     Area (m²)
+                                 Extra information:                              From Figure 18
+
+                                         1                                         10,76
+                                         2                                          2,19
+                                         3                                          1,35
+                                         4                                          1,39
+                                         5                                          1,28
+                                         6                                          1,04
+                                         7                                          4,33
+                                         8                                          6,25
+                                                                       TOTAL       28,59
+                              Operator & Material Movement Area (18% of total)     5,1462
+                         SUB-TOTAL (total + operator & material movement area)    33,7362
+                                                          Future Growth (20%)     6,74724
+                                                         NET TOTAL AREA (m²)       40,48
+                                                        Number of employees           3
+
+
+6.6.2.3 Welded WIP
+The purpose of this department is to store parts after welding and, where applicable, after
+grinding and polishing. It must accommodate one day’s worth of tabletops and sliding structures
+to avoid bottlenecks. Additionally, the department requires a designated staging area for the
+collection and drop-off of 1000 chairs that are sent to external rattan contractors.
+
+Operators from Welding Department will have to transport their welded pieces by hand to the
+welded WIP. Just before the Coating Station there will be two 6m long, 1,52m wide and 3m heigh
+shelves. These shelves will be considered the Welded WIP. Each smaller shelf within the large
+shelf is 0.041m wide, just big enough to fit both tabletop and sliding structure. The figure below
+illustrates this shelf in more detail.
+
+
+
+
+ Figure 18: Shelf
+
+                                                                                                  34
+A gliding ladder is attached to the shelving unit to provide access to the upper levels. While parts
+can move directly from the welding station to the coating process, this WIP (Work-In-Progress)
+area is intended to hold minimal inventory under normal conditions. However, it must still allow
+sufficient space to accommodate for one days’ worth of parts in case of a downstream
+bottleneck or process disruption. In order words, the top shelf won’t often be utilised.
+
+After the welding process, two employees manually stack the chairs directly onto the raised
+staging platform (see Appendix A1). No forklift is required, as the stacks are carried in and out by
+hand. The staging area will be designed to accommodate up to 1000 chairs, as the receival of
+ratan-backed chairs will be handled by the assembly department. Chairs are stacked in groups
+of 20, resulting in 50 stacks. As chair dimensions are not provided, each stack is assumed to
+occupy a 0.55m x 0.55m square footprint.
+
+The table below indicates the total area required for Welded WIP.
+
+Table 21: Welded WIP
+                                                    Welded WIP
+
+                               Number needed      Area (m²) per item                         Total Area (m²)
+     Extra information:               -              l x b From Figure 19            Number needed * Area (m²) per item
+ Shelves                              2                    9,12                                      18
+ Chairs Stacks                       50                   0,3025                                     15
+                                                              TOTAL                                33
+                               Operator Movement Area (18% of total)                              6,01
+                          SUB-TOTAL (total + operator movement area)                               39
+                                                 Future Growth (20%)                              7,87
+                                                NET TOTAL AREA (m²)                               47,24
+                                               Number of employees                                  4
+
+6.6.2.4 Painted WIP
+The purpose of this department is to store tabletops, sliding structures, and legs after they have
+been coated. Three ‘runners’ will be responsible for transporting bins filled with coated products
+from the coating station to their designated storage racks.
+
+There will be a total of two racks, for tabletops and sliding structures. The racks for tabletops and
+sliding structures will be identical to the one shown in Figure 19, with the same dimensions.
+Together, these two racks can hold up to 878 parts.
+
+Coated legs, however, will be placed onto a low-lying gravity roller, which will guide them into a
+container like those used previously in Figure 18, now located directly next to the rubber levelling
+station.
+Table 22: Painted WIP
+                                                    Painted WIP
+                                   Number of
+                                                   Area (m²) per
+                                    Storages                                                Total Area (m²)
+                                    needed
+                                                     Storage
+       Extra information:                 -      l x b From Figure 18 & 19   Number of Storages needed * Area (m²) per Storage
+ Shelves                                  2               9,12                                    18,24
+ Container for Legs                       1               4,33                                     4,33
+                                                                 TOTAL                           22,57
+
+                                                                                                                           35
+                         Operator Movement Area (18% of total)                       4,06
+                    SUB-TOTAL (total + operator movement area)                       26,63
+                                           Future Growth (20%)                       5,33
+                                          NET TOTAL AREA (m²)                        31,96
+                                         Number of employees                           3
+6.6.2.5 Assembled WIP
+The purpose of this department is to store tables (2 tabletops put together with 20 screws) and
+legs, as well as receive rattan-backed chairs.
+
+After the tables are assembled, they are stacked by hand. This is done by one of the two operators
+from the assembly station therefore no need for additional employees here. Each stack is 2m
+high and contains 50 tables. There will thus be 5 stacks (2m high, 1.52m long, 1m wide).
+
+After the legs are levelled, they are put directly into a similar container as in figure 19. Thus, there
+is also no need for an additional employee here.
+
+The staging area that receives the rattan-backed chairs is the same size as the staging area where
+they are picked up. They are delivered in stacks of 20 chairs as well, therefore there will be 50
+stacks. The two employees that loaded the truck earlier will now unload here, therefore no
+additional employees are necessary here, and the table below will indicate 0 by number of
+employees.
+
+The table below indicates the total area required for Assembled WIP.
+
+Table 23: Assembled WIP
+                                                    Assembly WIP
+                                        Number          Area (m²) per
+                                                                                    Total Area (m²)
+                                        needed             storage
+                                                                             Number needed/ Bundles per stack
+        Extra information:                  -           l x b (text above)
+
+ Tables Stacks                              5                1,52                        7,60
+ Container for Legs                         1                4,33                        4,33
+ Chair Stacks (0.55mx0.55m)                50               0,3025                       15,13
+                                                                 TOTAL                   11,93
+                                  Operator Movement Area (18% of total)                   2,15
+                             SUB-TOTAL (total + operator movement area)                  14,08
+                                                    Future Growth (20%)                   2,82
+                                                   NET TOTAL AREA (m²)                   16,89
+                                                  Number of employees                      0
+
+6.6.2.6 Finish Goods Storage
+This department is responsible for storing finished goods for both large and small orders. Since
+orders are dispatched daily, it only needs to accommodate one day’s worth of finished products.
+
+There are 40 large orders (80%) and 50 small orders (20%) per day as per assumption. A
+dedicated section will be allocated for small orders, allowing customers to collect their
+purchases directly. This area will have the capacity to store 50 boxes and 50 chair stacks (with
+each stack containing 4 chairs).
+
+
+                                                                                                                36
+Large orders will be stored in a separate section designed specifically for wholesale distribution
+and truck collections. This area will have the capacity to store 40 boxes and 50 chair stacks (with
+each stack containing 20 chairs).
+
+The figure below illustrates the different box sized and chairs stacked area.
+
+
+
+
+                                                                                           Carton box
+                                          Carton box
+
+
+
+
+Figure 19: Large Order vs Small Order
+
+These carton boxes will be stacked on top of each other; each stack will have 5 carton boxes.
+Thus, for large orders there will be 8 stacks of boxes and 40 stacks of chairs, as the chairs can’t
+be stacked higher than 20 per stack. Small order will have 10 stacks of boxes and 50 stacks of 4
+chairs each.
+
+There will be two operators working in the large order section, and two in the small order section.
+They will be responsible from transporting the boxes and stacked chairs from the Packing and
+Stacking Station to the WIP and stacking the boxes accordingly. They will transport this via hand.
+
+The table below indicates the total area required for Finished Goods Storage.
+
+Table 24: Finished Goods Storage
+                                                         Finished Goods Storage
+                                                       Number         Area (m²) per
+                                                                                                        Total Area (m²)
+                                                       needed            storage
+           Extra information:                             -            l x b (figure 20)   Number needed * Area (m²) per storage
+ Large orders: Box Stacks                                 8               0,304                              2,43
+ Large orders: Chair Stacks                              40               0,3025                            12,10
+ Small orders: Boxes Stacks                              10               0,0608                             0,61
+ Small orders: Chair Stacks                              50               0,3025                            15,13
+                                                                    TOTAL                                   14,53
+                                     Operator Movement Area (18% of total)                                  2,62
+                                SUB-TOTAL (total + operator movement area)                                  17,15
+                                                       Future Growth (20%)                                  3,43
+                                                      NET TOTAL AREA (m²)                                   20,58
+                                                     Number of employees                                      4
+
+
+                                                                                                                               37
+6.6.2.7 Amenities
+The table below provides a summary of the amenities considered for this facility and the area
+required for all the offices and amenities.
+
+Table 25: Amenities
+                                           Table Of Amenities
+ Amenity              Description                                                Area m2
+                      The 3 management personnel, and 4 administrative
+ Offices              personals will have a basic office consisting of a desk,          70
+                      chair and laptop. The offices will be 10 m2 each.
+ Bathroom             Single boardroom                                                  50
+ Reception            Waiting area (8 seats), Reception desk, admin
+                                                                                       109
+ area                 workstation, circulation
+                                                        Total Area for Amenities       229
+
+
+
+6.6.2.8 Summary of Holding & Handling Departments
+The table below now serves as a summary of all holding and handling departments’, listing their
+total area requirements for each. It is evident that the space required for all holding and handling
+departments is 620,17 m².
+
+Table 26: Holding & Handling Summary
+                Department                         Labour          Total Area for Department (m²)
+ Raw Material Storage                                 2                       234,02
+ Prepared WIP                                         3                        40,48
+ Welded WIP                                           4                        47,24
+ Painted WIP                                          3                        31,96
+ Assembled WIP                                        0                        16,89
+ Finished Goods Storage                               4                        20,58
+ Amenities                                            8                       229,00
+                                   TOTAL             24                       620,17
+
+
+
+
+                                                                                                    38
+6.6.3 Visual Summary of All Departments
+Below is a visual representation of all twelve departments, with their respective operations along
+with how many stations are required. This also illustrates flow.
+
+
+
+
+ Figure 20: Visual Summary of All Departments
+                                                                                               39
+ 7. Design Alternatives
+ 7.1 Department Blocks
+ Below, each department is represented as a block, scaled relative to the others based on their
+ area size.
+
+
+
+
+ 7.2 Systematic Layout Planning
+ 7.2.1 Alternative 1
+                                                                                       Scale 1:105
+
+Figure 21: Department Blocks
+
+
+
+ 7.2 Systematic Layout Planning
+ Some limitations were provided by TIPTOP TABLES and is shown in the activity relationship
+ diagram in Appendix B1. The activity relationship diagram was a preliminary chart based on
+ limitations given at the beginning of the project. After analysis we decided to structure our
+ departments differently than indicated on the preliminary activity relationship chart, but note the
+ limitation were taken into account and can be seen in the final relationship chart below.
+
+ Table 27: Closeness Index
+                     Closeness Index
+         Value                Closeness      Line Code
+           A            Absolutely necessary
+           E            Especially important
+           I            Important
+           O            Ordinary closeness
+           U            Unimportant
+           X            Not allowed
+
+ Table 28: Final Relationship Chart
+                                                             Note all the required limitation set in the preliminary
+                                                             activity relationship are highlighted in the chart to the
+                                                             left.
+
+                                                             The only thing not shown is that automated welding
+                                                             and manual welding should absolutely be close to
+                                                             each other. However, all the welding processing are
+                                                             places together in the welding department therefore
+                                                             this limitation is met even though it isn’t indicated.
+
+                                                             Also note some departments indicated that it
+                                                             shouldn’t be close to other departments, refer to
+                                                             specific operations within the department and it will
+                                                             be shown that way on the MFP.
+                                                                                                          40
+Using the information in the closeness index and relationship chart, we were able to sketch the
+resulting relationship- and space-relationship diagrams.
+
+
+
+
+Figure 22: Relationship Diagram
+
+Further three high-level block diagram layouts as the initial step in formulating our Master Facility
+Layout, were developed using the above relationship diagram.
+
+
+7.2.2 Alternative 1
+Alternative 1 has workflow almost in a zigzag line starting from raw materials. The relationship
+chart states that the welding process shouldn’t be near the packing station, but it refers
+specifically the automated welding process. Therefore, it is places on the opposite side. The
+opening between the Welding Department and Prepared WIP is due to the limitation set by
+TIPTOP TABLES. Raw materials are received and follows the zigzag flow until finished goods
+where it is shipped.
+
+
+
+
+                                                                                                  41
+   Figure 23: Alternative 1
+7.2.3 Alternative 2
+Alternative 2 has an opening in the middle, where a grass patch will be planted. This ensures that
+the Welding Department is away from all other departments except the Welded WIP which it is
+required to be absolutely close to. Furthermore, a wall can be built between amenities and
+finished goods dividing customer parking and truck loadings, as there will be trucks for finished
+goods storage as well as assembly and welded WIP for the onloading and offloading of chairs.
+
+It is also seen that raw material storage and the preparation department are on the side and
+therefore will have access to a offloading area for raw materials and a onloading area for scrap
+removal.
+
+
+
+
+  Figure 24: Alternative 2
+
+
+7.2.4     Alternative 3
+Alternative Three features a circular layout, with the welding stations positioned at the centre and
+all other departments arranged around it in relation to the material flow. This design ensures that
+welding operations remain completely separate from the rest of the departments, while still
+being easily accessible. Additionally, each surrounding department is positioned to allow for
+offloading and onloading of materials as needed.
+
+
+
+
+ Figure 25: Alternative 3
+
+                                                                                                 42
+8. Evaluating Alternatives
+To determine the most suitable facility layout, we employed the Weighted Factor Comparison
+method. This technique evaluates each alternative based on the four topics stated in the design
+requirements, each assigned a weight according to its level of importance. Not all factors carry
+the same significance, so weights were allocated on a priority scale from 1 to 10, where:
+    • 1–4: Less critical
+    • 5–7: Important
+    • 8–10: Highly important
+Each alternative was then rated on a performance scale from 1 to 5, where 5 represents the most
+favourable outcome for that factor. The table below summarises the evaluation:
+
+Table 29: Weighted Factor Comparison Evaluation
+                              Weighted Factor Comparison Evaluation Table
+                                     Weight      Alternative 1    Alternative 2     Alternative 3
+   Design Requirement
+                                  (out of 10)     (out of 5)        (out of 5)       (out of 5)
+ Production                             9              5                 5                5
+ Site                                   6              1                 5                4
+ Layout and Flow                        8              2                 5                4
+ Specific Design
+                                          9            2                5                 3
+ Requirements
+
+Weighted Scores:
+    •   Alternative 1:
+        (9×5) + (6×1) + (8×2) + (9×2) = 85
+    •   Alternative 2:
+        (9×5) + (6×5) + (8×5) + (9×5) = 160
+    •   Alternative 3:
+        (9×5) + (6×4) + (8×4) + (9×3) = 128
+
+Alternative 1 lack designated access for the onloading and offloading of chairs, which is a key
+requirement. Additionally, the welding operation is not separated as specified by TIPTOP TABLES.
+While Alternative 3 does provide a separate welding area, the overall material flow is inefficient
+and impractical.
+
+Alternative 2, however, includes a dedicated access point for loading and unloading chairs, a
+separate welding section, and meets all of the specific design criteria set by TIPTOP TABLES.
+
+Given its stronger performance - particularly in the most critical areas - Alternative 2 is the
+preferred layout option.
+
+
+
+
+                                                                                               43
+9. Final Design
+The figure below shows the master facility plan for TIPTOP TABLES. The entire area utilised is 9041,01 m². The arrows represent the flow of material
+within the facility.
+
+
+
+
+             Figure 26: MFP
+                                                                                                                                                 44
+10. Business Case
+The table shows the capital investment required to build the new facility.
+The capital investment includes:
+   • Civil and building works, calculated based on the required area and the average cost
+       per square meter.
+   • Machinery and equipment as specified in the facility design (based on prior
+       calculations).
+   • Basic utilities and service infrastructure required for full operational readiness.
+
+Table 30: Capital Cost Calculations
+                                               Capital Cost Calculations
+                                                                                      Total   Estimated   Cost
+ Component                                     Area or Qty    Cost per m² or Unit
+                                                                                      (ZAR)
+ Facility                               9041,01                R           5 500.00    R          49 725 555.00
+ CNC Laser Cutting Machine                    3                R         306 000.00    R             918 000.00
+ Bending Machine                              7                R          17 000.00    R             119 000.00
+ Automated Welding Robot                      3                R         650 000.00    R           1 950 000.00
+ Manual Welding Equipment Set                 2                R          14 200.00    R              28 400.00
+ Powder Coating Booth                         2                R         360 000.00    R             720 000.00
+ Assembly Equipment Set                       4                R           2 500.00    R              10 000.00
+ Packing Equipment Set                        6                R           1 500.00   R                9 000.00
+ Utility Installation (power, water,
+                                     Lump Sum                  R       3 000 000.00   R            3 000 000.00
+ etc)
+ Total Estimated CAPEX                                                                R         56 479 955.00
+ Estimates are based on recent supplier quotes and local construction benchmarks.
+In approaching a project of this scale, it is important to consider relevant risks and ways to
+mitigate those risks strategically. The table below illustrates some of these potential risks.
+
+Table 31: Risk and Mitigations
+                                         Risk and Mitigation Strategies
+ Risk                                      Impact                Mitigation Strategy
+                                           Project timeline      Include a buffer in the schedule:
+ Construction delays
+                                           overruns              Use experienced contractors
+                                           Commissioning         Source equipment early;
+ Equipment delivery delays
+                                           bottlenecks           Staggered installation plans
+                                                                 Contingency allocation (10–15%);
+ Cost overruns on civil works              Overspending
+                                                                 Fixed-price contracts
+ Regulatory or environmental               Legal/compliance Early engagement with authorities and
+ approval delays                           impacts               pre-approvals
+                                                                 Arrange OEM (Original Equipment
+ Skills shortage for new
+                                           Delayed ramp-up Manufacturer) training;
+ machinery
+                                                                 Phased hiring and onboarding
+
+Taking these risks into account, it is important to set a realistic implementation schedule to allow
+for variance in delivery times and due dates. The table below shows a High-Level Implementation
+Schedule.
+Table 32: High-Level Implementation Schedule
+                                      High-Level Implementation Schedule
+
+                                                                                                     45
+ Phase                              Timeline                            Duration
+ Final Design & Procurement              July – September 2025          3 months
+ Site Preparation & Civil Works       October 2025 – February 2026      5 months
+ Equipment Delivery &
+                                          February – April 2026         3 months
+ Installation
+ Commissioning & Handover                        May-26                 1 month
+ Total Project Duration             July 2025 – May 2026                11 months
+
+
+
+
+11. Final Recommendations and Remarks
+I recommend that TIPTOP TABLES consider purchasing a plot of land approximately 1 hectare in
+size, or just under, as a suitable site for the construction of the new manufacturing facility.
+
+A final remark would be to investigate the reasoning behind the current preference to keep the
+WIP of cut parts away from the welding area. From a production flow perspective, positioning
+these processes in closer proximity would create a more logical and streamlined workflow,
+potentially improving overall efficiency.
+
+
+
+
+                                                                                             46
+Appendix
+Appendix A
+A1: Raised Staging Area:
+
+
+
+
+ Figure 27: Raised Staging Area
+
+
+
+A2: Forklifts utilised:
+Table 33: Forklift Specs
+
+              Forklift Specifications
+                       2025 REVARO T-REX
+  Name
+                       830
+  Load
+                       3000 kg
+  Capacity
+  Lifting Height       3.5 m
+  Turning
+                       3m
+  Radius
+  Drive                4WD
+                       Overhead Guard,
+  Safety
+                       Air Brakes
+  Speed                35 km/h             Figure 28: Forklift
+
+
+
+
+A3: Low-laying Gravity Roller
+
+
+
+
+Figure 29: Low-laying Gravity Roller
+                                                                 47
+ Appendix B
+ B1: Activity Relationship Diagram
+
+
+
+
+Figure 30: Activity Relationship Diagram
+
+
+
+
+                                           48
+

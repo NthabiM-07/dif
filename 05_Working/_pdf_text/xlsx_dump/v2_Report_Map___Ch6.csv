@@ -1,0 +1,15 @@
+Chapter 6 - Detail Design Specifications : Report Map (live figures track the workbook),,,,,,
+Insert AFTER Requirements/Assumptions chapter and BEFORE Design Alternatives. Each table needs a caption + an in-text reference (brief requirement).,,,,,,
+,,,,,,
+Report section (create in 417.docx),Source sheet / range,Table caption to use,Governing equation,Key live figure,Value (live),Benchmark precedent
+6.1 Demand & Production Requirement,Demand!A3:D9,Table 4: Demand and production requirement,Daily = ROUNDUP(Annual / Workdays); Takt = Effective time / Daily demand,Takt time (s/shovel),15.83,B Table 2; A Tables 7-8
+6.1 Demand & Production Requirement,Demand!A11:D17,Table 5: Part-level daily requirement,Gross = Good / (1 - scrap)   [Tompkins Eq.2.2],Daily demand (shovels/day),1819,B Table 2; A Table 7
+6.2 Raw Material Requirements,RawMaterials!A3:C9,Table 6: Aluminium tube requirement,Tubes/day = Gross sections per day / Sections per 6 m tube,Tubes per day,96,"B Table 3; A Tables 6, 18"
+6.2 Raw Material Requirements,RawMaterials!A11:C22,Table 7: Aluminium sheet requirement,Sheets/day = Gross parts per day / Parts nested per sheet,Total sheets per day,24,"B Table 3; A Tables 6, 18"
+6.3 Manufacturing Time & Takt,Inputs!B8:E13,"Table 8: Shift, effective time and takt",Effective time = Shift - Breaks; Takt = Effective / Daily demand,Effective time (min/day),480,B Section 6.2; A Table 1
+6.4 Capacity Analysis (machines & operators),Capacity!A3:P19,Table 9: Per-process capacity analysis,Machines = ROUNDUP((Daily gross x Cycle) / Effective time)   [Tompkins Eq.2.5],Total machines (line),34,B Table 9; A Tables 9-16 (CORE EXHIBIT)
+6.4 Capacity Analysis (machines & operators),Capacity!O18,Table 9 (cont.): Operator requirement,Operators = Machines x Operators per machine (1:1 baseline),Total operators (line),34,B Table 9; A Tables 9-16
+6.4 Capacity Analysis - bottleneck note,Capacity!A10 / N19,In-text: bottleneck & average utilisation,Util = Time(min/day) / (Machines x Effective time),Average utilisation,62.5%,B Section 6 narrative
+6.5 Equipment-dependent processes,Equipment-dep!A3:C20,Table 10: Equipment-dependent processes,Lines = ROUNDUP(Items/day / (Line rate x Productive hours)),Powder lines required,2,B Tables 17-19
+,,,,,,
+"RULE: Everything spreadsheet-derived (6.1-6.5, and later the Ch7 space tables) must precede the Design Alternatives / MFP chapters, because layout decisions depend on these numbers.",,,,,,

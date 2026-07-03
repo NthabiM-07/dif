@@ -1,0 +1,278 @@
+
+=========== v2_Capacity.csv ===========
+Per-process capacity: machines and operators,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Process,Basis,Units/shovel,Scrap?,Daily good,Scrap factor,Daily gross,Pieces/op,Ops/day,Cycle (s),Time (min/day),Prod min/mach,Machines,Util.,Operators,Note
+Cut handle,per cut,2,Yes,3638,1.052631579,3829.473684,1,3829.473684,15,957.3684211,480,2,99.7%,2,5% scrap; pipes/cut from equipment
+Internal thread (middle),per pipe,1,No,1914.736842,1,1914.736842,1,1914.736842,20,638.245614,480,2,66.5%,2,"brief; input = gross tubes surviving cut (cumulative scrap, Tompkins Eq.2.3)"
+Stamp / narrow end (grip),per pipe,1,No,1914.736842,1,1914.736842,1,1914.736842,5,159.5614035,480,1,33.2%,1,"brief; input = gross tubes surviving cut (cumulative scrap, Tompkins Eq.2.3)"
+Knurl + external thread (grip),per pipe,1,No,1914.736842,1,1914.736842,1,1914.736842,60,1914.736842,480,4,99.7%,4,thread rolling can cut this; input = gross tubes surviving cut (cumulative scrap)
+Stamp shovel head,per part,1,Yes,1819,1.052631579,1914.736842,1,1914.736842,2,63.8245614,480,1,13.3%,1,5% scrap
+Shape / bend head,per head,1,No,1819,1,1819,1,1819,2,60.63333333,480,1,12.6%,1,brief
+Sharpen blade,per shovel,1,No,1819,1,1819,1,1819,120,3638,480,8,94.7%,8,main bottleneck
+Serrate edge,per shovel,1,No,1819,1,1819,1,1819,60,1819,480,4,94.7%,4,brief
+Stamp hinge connector,per part,1,Yes,1819,1.052631579,1914.736842,1,1914.736842,2,63.8245614,480,1,13.3%,1,5% scrap
+Bend hinge connector,per part,1,No,1819,1,1819,1,1819,5,151.5833333,480,1,31.6%,1,brief
+Rivet hinge to head,per shovel,1,No,1819,1,1819,1,1819,5,151.5833333,480,1,31.6%,1,brief
+Hand polish / deburr,per head,1,No,1819,1,1819,1,1819,60,1819,480,4,94.7%,4,brief
+Final assembly,per shovel,1,No,1819,1,1819,1,1819,30,909.5,480,2,94.7%,2,brief
+Packaging (hand + check),per shovel,1,No,1819,1,1819,1,1819,30,909.5,480,2,94.7%,2,cycle is an assumption
+TOTAL (line processes),,,,,,,,,,,,34,,34,
+Average utilisation,,,,,,,,,,,,,62.5%,,
+
+=========== v2_Demand.csv ===========
+Demand and production requirement,,,
+,,,
+Measure,Value,Unit,Basis
+Annual demand,400000,shovels/yr,brief
+Workdays,220,days,brief
+Daily demand (good),1819,shovels/day,"annual/days, round up"
+Effective time,480,min/day,shift - breaks
+Hourly demand,227.375,shovels/h,daily/effective hours
+Takt time,15.83,s/shovel,effective/daily
+,,,
+Part-level daily requirement,,,
+Part,Per shovel,Good/day,Gross/day (if scrap step)
+Back handle section (tube),1,1819,
+Middle handle section (tube),1,1819,
+Handle sections cut (tube),2,3638,3829.473684
+Shovel head (sheet),1,1819,1914.736842
+Hinge connector (sheet),1,1819,1914.736842
+
+=========== v2_Equipment_dep.csv ===========
+Equipment-dependent processes (no brief cycle time),,
+,,
+"Powder coating (conveyorised, enclosed)",,
+,,
+Coated items per day,5457,items/day
+Assumed line rate,600,parts/h
+Hours needed,9.095,h/day
+Productive hours/shift,8,h
+Powder lines required,2,lines
+At 600 parts/h the line exceeds one shift; about 680 parts/h or a second line is needed.,,
+,,
+"Heat treatment (T6 ageing, batch oven)",,
+Subassemblies per day,1819,items/day
+Assumed cycle,6,h/batch
+Ageing ovens (assumed),1,ovens
+Oven sized to ~1 day of subassemblies; runs across/after the shift. Supplier-based; verify.,,
+,,
+Sandblasting (enclosed booth),,
+Heads per day,1819,items/day
+Throughput and booth count: supplier-based estimate required.,,
+
+=========== v2_Evaluation.csv ===========
+Alternatives evaluation matrix (template - scores to be filled for 3 layouts),,,,,,,
+,,,,,,,
+Criterion (from brief),Weight,Alt 1 score,Alt 2 score,Alt 3 score,Alt1 wtd,Alt2 wtd,Alt3 wtd
+Meets demand of 400 000/yr,0.2,,,,0,0,0
+Logical material flow (receiving to dispatch),0.2,,,,0,0,0
+Enclosed powder coating + hazard separation,0.15,,,,0,0,0
+Efficient storage and material handling,0.15,,,,0,0,0
+Pedestrian / vehicle safety and site access,0.1,,,,0,0,0
+~10% expansion provision,0.1,,,,0,0,0
+Ease of construction / implementation,0.1,,,,0,0,0
+TOTAL,1,,,,0,0,0
+,,,,,,,
+Enter a score of 1 (poor) to 5 (excellent) for each alternative; weighted totals rank the layouts.,,,,,,,
+
+=========== v2_Inputs.csv ===========
+DigMore Folding Mini Shovel - Facility Design Calculations (single source of truth),,,,
+Blue = input you can change; black = formula; green = link from another sheet. Yellow = key designer assumption to confirm.,,,,
+,,,,
+,Parameter,Value,Unit,Note / source
+,Annual demand,400000,shovels/yr,2026 brief
+,Workdays per year,220,days,2026 brief
+,Daily demand (good),1819,shovels/day,rounded up
+,Shift length,540,min,9 h (brief)
+,Breaks,60,min,30+15+15 (brief)
+,Effective time,480,min/day,shift - breaks
+,Availability (1.0 = brief basis),1,fraction,sized on 480 effective min; lower for a setup/breakdown sensitivity
+,Available time / machine,480,min/day,effective time x availability
+,Takt time,15.83,s/shovel,effective/daily demand
+,Scrap rate (cut & stamp),0.05,fraction,brief (those two steps)
+,Yield,0.95,fraction,1 - scrap
+,Pipes per cut,1,pipes,bundle cutting raises this
+,Operators per machine,1,-,baseline 1:1
+,Packaging cycle (assumed),30,s/shovel,brief: workstation-dependent
+,Tube stock length,6,m,to verify with supplier
+,Handle section length,0.15,m,brief (150 mm)
+,Sections per tube,40,sections,kerf ignored
+,Tube sections per shovel,2,sections,back + middle
+,Sheet length,2.5,m,standard sheet (assumption)
+,Sheet width,1.25,m,standard sheet (assumption)
+,Nesting efficiency,0.75,fraction,assumption
+,Head blank length,0.17,m,finished 150 + allowance (assumption)
+,Head blank width,0.14,m,finished 120 + allowance (assumption)
+,Hinge blank length,0.08,m,assumption
+,Hinge blank width,0.05,m,assumption
+,Raw material cover,10,days,2 weeks (brief)
+,Finished goods cover,20,days,4 weeks (brief)
+,WIP buffer,1,days,about one shift (assumption)
+,Units per box,10,shovels,assumption
+,Boxes per pallet,40,boxes,assumption
+,Units per pallet,400,shovels,box x pallet
+,Pallet length,1.2,m,standard (assumption)
+,Pallet width,1,m,standard (assumption)
+,Pallet footprint,1.2,m2,
+,Storage levels (racking),3,-,assumption
+,Tubes per cantilever rack,250,tubes,assumption
+,Cantilever rack footprint,6,m2,6 m x 1 m (assumption)
+,Sheets per stack,200,sheets,assumption
+,Storage aisle factor,1.6,-,floor area x this (assumption)
+,Heat-treat cycle,6,h,T6 ageing 5-8 h (supplier)
+,Powder line rate,600,parts/h,typical conveyor (supplier)
+,Coated items per shovel,3,items,2 handles + 1 subassembly
+,Area per workstation,6,m2,incl operator space (assumption)
+,Circulation / aisle allowance,0.3,fraction,assumption
+,Future expansion,0.1,fraction,brief (~10%)
+,Powder-coat area (enclosed),120,m2,supplier-based estimate
+,Heat-treat + sandblast area,80,m2,supplier-based estimate
+,Scrap / waste store,40,m2,assumption
+,Receiving + dispatch area,250,m2,docks + staging (assumption)
+,Office area per office worker,10,m2,assumption
+,Amenity area per employee,4,m2,lockers/restrooms/cafeteria (assumption)
+,Parking bays per employee,1,-,brief: all personnel
+,Visitor + collection bays,10,bays,assumption
+,Area per parking bay,25,m2,bay + aisle (assumption)
+,Truck fleet bays,6,bays,own fleet (assumption)
+,Area per truck bay,60,m2,incl manoeuvre (assumption)
+
+=========== v2_Inventory_Pack.csv ===========
+Inventory levels and packaging unit loads,,
+,,
+Inventory (shovel-equivalents),,
+Raw material on hand (2 wk),18190,shovels
+Finished goods (4 wk),36380,shovels
+WIP buffer (~1 shift),1819,shovels
+,,
+Packaging and order definitions,,
+Units per box,10,shovels
+Boxes per pallet,40,boxes
+Units per pallet,400,shovels
+Boxes per day,182,boxes/day
+Pallets per day,5,pallets/day
+Small order (<= 1 pallet),400,shovels max
+Large order (> 1 pallet),>400,shovels
+
+=========== v2_Machinery.csv ===========
+Recommended machinery (types and sources; dimensions/cost supplier-based),,,,,
+,,,,,
+Process / area,Recommended type,Throughput / source note,Dimensions,Cost,Status
+Cut handle,"Automatic non-ferrous cold saw, auto bar-feed, bundle cutting",bundle cutting available (Addison Saws; Profifeed A550),supplier,quote,verify
+Threads + knurl,Thread-rolling machine + knurling head,15-60+ parts/min (PowerTransmission; IQS),supplier,quote,verify
+Stamping (head/hinge/narrow),Mechanical power press + progressive die,standard,supplier,quote,verify
+Bending,Press brake,standard,supplier,quote,verify
+Sharpen / serrate,Automated grinding / serrating machine,replaces 2 min / 1 min manual,supplier,quote,verify
+Rivet,Pneumatic / hydraulic riveter,standard,supplier,quote,verify
+Heat treat,T6 artificial-ageing batch oven,5-8 h cycle (ARC; Aluminium-guide),supplier,quote,verify
+Sandblast,Enclosed blast booth + extraction,equipment-dependent,supplier,quote,verify
+Powder coat,Conveyorised powder line (booth + oven),~600 parts/h; cure ~10-20 min (TheFabricator),supplier,quote,verify
+Assembly / packaging,Manual workstations,by hand + visual check (brief),-,-,stations from Capacity
+,,,,,
+No machine dimensions or costs are invented; obtain from supplier quotations.,,,,,
+
+=========== v2_Parking.csv ===========
+Parking and site vehicle provision,,
+,,
+Total on-site headcount,60,people
+Employee bays,60,bays
+Visitor + collection bays,10,bays
+Total car bays,70,bays
+Car parking area,1750,m2
+Truck fleet bays,6,bays
+Truck fleet area,360,m2
+Total vehicle area,2110,m2
+
+=========== v2_Personnel.csv ===========
+Personnel (headcount),,
+,,
+Category / role,Number,Note
+Senior Plant Manager,1,brief
+Operations Manager,1,brief
+Inventory Manager,1,brief
+Reception,1,brief
+Purchasing,1,brief
+Sales,2,brief (assumed count)
+Finance,1,brief
+Marketing,1,brief
+Human Resources,1,brief
+Plant supervisors,4,~1 per dept (assumption)
+Security,3,assumption
+Material handlers / forklift,5,assumption
+Equipment-dep & QA operators,4,heat/sandblast/powder/inspection (assumption)
+Production operators (from Capacity),34,"line processes, 1:1"
+TOTAL headcount,60,
+
+=========== v2_RawMaterials.csv ===========
+Raw material requirements,,
+,,
+Aluminium round tube,,
+Sections per shovel,2,sections
+Good sections/day,3638.000,sections/day
+Gross sections/day (scrap),3829.474,sections/day
+Sections per 6 m tube,40,sections
+Tubes per day,96,tubes/day
+Tubes for 2 weeks,960,tubes
+,,
+Aluminium sheet,,
+Sheet area,3,m2
+Head blank area,0,m2
+Hinge blank area,0,m2
+Heads per sheet (nested),98,parts
+Hinges per sheet (nested),585,parts
+Gross heads/day,1914.737,parts/day
+Gross hinges/day,1914.737,parts/day
+Sheets/day (heads),20,sheets/day
+Sheets/day (hinges),4,sheets/day
+Total sheets/day,24,sheets/day
+Sheets for 2 weeks,240,sheets
+
+=========== v2_Report_Map___Ch6.csv ===========
+Chapter 6 - Detail Design Specifications : Report Map (live figures track the workbook),,,,,,
+Insert AFTER Requirements/Assumptions chapter and BEFORE Design Alternatives. Each table needs a caption + an in-text reference (brief requirement).,,,,,,
+,,,,,,
+Report section (create in 417.docx),Source sheet / range,Table caption to use,Governing equation,Key live figure,Value (live),Benchmark precedent
+6.1 Demand & Production Requirement,Demand!A3:D9,Table 4: Demand and production requirement,Daily = ROUNDUP(Annual / Workdays); Takt = Effective time / Daily demand,Takt time (s/shovel),15.83,B Table 2; A Tables 7-8
+6.1 Demand & Production Requirement,Demand!A11:D17,Table 5: Part-level daily requirement,Gross = Good / (1 - scrap)   [Tompkins Eq.2.2],Daily demand (shovels/day),1819,B Table 2; A Table 7
+6.2 Raw Material Requirements,RawMaterials!A3:C9,Table 6: Aluminium tube requirement,Tubes/day = Gross sections per day / Sections per 6 m tube,Tubes per day,96,"B Table 3; A Tables 6, 18"
+6.2 Raw Material Requirements,RawMaterials!A11:C22,Table 7: Aluminium sheet requirement,Sheets/day = Gross parts per day / Parts nested per sheet,Total sheets per day,24,"B Table 3; A Tables 6, 18"
+6.3 Manufacturing Time & Takt,Inputs!B8:E13,"Table 8: Shift, effective time and takt",Effective time = Shift - Breaks; Takt = Effective / Daily demand,Effective time (min/day),480,B Section 6.2; A Table 1
+6.4 Capacity Analysis (machines & operators),Capacity!A3:P19,Table 9: Per-process capacity analysis,Machines = ROUNDUP((Daily gross x Cycle) / Effective time)   [Tompkins Eq.2.5],Total machines (line),34,B Table 9; A Tables 9-16 (CORE EXHIBIT)
+6.4 Capacity Analysis (machines & operators),Capacity!O18,Table 9 (cont.): Operator requirement,Operators = Machines x Operators per machine (1:1 baseline),Total operators (line),34,B Table 9; A Tables 9-16
+6.4 Capacity Analysis - bottleneck note,Capacity!A10 / N19,In-text: bottleneck & average utilisation,Util = Time(min/day) / (Machines x Effective time),Average utilisation,62.5%,B Section 6 narrative
+6.5 Equipment-dependent processes,Equipment-dep!A3:C20,Table 10: Equipment-dependent processes,Lines = ROUNDUP(Items/day / (Line rate x Productive hours)),Powder lines required,2,B Tables 17-19
+,,,,,,
+"RULE: Everything spreadsheet-derived (6.1-6.5, and later the Ch7 space tables) must precede the Design Alternatives / MFP chapters, because layout decisions depend on these numbers.",,,,,,
+
+=========== v2_Space_Summary.csv ===========
+Space summary and total footprint,,
+,,
+Area / department,Floor area (m2),Basis
+Production workstations,204,machines x area/workstation
+Powder coating (enclosed),120,supplier-based estimate
+Heat treat + sandblast,80,supplier-based estimate
+Raw material + WIP + scrap storage,92.24,from Storage_3D
+Finished goods storage,59.52,from Storage_3D
+Receiving + dispatch,250,docks + staging (assumption)
+Offices,260,non-operator staff x area/person
+Amenities (lockers/restrooms/cafeteria),240,headcount x area/person
+Subtotal (functional floor),1305.76,
+Circulation / aisles,391.728,allowance
+Building subtotal,1697.488,
+Future expansion (~10%),170,
+TOTAL BUILDING,1867,
+,,
+Parking + truck fleet (site),2110,from Parking
+INDICATIVE SITE FOOTPRINT,3977,
+
+=========== v2_Storage_3D.csv ===========
+Storage sizing (3D footprint),,,,
+,,,,
+Store,Items,Racks/positions,Floor area (m2),Basis
+Raw tube,960,4,38.4,cantilever racks
+Raw sheet,240,2,10,sheet stacks
+Finished goods,91,31,59.52,"palletised, racked"
+WIP staging,5,2,3.84,decoupling buffers
+Scrap / waste,-,-,40,assumption
+Total storage area,,,151.76,

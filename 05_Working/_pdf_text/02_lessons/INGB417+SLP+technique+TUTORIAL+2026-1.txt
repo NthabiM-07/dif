@@ -1,0 +1,56 @@
+Systematic Layout
+Planning (SLP)
+tutorial
+
+March 2026
+W Kruger
+TUTORIAL : 6 departments different sizes
+6.8 with 6 departments starting at From-To chart
+                                                                                               6.8
+
+
+
+
+Determine rankings….let us see what you do…analytical calculation vs gut feel vs logical groupings
+                                                                                          6.8
+
+
+
+
+18000/5 = interval sizes of 3600 resulting in:   Arbitrary intervals (what they did) resulted in:
+14400-18000                   A=1                13000-18000                   A=2
+10800-14400                   E=2                9000-12000                    E=3
+7200-10800                    I=2                5000-9000                     I=3
+3600-7200                     O=5                3000-4000                     O=2
+0-3599                        U=2                0-2000                        U=2
+                                                              Zero movement can be ignored
+
+
+
+
+18000/5 = interval sizes of 3600 resulting in:   Arbitrary intervals (what they did) resulted in:
+A=1                                              A=2
+E=2                                              E=3
+I=2                                              I=3
+O=5                                              O=2
+U=2                                              U=2
+6.8
+                       BLOCK LAYOUT - a possible solution
+Block sizes:
+                       E           C     A            D
+A = 40x40
+B = 45x45
+C = 30x30 (smallest)                     B
+                                                      F
+D = 50x50
+E = 60x60 (largest)
+F = 50x50
+TUTORIAL : 8 departments same size
+Q11 from Chase
+TUTORIAL :
+and yet another one
+TUTORIAL :
+and yet another one
+TUTORIAL :
+and yet another one
+

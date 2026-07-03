@@ -1,0 +1,44 @@
+<mxfile host="Electron" modified="2026-07-03T00:00:00.000Z" agent="5.0" version="24.7.5">
+  <diagram name="Station 9 - Riveting" id="station9">
+    <mxGraphModel dx="1200" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="560" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Station 9: Riveting (Hinge to Head) — Scale 1 m = 100 px — 5 s/shovel (brief Table 1 — LOCKED)" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inwipA" value="Input WIP A&#10;Sharpened/serrated heads&#10;(from Station 8)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="inwipB" value="Input WIP B&#10;Hinge connectors&#10;(from Station 6)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rivetqty" value="Rivet qty per shovel: 1 assumed&#10;(brief says &quot;1, maybe 2&quot;)&#10;TO BE VERIFIED" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#990000;fontColor=#990000;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="machine" value="Riveting Gun / Press&#10;footprint ~0.8 x 0.8 m&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="operator" value="Operator zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="outwip" value="Output WIP&#10;Riveted head subassembly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aisle" value="Trolley Aisle 1.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nextlabel" value="&#8594; To Heat Treatment&#10;&#8594; Sandblasting &#8594; Polishing&#10;&#8594; Powder Coat (converges&#10;with back/middle handle streams)" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="910" y="170" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwipA" target="machine"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwipB" target="machine"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="machine" target="outwip"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="nextlabel"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="caption" value="Figure — Station 9: Riveting (hinge to head). Cycle time 5 s/shovel (LOCKED). At takt 15.84 s/shovel: ceil(5/15.84) = 1 machine. This is the convergence point of the head and hinge streams; the riveted subassembly alone (not the back/middle handles) proceeds through heat treat, sandblasting and polishing before all parts meet again at powder coat." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="1150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

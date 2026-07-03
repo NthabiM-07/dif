@@ -1,0 +1,20 @@
+Equipment-dependent processes (no brief cycle time),,
+,,
+"Powder coating (conveyorised, enclosed)",,
+,,
+Coated items per day,5457,items/day
+Assumed line rate,600,parts/h
+Hours needed,9.095,h/day
+Productive hours/shift,8,h
+Powder lines required,2,lines
+At 600 parts/h the line exceeds one shift; about 680 parts/h or a second line is needed.,,
+,,
+"Heat treatment (T6 ageing, batch oven)",,
+Subassemblies per day,1819,items/day
+Assumed cycle,6,h/batch
+Ageing ovens (assumed),1,ovens
+Oven sized to ~1 day of subassemblies; runs across/after the shift. Supplier-based; verify.,,
+,,
+Sandblasting (enclosed booth),,
+Heads per day,1819,items/day
+Throughput and booth count: supplier-based estimate required.,,

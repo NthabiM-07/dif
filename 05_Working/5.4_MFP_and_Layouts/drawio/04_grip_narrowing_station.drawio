@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2026-07-03T00:00:00.000Z" agent="5.0" version="24.7.5">
+  <diagram name="Station 4 - Grip Narrowing" id="station4">
+    <mxGraphModel dx="1100" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Station 4: Grip Narrowing Stamp (Back Handle) — Scale 1 m = 100 px — 5 s/pipe (brief Table 1 — LOCKED)" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1050" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inwip" value="Input WIP&#10;Cut back-handle blanks&#10;(from Tube Cutting)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="machine" value="Narrowing/Forming Press&#10;footprint ~1.2 x 0.8 m&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="operator" value="Operator zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="outwip" value="Output WIP&#10;Narrowed grip ends" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aisle" value="Trolley Aisle 1.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="750" y="120" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nextlabel" value="&#8594; To Knurling + External&#10;Threading Station" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="150" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwip" target="machine"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="machine" target="outwip"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="nextlabel"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="caption" value="Figure — Station 4: Grip Narrowing Stamp (back handle). Cycle time 5 s/pipe (LOCKED). At takt 15.84 s/shovel: machines/operators needed = ceil(5/15.84) = 1. No scrap bin — this is a tube-forming op, not the tube-cutting or sheet-stamping step the 5% scrap rule applies to (assumptions_register.md)." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="1050" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

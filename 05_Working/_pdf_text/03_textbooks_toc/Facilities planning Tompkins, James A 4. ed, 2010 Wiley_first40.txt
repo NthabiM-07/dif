@@ -1,0 +1,1767 @@
+Facilities
+Planning                           FOURTH EDITION
+
+
+
+
+TOMPKINS   |   WHITE   |   BOZER   |   TA N C H O C O
+This page intentionally left blank
+FACILITIES
+PLANNING
+    FOURTH EDITION
+
+
+
+
+   JAMES A. TOMPKINS
+    Tompkins Associates, Inc.
+
+     JOHN A. WHITE
+     University of Arkansas
+
+     YAVUZ A. BOZER
+     University of Michigan
+
+    J. M. A. TANCHOCO
+       Purdue University
+
+
+
+
+ JOHN WILEY & SONS, INC.
+V.P. AND EXECUTIVE PUBLISHER Don Fowley
+ACQUISITION EDITOR Jenny Welter
+EDITORIAL ASSISTANT Alexandra Spicehandler
+MARKETING MANAGER Christopher Ruel
+DESIGN DIRECTOR Harry Nolan
+SENIOR DESIGNER Kevin Murphy
+COVER PHOTOS (center) Walter Hodges/Getty Images, Inc.; (top right inset) EIGHTFISH/Getty
+Images, Inc.; (center right inset) Courtesy of Tompkins Associates, Inc.; (bottom right inset) Matthew
+Rambo/iStockphoto
+PRODUCTION MANAGEMENT SERVICES Suzanne Ingrao/Ingrao Associates
+
+
+This book was set in 10/12 Garamond by Aptara®, Inc. and printed and bound by Hamilton Printing Co.
+The cover was printed by Hamilton Printing Co.
+
+
+This book is printed on acid free paper. ⬁
+
+
+Copyright © 2010    John Wiley & Sons, Inc. All rights reserved.
+
+No part of this publication may be reproduced, stored in a retrieval system or transmitted in any form
+or by any means, electronic, mechanical, photocopying, recording, scanning or otherwise, except as
+permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior
+written permission of the Publisher or authorization through payment of the appropriate per-copy fee
+to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, website www.
+copyright.com. Requests to the Publisher for permission should be addressed to the Permissions
+Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030-5774, (201) 748-6011,
+fax (201) 748-6008, website www.wiley.com/go/permissions.
+
+Evaluation copies are provided to qualified academics and professionals for review purposes only,
+for use in their courses during the next academic year. These copies are licensed and may not be
+sold or transferred to a third party. Upon completion of the review period, please return the evaluation
+copy to Wiley. Return instructions and a free of charge return shipping label are available at
+www.wiley.com/go/returnlabel. Outside of the United States, please contact your local representative.
+
+
+
+
+ISBN: 978-0-470-44404-7
+
+Printed in the United States of America
+
+10 9 8 7 6 5 4 3 2 1
+                              PREFACE
+
+The fourth edition of Facilities Planning is a comprehensive up-to-date text on the
+art and science of planning facilities. The purpose of this book is to continue the
+creativity, rigor, and design aspects of facilities planning while rejecting the cook-
+book and checklist approaches to this discipline.
+      Because it impacts so many activities and has such a major impact on the suc-
+cess of the functions within the facilities, the importance of facilities planning will
+continue to grow and challenge the engineering professional. The role of facilities
+in the context of the dynamic global supply chain continues to make it very impor-
+tant for new professionals to have a depth of understanding of facilities planning.
+      In this fourth edition, we have reexamined the role of facilities planning
+within the supply chain. It is now imperative that the facilities planner assist his or
+her company in progressing through the six levels of supply chain excellence:
+Business as Usual, Link Excellence, Visibility, Collaboration, Synthesis, and Velocity.
+Successful enterprises know that there is no more “business as usual.” Facilities
+planning is no longer just the task of planning facilities but a strategy for navigat-
+ing a competitive global economy. Every entity must insist on facilities that support
+the success of the business both short and long form. We also examine how lean
+manufacturing has impacted facilities planning, and in particular, we stress the impor-
+tance of developing a Future State Map in defining the departments that constitute
+the facility.
+      In this edition, we endeavor to continue the engineering design process and
+application of quantitative tools as a foundation for executing appropriate and suc-
+cessful facilities planning. We have given more detailed real-world examples and
+problems concerning current facilities planning practices and deleted dated material.
+We have added new photography of the industry’s latest material handling equipment
+and updated the drawing and diagrams to better reflect the practices taking place
+today. The instructor will find improved problem sets, including more quantitative
+problems, and a greater variety of helpful questions.
+      The text is organized as follows:
+●    Defining Requirements
+     — Strategic Facilities Planning
+     — Product, Process, and Schedule Design
+     — Flow Systems, Activity Relationships, and Space Requirements
+     — Personnel Requirements
+●    Developing Alternatives: Concepts and Techniques
+     — Material Handling
+     — Layout Planning Models and Design Algorithms
+●    Developing Alternatives: Functions
+     — Warehouse Operations
+     — Manufacturing Operations
+     — Facilities Systems
+                                                                                    iii
+                                          iv
+                                        Preface
+
+●    Developing Alternatives: Quantitative Approaches
+     — Quantitative Facilities Planning Models
+     — Evaluating, Selecting Preparing, Presenting, Implementing, and Maintaining
+●    Evaluating and Selecting the Facilities Plan
+     — Preparing, Presenting, Implementing, and Maintaining Facilities Plans
+The instructor can easily rearrange the material as best suited for his or her method
+of instruction.
+       Resources available to instructors adopting this text include the Instructor
+Solutions Manual, and an Image Gallery of the illustrations from the text in a format
+appropriate for inclusion in lecture slides. Visit the publisher website at www.
+wiley.com/college/tompkins to register for a password and access these resources.
+       Many people have influenced the development of this text. Deserving special
+mention are Marvin H. Agee, James M. Apple, James M. Apple, Jr., Robert P. Davis,
+Marc Goetschalckx, Kevin R. Gue, Hugh D. Kinney, Leon F. McGinnis, Russell D.
+Meller, Benoit Montreuil, Colin L. Moodie, James M. Moore, Richard Muther, Ruddell
+Reed, Jr., Jerry D. Smith, John D. Spain, John A. White III, Richard A. Wysk, and
+Kazuho Yoshimoto, whose professionalism and expertise have influenced our
+thinking on the subject. Also we thank Jenny Welter and Bill Webber of John Wiley,
+Paul Faber, Mike Halsey, Todd Heaward, Jackie Montgomery and Dale Pickett
+of Tompkins Associates, Brent Tymensky of Fortna Inc., Jeff Shannon at the
+University of Arkansas, and Patrick Brunese at Purdue University.
+       Finally, we thank our families for their patience, support, and encouragement
+while we worked to create a teaching tool that reflects our collective vision of facil-
+ities planning excellence.
+
+                                                                   James A. Tompkins
+                                                                        John A. White
+                                                                       Yavuz A. Bozer
+                                                                    J. M. A. Tanchoco
+                       CONTENTS
+
+Part One
+DEFINING REQUIREMENTS                     1
+Chapter One      INTRODUCTION         3
+1.1   Facilities Planning Defined     3
+1.2   Significance of Facilities Planning       9
+1.3   Objectives of Facilities Planning        12
+1.4   Facilities Planning Process     13
+1.5   Strategic Facilities Planning       18
+1.6   Developing Facilities Planning Strategies      21
+1.7   Examples of Inadequate Planning           24
+1.8   Summary        26
+      References       27
+      Problems       28
+
+Chapter Two PRODUCT, PROCESS, AND
+            SCHEDULE DESIGN     30
+2.1   Introduction        30
+2.2   Product Design           32
+2.3   Process Design         36
+2.4   Schedule Design            47
+2.5   Facilities Design          63
+2.6   Summary        70
+      References       72
+      Problems       74
+
+Chapter Three FLOW SYSTEMS, ACTIVITY RELATIONSHIPS,
+              AND SPACE REQUIREMENTS      83
+3.1   Introduction        83
+3.2   Flow Systems          84
+                                                          v
+                                     vi
+                                   Contents
+
+
+3.3   Material Flow System           88
+3.4   Departmental Planning               97
+3.5   Activity Relationships          113
+3.6   Space Requirements           119
+3.7   Summary         129
+      References       129
+      Problems        131
+
+Chapter Four      PERSONNEL REQUIREMENTS                       137
+4.1   Introduction      137
+4.2   The Employee–Facility Interface              138
+4.3   Restrooms       146
+4.4   Food Services         151
+4.5   Health Services        156
+4.6   Barrier-Free Compliance              157
+4.7   Office Facility Planning            160
+4.8   Summary         170
+      References       170
+      Problems        171
+
+
+Part Two
+DEVELOPING ALTERNATIVES:
+CONCEPTS AND TECHNIQUES                           173
+Chapter Five MATERIAL HANDLING                         175
+5.1   Introduction      175
+5.2   Scope and Definitions of Material
+        Handling    176
+5.3   Material Handling Principles               179
+5.4   Designing Material Handling Systems                    181
+5.5   Unit Load Design        186
+5.6   Material Handling Equipment                204
+                                vii
+                              Contents
+
+
+5.7   Estimating Material Handling Costs              209
+5.8   Safety Considerations      210
+5.9   Summary        212
+      References      212
+      Problems       213
+Appendix 5 Material Handling Equipment                  215
+
+Chapter Six LAYOUT PLANNING MODELS AND
+            DESIGN ALGORITHMS   292
+6.1   Introduction     292
+6.2   Basic Layout Types      294
+6.3   Layout Procedures       296
+6.4   Algorithmic Approaches          302
+6.5   Department Shapes and Mail Aisles               342
+6.6   Simulated Annealing and Genetic
+        Algorithms    344
+6.7   Multi-Floor Facility Layout         351
+6.8   Commercial Facility Layout Packages              354
+6.9   The Impact of Change          355
+6.10 Developing Layout Alternatives             362
+6.11 Summary         363
+      References      366
+      Problems       369
+
+
+Part Three
+FACILITY DESIGN FOR VARIOUS
+FACILITIES FUNCTIONS    383
+Chapter Seven      WAREHOUSE OPERATIONS                     385
+7.1   Introduction     385
+7.2   Missions of a Warehouse         387
+7.3   Functions in the Warehouse           389
+7.4   Receiving and Shipping Operations               391
+                                    viii
+                                  Contents
+
+
+7.5   Dock Locations        414
+7.6   Storage Operations          415
+7.7   Order Picking Operations               432
+7.8   Summary        443
+      References      443
+      Problems       444
+
+Chapter Eight      MANUFACTURING SYSTEMS                        448
+8.1   Introduction     448
+8.2   Fixed Automation Systems               451
+8.3   Flexible Manufacturing Systems                 453
+8.4   Single-Stage Multimachine Systems                   456
+8.5   Reduction in Work-in-Process                 458
+8.6   Just-in-Time Manufacturing              459
+8.7   Facilities Planning Trends             467
+8.8   Summary        468
+      References      469
+      Problems       470
+
+Chapter Nine FACILITIES SYSTEMS                     473
+9.1   Introduction     473
+9.2   Structural System Performance                 474
+9.3   Enclosure Systems       477
+9.4   Atmospheric Systems           481
+9.5   Electrical and Lighting Systems               490
+9.6   Life Safety Systems     500
+9.7   Sanitation Systems      505
+9.8   Building Automation Systems                  508
+9.9   Facilities Maintenance Management Systems                       510
+9.10 Summary         510
+      References      511
+      Problems       511
+                                  ix
+                               Contents
+
+
+Part Four
+DEVELOPING ALTERNATIVES:
+QUANTITATIVE APPROACHES                          515
+Chapter Ten QUANTITATIVE FACILITIES
+            PLANNING MODELS     517
+10.1   Introduction      517
+10.2   Facility Location Models           518
+10.3   Special Facility Layout Models            569
+10.4   Machine Layout Models           577
+10.5   Conventional Storage Models              580
+10.6   Automated Storage and Retrieval Systems               608
+10.7   Order Picking Systems           627
+10.8   Fixed-Path Material Handling Models             642
+10.9   Waiting Line Models        671
+10.10 Simulation Models        701
+10.11 Summary         705
+       References      705
+       Problems       709
+
+
+Part Five
+EVALUATING, SELECTING, PREPARING,
+PRESENTING, IMPLEMENTING,
+AND MAINTAINING     743
+Chapter Eleven EVALUATING AND SELECTING THE
+               FACILITIES PLAN  745
+11.1   Introduction      745
+11.2   Evaluating Facilities Plans         748
+11.3   Selecting the Facilities Plan         802
+11.4   Summary        803
+       References      803
+       Problems       804
+                                 x
+                              Contents
+
+
+Chapter Twelve PREPARING, PRESENTING, IMPLEMENTING,
+               AND MAINTAINING THE FACILITIES
+               PLAN   807
+12.1   Introduction     807
+12.2   Preparing the Facilities Plan     807
+12.3   Presenting the Facilities Plan     831
+12.4   Implementing the Facilities Plan        834
+12.5   Maintaining the Facilities Plan     836
+12.6   Summary        839
+       References      839
+       Problems       840
+INDEX       841
+  Part One
+
+
+
+
+  DEFINING
+REQUIREMENTS
+This page intentionally left blank
+                        INTRODUCTION
+                                        1
+
+Facilities planning has taken on a whole new meaning in the past 10 years. In the
+past, facilities planning was primarily considered to be a science. In today’s compet-
+itive global marketplace, facilities planning is a strategy. Governments, educational
+institutions, and businesses no longer compete against one another individually.
+These entities now align themselves into cooperatives, organizations, associations,
+and ultimately synthesized supply chains, to remain competitive by bringing the cus-
+tomer into the process.
+       The subject of facilities planning has been a popular topic for many years. In
+spite of its long heritage, it is one of the most popular subjects of current publications,
+conferences, and research. The treatment of facilities planning as a subject has ranged
+from checklist, cookbook-type approaches to highly sophisticated mathematical mod-
+eling. In this text, we employ a practical approach to facilities planning, taking advan-
+tage of empirical and analytical approaches using both traditional and contemporary
+concepts. It should be noted that facilities planning, as addressed in this text, has broad
+applications. For example, the contents of this book can be applied equally to the plan-
+ning of a new hospital, an assembly department, an existing warehouse, or the bag-
+gage department of an airport. Whether the activities in question occur in the context
+of a hospital, production plant, distribution center, airport, retail store, school, bank,
+office, or any portion of these facilities, or whether in a modern facility in a developed
+country or an outdated facility in an emerging country, the material presented in this
+text should be useful in planning. It is important to recognize that contemporary facili-
+ties planning considers the facility as a dynamic entity and that a key requirement for a
+successful facilities plan is its adaptability and its ability to become suitable for new use.
+
+
+1.1      FACILITIES PLANNING DEFINED
+The facilities we plan today must help an organization achieve supply chain excel-
+lence. Supply chain excellence is a process with six steps, or levels. These steps are
+business as usual, link excellence, visibility, collaboration, synthesis, and velocity.
+                                                                                            3
+                                           4
+                           Part One   DEFINING REQUIREMENTS
+
+
+       Business as usual is when a company works hard to maximize the individual
+functions of the supply chain (buy-make-move-store-sell). The goal of individual
+departments, such as finance, marketing, sales, purchasing, information technol-
+ogy, research and development, manufacturing, distribution, and human resources,
+is to be the best department in the company. Organizational effectiveness is not the
+emphasis. Each organizational element attempts to function well within its individ-
+ual silo.
+       Only after one’s link achieves performance excellence can he or she begin to
+pursue supply chain excellence. To achieve link excellence, companies must tear
+down the internal boundaries until the entire organization functions as one. Compa-
+nies usually have numerous departments and facilities, including plants, ware-
+houses, and distribution centers (DCs). If an organization hopes to pursue supply
+chain excellence, it must look within itself, eliminate and blur any boundaries be-
+tween departments and facilities, and begin a neverending journey of continuous
+improvement. It must have strategic and tactical initiatives at the department, plant,
+and link levels for design and systems.
+       Supply chain excellence requires everyone along the supply chain to work to-
+gether. Everyone in the supply chain cannot work together, however, if they cannot
+see one another. Visibility, the third level of supply chain excellence, brings to light
+all links in the supply chain. It minimizes supply chain surprises because it provides
+the information links needed to understand the ongoing status. It could be consid-
+ered the first real step toward supply chain excellence.
+       Through visibility, organizations come to understand their roles in a supply
+chain and are aware of the other links. An example is an electronics company with
+a Web site that allows its customers to view circuit boards and then funnels informa-
+tion about those customers to suppliers. Visibility thus requires sharing information
+so that the links understand the ongoing order status and thus minimize supply
+chain surprises.
+       Once a supply chain achieves visibility, it can move to collaboration, the fourth
+level of supply chain excellence. Through collaboration, the supply chain can deter-
+mine how best to meet the demands of the marketplace. The supply chain works as
+a whole to maximize customer satisfaction while minimizing inventories. Collabora-
+tion is achieved through the proper application of technology and true partnerships.
+Various collaboration technologies exist, and, as with visibility software, the supply
+chain must choose the right technology or combination of technologies if it hopes to
+collaborate properly. True partnerships require total commitment from all the links in
+the supply chain and are based on trust and a mutual desire to work as one for the
+benefit of the supply chain.
+       After collaboration is in place, the supply chain then must pursue the continu-
+ous improvement process of synthesis. Synthesis is the unification of all supply
+chain links to form a whole. It creates a complete pipeline from a customer per-
+spective. The results of synthesis are as follows:
+
+●    Increased ROA. This is achieved by maximizing inventory turns, minimizing
+     obsolete inventory, maximizing employee participation, and maximizing con-
+     tinuous improvement.
+●    Improved customer satisfaction. This is achieved because synthesis creates
+     companies that are responsive to the customer’s needs through customization.
+                                           5
+                                   1 INTRODUCTION
+
+
+     They understand value-added activity. They also understand the issue of flex-
+     ibility and how to meet ever-changing customer requirements. They com-
+     pletely comprehend the meaning of high quality and strive to provide high
+     value.
+•    Reduced costs. This is achieved by scrutinizing transportation costs, acquisition
+     costs, distribution costs, inventory carrying costs, reverse logistics costs, pack-
+     aging costs, and so on and continually searching for ways to drive down the
+     total delivered-to-customer cost.
+•    An integrated supply chain. This is achieved by using partnerships and com-
+     munication to integrate the supply chain and focus on the ultimate customer.
+
+Synthesis is not achieved overnight. It takes time to take the links of a supply chain
+and remove the boundaries between them. However, if all links are visible and all
+collaborate, then synthesis is within reach.
+       Velocity is synthesis at the speed of light. Today’s business environment de-
+mands speed. The Internet has created immediate orders, and customers expect
+their products to arrive almost as quickly. Synthesis with speed creates multilevel
+global networks that meet these demands—these are complex entities that can meet
+the demands of today’s economy through a combination of partnerships, flexibility,
+robust design, and ongoing adaption to marketplace requirements.
+       Facilities are critical components of the multilevel global networks necessary
+for supply chain excellence. Each organization in the supply chain should therefore
+plan facilities with its supply chain partners in mind. Proper facilities planning along
+the supply chain ensures that the product will follow the supply chain series buy-
+make-move-store-sell to the satisfaction of the ultimate customer. Therefore, all fa-
+cilities in the supply chain have the following characteristics:
+●    Flexibility. Flexible facilities are able to handle a variety of requirements with-
+     out being altered.
+●    Modularity. Modular facilities are those with systems that cooperate efficiently
+     over a wide range of operating rates.
+●    Upgradability. Upgraded facilities gracefully incorporate advances in equip-
+     ment systems and technology.
+●    Adaptability. This means taking into consideration the implications of calen-
+     dars, cycles, and peaks in facilities use.
+●    Selective operability. This means understanding how each facility segment op-
+     erates and allows contingency plans to be put in place.
+●    Environmental and energy friendliness. This involves adopting the process of
+     leadership in energy and environmental design (LEED). A whole-building ap-
+     proach to sustainability recognizes performance in five key areas of human
+     and environmental health: sustainable site development, water savings, energy
+     efficiency, materials selection, and indoor environmental quality.
+
+     Creating these facilities requires a holistic approach. The elements of this ap-
+proach are as follows:
+●    Total integration—the integration of material and information flow in a true,
+     top-down progression that begins with the customer.
+                                            6
+                            Part One   DEFINING REQUIREMENTS
+
+●    Blurred boundaries—the elimination of the traditional customer/supplier and
+     manufacturing/warehousing relationships, as well as those among order entry,
+     service, manufacturing, and distribution.
+•    Consolidation—the merging of similar and disparate business entities that
+     results in fewer and stronger competitors, customers, and suppliers. Consolida-
+     tion also includes the physical merging of sites, companies, and functions.
+•    Reliability—the implementation of robust systems, redundant systems, and
+     fault-tolerant systems to create very high levels of uptime.
+•    Maintenance—a combination of preventive maintenance and predictive main-
+     tenance. Preventive maintenance is a continuous process that minimizes fu-
+     ture maintenance problems. Predictive maintenance anticipates potential
+     problems by sensing the operations of a machine or system.
+•    Economic progressiveness—the adoption of innovative fiscal practices that
+     integrate scattered information into a whole that may be used for decision
+     making.
+       In this regard, for a facilities planner, the notion of continuous improve-
+ment for supply chain excellence must be an integral element of the facilities
+planning cycle. The continuous improvement facilities planning cycle shown in
+Figure 1.1 details this concept. Whether you are involved in planning a new fa-
+cility or planning to update an existing facility, the process of facilities planning
+is unchanged.
+       Facilities planning determines how an activity’s tangible fixed assets best sup-
+port achieving the activity’s objective. For a manufacturing firm, facilities planning
+involves the determination of how the manufacturing facility best supports production.
+In the case of an airport, facilities planning involves determining how the airport fa-
+cility is to support the passenger–airplane interface. Similarly, facilities planning for
+a hospital determines how the hospital facility supports providing medical care to
+patients.
+       It is important to recognize that we do not use the term facilities planning as
+a synonym for such related terms as facilities location, facilities design, facilities
+layout, or plant layout. As depicted in Figure 1.2, it is convenient to divide a facility
+into its location and its design components.
+       The location of the facility refers to its placement with respect to customers,
+suppliers, and other facilities with which it interfaces. The location in the context of
+the global supply chain must take into consideration global transportation econom-
+ics, ports of entry, fuel costs, and the total delivered costs of products to the ultimate
+consumer. Also, the location includes its placement and orientation on a specific
+plot of land.
+       The design components of a facility consist of the facility systems, the layout,
+and the handling system. The facility systems consist of the structural systems, the
+atmospheric systems, the enclosure systems, the lighting/electrical/communication
+systems, the life safety systems, and the sanitation systems. The layout consists of all
+equipment, machinery, and furnishings within the building envelope; the handling
+system consists of the mechanisms needed to satisfy the required facility interactions.
+The facility systems for a manufacturing facility may include the envelope (structure
+and enclosure elements), power, light, gas, heat, ventilation, air conditioning, water,
+                                                 7
+                                      1 INTRODUCTION
+
+
+                                          Specify/update
+                                        primary and related
+                                            activities to
+                                       accomplish objectives
+
+
+
+
+                                         Determine space
+                                         requirements for
+                                           all activities
+
+
+
+
+                                                What's
+                                            the feasibility
+              Maintain and              of incorporating the              Determine
+              continuously                                       Not        facility
+                                          new operation or
+                improve                       facility on      Feasible    location
+                                               existing
+                                                 site?
+
+
+
+
+                                        Develop alternative
+                                        plans and evaluate
+
+
+
+
+                                          Select facilities
+                                               plan
+
+
+
+                                         Implement plan
+
+
+
+              Figure 1.1     Continuous improvement facilities planning cycle.
+
+
+
+
+and sewage needs. The layout consists of the production areas, production-related or
+support areas, and personnel areas within the building. The handling system consists
+of the materials, personnel, information, and equipment-handling systems required
+to support production.
+       Determining how the location of a facility supports meeting the facility’s ob-
+jectives is referred to as facilities location. The determination of how the design
+components of a facility support achieving the facility’s objectives is referred to as
+facilities design. Therefore, facilities planning may be subdivided into the subjects of
+facilities location and facilities design. Facilities location addresses the macro-issues,
+whereas facilities design looks at the microelements.
+       The general terms facilities planning, facilities location, facilities design, fa-
+cility systems design, layout design, and handling system design are utilized to in-
+dicate the breadth of the applicability of this text. In Figure 1.3, the facilities
+planning hierarchy is applied to a number of different types of facilities. It is be-
+cause of its breadth of application that we employ a unified approach to facilities
+planning.
+                                                8
+                                Part One   DEFINING REQUIREMENTS
+
+
+                                                    Facilities
+                                                    location
+
+                                                                           Facility
+                           Facilities                                      systems
+                           planning                                         design
+
+
+                          (Healthcare
+                           providers
+                                                    Facilities              Layout
+                            system)
+                                                     design                 design
+
+
+
+
+                                                                           Handling
+                                                                            system
+                                                                            design
+
+
+
+                                                    Facilities
+                                                    location
+
+                                                                           Facility
+                           Facilities                                      systems
+                           planning                                         design
+
+
+                        (Pharmaceutical
+                           supplier)
+                                                    Facilities              Layout
+                                                     design                 design
+
+
+
+             SC level                                                      Handling
+            IV and up                                                       system
+                                                                            design
+
+
+
+                                                    Facilities
+                                                    location
+
+                                                                           Facility
+                           Facilities                                      systems
+                           planning                                         design
+
+
+                          (Hospital)
+                                                    Facilities              Layout
+                                                     design                 design
+
+
+
+
+                                                                           Handling
+                                                                            system
+                                                                            design
+
+Figure 1.2 Facilities planning as part of supply chain excellence. Continuous improvement
+of each operation within each supply chain link takes an organization through the first three
+levels of supply chain excellence. To move to levels 4, 5, and 6, the links must collaborate, as
+illustrated above, to synthesize their operations and continue to improve the chain.
+                                              9
+                                   1 INTRODUCTION
+
+                           (a)
+                                   Plant location
+
+           Manufacturing
+             facilities                                      Plant facility system
+             planning
+
+                                    Plant design                 Plant layout
+
+
+                                                              Material handling
+                           (b)
+                                   Office location
+
+              Office
+             facilities                                      Office facility system
+             planning
+
+                                    Office design                Office layout
+
+
+                           (c)                               Information handling
+                                  Hospital location
+
+             Hospital
+             facilities                                     Hospital facility system
+             planning
+
+                                   Hospital design              Hospital layout
+
+
+                                                             Patient handling
+                                                             Physician handling
+                                                             Personnel handling
+                                                             Public handling
+                                                             Information handling
+                           (d)                               Material handling
+                                  Emergency room
+                                     location
+
+            Emergency                                         Emergency facility
+               room                                               system
+             planning
+
+                                  Emergency room               Emergency room
+                                      design                       layout
+
+
+                                                             Patient handling
+                                                             Physician handling
+                                                             Personnel handling
+                                                             Information handling
+                                                             Material handling
+
+Figure 1.3 Facilities planning for specific types of facilities. (a) Manufacturing plant.
+(b) Office. (c) Hospital. (d ) Emergency room.
+
+
+1.2 SIGNIFICANCE OF FACILITIES PLANNING
+According to the U.S. Census, U.S. businesses invested over a trillion dollars in cap-
+ital goods per year for the last five years. Of that money, over 30% was spent on
+structures, with over 25% being spent on new structures.
+      Since 1955, approximately 8% of the gross national product (GNP) has been
+spent annually on new facilities in the United States. Table 1.1 indicates the typical
+expenditures, in percentage of GNP, for major industry groupings. The size of the
+                                            10
+                            Part One   DEFINING REQUIREMENTS
+
+Table 1.1 Percentage of the Gross National Product (GNP) by Industry Grouping
+Typically Expended on New Facilities between 1955 and Today
+                 Industry                             GNP Percentage
+                 Manufacturing                                 3.2
+                 Mining                                        0.2
+                 Railroad                                      0.2
+                 Air and other transportation                  0.3
+                 Public utilities                              1.6
+                 Communication                                 1.0
+                 Commercial and other                          1.5
+                 All industries                                8.0
+
+
+investment in new facilities each year makes the field of facilities planning important.
+As stated previously, contemporary facilities planning must include the notion of
+continuous improvement in the design approach. The importance of adaptability, as
+a key design criterion, is evidenced by the ever-increasing performance of previously
+purchased facilities, which are modified each year and require replanning. For these
+reasons, it seems reasonable to suggest that over $300 billion will be spent annually
+in the United States alone on facilities that will require planning or replanning.
+       Although the annual dollar volume of the facilities planned or replanned indi-
+cates the scope of facilities planning, it does not appear that adequate planning is
+being performed. Based on our collective experience, it appears that there exists a
+significant opportunity to improve the facilities planning process as practiced today.
+       To stimulate your thoughts on the breadth of the facilities planning opportuni-
+ties, consider the following questions:
+1.   What impact does facilities planning have on handling and maintenance costs?
+2.   What impact does facilities planning have on employee morale, and how does
+     employee morale impact operating costs?
+3.   In what do organizations invest the majority of their capital, and how liquid is
+     their capital once invested?
+4.   What impact does facilities planning have on the management of a facility?
+5.   What impact does facilities planning have on a facility’s capability to adapt to
+     change and satisfy future requirements?
+6.   What impact does facilities planning have on a facility’s resilience, environ-
+     mental impact, energy efficiency, and sustainability?
+      Although these questions are not easily answered, they tend to highlight the
+importance of effective facilities planning. As an example, consider the first question.
+Between 20 and 50% of the total operating expenses within manufacturing is attrib-
+uted to material handling. Furthermore, it is generally agreed that effective facilities
+planning can reduce these costs by at least 10 to 30%. Hence, if effective facilities
+planning were applied, the annual manufacturing productivity in the United States
+would increase approximately three times more than it has in any year in the past
+15 years. The impact of facilities planning on distribution centers is even greater
+where the proper order picking systems and equipment have been known to reduce
+the total cost of the operation by 30%.
+      It is difficult to make similar projections for the other sectors of our economy.
+However, there is reason to believe that facilities planning will continue to be one
+                                            11
+                                    1 INTRODUCTION
+
+
+of the most significant fields of the future. It represents one of the most promising
+areas for increasing the rate of productivity improvement.
+       Economic considerations force a constant reevaluation and recognition of ex-
+isting systems, personnel, and equipment. New machines and processes render
+older models and methods obsolete. Facilities planning must be a continuing activ-
+ity in any organization that plans to keep abreast of developments in its field.
+       With the rapid changes in manufacturing and distribution systems, techniques,
+and equipment that have taken place in the recent past and those that are expected in
+the future, very few companies will be able to retain their old facilities or layouts with-
+out severely damaging their competitive position in the marketplace. Productivity im-
+provements must be realized as quickly as they become available for implementation.
+       One of the most effective methods for increasing productivity and reducing
+costs is to reduce or eliminate all activities that are unnecessary or wasteful. A facil-
+ities design should accomplish this goal in terms of material handling, personnel
+and equipment utilization, reduced inventories, and increased quality.
+       If an organization continually updates its operations to be as efficient and ef-
+fective as possible, then there must be continuous relayout and rearrangement.
+Only in very rare situations can a new process or piece of equipment be introduced
+into a system without disrupting ongoing activities. A single change may have a sig-
+nificant impact on integrated technological, management, and personnel systems,
+resulting in suboptimization problems that can be avoided or resolved only through
+the redesign of the facility.
+       Employee health and safety is an area that has become a major source of mo-
+tivation behind many facilities planning studies. In 1970, the Occupational Safety
+and Health Act (OSHA) became law and brought with it a far-reaching mandate: “to
+assure so far as possible every working man and woman in the nation safe and
+healthful working conditions and to preserve our human resources.”
+       Because the act covers nearly every employer in a business affecting com-
+merce that has 10 or more employees, it has had and will continue to have a signif-
+icant impact on the structure, layout, and material handling systems of any facility
+within its scope. Under the law, an employer is required to provide a place of em-
+ployment free from recognized hazards and to comply with occupational safety and
+health standards set forth in the act.
+       Because of these stringent requirements and attendant penalties, it is imperative
+during the initial design phase of a new facility or the redesign and revamping of an
+existing facility to give adequate consideration to health and safety norms and to elim-
+inate or minimize possible hazardous conditions within the work environment.
+       Equipment and/or processes that may create hazards to workers’ health and
+safety must be in areas where the potential for employee contact is minimal. By in-
+corporating vital health and safety measures into the initial design phase, the em-
+ployer may avoid fines for unsafe conditions and losses in money and human
+resources resulting from industrial accidents.
+       Energy conservation is another major motivation for the redesign of a facility. En-
+ergy has become an important and expensive raw material. Equipment, procedures,
+and materials for conserving energy are introduced to the industrial marketplace as fast
+as they can be developed. As these energy-conserving measures are introduced, com-
+panies should incorporate them into their facilities and manufacturing process. Since its
+introduction in 2000, LEED has become an important factor in assuring that the envi-
+ronmental and energy implications of facilities planning are fully addressed.
+                                             12
+                            Part One   DEFINING REQUIREMENTS
+
+
+       These changes often necessitate changes in other aspects of the facility design.
+For example, in some of the energy-intensive industries, companies have found it
+economically feasible to modify their facilities to use the energy discharged from the
+manufacturing processes to heat water and office areas. In some cases, the addition
+of ducting and service lines has forced changes in material flows and the relocation
+of in-process inventories.
+       If a company is going to retain a competitive edge today, it must reduce its
+consumption of energy. One method of doing this is to modify facilities or redesign
+material handling systems and manufacturing processes to accommodate new en-
+ergy-saving measures.
+       Other factors that motivate investment in new facilities or the alteration of ex-
+isting facilities are community considerations, fire protection, security, and the
+Americans with Disabilities Act (ADA) of 1990. Community rules and regulations re-
+garding noise, air pollution, and liquid and solid waste disposal are frequently cited
+as reasons for the installation of new equipment that requires modification of facili-
+ties and systems operating policies.
+       One of the most significant challenges to facilities planners today is how to make
+the facility “barrier free” in compliance with the ADA. The enactment of this legislation
+has resulted in a significant increase in the alteration of existing facilities and has radi-
+cally shaped the way facilities planners approach planning and design. The act impacts
+all elements of the facility, from parking space allocation and space design, ingress and
+egress ramp requirements, and restroom layout to drinking-fountain rim heights. Com-
+panies are aggressively spending billions of dollars to comply with the law, and those
+involved with facilities planning must be the leaders in pursuing the required changes.
+       On nearly a daily basis, a search on the Internet will yield a report of a fire that
+significantly interrupts a facility’s operation. In many instances, these fires can be at-
+tributed to poor housekeeping or poor facilities design. Companies are now care-
+fully seeking modifications to existing material handling systems, storage systems,
+and manufacturing processes to lower the risk of fire.
+       Pilferage is yet another major and growing problem in many industries today.
+Several billion dollars’ worth of merchandise is stolen annually from companies in
+the United States. The amount of control designed into material handling, flow of
+materials, and design of the physical facility can help reduce losses to a firm.
+       Another factor in today’s global supply chain that needs to be taken into con-
+sideration is the customization of facilities required when building facilities around
+the world. In a recent study of global facility costs, it was concluded that the invest-
+ment in a China facility can be as little as 50–60% of a comparable facility in the
+United States and can produce a good quality product. The customization has to do
+with process modification based upon China’s labor costs, lower construction costs
+in China, and savings resulting from lower Chinese equipment purchase prices.
+
+
+
+1.3 OBJECTIVES OF FACILITIES PLANNING
+As previously mentioned, facilities planning must be done within the context of the
+supply chain to maintain a strategic competitive advantage. Just as supply chain
+synthesis is driven by customer satisfaction, so too should customer satisfaction be
+                                           13
+                                    1 INTRODUCTION
+
+
+the primary objective of facilities planning. This will ensure that the other objectives
+are in alignment with what drives the enterprise, namely revenues and profits from
+customers. Many entities lose sight of the importance their customers have to their
+existence. Looking at customers as an internal element of the supply chain allows
+the focus to sustain itself indefinitely. Too many companies, governmental agencies,
+educational institutions, and services become so focused on the other internal ele-
+ments and issues that the primary end-customer focus is lost. Many cannot properly
+define who their primary end customers are, and they fail as a result. The term busi-
+ness-to-business (B2B) should be viewed as B2B2B2B2B2C, with the “C” represent-
+ing the customer. By incorporating the primary end customer into the supply chain
+and building the communication links and other infrastructure, the primary end cus-
+tomer is now a part of the entire supply chain, as it should be. As a result, the facil-
+ities planning process will take place with this primary end customer as the focus.
+The facilities planning objectives are to
+•     Improve customer satisfaction by being easy to do business with, conforming
+      to customer promises, and responding to customer needs.
+•     Increase return on assets (ROA) by maximizing inventory turns, minimizing
+      obsolete inventory, maximizing employee participation, and maximizing con-
+      tinuous improvement.
+•     Maximize speed for quick customer response.
+•     Reduce costs and grow the supply chain profitability.
+•     Integrate the supply chain through partnerships and communication.
+•     Support the organization’s vision through improved material handling, mate-
+      rial control, and good housekeeping.
+•     Effectively utilize people, equipment, space, and energy.
+•     Maximize return on investment (ROI) on all capital expenditures.
+•     Be adaptable and promote ease of maintenance.
+•     Provide for employee safety, job satisfaction, energy efficiency, and environ-
+      mental responsibility.
+•     Assure sustainability and resilience.
+      It is not reasonable to expect that one facility design will be superior to all oth-
+ers for every objective listed. Some of the objectives conflict. Hence, it is important
+to evaluate carefully the performance of each alternative, using each of the appro-
+priate criteria.
+
+
+
+1.4      FACILITIES PLANNING PROCESS
+The facilities planning process is best understood by placing it in the context of a fa-
+cility life cycle. Although a facility is planned only once, it is frequently replanned to
+synchronize the facility and its constantly changing objectives. The facilities planning
+and replanning processes are linked by the continuous improvement facilities plan-
+ning cycle shown in Figure 1.1. This process continues until a facility is torn down.
+The facility is continuously improved to satisfy its constantly changing objectives.
+                                          14
+                          Part One   DEFINING REQUIREMENTS
+
+
+      Even though facilities planning is not an exact science, it can be approached
+in an organized, systematic way. The traditional engineering design process can be
+applied to facilities planning as follows:
+1.   Define the problem.
+        ●  Define (or redefine) the objective of the facility. Whether planning a new
+           facility or the improvement of an existing facility, it is essential that the
+           product(s) to be produced and/or service(s) to be provided be specified
+           quantitatively. Volumes or levels of activity are to be identified when-
+           ever possible. The role of the facility within the supply chain must also
+           be defined.
+        ●  Specify the primary and support activities to be performed in accom-
+           plishing the objective. The primary and support activities to be per-
+           formed and requirements to be met should be specified in terms of the
+           operations, equipment, personnel, and material flows involved. Sup-
+           port activities allow primary activities to function with minimal inter-
+           ruption and delay. As an example, maintenance is a support activity for
+           manufacturing.
+2.   Analyze the problem.
+        ●  Determine the interrelationships among all activities. Establish whether
+           and how activities interact with or support one another within the
+           boundaries of the facility and how this is to be undertaken. Both quanti-
+           tative and qualitative relationships should be defined.
+3.   Determine the space requirements for all activities. All equipment, material,
+     and personnel requirements must be considered when calculating space re-
+     quirements for each activity. Generate alternative designs.
+        ●  Generate alternative facilities plans. The alternative facilities plans will
+           include both alternative facilities locations and alternative designs for the
+           facility. The facilities design alternatives will include alternative layout
+           designs, structural designs, and material handling system designs. De-
+           pending on the particular situation, the facility location decision and the
+           facility design decision can be decoupled.
+4.   Evaluate the alternatives.
+        ●  Evaluate alternative facilities plans. On the basis of accepted criteria,
+           rank the plans specified. For each, determine the subjective factors in-
+           volved and evaluate whether and how these factors will affect the facil-
+           ity or its operation.
+5.   Select the preferred design.
+        ●  Select a facilities plan. The problem is to determine which plan, if any,
+           will be the most acceptable in satisfying the goals and objectives of the
+           organization. Most often, cost is not the only major consideration when
+           evaluating a facilities plan. The information generated in the previous
+           step should be utilized to arrive at the final selection of a plan.
+6.   Implement the design.
+        ●  Implement the facilities plan. Once the plan has been selected, a consider-
+           able amount of planning must precede the actual construction of a facility
+                                                    15
+                                           1 INTRODUCTION
+
+
+                                                Understand
+                                                 external
+                                                  issues
+                                                    1B
+
+
+                                              Understand the     Establish facilities       Obtain
+ Implement plans         Audit results          organization      planning design        organization's
+       11                    12               model of success        criteria           commitment
+                                                    1A                   2                     3
+
+
+  Obtain support
+ for improvement                                 Understand
+                                                                                        Establish teams
+       plans                                   internal issues
+                                                                                               4
+        10                                           1C
+
+
+
+        Define             Evaluate               Identify                                  Assess
+                                                                      Identify
+     improvement          alternative           alternative                                 present
+                                                                   specific goals
+        plans             approaches            approaches                                   status
+                                                                         6
+          9                    8                     7                                         5
+
+                         Figure 1.4      Winning facilities planning process.
+
+
+
+
+                or the layout of an area. Supervising installation of a layout, getting ready
+                to start up, actually starting up, running, and debugging are all part of the
+                implementation phase of facilities planning.
+            ●   Maintain and adapt the facilities plan. As new requirements are placed
+                on the facility, the overall facilities plan must be modified accordingly. It
+                should reflect any energy-saving measures or improved material han-
+                dling equipment that becomes available. Changes in product design or
+                mix may require changes in handling equipment or flow patterns that, in
+                turn, require an updated facilities plan.
+            ●   Redefine the objective of the facility. As indicated in the first step, it is
+                necessary to identify the products to be produced or services to be pro-
+                vided in specific, quantifiable terms. In the case of potential modifica-
+                tions, expansions, and so on for existing facilities, all recognized
+                changes must be considered and integrated into the layout plan.
+      A novel approach to contemporary facilities planning is the winning facilities
+planning process, as shown in Figure 1.4. A more detailed explanation of the win-
+ning facilities planning process is shown in Table 1.2.
+      The model of success referred to in Figure 1.4 presents a clear direction for
+where a business is headed. Experience has shown that in order for the facilities plan
+to be successful, a clear understanding is needed of not only the vision but also the
+mission, the requirements of success, the guiding principles, and the evidence of
+success. It is the total of these five elements (vision, mission, requirements of
+success, guiding principles, and evidence of success) that forms an organization’s
+model of success.
+      The definitions of these five elements are
+1.      Vision: A description of where you are headed
+2.      Mission: How to accomplish the vision
+                                              16
+                              Part One   DEFINING REQUIREMENTS
+
+Table 1.2   Explanation of Winning Facilities Planning Process
+Step          Function                                      Comment
+1A     Understand the             This requires an education program for all levels of an
+         organization model         organization. Understanding an organization’s model of
+         of success.                success is a prerequisite for successful facilities planning.
+1B     Understand external        This requires external outreach via professional society
+         issues.                    involvement; participation in trade shows, seminars, and
+                                    conferences; and reading magazines and books. A coor-
+                                    dinated effort is required if external issues are to be well
+                                    understood.
+1C     Understand internal        A winning organization must understand not only the
+         issues.                    model of success, but also the organization’s business
+                                    plan, resources, and constraints, and the objectives of
+                                    the overall supply chain. A prerequisite to winning is
+                                    understanding a company’s future.
+ 2     Establish facilities       To implement improvements, an organization must have
+         planning design            focus. This step requires that management determine the
+         criteria.                  facilities planning design criteria.
+ 3     Obtain organizational      Management must make a clear commitment to implement
+         commitment.                the justified improvements consistent with the facilities
+                                    planning design criteria. This commitment must be
+                                    uncompromised.
+ 4     Establish teams.           Teams having a broad-based representation and the ability
+                                    to make decisions should be established for each design
+                                    requirement. These teams must be uncompromised.
+ 5     Assess present status.     This assessment will result in the baseline against which
+                                    improvements will be measured. Both quantitative and
+                                    qualitative factors should be assessed.
+ 6     Identify specific goals.   Identify clear, measurable, time-related goals for each
+                                    design criterion––for example, “Reduce raw material
+                                    inventory to $300,000 by June 1.”
+ 7     Identify alternative       The creative process of identifying alternative systems,
+         approaches.                procedures, equipment, or methods to achieve the spec-
+                                    ified goals. The investigation of all feasible alternatives.
+ 8     Evaluate alternative       The economic and qualitative evaluation of the identified
+         approaches.                alternatives. The economic evaluation should adhere to
+                                    corporate guidelines while estimating the full economic
+                                    benefit of pursuing each alternative.
+ 9     Define improvement         Based upon the evaluation done in step 8, select the best
+         plans.                     approach. Define a detailed implementation and cash
+                                    flow schedule.
+10     Obtain support for         Sell the improvement plans to management. Document the
+        improvement plans.          alternatives, the evaluation, and the justification. Help
+                                    management visualize the improved operation.
+11     Implement plans.           Oversee development, installation, soft load, startup, and
+                                    debugging. Train operators and assure proper systems
+                                    utilization. Stay with effort until results are achieved.
+12     Audit results.             Document actual systems operation. Compare results with
+                                    the specified goal and anticipated performance. Identify
+                                    and document discrepancies. Provide appropriate
+                                    feedback.
+                                              17
+                                     1 INTRODUCTION
+
+
+                                       Guiding principles
+
+                                         Requirements
+                                          of success
+
+                                            Mission
+
+
+
+                                            Vision
+
+
+
+
+                    Figure 1.5   The model of success “winning circle.”
+
+
+
+
+3.   Requirement of Success: The science of your business
+4.   Guiding Principles: The values to be used while pursuing the vision
+5.   Evidence of Success: Measurable results that will demonstrate when an organi-
+     zation is moving toward its vision
+       To help people understand where their organization is headed, it is often use-
+ful to illustrate the first four elements of the model of success in graphical form, as
+shown in Figure 1.5. This graphical representation is often called the winning circle
+and is viewed as the organization’s bull’s eye.
+       In Table 1.3, the traditional engineering design process and the winning facil-
+ities planning process are compared. The first phases of the facilities planning
+process involve either the initial definition of the objectives of a new facility or the
+updating of an existing facility. These first phases are undertaken by the people
+charged with overall responsibility for facilities planning and management of the
+facility.
+       The second phase of the facilities planning process is assessing the present
+status, identifying specific goals, identifying alternative approaches, evaluating alter-
+native approaches, defining improvement plans, and obtaining support for im-
+provement. The final phase consists of implementing the plans and auditing the
+results. In applying the facilities planning concepts, an iterative process is often re-
+quired to develop satisfactory facilities plans. The iterative process might involve
+considerable overlap, backtracking, and cycling through the analysis, generation,
+evaluation, and selection steps of the engineering design process.
+       At this point, a word of caution seems in order. You should not infer from our
+emphasis on a unified approach to facilities planning that the process of replanning
+a pantry in a cafeteria is identical to planning a new manufacturing facility. The
+scope of a project does affect the intensity, magnitude, and thoroughness of the
+study. However, the facility planning process described above and depicted in
+Figure 1.6 should be followed.
+                                                 18
+                               Part One    DEFINING REQUIREMENTS
+
+Table 1.3 Comparison of the Engineering Design Process, Facilities Planning Process,
+and Winning Facilities Planning Process
+             The Engineering                The Facilities         The Winning Facilities
+Phase         Design Process              Planning Process           Planning Process
+Phase I      Define problem.        1. Define or redefine     1A. Understand the organiza-
+                                       objective of the           tion model of success.
+                                       facility.              1B. Understand external issues.
+                                    2. Specify primary and    1C. Understand internal issues.
+                                       support activities.     2. Establish facilities planning
+                                                                  design criteria.
+                                                               3. Obtain organizational
+                                                                  commitment.
+Phase II     Analyze the            3. Determine the           4. Establish teams.
+               problem.                interrelationships.     5. Assess present status.
+             Generate               4. Determine space         6. Identify specific goals.
+               alternatives.           requirements.           7. Identify alternative
+             Evaluate the           5. Generate alternative       approaches.
+               alternatives.           facilities plan.        8. Evaluate alternative
+             Select the             6. Evaluate alternative       approach.
+               preferred               facilities plan.        9. Define improvement plans.
+               design.              7. Select a facilities    10. Obtain support for
+                                       plan.                      improvement plans.
+Phase III    Implement the          8. Implement the plan.    11. Implement plans.
+               design.              9. Maintain and adopt     12. Audit results.
+                                       the facilities plan.
+                                   10. Redefine the
+                                       objective of the
+                                       facility.
+
+
+
+
+1.5         STRATEGIC FACILITIES PLANNING
+While it is true that the concerns of facilities planning are the location and the de-
+sign of the facility, there exists another primary responsibility—planning! The im-
+portance of planning in facilities planning cannot be overemphasized, for it is this
+emphasis that distinguishes the activities of the facilities planner from the facilities
+designer and the facilities “locator.”
+       Dwight D. Eisenhower said, “The plan is nothing, but planning is everything.”
+As an indication of its importance in facilities planning, consider the process of
+planning and designing a manufacturing facility, building it, and installing and using
+the equipment. As shown in Figure 1.7, the costs of design changes increase expo-
+nentially as a project moves beyond the planning and designing phases.
+       The term strategic planning appears to have originated in the military. Web-
+ster defines strategy as “the science and art of employing the armed strength of a
+belligerent to secure the objects of a war.” Today, the term is frequently used in pol-
+itics, sports, investments, and business. Our concern is with the latter usage.
+                                                        19
+                                              1 INTRODUCTION
+
+
+
+
+                                     1. Define (or        9. Maintain and
+                                        redefine) the        adapt the
+                              2.        objective of         facilities plan
+                           Specify      the facility
+                        the primary
+                        and support
+                    activities that must
+                                                                          8. Implement the
+                     be performed to
+                                                PHASE                        facilities plan
+                      accomplish the
+                          objective               I           PHASE
+                                                                III
+
+                  3. Determine the
+                     interrelationships                                   7. Select a facilities
+                                                   PHASE                     plan
+                     among all activities
+                                                     II
+
+
+
+                             4. Determine                             6. Evaluate
+                                the space                                alternative
+                                requirements                             facilities
+                                                5. Generate              plans
+                                for all
+                                                   alternative
+                                activities
+                                                   facilities
+                                                   plans
+
+
+
+
+                                                        (a)
+
+
+
+
+                                     1. Define            9. Maintain and
+                                        (or redefine)        adapt the
+                                        health needs         hospital plan
+
+
+
+                     2. Specify the
+                        medical services                                  8. Implement the
+                        required to satisfy     PHASE                        hospital plan
+                        health needs              I           PHASE
+                                                                III
+
+                  3. Determine the
+                     interrelationships                                   7. Select a hospital
+                                                   PHASE                     plan
+                     among all services
+                                                     II
+
+
+
+                             4. Determine                             6. Evaluate
+                                the space                                alternative
+                                requirements                             hospital
+                                                5. Generate              plans
+                                for all
+                                                   alternative
+                                services
+                                                   hospital
+                                                   plans
+
+
+
+
+                                                        (b)
+Figure 1.6 The facilities planning process. (a) General and manufacturing facilities. (b) Hospital
+facilities.
+                                                    20
+                                    Part One   DEFINING REQUIREMENTS
+
+
+
+
+            Amount ($)
+
+
+
+
+                                                          Cost of making
+                                                          design changes
+
+
+
+
+                         Planning      Designing   Building     Installing   Commissioning
+                         Figure 1.7    Cost of design changes during a project.
+
+
+
+      Based on Webster’s definition of strategy, business strategies can be defined
+as the art and science of employing the resources of a firm to achieve its business
+objectives. Among the resources available are marketing resources, manufacturing
+resources, distribution resources, and supply chain resources. Hence, marketing
+strategies, manufacturing strategies, distribution strategies, and supply chain strate-
+gies can be developed to support the achievement of the business objectives.
+      Recall that facilities planning was defined as determining how a firm’s re-
+sources (tangible fixed assets) best support achieving the business objectives. In a
+real sense, facilities planning is itself a strategic process and must be an integral part
+of overall corporate strategy.
+      Historically, the development of corporate strategies has been restricted to the
+C-level (CEO, CFO, CIO, etc.) in many companies. Furthermore, business strategies
+tended to be limited to a consideration of such issues as acquisition, finance, and
+marketing. Consequently, decisions were often made without a clear understanding
+of the impact on the supply chain or on such support functions as facilities, material
+handling, information systems, and purchasing.
+      As an illustration, suppose an aggressive market plan is approved without the
+realization that supply chain capacity is inadequate to meet the plan. Furthermore,
+suppose the lead times required to achieve the required capacity are excessive. As a
+result, the market plan will fail because the impact of the plan on people, equipment,
+and space was not adequately comprehended. A winning facilities plan must consider
+integrating all elements that will impact the plan. An example of the accumulating
+benefits that can result from integrating operations is shown in Figure 1.8.
+      Business Week, Industry Week, Time, Fortune, and other business publications
+have focused on the competitiveness of America. This attention reflects the growing
+awareness in the business community of the importance of improved supply chains
+and technology. Wal-Mart, Procter and Gamble, Johnson and Johnson, Dell, and Apple,
+                                            21
+                                     1 INTRODUCTION
+
+
+
+
+                  Because of this,          Increase
+                   we can improve         the number
+                  customer service        of units sold
+
+
+
+
+                                         Because of this,
+                  Because of this,                            Because of this,
+                                         we can invest in
+                  we can produce                              we can produce
+                                        improved, flexible
+                    in smaller                                 a broader line
+                                          manufacturing
+                     lot sizes                                   of options
+                                            facilities
+
+
+
+
+                  Because of this,      Because of this,
+                   we can reduce        we can increase
+                    inventories             quality
+
+
+
+
+                  Because of this,
+                   manufacturing
+                    unit costs
+                     decrease
+
+
+Figure 1.8 Synergistic benefit of winning manufacturing on an integrated manufacturing-
+marketing team.
+
+
+
+among others, have expanded the strategic planning process to include the develop-
+ment of supply chain strategies. It is from these supply chain strategies that facilities
+strategies must be developed, and from these strategies, facilities plans developed.
+
+
+
+1.6 DEVELOPING FACILITIES
+    PLANNING STRATEGIES
+The process of effectively translating objectives into actions can take place only if
+the power of the individuals inside an organization is unleashed. Team-based im-
+plementation of company objectives will ensure that all members of the organiza-
+tion are involved in their achievement.
+      As noted in the previous section, strategies are needed for such functions as
+supply chain marketing, manufacturing, distribution, purchasing, facilities, material
+handling, and data processing/information systems, among others. It is important to
+recognize that each functional strategy is multidimensional. Namely, each must sup-
+port or contribute to the strategic plan for the entire organization. Furthermore, each
+must have its own set of objectives, strategies, and tactics.
+                                               22
+                            Part One   DEFINING REQUIREMENTS
+
+                            Physical aspects
+
+
+
+
+                                                               Control
+
+
+
+
+                     Time
+
+                     Figure 1.9   Three dimensions for improvement.
+
+
+        As previously stated, one method used to ensure that the objectives are effec-
+tively translated into action is the model of success. The model of success is effec-
+tive because it is lateral rather than hierarchical in its approach. With the traditional
+top-down approach, only a handful of people are actively involved in ensuring that
+the objectives are met by driving these goals and plans into action. The lateral struc-
+ture of the model of success communicates to everyone in an organization where
+the organization is headed.
+        The facilities planning process can be improved in a number of ways. Three po-
+tential dimensions for improvement are illustrated in Figure 1.9. Suppose the objective
+is to increase the size of the box shown. One approach is to make it taller by focusing
+on the physical aspects of facilities planning, for example, buildings, equipment, and
+people. Another approach is to make the box wider by focusing on control aspects of
+facilities planning, for example, space standards, materials control, stock locator sys-
+tems, and productivity measures. While it is possible to make the box taller and wider,
+we must not overlook the benefits provided by the third dimension: time. To make the
+box deeper requires time for planning. The old adage, “There’s never time to do it
+right, but there’s always time to do it over,” has been repeatedly demonstrated with re-
+spect to facilities planning. Sufficient lead time is needed to do it right!
+        Another way to improve this process is to do it in the context of supply chain
+synthesis, a process that is well defined, integrated, and based on continuous im-
+provement for maximized supply chain performance. It also harnesses the energy of
+change and has no information delays.
+        The facilities planning process should also be well defined as to how each
+function fits, interacts, and integrates. Otherwise, critical information will be lost or
+an important link will be missing, and all will be lost.
+        The facilities planning process should be integrated and not allow selfishness.
+This includes eliminating silos and focusing all functions on customer satisfaction.
+To eliminate silos, we synthesize the whole supply chain from its origination point
+to the ultimate customer. The result is a focus on continuous improvement.
+        In the facilities planning process, everyone involved should understand the en-
+ergy of change and have a desire to harness this energy for the competitive
+advantage of the total pipeline. This involves courage and innovation. By harnessing
+change, we can turn it into an asset. Instead of thinking, “I want to improve my func-
+tion,” you may have to think, “Tradeoffs might be what are needed to improve the
+facilities planning process and create the ideal facility.” The facilities planning process
+                                             23
+                                     1 INTRODUCTION
+
+
+should not accept information delays. It requires true partnerships and an integration
+of information. To meet today’s demands for speed, everyone involved in the process
+must do the right thing and let everyone else know what they are doing quickly.
+Communication is critical, robust, and simultaneous.
+       Facilities planning should be a continuous improvement process focused on
+achieving total performance excellence with the objectives presented earlier. Be-
+cause all parties involved in the plan focus on these objectives, facilities planning
+excellence will be achieved.
+       A number of internal functional areas tend to have a significant impact on fa-
+cilities planning, including supply chain marketing, product development, manufac-
+turing, production and inventory control, human resources, and finance. For
+example, facility location will be impacted by the sourcing decision of materials,
+and material handling will be affected by decisions related to unit volume, product
+mix, packaging, service levels for spares, and delivery times.
+       Product development and design decisions affect processing and materials re-
+quirements, which in turn affect layout and material handling. Changes in materials,
+component shapes, product complexity, number of new part numbers and package
+sizes introduced (due to a lack of standardization in design), stability of product de-
+sign, and the number of products introduced will affect the handling, storage, and
+control of materials. Decisions concerning the global supply chain, the degree of
+vertical integration, the types and levels of automation, the types and levels of con-
+trol over tooling and work-in-process, plant sizes, and general-purpose versus spe-
+cial-purpose equipment can affect the location and design of facilities.
+       Planning and inventory control decisions affect the layout and handling sys-
+tem. Lot size decisions, scheduling, in-process inventory requirements, inventory
+turnover goals, inventory storage location in the supply chain, and approaches used
+to deal with seasonal demand affect the facilities plan.
+       Human resources and finance decisions related to capital availability, labor
+skills and stability, staffing levels, inventory investment levels, organizational design,
+and employee services and benefits will impact the size and design of facilities, as
+well as their number and location. Space and flow requirements will be affected by
+financial and human resources decisions. In turn, they have an impact on the stor-
+age, movement, protection, and control of material.
+       For the facilities plan to support the overall strategic plan, it is necessary for fa-
+cilities planners to participate in the development of the plan. Typically, facilities
+planners tend to react to the needs defined by others, rather than participate in the
+decision making that creates the needs. A proactive rather than a reactive role for fa-
+cilities planning is recommended. The model of success approach will ensure that
+facilities planners are on board, focusing on the overall direction of the company.
+       Close coordination is required in developing facilities plans to support the
+global supply chain. Manufacturing–facilities planning and distribution–facilities plan-
+ning interfaces are especially important. As the manufacturing plan addresses auto-
+matic load/unload of machines, robotics, group technology, transfer lines, flexible
+manufacturing systems, numerically controlled machines, just-in-time and computer-
+integrated manufacturing, alternative storage systems for tooling and work-in-process,
+real-time inventory control, shop floor control, and waste handling/removal systems,
+the facilities plan must support changes in manufacturing technology. Likewise, the
+facilities plan must support a distribution plan that addresses automatic palletizers,
+                                           24
+                           Part One   DEFINING REQUIREMENTS
+
+
+shrinkwrap/stretchwrap, automatic identification, automatic loading and unloading of
+vehicles and trailers, automated storage and retrieval of unit loads and small parts,
+and automated guided-vehicle systems.
+      It is also important for the level of manufacturing/distribution technology in
+use to be assessed objectively and compared with the state of the art. Five- and 10-
+year technology targets should be identified and an implementation plan developed
+to facilitate the required evolution.
+      Developing contingency plans by asking numerous “what-if” questions is
+another important element of the process. By asking such questions, an uncer-
+tainty envelope can be developed for facility requirements. Also, in translating
+market projections to requirements for facilities, it is important to consider learn-
+ing-curve effects, productivity improvements, technological forecasts, and site-
+capacity limits.
+      The following 10 issues may have a long-range impact on the strategic facili-
+ties plan:
+1.    Number, location, and sizes of warehouses and/or distribution centers
+2.    Centralized versus decentralized storage of supplies, raw materials, work-
+      in-process, and finished goods for single- and multibuilding sites, as well as
+      single- and multisite companies
+3.    Acquisition of existing facilities versus design of modern factories and distribu-
+      tion centers of the future
+4.    Flexibility required because of market and technological uncertainties
+5.    Interface between storage and manufacturing
+6.    Level of vertical integration, including “subcontract versus manufacture” deci-
+      sions
+7.    Control systems, including material control and equipment control, as well as
+      level of distributed processing
+8.    Movement of material between buildings and between sites, both inbound
+      and outbound
+9.    Changes in customers’ and suppliers’ technology as well as a firm’s own man-
+      ufacturing technology and material movement, protection, storage, and con-
+      trol technology
+10.   Design-to-cost goals for facilities
+
+
+
+
+1.7 EXAMPLES OF INADEQUATE PLANNING
+Numerous examples exist of situations where inadequate planning was being per-
+formed. The following actual situations are presented to illustrate the need for
+improved planning.
+●     A large consumer products company decided to allow each of its acquisitions
+      to remain independent, thus requiring the management of many duplicate
+      supply chains. The supply chains consisted of duplicate planning functions,
+      execution systems, and facility locations. After poor performance, the manage-
+      ment team soon began to question the rationale of the separate organizations.
+                                        25
+                                1 INTRODUCTION
+
+●   A major manufacturer in the Midwest made a significant investment in storage
+    equipment for a parts distribution center. The selection decision was based on
+    the need for a “quick fix” to a pressing requirement for increased space utiliza-
+    tion. The company soon learned that the “solution” would not provide the re-
+    quired throughput and was not compatible with long-term needs.
+●   An electronics manufacturer was faced with rapid growth. Management re-
+    ceived proposals that required approximately equivalent funding for large
+    warehouses at two sites having essentially the same storage and throughput
+    requirements. Management questioned the rationale for one “solution” being a
+    high-rise automated storage/retrieval system (AS/RS) and the other being a
+    low-rise warehouse with computer-controlled industrial trucks.
+●   Another firm installed miniload systems at two sites. One system was designed
+    for random storage, the other for dedicated storage. The storage and through-
+    put requirements were approximately the same for the two systems; however,
+    different suppliers had provided the equipment and software. Management
+    raised the questions: Why are they different? And which is best?
+●   A textile firm installed a large high-rise AS/RS for one of its divisions. The
+    amount and size of the product to be stored subsequently changed. Other
+    changes in technology were projected. The system became obsolete before it
+    was operational.
+●   An engine manufacturer was planning to develop a new site. Decisions had
+    not been made concerning which products would be off-loaded to the new
+    site, nor what effect the off-load would have on requirements for moving, pro-
+    tecting, storing, and controlling material.
+●   An apparel retailer built a new distribution center on the west coast of the
+    United States for all incoming goods from Asia. A subsequent analysis showed
+    the use of an all-water route from Vietnam through the Panama Canal into the
+    east coast of the United States to provide significant cost savings, thus making
+    the west coast facility obsolete.
+●   An electronics manufacturer was planning to develop a new site. The facilities
+    planners and architects were designing the first building for the site. No pro-
+    jections of space and throughput had been developed since decisions had not
+    been made concerning the occupant of the building.
+●   The mission for a major military supply center was changed in order that ad-
+    ditional bases could be serviced. The throughput, storage, and control require-
+    ments for the new customers were significantly different from those for which
+    the system was originally designed. However, no modifications to the system
+    were funded.
+●   A manufacturer of automotive equipment acquired the land for a new manu-
+    facturing plant. The manufacturing team designed the layout, and the architect
+    began designing the facility before the movement, protection, storage, and
+    control system was designed.
+●   An aerospace-related manufacturer implemented cellular manufacturing in its
+    process planning and converted to manufacturing cells in a machining depart-
+    ment. No analyses had been performed to determine queue or flow require-
+    ments. Subsequent analyses showed the manufacturing cells were substantially
+    less efficient as a result of their impact on movement, protection, storage, and
+    control of work-in-process.
+                                           26
+                           Part One   DEFINING REQUIREMENTS
+
+●     An underwear manufacturer moved its product sourcing from China to Thai-
+      land when Thailand became the low-cost country of production and thus
+      shifted distribution flows within the United States from west-to-east to east-to-
+      west due to the utilization of the Suez Canal. The supporting distribution cen-
+      ters required major renovation that was not considered when the shift to
+      Thailand was made.
+●     An established brick-and-mortar retailer began accepting orders through its
+      Web site. The volume of orders received during the holiday season peak could
+      not be processed by its distribution center. Gift certificates had to be mailed to
+      all of the customers whose orders weren’t delivered by Christmas. A study
+      conducted after the new year showed that poor configuration of storage racks,
+      ineffective replenishment processes, lack of proper product slotting, and
+      material handling equipment that could not efficiently process the variety of
+      the products’ attributes created a situation that forced the entire fulfillment
+      operation to grind to a halt.
+      In practically every case, the projects were interrupted and significant delays
+were incurred because proper facilities planning had not been performed. These
+examples emphasize once more the importance of providing adequate lead times
+for planning.
+      The previous list of examples of inadequate facilities planning could possibly
+create a false impression that no one is doing an adequate planning job. Such is not
+the case; several firms have recognized the need for strategic facilities planning and
+are doing it.
+      A major U.S. airline developed 10-year and 20-year facilities plans to facilitate
+decision making regarding fleet size and mix. Maintenance and support facilities re-
+quirements were analyzed for wide-body and mid-sized aircraft. The impact of
+route planning, mergers and acquisitions, and changes in market regions to include
+international flights were considered in developing the plan.
+      The airline industry operates in a dynamic environment. Governmental regu-
+lations and attitudes toward business are changeable, energy costs and inflationary
+effects are significant, and long lead times are required for aircraft procurement. For
+new-generation aircraft, an airline company might negotiate procurement condi-
+tions, including options, eight years before taking delivery of the airplane.
+
+
+
+
+1.8      SUMMARY
+Facilities planning is a process that is dynamic over time. The methodology contin-
+ues to change as technology evolves and new approaches are developed. The focus
+at the current time is on the customer and the view that all components of a supply
+chain must band together to plan the facilities that will successfully support all of
+the activities of the supply chain. Facilities planning
+●     Determines how an activity’s tangible fixed assets should contribute to meeting
+      the activity’s objectives
+●     Consists of facilities location and facilities design
+                                                27
+                                        1 INTRODUCTION
+
+●        Is part art and part science
+●        Can be approached using the engineering design process
+●        Is a continuous process and should be viewed from a life-cycle perspective
+●        Represents one of the most significant opportunities for cost reduction and
+         productivity improvement
+       Strategic facilities planning is needed to support competition from a supply
+chain-versus to supply chain point of view. No longer is the focus of strategic facil-
+ities planning only internal. The focus now is on how our facilities planning process
+supports the entire supply chain from basic raw materials to the final customer. If
+the facilities planning process does not support the entire supply chain, it is at a dis-
+advantage. Other supply chains may be able to leverage themselves into an advan-
+tage by focusing on the customer and on the big picture, rather than simply one
+location or one company. Moving forward, this focus on the entire supply chain will
+grow even stronger, and those companies and those supply chains that do not real-
+ize this fact will no longer exist.
+
+
+REFERENCES
+    1.   CCH Editorial Staff, OSHA Standards for General Industry, Wolters Klower, Washington,
+         D.C., August 2008.
+    2.   Cullinane, T. P., and Tompkins, J. A., “Facility Layout in the 80’s: The Changing Condi-
+         tions,” Industrial Engineering, vol. 12, no. 9, pp. 34–42, September 1980.
+    3.   Ganster, S., “Closing the Gap against Low Cost Competition in China,” Technomic Asia,
+         Shanghai, China, April 2004.
+    4.   Goren, W. D., Understanding the Americans with Disabilities Act, GP Solo, Washing-
+         ton, D.C., 2007.
+    5.   Haselbach, L., The Engineers Guide to LEED––New Construction, McGraw-Hill, New
+         York, 2008.
+    6.   Radford, K. J., Strategic Planning: An Analytical Approach, Reston Publishing, Reston,
+         VA, 1980.
+    7.   Rothschild, W. E., “How to Ensure the Countinued Growth of Strategic Planning,” The
+         Journal of Business Strategy, vol. 1, no. 1, pp. 11–18, Summer 1980.
+    8.   Tompkins, J. A., Future Capable Company: What Manufacturing Leaders Need to Do
+         Today to Succeed Tomorrow, Tompkins Press, Raleigh, NC, 2001.
+    9.   Tompkins, J. A., No Boundaries: Break through to Supply Chain Excellence, Tompkins
+         Press, Raleigh, NC, 2003.
+10.      Tompkins, J. A., Revolution: Take Charge Strategies for Business Success, Tompkins
+         Press, Raleigh, NC, 1998.
+11.      Tompkins, J. A., Winning Manufacturing: The How to Book of Successful Manufacturing,
+         IIE, Norcross, GA, 1989.
+12.      Tompkins, J. A., and Harmelink, D., The Supply Chain Handbook, Tompkins Press,
+         Raleigh, NC, 2004.
+13.      Tyndall, G., Gapel, C., Partsch, W., and Kamauft, J., Supercharging Supply Chains, John
+         Wiley & Sons, New York, 1998.
+14.      White, J. A., “SFP—Strategic Facilities Planning,” Modern Materials Handling, pp.
+         23–25, November 1978.
+15.      White, J. A., “Strategic Facility Planning,” Industrial Engineering, vol. 2, no. 9, pp.
+         94–100, September 1980.
+                                               28
+                              Part One   DEFINING REQUIREMENTS
+
+
+PROBLEMS
+SECTION 1.1
+1.1 Describe both the planning and operating activities required to conduct a professional
+     football game from the point of view of the
+     a. visiting team’s football coach
+     b. home team quarterback
+     c. manager of refreshment vending
+     d. ground crew manager
+     e. stadium maintenance manager
+1.2 List 10 components of a football stadium facility.
+1.3 Describe the activities that would be involved in the (a) facilities location, (b) facilities
+     design, and (c) facilities planning of an athletic stadium. Consider baseball, football,
+     soccer, and track and field.
+1.4 Assume you are on a job interview and you have listed on your resume a career inter-
+     est in facilities planning. The firm where you are interviewing is a consulting firm that
+     specializes in problem solving for transportation, communication, and the service in-
+     dustries. React to the following statement directed to you by the firm’s personnel direc-
+     tor: “Facilities planning is possibly of interest to a firm involved in manufacturing, but
+     it is not clear that our customers have needs in this area sufficient for you to pursue
+     your field of interest.”
+
+SECTION 1.3
+1.5 What criterion should be utilized to determine the optimal facilities plan?
+1.6 Evaluate the facilities plan for your campus and list potential changes you would con-
+     sider if you were asked to replan the campus. Why would you consider these?
+
+SECTION 1.4
+1.7 Chart the facilities planning process for
+     a. a bank
+     b. a university campus
+     c. a distribution center
+     d. a consulting and engineering office
+1.8 Describe the procedure you would follow to determine the facilities plan for a new li-
+     brary on your campus.
+
+SECTION 1.6
+1.9 Is facilities planning ever completed for an enterprise? Why or why not?
+1.10 With the aid of at least three references, write a paper on the industrial engineer and
+     architect’s roles in the planning of a facility.
+1.11 Consider the definition of industrial engineering approved by the Institute of Industrial
+     Engineers. Discuss the extent to which the definition applies to facilities planning.
+1.12 Read three articles on strategic planning, summarize the material, and relate it to strategic
+     facilities planning.
+1.13 Develop a list of strategic issues that must be addressed in performing facilities plan-
+     ning for
+     a. an airport
+     b. a community college
+     c. a bank
+     d. a grocery store chain
+

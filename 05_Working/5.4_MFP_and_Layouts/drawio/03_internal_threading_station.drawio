@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2026-07-03T00:00:00.000Z" agent="5.0" version="24.7.5">
+  <diagram name="Station 3 - Internal Threading" id="station3">
+    <mxGraphModel dx="1100" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Station 3: Internal Threading (Middle Handle) — Scale 1 m = 100 px — 20 s/pipe (brief Table 1 — LOCKED)" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="1050" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="inwip" value="Input WIP&#10;Cut middle-handle blanks&#10;(from Tube Cutting)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="machine" value="Internal Threading Machine&#10;footprint ~1.2 x 0.8 m&#10;SUPPLIER-BASED ESTIMATE REQUIRED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="operator" value="Operator zone" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="outwip" value="Output WIP&#10;Threaded middle handles" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="540" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="aisle" value="Trolley Aisle 1.5 m" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="750" y="120" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="nextlabel" value="&#8594; To Powder Coat&#10;(direct — skips heat treat/&#10;sandblast/polish, per process flow)" style="text;html=1;align=left;verticalAlign=middle;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="890" y="140" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="inwip" target="machine"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="machine" target="outwip"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="outwip" target="nextlabel"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="caption" value="Figure — Station 3: Internal Threading (middle handle). Cycle time 20 s/pipe (LOCKED). At takt 15.84 s/shovel (LOCKED): parallel machines/operators needed = ceil(20/15.84) = 2. No scrap adjustment — downstream of the tube-cutting scrap point. 1 operator per machine — DESIGNER ASSUMPTION." style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="1050" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

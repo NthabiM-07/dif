@@ -1,0 +1,142 @@
+ INGB417 FACILITIES DESIGN – CLARIFYING OBJECTIVES AND REQUIREMENTS
+
+Facility design objectives and requirements are essential elements in the process of designing a
+facility, whether it's a manufacturing plant, warehouse, o ice building, or any other type of
+facility. While they are closely related, they serve di erent purposes and are used at di erent
+stages of the design process. Here's a breakdown of each:
+
+1. Facility Design Objectives:
+
+ - Facility design objectives outline the overarching goals and aims of the facility design project.
+These objectives are broad and strategic, focusing on the desired outcomes of the facility
+design process. They typically reﬂect the organization's mission, vision, and long-term strategic
+goals.
+
+ - Examples of facility design objectives may include meeting market demand, improving
+operational e iciency, enhancing employee productivity and safety, reducing environmental
+impact, optimizing space utilization, minimizing construction costs, or ensuring compliance
+with regulations and standards.
+
+2. Facility Design Requirements:
+
+  - Facility design requirements are speciﬁc and measurable statements against which a
+facility design can be measured to be considered successful. These requirements are derived
+from the objectives and serve as the basis for developing the design solutions. They deﬁne the
+functional, operational, regulatory, and performance criteria that the facility must satisfy.
+
+ - Requirements can cover various aspects of the facility, including production process design
+speciﬁcations, spatial layout, infrastructure, equipment speciﬁcations, systems, environmental
+considerations, safety standards, accessibility, and aesthetics.
+
+In summary, facility design objectives set the overarching goals whereas requirements must be
+deﬁned such that design options can be evaluated, and when decisions are made this is what is
+referenced. Together, they form a structured approach to achieving a well-designed facility that
+meets the needs of its users and stakeholders.
+
+
+
+For MANUFACTURING facility: some Objectives examples
+
+1. Production Capacity
+
+To establish a manufacturing facility capable of meeting market demand and accommodating
+future growth while maintaining operational e iciency and ﬂexibility.
+
+2. Layout and Flow
+
+To design a facility layout that optimizes material ﬂow, minimizes production bottlenecks, and
+enhances productivity by streamlining workﬂow and maximizing space utilization.
+
+3. Equipment and Machinery
+
+ To procure and install state-of-the-art equipment and machinery that meet production
+requirements, ensure product quality, and promote worker safety while maximizing operational
+uptime and minimizing maintenance downtime.
+ INGB417 FACILITIES DESIGN – CLARIFYING OBJECTIVES AND REQUIREMENTS
+
+4. Environmental and Regulatory Compliance
+
+To ensure compliance with environmental regulations, zoning requirements, and safety
+standards, minimizing environmental impact, mitigating risks, and maintaining a safe working
+environment for employees and surrounding communities.
+
+5. Quality Assurance and Control
+
+To implement robust quality assurance and control measures throughout the production
+process, ensuring consistent product quality, reducing defects, and meeting customer
+expectations while continuously improving processes and e iciency.
+
+6. Energy Efficiency and Sustainability
+
+To optimize energy usage, reduce carbon footprint, and promote sustainability by implementing
+energy-e icient technologies, renewable energy sources, and waste reduction initiatives,
+aligning with corporate sustainability goals and industry best practices.
+
+
+
+USE ONLY THOSE STATEMENTS THAT YOU CAN PROOF TO BE APPLICABLE TO YOUR DESIGN
+
+
+
+For a MANUFACTURING facility: some Requirements as examples
+
+1. Production Capacity:
+
+ - The facility must have the capability to produce a minimum of xxxx units per day to meet
+demand projections.
+
+ - Production processes should be designed to accommodate variations in product sizes and
+speciﬁcations. These include xxxx.
+
+ - Scalability features should be incorporated to allow for future expansion of production
+capacity if needed. This is required as xxxx.
+
+
+
+2. Layout and Flow:
+
+ - The facility layout should be optimized to minimize material handling distances, streamline
+workﬂow and minimize waste.
+
+  - Clear delineation of production ‘zones’ or workareas, storage areas, and support facilities
+(e.g., utilities, maintenance, o ices) should be established.
+
+ - Material ﬂow diagrams and process maps should be developed to visualize the entire
+process.
+
+ - The production process must ensure e icient movement of raw materials, work-in-progress,
+and ﬁnished goods through the production process.
+
+3. Equipment and Machinery:
+
+ - Machinery and equipment must be selected and installed according to the production
+process design requirements and industry standards.
+ INGB417 FACILITIES DESIGN – CLARIFYING OBJECTIVES AND REQUIREMENTS
+
+  - Safety features, such as machine guarding, emergency stop buttons, and interlocks, must be
+incorporated to protect workers and prevent accidents.
+
+4. Environmental and Regulatory Compliance:
+
+ - The facility design must adhere to environmental regulations regarding emissions, waste
+disposal, and resource conservation.
+
+ - Compliance with building codes, zoning regulations, and permits for hazardous materials
+handling should be ensured.
+
+5. Quality Assurance and Control:
+
+ - Quality control checkpoints and inspection stations should be integrated into the production
+process to monitor product quality and detect defects.
+
+ - Calibration and maintenance schedules for equipment and measurement devices must be
+established to ensure accuracy and consistency.
+
+6. Energy Efficiency and Sustainability:
+
+ - Energy-e icient lighting, and equipment should be speciﬁed to minimize energy
+consumption and operational costs.
+
+  - Renewable energy sources, such as solar panels or wind turbines, may be incorporated to
+reduce reliance on traditional energy sources.
+

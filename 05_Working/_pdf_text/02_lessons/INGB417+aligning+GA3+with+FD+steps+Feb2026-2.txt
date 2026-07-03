@@ -1,0 +1,84 @@
+INGB417 FACILITIES DESIGN alignment                                                                                © Willemien Kruger Feb 2025
+ENGINEERING DESIGN PROCESS STEPS           FACILITIES DESIGN STEPS aligned (with Deliverables)                     REPORT aligned (see 'template')                Evaluation criteria fit
+                                                                                                                   Cover page
+                                                                                                                   1. Executive summary (write last)
+                                                                                                                   2. Background to the project
+
+                                           Define the PROBLEM/OPPORTUNITY (for redesign) or            NEED
+                                           (for new design) and also Define OBJECTIVES (facility need to be        3. Design Problem and Objectives
+                                           able to support this)
+STEP 1 - DEFINE THE PROBLEM/OPPORTUNITY
+
+
+
+
+                                                                                                                                                                  clear interpretation of problem and formulation of design requirements
+                                           Define REQUIREMENTS STATEMENTS (facility need to do this&that,
+                                                                                                          4. Design Requirements
+                                           to measure against at end)
+
+                                           Decide on Design ASSUMPTIONS made and what CONSTRAINTS
+                                                                                                                   5. Design Assumptions and Constraints
+                                           are there before detail specifications
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            effective communication of the design process and solution
+                                           Do a DETAILED ANALYSIS of SPECIFICATIONS (as part of                    6. Detail Design Specifications [this is the
+
+
+
+
+                                                                                                                                                                                                                                           appropriate selection and effective use of analytical tools and techniques
+STEP 2 - ANALYZE THE PROBLEM &
+                                           Productio PROCESS DESIGN)                                               biggest part of the report]
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                effective use of a structured and rigorous design process
+                                                                                                                                                                                                                                                                                                                        practical insight shown in the design process and design solution
+STEP 3 - DETERMINE DESIGN REQUIREMENTS /   Get lots of DATA by asking the right questions [see Getting Data        Sub paragraphs under chapter 6. or put it in
+SPECIFICATIONS                             guidance document]                                                      Appendices
+
+
+                                                                                                             Structure sub paragraphs as you want it and
+                                           Apply MATHS to do capacity and other Calculations to get to the
+                                                                                                             as it makes sense, under chapter 6.as it
+                                           specific requirements in next steps as well as TOOLS and
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                            sufficient design detail provided to meet the deisgn requirements
+                                                                                                             logically relates to data analysis or in
+                                           TECHNIQUES to get this data [see Getting Data guidance document ]
+                                                                                                             Appendices
+
+                                           Determine overall SPACE REQUIREMENTS and for different
+                                           'departments'/functions/areas/etc [see Getting Data guidance
+                                           document
+
+
+                                           Develop alternative BLOCK LAYOUTS to meet the requirements              7. Design Options/Alternatives
+STEP 4 - DEVELOP ALTERNATIVE DESIGNS
+                                           Can apply TOOLS at this point also for new facility [see Getting Data   Sub headings under chapter 7 arranged as
+                                           guidance document]                                                      you want it to make sense.
+
+                                           Do EVALUATION by applying tools eg. Weighted criteria, Pros/Cons
+                                                                                                                   8. Evaluating Alternatives
+                                           analysis
+STEP 5 - EVALUATE ALTERNATIVES
+
+                                           Measure against requirements and/or specifications
+
+
+                                           Draw the MASTER FACILITY PLAN even if its combination of
+STEP 6 - SELECT A DESIGN and justify why
+                                           alternatives
+
+                                           Draw the MASTER FACILITY PLAN and Develop a BUSINESS CASE 9. Final Facility Design (MFP) and 10.
+STEP 7 - MFP and PRESENTATION
+                                           [cost, risks, schedule estimates] to include in Report    Business Case
+

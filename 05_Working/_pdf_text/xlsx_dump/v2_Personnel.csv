@@ -1,0 +1,18 @@
+Personnel (headcount),,
+,,
+Category / role,Number,Note
+Senior Plant Manager,1,brief
+Operations Manager,1,brief
+Inventory Manager,1,brief
+Reception,1,brief
+Purchasing,1,brief
+Sales,2,brief (assumed count)
+Finance,1,brief
+Marketing,1,brief
+Human Resources,1,brief
+Plant supervisors,4,~1 per dept (assumption)
+Security,3,assumption
+Material handlers / forklift,5,assumption
+Equipment-dep & QA operators,4,heat/sandblast/powder/inspection (assumption)
+Production operators (from Capacity),34,"line processes, 1:1"
+TOTAL headcount,60,

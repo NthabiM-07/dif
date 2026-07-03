@@ -1,0 +1,15 @@
+Inventory levels and packaging unit loads,,
+,,
+Inventory (shovel-equivalents),,
+Raw material on hand (2 wk),18190,shovels
+Finished goods (4 wk),36380,shovels
+WIP buffer (~1 shift),1819,shovels
+,,
+Packaging and order definitions,,
+Units per box,10,shovels
+Boxes per pallet,40,boxes
+Units per pallet,400,shovels
+Boxes per day,182,boxes/day
+Pallets per day,5,pallets/day
+Small order (<= 1 pallet),400,shovels max
+Large order (> 1 pallet),>400,shovels

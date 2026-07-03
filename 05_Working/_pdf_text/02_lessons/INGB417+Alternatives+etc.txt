@@ -1,0 +1,134 @@
+Alternatives,
+Evaluation and
+the Master Facility Plan.
+
+
+
+ W Kruger
+ 2026
+Developing alternatives
+        Design = CREATIVE part of the process
+                  (can feel FUZZY)
+
+• May feel like going back and forth (zoom in zoom out)
+  – YES that is OK!
+• You can detail only certain areas/aspects
+• Your base data/information must be reliable
+• Some procedures may help e.g. SLP (Munther)
+• There is iteration between steps, even going back to
+  recalculate, measure, fit, move, redesign process
+
+• To test feasibility – SIMULATION models may help
+
+                                                  Ch 6:10 (Tompkins)
+Developing alternatives
+                    o Involve people
+                o Think outside of box
+          o Brainstorm and Bounce ideas
+           o Don’t think solution too early
+       o Don’t fail to see the forest for the trees
+              o Don’t judge too quickly
+
+The DESIGN process ask for a SELECTION to be made,
+    it does not ask for the BEST design! Note that.
+
+       Goal therefore is to ‘satisfy’ not ‘optimize’
+
+
+                                                       Ch 6:10 (Tompkins)
+Evaluating alternatives (Ch 11)
+• Remember at start…design requirements?
+• Now is the time to measure against those – WHY?
+   • so that Evaluation is not a Guess….
+   • but a Decision based on Facts
+   • and Systematically done
+• Someone else must be able to also see why and how
+  decisions were made (this is tricky if you are biased)
+
+      o Involve variety of people to help judge
+       o Don’t be afraid to combine ideas also
+     o If alternative ideas are not included in the
+  comparisons, then it cannot (and will not) be selected!
+   o Try and focus on data driven solutions and not
+              management ego’s or feelings
+Evaluation tools/techniques
+ • Start with Requirements e.g. was it to…
+    • Minimize distance traveled…so did it? show it
+    • Meet demand……………..….............ditto
+    • Maximize space utilization….............ditto
+    • Increase machine utilization…………ditto
+    • Decrease material handling costs…..ditto
+    • Decrease material movement time….ditto
+
+ • Pros/Cons or Advantages/Disadvantages (Fig 11.1&2)
+ • Ranking (Fig 11.3 illustrates example)
+ • Weighted factor comparison (Fig 11.4 and Ex 11.1)
+   (quantifying subjective factors are tricky)
+ • (or if you wish Analytical Hierarch Process AHP)
+ • Economic evaluations
+The Master Facility Layout (Ch 12)
+• Remember that you could have had Alternatives for
+     only certain areas, aspects or material handling systems
+
+• Intention of the MASTER PLAN (MFP) = the BIG picture
+       • The overall ‘picture’…
+                           • must be visual and must be clear
+       • 2D or 3D (if it is an important factor)
+       • (also called) Total Site/Plant layout or Plot Plan
+       • Must indicate setting/context of public roads/waterways
+
+• Factors to consider include:
+      • Aesthetics (attractiveness, within a setting)
+      • Expansion (10 yrs into future)
+      • Flow patterns (outside integration to inside)
+      • Sustainable energy usage (Smart/Green)
+The Master Facility Layout (Ch 12)
+• Remember the logic you followed…
+   • Start with setting/context of plot/land
+   • Indicate outside and inside roads where applicable
+   • Receiving and Shipping points
+   • Warehouses (if outside)
+   • Outside parking, security, offices (if outside manufacturing)
+   • Outside walls
+   • Production department blocks based on based on Space
+     relationships charts and alternatives
+   • Aisles
+
+   • Audit the layout….by following material flow
+                     • Is everything there?
+                     • Is flow smooth?
+
+   • Does the MFP align with block layouts?
+Some examples (Ch 12)
+The Business case
+• Define a ‘case’ for the project = to get the facility there
+  so operations can start
+• The start AND ending of the project should have been
+  defined at the start
+• Assume that it does not include stocking and starting
+  production (unless specified in the real world)
+• Include 3 things: BUDGET, SCHEDULE and RISKS
+  (for purposes of this subject)
+• Budget = includes the CAPITAL expenses for the
+  building of the facility (not the operating expenses)
+• Schedule = implementation plan of the building
+  project and purchasing of the equipment (highlevel)
+• Risks = things that can go wrong, and mitigation
+  options
+Selling the plan!
+• You have WORDS and
+                PICTURES to communicate with
+
+   • Words in a Report (refer to guidance) somebody can READ
+     or HEARD in a presentation (if required)
+
+• Often ONLY the MFP is required (but must be able to justify
+  and support calculations and decisions)
+
+
+• For this module – challenge is INTERVIEW = questions asked
+  on what/how/why to authenticate and evaluate practical insight
+
+
+• Most NB – show your logic, logically
+

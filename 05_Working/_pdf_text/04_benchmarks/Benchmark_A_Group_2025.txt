@@ -1,0 +1,1256 @@
+                         INGB 417
+                      Facilities Design
+                 Semester Group Assignment
+
+
+
+
+Group Members:
+         Kaylee Meyer                    41763939
+
+        Helman Lekubo                    33731934
+
+          John Faul                      33743983
+
+
+
+
+        North-West University: Potchefstroom Campus
+Contents
+1.      Executive Summary ......................................................................................................................... 4
+2.      Background ..................................................................................................................................... 4
+3.      Design Objectives ............................................................................................................................ 4
+4.      Design Requirement Statements .................................................................................................... 5
+5.      Assumptions and Constraints.......................................................................................................... 6
+6.      Detail Design Specifications ............................................................................................................ 6
+     6.1 Product Specifications ................................................................................................................... 6
+     6.2 Daily Volumes................................................................................................................................ 7
+        6.2.1) Raw Material Volumes .......................................................................................................... 7
+        6.2.2) Finished Product Volumes .................................................................................................... 8
+     6.3 Manufacturing Processes .............................................................................................................. 8
+        6.3.1) Process Flowchart per Product ............................................................................................. 8
+        6.3.2) Entire Plant Process Flowchart ............................................................................................. 9
+     6.4 Machinery, Capacity Planning and Labour .................................................................................. 11
+        6.4.1) Wire Drawing ...................................................................................................................... 11
+        6.4.2) Galvanization....................................................................................................................... 12
+        6.4.3) Hexagonal Machine ............................................................................................................ 13
+        6.4.4) Wire Mesh Welding Machine ............................................................................................. 14
+        6.4.5) Robotic Bagging System (Packaging) ................................................................................... 15
+     6.5 Department Classification ........................................................................................................... 16
+        6.5.1) Process Departments .......................................................................................................... 16
+        The departments listed below are those directly involved in processing the wire. The work-in-
+        progress (WIP) and storage areas will be considered Holding & Handling Departments, which
+        will be discussed in the following section. .................................................................................... 16
+        6.5.2 Visual Summary of Process Departments ............................................................................ 22
+        6.5.3) Holding & Handling Departments ....................................................................................... 23
+        6.5.4) Supporting Activities and Areas .......................................................................................... 29
+Appendix ............................................................................................................................................... 35
+
+
+
+List of Tables
+Table 1: Assumptions and Constraints .................................................................................................... 6
+Table 2: Product Specifications ............................................................................................................... 6
+Table 3: Raw Materials Calculations........................................................................................................ 7
+Table 4: Finished Products Calculations .................................................................................................. 8
+Table 5: Wire Drawing Machine Calculations............................................................................................
+Table 6: Galvanization and Zinc Calculations ............................................................................................
+Table 7: Hexagonal Machine Calculations .................................................................................................
+Table 8: Wire Mesh Welding Machine Calculations ..................................................................................
+Table 9: Robotic Bagging System Calculations ..........................................................................................
+Table 10: Pallet Information .................................................................................................................. 20
+Table 11: Forklift Specs.......................................................................................................................... 23
+Table 12: Assumptions and Given data for material handling of Raw Material.................................... 25
+Table 13: Specs of Crane ....................................................................................................................... 25
+Table 14: Storage Capacity of Scrap ...................................................................................................... 26
+Table 15: Prepared Wire Storage .......................................................................................................... 26
+Table 16: Conveyor Loading Calculations .............................................................................................. 27
+Table 17:Operators between Hex and Packing Station ......................................................................... 27
+Table 18:Operators between Mesh and Packaging ............................................................................... 28
+Table 19: Operators between packaging and storage department....................................................... 28
+Table 20: Finished Goods Storage Area................................................................................................. 29
+Table 21: Power Calculations ................................................................................................................ 30
+Table 22: Lighting Calculations .............................................................................................................. 31
+Table 23: Management Personnel ........................................................................................................ 32
+Table 24: Daily Operators ...................................................................................................................... 32
+Table 25: Locker Rooms......................................................................................................................... 33
+Table 26:Cafeteria ................................................................................................................................. 33
+Table 27: Reception Area ...................................................................................................................... 34
+
+
+
+
+List of Figures
+Figure 1: Detailed Visual Product ............................................................................................................ 7
+Figure 2:Bird Netting Process Map.......................................................................................................... 8
+Figure 3: Chicken Netting Process Map................................................................................................... 8
+Figure 4: Jackal Netting Process Map ...................................................................................................... 9
+Figure 5: Pig Netting Process Map .......................................................................................................... 9
+Figure 6: Welded Mesh Process Map...................................................................................................... 9
+Figure 7: Manufacturing Process .......................................................................................................... 10
+Figure 8: Station in Sub-department 1: Wire Drawing Station ............................................................. 16
+Figure 9: Galvanization Station ............................................................................................................. 17
+Figure 10: Hex Station ........................................................................................................................... 18
+Figure 11: Welding Station .................................................................................................................... 19
+Figure 12: Pallet Visual .......................................................................................................................... 20
+Figure 13: Packing Station ..................................................................................................................... 21
+Figure 14: Process Department Breakdown ......................................................................................... 22
+Figure 15: Forklift .................................................................................................................................. 23
+Figure 16: KLP rollstop system .............................................................................................................. 24
+1. Executive Summary
+
+
+Still to come
+
+
+
+
+2. Background
+Wiring.com specializes in manufacturing various steel wire netting products, including Bird, Chicken,
+Pig, Jackal, and Welded Mesh netting. Rising demand has outgrown the company’s current facility,
+and expansion on-site is not feasible due to space constraints. To address this, Wiring.com has
+acquired a 50-hectare site within 10 km of its current location in Sedibeng District, Gauteng.
+
+This project focuses on designing a new manufacturing facility to accommodate increased
+production and future growth. The facility will process steel coils into netting products through wire
+drawing, galvanization, netting formation, and packaging. With a projected demand of 26,000 tons
+per year, the design must optimize material flow, enhance efficiency, and incorporate sustainable
+energy solutions.
+
+The project involves conceptual layout planning, considering operational needs, logistics, and
+scalability. Management expects a comprehensive design, including equipment selection, process
+flow mapping, storage solutions, and industry best practices.
+
+
+3. Design Objectives
+The following design objectives, categorized under their relevant headings, have been established to
+ensure the successful design of Wiring.com’s new manufacturing facility:
+
+    ➢   Production:
+        To design a manufacturing facility capable of meeting the projected annual demand of
+        netting products, with the flexibility to accommodate for future growth.
+
+    ➢   Site, Layout and Flow:
+        The facility layout must minimize material handling, reduce bottlenecks, and ensure a logical
+        flow on a greenfield site.
+
+    ➢   Equipment and Machinery:
+        To select state-of-the-art machinery and equipment that meet production requirements,
+        ensure product quality, and promote worker safety, while minimizing downtime and
+        maintenance needs.
+   ➢   Environmental and Regulatory Compliance:
+       To ensure the facility complies with environmental regulations and safety standards, while
+       minimizing environmental impact and maintaining a safe working environment.
+
+   ➢   Sustainability:
+       To incorporate sustainable energy strategies, such as renewable energy sources and energy-
+       efficient technologies.
+
+
+4. Design Requirement Statements
+The following design requirements, categorized under their relevant headings, have been established
+to ensure the successful design of Wiring.com’s new manufacturing facility:
+
+   ➢ Production:
+
+           o   The facility must produce a minimum of 26,000 tons of netting products annually.
+
+           o   The facility is required to produce 4,000 tons of bird netting, 5,500 tons of chicken
+               netting, 2,500 tons of jackal netting, 8,000 tons of pig netting, and 6,000 tons of
+               welded mesh per annum.
+
+           o   Must accommodate multiple wire diameters (0.6mm, 0.9mm, 1.8mm, 2.5mm) and
+               netting variations.
+
+           o   Must always have enough raw material on hand to meet three days of demand.
+
+           o   4% scrap rate must be factored into for the first operation.
+
+   ➢ Site, Layout and Flow:
+
+           o   The total site size for the greenfield facility is 50 hectares, with 75% (37.5 hectares)
+               allocated for buildings, production space, and storage, while 25% (12.5 hectares) is
+               designated for roads, deliveries, parking, and green buffer zones.
+
+           o   Raw materials must be stored close to operations for better workflow, with a
+               designated storage area capable of holding at least three days' worth of production
+               demand. The storage area must be easily accessible for the weekly supplier
+               deliveries.
+
+           o   There needs to be an area designated for the scrap produced in the first few
+               processes.
+
+   ➢ Equipment and Machinery:
+
+           o   The facility must include wire drawing machines, galvanizing baths (with no mass
+               change due to galvanization), netting machines, and automated packaging systems.
+
+           o   All machines must be capable of handling production variations while being safe for
+               employees' usage.
+
+   ➢ Environmental and Regulatory Compliance:
+
+           o   The facility must comply with zoning, emissions, and industrial safety regulations.
+              o    Proper waste disposal systems must be in place for scrap material and chemical
+                   byproducts from galvanization.
+
+    ➢ Sustainability:
+
+              o    At least two sustainable energy strategies must be integrated into the facility, such as
+                   solar power and energy-efficient equipment.
+
+
+5. Assumptions and Constraints
+Table 1 outlines some constraints and assumptions made throughout the design process. Other
+relevant assumptions are mentioned in the document where applicable.
+
+ Assumption/Constraint              Details
+
+
+ Working Days                       The facility operates 220 working days per year, with each day defined as a
+                                    full shift from 8 am to 5 pm, including a 1-hour lunch break from 12 pm to 1
+                                    pm.
+
+
+ Galvanization Mass                 Galvanization has no marginal effect on mass.
+ Effect
+
+
+ Unit of Product                    1 unit is equivalent to 1 roll of product.
+
+Table 1: Assumptions and Constraints
+
+
+
+6. Detail Design Specifications
+6.1 Product Specifications
+Wiring.com offers five types of wire fencing: Bird, Chicken, Jackal, Pig, and Welded Mesh netting. The
+details of each product are provided in the table 2.
+
+                                                PRODUCT SPESIFICATIONS
+                                                                                                   Galvanized
+                                                                Wire         Roll
+                                                Aperture                              Weight per    finished
+    Product          Height of roll (m)                       Diameter      Length
+                                                 (mm)                                  roll (kg)    (Light or
+                                                                (mm)          (m)
+                                                                                                     Heavy)
+  Bird Netting                0,9                  13             0,6            50      22,5         Light
+    Chicken
+                              1,8                  25             0,9            50      41,9         Light
+     Netting
+ Jackal Netting               0,6                  75             1,8            50      19,5         Light
+   Pig Netting                0,9                  90             1,8            30      14,7         Light
+ Welded Mesh                   2                   50             2,5            30       70          Heavy
+Table 2: Product Specifications
+  Figure 1 provides a visual representation of the products, with measurements shown to scale.
+
+
+
+
+        Figure 1: Detailed Visual Product
+
+
+
+
+  6.2 Daily Volumes
+  6.2.1) Raw Material Volumes
+  Table 3 outlines the daily raw material of steel coils required, totalling 150 coils—50 coils to meet
+  demand and 100 coils allocated for safety stock.
+
+                                            RAW MATERIAL VOLUMES
+                                                                                    Total        Number of
+                             Annual Demand      Daily Demand      Daily Scrap       Daily       coils needed
+      Product
+                                 (tons)             (tons)          (tons)        Demand       for production
+                                                                                   (tons)      per day (coils)
+    Bird Netting                    4000           18,18             0,73          18,91             7,56
+  Chicken Netting                   5500           25,00             1,00          26,00            10,40
+   Jackal Netting                   2500           11,36             0,45          11,82             4,73
+     Pig Netting                    8000           36,36             1,45          37,82            15,13
+   Welded Mesh                      6000           27,27             1,09          28,36            11,35
+       TOTAL                       26000           118,18            4,73          122,91           50,00
+
+    Safety Stock                   100,00
+ Total Steel Coils on
+Hand Per Day (rounded                150
+         up)
+  Table 3: Raw Materials Calculations
+6.2.2) Finished Product Volumes
+Table 4 presents the total number of units required per product: 809 rolls of Bird netting, 597 rolls of
+Chicken netting, 583 rolls of Jackal netting, 2474 rolls of Pig netting, and 390 rolls of Welded Mesh
+netting. This results in a total daily requirement of 4853 units.
+                                                 FINISHED PRODUCTS
+                                                                                                    Daily
+                                                            Daily Demand     Daily Demand         Number of
+   Product                  Annual Demand (tons)
+                                                                (tons)            (kg)           Units (rounded
+                                                                                                      up)
+  Bird Netting                            4000                 18,18            18181,82              809
+Chicken Netting                           5500                 25,00            25000,00              597
+ Jackal Netting                           2500                 11,36            11363,64              583
+   Pig Netting                            8000                 36,36            36363,64             2474
+ Welded Mesh                              6000                 27,27            27272,73              390
+    TOTAL                             26000                    118,18          118181,82             4853
+Table 4: Finished Products Calculations
+
+
+
+
+6.3 Manufacturing Processes
+6.3.1) Process Flowchart per Product
+Figures 2–6 illustrate the process flow charts for each product individually, allowing for the
+identification of process overlaps.
+
+
+
+
+           Figure 2:Bird Netting Process Map
+
+
+
+
+          Figure 3: Chicken Netting Process Map
+Figure 4: Jackal Netting Process Map
+
+
+
+
+Figure 5: Pig Netting Process Map
+
+
+
+
+Figure 6: Welded Mesh Process Map
+
+
+
+
+6.3.2) Entire Plant Process Flowchart
+After identifying overlapping processes and WIP areas in the individual process flowcharts, we
+developed the complete production line flowchart. Figure 7 provides an overview of the entire
+production process, from raw steel coils to finished product storage.
+
+Initially, raw material is galvanized and stored in the galvanized wire storage area. For Bird, Chicken,
+Pig, and Jackal netting, the galvanized wire is transferred to the hexagonal wire machine, where it is
+shaped into the correct aperture, rolled, and moved to the finished roll WIP area.
+         For Welded Mesh, the wires straightened, cut to length, and welded into mesh, rolled, and transferred to the finished roll WIP area. Finally, all completed
+         rolls proceed to the packaging area before being moved to finished goods storage.
+
+
+
+
+Figure 7: Manufacturing Process
+      6.4 Machinery, Capacity Planning and Labour
+      Tables 5-9 provide details of the machines selected for each process, including their specifications.
+      The capacity planning section outlines the necessary number of machines and the required labour to
+      operate them effectively.
+
+      6.4.1) Wire Drawing
+      The LZ Straight-Line Metal Drawing Machine is used to draw raw steel coils to smaller diameters, in
+      accordance with the product specifications outlined in Table 2. To meet production demands, a total
+      of 8 machines are required, while two machines are operated by one operator.
+
+                                                Wire Drawing
+                                                    Machine Specs
+Machine                                                                 LZ Straight-Line Metal Drawing Machine
+Max. Inlet Diameter                                                                       8 mm
+Outlet Diameter                                                                        0,5-4,5mm
+Capacity                                                                               2 tons/hour
+Speed                                                                                 12m/second
+Length                                                                                  8600mm
+Width                                                                                   1390mm
+Height                                                                                  1925mm
+                                                  Capacity Planning
+Daily Required Input (tons)                                                            122,91
+Scrap (tons)                                                                            4,73
+Daily Required Output (tons) [100%]                                                    118,18
+                                                   Bird Netting[15%]                     18,18
+                                               Chicken Netting [21%]                     25,00
+                                                 Jackal Netting [10%]                    11,36
+                                                   Pig Netting [31%]                     36,36
+                                                 Welded Mesh [23%]                       27,27
+Hours Available                                                                           8
+Tons Requires per Hour                                                                  14,77
+Machines Required (rounded up)                                                            8
+Possible Daily Output with 8 machines (tons) [100%]                                      128
+                                                   Bird Netting[15%]                     19,2
+                                               Chicken Netting [21%]                     26,88
+                                                 Jackal Netting [10%]                    12,8
+                                                   Pig Netting [31%]                     39,68
+                                                 Welded Mesh [23%]                       29,44
+                                                          Labour
+Number of Operators per Machine                                                          0,5
+Total Operators                                                                           4
+  Table 5: Wire Drawing Machine Calculations
+           6.4.2) Galvanization
+           A Galvanization Bath along with rollers are used to galvanize the wire. To meet production 1 machine, with 8 lines are required, while each machine is
+           operated by two operators. To meet production demand, we require one bath that is 36 m long and 2 m wide with 8 rollers that directly pull the drawn wire
+           from the wire drawing machines through the molten zinc.
+
+
+                                   Galvanization
+                            Machine Specs
+Equipment                              Hotion Sink Roll and Galvanizing                       Assumptions and Knowns
+                                                     Bath                             Raw material
+Wire Diameter                                     0.5 - 4 mm                          Roll Length      7000          m
+Capacity                                        16 tons / hour                        Raw Material
+                                              128 tons / 8 hours                      Diameter
+                                                                                      Zinc Needed     0.005          m
+Roller Speed                                        12m/s                             (Light)
+                                                                                      Zinc Needed      0.03       kg/m^2
+Length                                               36 m                             (Heavy)
+                                                                                      Raw Material     0.36       kg/m^2
+Width                                                 2m                              Rolls             50         Rolls
+Height                                               1.3 m                                                                     Zinc Ingot Calculations
+                           Capacity Planning                                                               Percentage of     Wire     Elongation         End Length
+                                                                                                                                                                           Total        Total Zinc
+                                                                                                                                                                         Surface        Required
+Daily Required Input (tons)                         118.18                                                     Roll      Diameter (m) Factor (EF)           (m)
+                                                                                                                                                                        Area (m^2)         (kg)
+                                                                                                              Ratio of                                               2 x pi x r^2 x Total Surface
+                                                                                                                                         Diameter1^2 / EF x Length x
+Daily Required Output (tons) [100%]                          118.18                   Explanation           Product per     Given                                     l + 2 x pi x Area x Zinc
+                                                                                                                                         Diameter2^2 Percentage
+                                  Bird Netting[15%]           18.036                                           Roll                                                       r^2         Needed
+
+                             Chicken Netting [21%]           25.2504                       Bird Netting           15.00%        0.0006         69.4444     72916.6667     137.4447           4.1233
+
+                               Jackal Netting [10%]           12.024                    Chicken Netting           21.00%        0.0009         30.8642     45370.3704     128.2817           3.8485
+                                  Pig Netting [31%]          37.2744
+                               Welded Mesh [23%]             27.6552                      Jackal Netting          10.00%        0.0018          7.7160      5401.2346       30.5433          0.9163
+
+Hours Available                                                8                            Pig Netting           31.00%        0.0018          7.7160     16743.8272       94.6841          2.8405
+Tons Requires per Hour                                      14.7725
+Lines Required                                                 8                         WeldedMesh               23.00%        0.0025          4.0000      6440.0000       50.5797         18.2087
+                                                                                                                                                          Zinc Required per Roll (kg)       29.9373
+                                             Labour
+Number of Operators                                             2                                                                             Zinc Required per Day for 50 Rolls (kg)     1496.8644
+
+
+   Table 6: Galvanization and Zinc Calculations
+                6.4.3) Hexagonal Machine
+                The hexagonal machine is used to weave bird, chicken, pig, and jackal netting. Please note that each machine can only be set to produce one type of netting.
+                To meet production demand, we require a total of 51 machines: 22 for bird netting, 10 for chicken netting, 6 for jackal netting, and 13 for pig netting. Each
+                operator can operate 2 machines at once.
+
+
+
+
+                                                                                              Hexagonal Wire Mesh Machine
+                                                                                                              Machine Model: DP-CSR
+                                                        Length                                                                                                                        4700 mm
+                                                        Width                                                                                                                         1700 mm
+                                                        Height                                                                                                                        1500 mm
+                                                                                                                Machine Specs
+                                                      Wire Diameter                     Mesh opening (Appeture)                        Mesh width                              Weaving Speed             Mesh per day one machine(m)
+                                                                                     Customizable (Note: One set machine can Customizable (Note: can weave 2-4 rolls of   Assume the minimum meters Assume 8 hour shift and 4 rolls per machine
+                Specs                                   0.4-2.2mm
+                                                                                          only make one mesh opening size.)              mesh at the same time.)                   per hour                     at the same time
+                             Bird Netting                   0,6                                      13 mm                                      0,9 m                           60-65 m/hour                          1920
+                          Chicken Netting                   0,9                                      25 mm                                      1,8 m                          95-100 m/hour                          3040
+                            Jackal Netting                  1,8                                      75 mm                                      0,6 m                             180 m/hour                          5760
+                              Pig Netting                   1,8                                      90 mm                                      0,9 m                             180 m/hour                          5760
+                                                                                                                  Capacity Planning
+                                                                                                                                                                             Machines required (x)     Possible Ouput with (x) machines (rolls)
+                                                 Roll Legth Required (m)             Daily Number of Rolls Required                 Daily Total (m) Required
+                                                                                                                                                                                   (rounded up)                      (rounded down)
+                             Bird Netting                   50                                         809                                      40450                                  22                                 844
+                          Chicken Netting                   50                                         597                                      29850                                  10                                 608
+                            Jackal Netting                  50                                         583                                      29150                                   6                                 691
+                              Pig Netting                   30                                         2474                                     74220                                  13                                2496
+                                                                                                               Labour
+                                                   Machines Required                                        Operator per Machine                                                          Total Operators
+                                Bird Netting              22                                                         0,5                                                                         11
+                            Chicken Netting               10                                                         0,5                                                                          5
+                              Jackal Netting              6                                                          0,5                                                                          3
+                                 Pig Netting              13                                                         0,5                                                                         6*
+                                                                                                                          TOTAL AMOUNT OF OPERATORS                                              19
+* We will have a schedule where everyweek one operator needs to operate 3 machines as there isn't a even number of machines for pig netting, and because each operating only needs to ensure the machine is full and press start, one
+operator will be able to handle 3 machines.
+
+ Table 7: Hexagonal Machine Calculations
+            6.4.4) Wire Mesh Welding Machine
+            The wire mesh welding machine is used to produce welded mesh. To meet production demands, we require 9 machines, each operator will operate 2
+            machines.
+                                                                     Wire Mesh Welding Machine
+                Machine Model: Fully Automatic Welded Wire Mesh Making 0.8-.25mm 50-80min High Quality Welding Machine Wire Mesh Roll Spot Welding Machine
+                                   Length                                                                            4000 mm
+                                   Width                                                                             2500 mm
+                                   Height                                                                            1850 mm
+                                                                              Machine Specs
+                                                         Mesh opening
+                                  Wire Diameter                                Mesh width                Welding Speed                 Mesh per day per machine (m)
+                                                           (Appeture)
+
+            Specs                        2.5 - 5 mm           50 - 300 mm               Max 2 m                      180 m/h                            Assume 8 hour shifts
+
+                     Welded Mesh             2.5                   50                     2m                         180 m/h                                   1440
+
+                                                                                    Capacity Planning
+                                    Roll Legth Required     Daily Number of          Daily Total (m)                                              Possible Ouput with (x) machines
+                                                                                                        Machines required (x) (rounded up)
+                                            (m)           Rolls Required (rolls)       Required                                                        (rolls) (rounded down)
+
+                     Welded Mesh              30                   390                   11700                          9                                       432
+
+                                                                                         Labour
+
+                                    Machines Required         Number of Operators per Machine                                       Total Operators
+
+
+                     Welded Mesh              9                               0,5                                                            4*
+
+                                                                     TOTAL AMOUNT OF OPERATORS                                          4
+* We will have a schedule where everyweek one operator needs to operate 3 machines as there isn't a even number of machines for welded mesh, and because each operating only
+needs to ensure the machine is full and press start, one operator will be able to handle 3 machines.
+   Table 8: Wire Mesh Welding Machine Calculations
+6.4.5) Robotic Packing System (Packaging)
+ The robotic packing arm is designed to automate the process of packing steel rolls on pallets. To meet demand, Wiring.com requires 13 robotic packing
+systems: 2 for bird netting, 2 for chicken netting, 2 for jackal netting, 6 for pig netting, and 1 for welded mesh. As one operator can manage 2 machines, a
+total of 7 operators will be required. (Note the exception that packing welded mesh only requires 1 machine, thus there will be one operator operating one
+machine.)
+
+                                                                        Robotic Packing System
+                                                                             Machine Model: DP-CSR
+                                                        Length                                                                               550 mm
+                                                        Width                                                                                580 mm
+                                                        Height                                                                               2000 mm
+                                                                                  Machine Specs
+                                                                                                                                                               Pallet per day per
+                                     Roll Diameter (Assumption) (cm)           Rolls in one pallete            Packing Speed (Pallets per Hour)
+                                                                                                                                                                   machine
+                                     Machine can be made according to
+              Specs                                                             Refer to figure 12                        60 rolls per hour                       8 hour shifts
+                                         customer specifications
+                      Bird Netting                  30                                12                                           5                                  40
+                 Chicken Netting                    30                                12                                           5                                  40
+                   Jackal Netting                   30                                12                                           5                                  40
+                      Pig Netting                   25                                16                                         3,75                                 30
+                   Welded Mesh                      25                                16                                         3,75                                 30
+                                                                                Capacity Planning
+                                                                                                                Machines required (rounded up)                Possible Ouput with
+                                      Daily Number of Rolls Required     Total Pallets Rquired (rounded up)   (Total Pallets Required / Pallets per day per
+                                                                                                                               machine)
+                                                                                                                                                              machines (pallets)
+                      Bird Netting                809                                   68                                2                       80
+                 Chicken Netting                  597                                   50                                2                       80
+                   Jackal Netting                 583                                   49                                2                       80
+                      Pig Netting                 2474                                  155                               6                       180
+                   Welded Mesh                    390                                   25                                1                       30
+                                                                                       Labour
+                                           Machines Required                                Number of Operators per Machine              Total Operators
+                      Bird Netting                2                                                      0,5                                       1
+                 Chicken Netting                  2                                                      0,5                                       1
+                   Jackal Netting                 2                                                      0,5                                       1
+                      Pig Netting                 6                                                      0,5                                       3
+                   Welded Mesh                    1                                                       1                                        1
+                                                                                                               TOTAL AMOUNT OF OPERATORS           7
+         Table 9: Robotic Bagging System Calculations
+            6.5 Department Classification
+            6.5.1) Process Departments
+            The departments listed below are those directly involved in processing the wire. The work-in-
+            progress (WIP) and storage areas will be considered Holding & Handling Departments, which will be
+            discussed in the following section.
+            6.5.1.1) Preparation Department (1)
+            The purpose of this department is to process raw steel coils into wire with the correct diameter and
+            to galvanize the wire for further production. This department will be divided into two sub-
+            departments: one dedicated to the wire drawing machines and the other to the galvanization
+            equipment.
+
+                 ➢ Sub-department 1: Wire Drawing
+                   This sub-department will be dedicated to the wire drawing machines as it is the first step in
+                   preparing the wire. To meet demand, we will require 4 wire drawing stations.
+                       o Wire Drawing Station:
+                           Each station will consist of two wire drawing machines operated by one operator, as
+                           determined in Table 5.
+
+
+                                                      Wire Drawing Station
+
+
+
+
+Figure 8: Station in Sub-department 1: Wire Drawing Station
+   ➢ Sub-Department 2: Galvanization
+     This sub-department will be dedicated to the galvanization process as it is the second step in
+     preparing the wire.
+         o Galvanization Station:
+             There will be one station consisting of a big bath that is 36 m long and 2 m wide (in
+             figure 9 only the end of the bath is shown to fit into the page), the 8 wire drawing
+             machines feed directly into the galvanization bath through 8 draw rollers, thus there
+             is no WIP between the two sub-departments. The wire is directly rolled up onto spin
+             rollers that fit onto the input roller stand (refer to figure 10 and 11).
+
+                                        Galvanization Station
+
+
+
+
+      Figure 9: Galvanization Station
+
+
+6.5.1.2) Hex Department (2)
+The purpose of this department is to transform the drawn and galvanized wire into weaved meshed
+wire rolls. This department will consist of all the hexagonal wire mesh machines and will be
+responsible for producing rolls of bird, chicken, jackal and pig netting.
+
+   ➢ Sub-department 1: Hex Bird
+     This sub-department will be dedicated to all the hexagonal machines required to produce
+     bird netting. According to table 6 we require 22 machines to meet demand. Thus, we require
+     11 hex stations. Refer to the figure 9 below.
+     Sub-department 2: Hex Chicken
+     This sub-department will be dedicated to all the hexagonal machines required to produce
+     chicken netting. According to table 6 we require 10 machines to meet demand. Thus, we
+     require 5 hex stations. Refer to the figure 9 below.
+          ➢ Sub-department 3: Hex Jackal
+            This sub-department will be dedicated to all the hexagonal machines required to produce jackal netting. According to table 6 we require 6 machines
+            to meet demand. Thus, we require 3 hex stations. Refer to the figure 9 below.
+          ➢ Sub-department 4: Hex Pig
+            This sub-department will be dedicated to all the hexagonal machines required to produce bird netting. According to table 6 we require 13 machines
+            to meet demand. Thus, we require 6.5 hex stations. Refer to the figure 9 below.
+
+                    o    Hex Station:
+                         Each station will consist of 2 machines operated by one operator.
+
+                                                                                 Hex Station
+
+
+
+
+Figure 10: Hex Station
+   6.5.1.3) Welding Department (3)
+   The purpose of this department is to weld the drawn and galvanized wire into mesh rolls. This department will consist of all the wire mesh welding machines. To meet
+   demand we require 9 machines, thus we will need 4.5 station welding stations.
+
+                 o    Welding Station:
+                      Each station will consist of 2 machines operated by one operator.
+
+
+                                                                         Welding Station
+
+
+
+
+Figure 11: Welding Station
+6.5.1.4) Packaging Department (4)
+The purpose of this department is to pack all the rolls on pallets. This department will consist of all
+the robotic packaging systems that pick up the rolls and place in on the 2x2 m pallet.
+
+The pallet is illustrated in the figure below. For bird, chicken and jackal netting the roll’s diameter is
+30 cm, due to the roll length being 50 m and for pig and welded mesh the roll diameter is 25 cm, due
+to the roll length being 30m.
+
+                                         Pallet Information
+                               Roll Length (m)      Roll Diameter (cm)   Pallet Visual   Rolls packed on
+                                                         (assumed)                           1 pallet
+                Bird                  50                     30            Pallet 1             12
+            Chicken                   50                     30            Pallet 1             12
+              Jackal                  50                     30            Pallet 1             12
+                 Pig                  30                     25            Pallet 2             16
+       Welded Mesh                    30                     25            Pallet 2             16
+Table 10: Pallet Information
+
+
+
+
+Figure 12: Pallet Visual
+
+
+     ➢ Sub-department: Bird Pack
+       This sub-department will be dedicated to all the packing machines for the bird netting.
+       According to table 9, this netting only needs 2 machines, thus there is only 1 packing station
+       required.
+     ➢ Sub-department: Chicken Pack
+       This sub-department will be dedicated to all the packing machines for the chicken netting.
+       According to table 9, this netting only needs 2 machines, thus there is only 1 packing station
+       required.
+     ➢ Sub-department: Jackal Pack
+       This sub-department will be dedicated to all the packing machines for the jackal netting.
+       According to table 9, this netting only needs 2 machines, thus there is only 1 packing station
+       required.
+     ➢ Sub-department: Pig Pack
+       This sub-department will be dedicated to all the packing machines for the chicken netting.
+       According to table 9, this netting needs 6 machines, thus there is 3 packing stations
+       required.
+➢ Sub-department: Welded Pack
+  This sub-department will be dedicated to all the packing machines for the welded mesh netting. According to table 9, this netting only needs 1
+  machine, thus is only 0.5 packing station required.
+
+        o    Packing Station:
+             Each station will consist of 2 machines operated by one operator.
+                                                               Packing Station
+
+
+
+
+   Figure 13: Packing Station
+      6.5.2 Visual Summary of Process Departments
+      Below is a visual representation of the all the process departments, with their sub-departments
+      along with how many stations are required.
+
+
+                                          Process Department Breakdown
+
+
+
+
+Figure 14: Process Department Breakdown
+6.5.3) Holding & Handling Departments
+The departments listed below are not directly involved in wire processing but are responsible for its
+transportation and storage between different areas.
+
+6.5.3.1) Raw Material Storage
+The purpose of this station is to store raw materials, which are steel coils.
+First In First Out system is used to allow easy access to raw materials and movement between
+departments.
+Coils will be stacked on top of each other up to 3 levels.
+Movement of delivered coils into the warehouse is done by a forklift.
+There is an aisle in between rows to allow movement of the forklift.
+
+
+
+
+                      Figure 15: Forklift
+
+Specifications:
+
+ Name                 2025 REVARO T-REX 830
+
+ Load capacity        3000 kg
+
+ Turning radius 3.5 m
+
+ Drive                4WD
+Table 11: Forklift Specs
+
+Storage: KLP Roll stop system
+The KLP RollStop System is a renowned solution for the safe and flexible storage of steel coils, widely
+adopted by major steel companies globally. This turn-key system offers both maximum flexibility and
+safety, allowing coils to be stored up to three levels high.
+
+Key Components:
+The system comprises four primary components:
+
+     1. Rail: A reinforced base with notches to position the RollStops.
+
+     2. Connector: Joins rails to achieve the desired row length.
+
+     3. Spacer: Sets the appropriate row width.
+    4. RollStop: Adjustable stops that accommodate various coil diameters.
+
+This modular design ensures straightforward on-site installation.
+
+Advantages:
+
+    •   Flexibility: Accommodates a wide range of coil diameters and widths.
+
+    •   Safety: Enhances personnel safety and reduces coil damage; TÜV-approved.
+
+    •   Durability: Constructed from robust polymeric materials, the system is virtually indestructible
+        and splinter-proof.
+
+    •   Ease of Installation: Requires no special equipment; two individuals can complete the setup
+        efficiently.
+
+    •   Stacking Capability: Supports easy stacking of coils up to three levels.
+
+    •   Low Maintenance: Resistant to oil absorption and designed for a long lifespan.
+
+
+
+
+                  Figure 16: KLP rollstop system
+
+
+Number of roll coils ordered is 150 and the coils are stored in the raw materials warehouse for 3 days
+and used before new stock arrives.
+
+                                                   Material Handling
+
+                                              Assumptions & given data
+
+
+                   Roll Height (m)                                                  1
+
+
+                 Roll diameter (m)                                                 1.5
+
+                        Radius                                                     0.75
+
+                      Radius^2                                                 0.5625
+                      Roll weight (kg)                                                  2500
+
+                               Pi                                                  3.141592654
+
+
+                      number of rolls                                                   150
+
+                                                 Raw materials warehouse
+
+                       Area of 1 coil                                              8.246680717
+
+                      Foot Area m^2                                                412.3340358
+
+                            Forklifts                                                    2
+
+Table 12: Assumptions and Given data for material handling of Raw Material
+
+Moving Raw materials to and from the warehouse is done by an overhead crane designed by RGM.
+Specifications:
+engineer a SANS 10375:2018-compliant crane system to meet your requirements:
+
+ Name                                         RGM single girder overhead crane
+
+
+ Span                                         35 meter (can be increased)
+
+
+ Load capacity                                10 tons
+
+
+ Long Travel speed                            80m/min
+
+
+ Cross travel speed                           40 m/min
+
+
+ Hoist speeds                                 5 to 20 m/min
+
+Table 13: Specs of Crane
+
+6.5.3.2) Scrap Storage
+
+The wire drawing process has a scrap rate of 4%. Below is the storage capacity of the wire scrap over
+three days.
+
+                   Total scrap (kg)                                              4730
+
+                           3days                                                14190
+
+                                        Area calculated based on Assumption
+
+                     Component                                               Specification
+
+                  Storage Method                                Outdoor paved yard with containment
+                               Height Limit                                    2m (safe stacking height)
+
+                                 Capacity                                               71 m²
+
+                                  Security                                      Fenced + covered area
+
+                                  Access                                          Forklift accessible
+
+          Table 14: Storage Capacity of Scrap
+
+
+
+
+          6.5.3.3) Prepared Wire Storage (WIP)
+
+
+                                                              Hex Department
+
+                 Daily
+                 Number Roll                 Rack Number
+                 of Rolls Diameter    Roll   size of rolls Number Maximum
+                 Required (m)         Height (m x a rack of        height Number Racks Area Number of
+                 (rolls)  Assumptions (m)    m) can hold Stackings (m)    of rolls needed (m^2) workers
+
+Bird Netting 809              0.30              0.90     1.00 9.00     3          3          27         30   30   4
+
+Chicken
+Netting          597          0.30              1.80     1.80 36.00    2          3.6        72         9    30   5
+
+Jackal
+Netting          583          0.30              0.60     1.80 108.00   1          1.8        108        6    20   4
+
+Pig Netting      2474         0.25              0.90     1.80 51.84    2          3.6        103.68     24   78   6
+
+                                                       Welding Department
+
+Welded
+Mesh             390          0.25              2.00     2.00 64.00    1          2          64         7    28   3
+
+                                                                                                             total 22
+
+          Table 15: Prepared Wire Storage
+       6.5.3.4) Processed Wire Storage (WIP)
+
+
+Conveyor Loading Calculations
+
+
+                                                                                                     Workers
+                           Daily Number                           Hourly                             Required (1
+                           of Rolls     Machines     Daily Output Output per        One Roll         worker can place
+                           Required     required (x) per Machine Machine            Production       a roll every 3
+                           (rolls)      (rounded up) (Rolls)      (Rolls/h)         Time (min)       min)
+
+Bird Netting               809               22             36.77    4.60           13.05            5
+
+Chicken Netting            597               10             59.70    7.46           8.04             3
+
+Jackal Netting             583               6              97.17    12.15          4.94             2
+
+Pig Netting                2474              13             190.31   23.79          2.52             1
+
+Welded Mesh                390               9              43.33    5.42           11.08            4
+
+Total Number of Workers Required                                                                     15
+
+       Table 16: Conveyor Loading Calculations
+
+       Hex Department to Packaging Department:
+
+       Once the hexagonal netting machine finishes producing a roll, it is loaded onto a low-lying roller
+       conveyor that leads to the packaging department. This allows the workers to transport the rolls from
+       the hex department to the packaging department with minimal physical effort.
+
+       Additionally, the conveyor acts as WIP storage, ensuring a buffer area for when mesh production
+       surpasses packaging speed. When a robot arm at the packaging station is done packing a roll, it can
+       simply pick up the next one from the WIP conveyor.
+
+       All 51 netting machines will need a conveyor leading from it. The 51 conveyors will all converge into
+       thirteen groups of three or four conveyors. At these intersections, a worker will be needed to guide
+       the rolls away from each other.
+
+        Operators between Hex and Packaging Departments
+
+                                        Number of Operators
+
+        Loading the Conveyors                       11
+
+        Intersection Operators                       7
+
+        Oversight                                    1
+
+        Total                                       19
+
+       Table 17:Operators between Hex and Packing Station
+Welded Mesh Department to Packaging Department:
+
+Once the welded mesh machine finishes producing a roll, it is loaded onto a low-lying roller conveyor
+that leads to the packaging department. This allows the workers to transport the rolls from the hex
+department to the packaging department with minimal physical effort.
+
+Additionally, the conveyor acts as WIP storage, ensuring a buffer area for when mesh production
+surpasses packaging speed. When a robot arm at the packaging station is done packing a roll, it can
+simply pick it up from the WIP conveyor.
+
+All nine welded mesh machines will need a conveyor leading from it. The 9 conveyors will all
+converge into three groups of three conveyors. At these intersections, a worker will be needed to
+guide the rolls away from each other.
+
+Operators between Mesh and Packaging Departments
+
+                                 Number of Operators
+
+Loading the Conveyors                           5
+
+Intersection Operators                          2
+
+Oversight                                       1
+
+Total                                           8
+
+Table 18:Operators between Mesh and Packaging
+
+6.5.3.5) Finished Goods Storage
+Packaging Department to Finished Goods Storage:
+
+The Robot arms receive the finished product via the conveyors from the hex and welding
+departments. As the finished wire rolls are picked up, the robotic claw wraps the packaging around
+it. It is then lifted and placed onto a pallet in a pre-determined position to maximise stability and the
+number of rolls you can fit onto it. Once the pallet is packed, it is wrapped with a poly woven pallet
+strap to keep the fence rolls from falling off.
+
+After the pallets are secured, an overhead crane is used to move the pallets from the packing
+department to the finished goods storage.
+
+
+
+Operators Between Packaging and Storage Departments
+
+                              Number of Operators
+
+Crane Coordinator                               1
+
+Stock Manager                                   1
+
+Total                                           2
+
+Table 19: Operators between packaging and storage department
+Finished Goods Area:
+
+The total area for the finished goods is calculated by multiplying the area needed for a pallet with the
+number of pallets needed to meet the daily demand.
+
+Finished Goods Area
+
+                    Number of Pallets (2        Pallet Size     Area Needed
+                    days)                       (m^2)           (m^2)
+
+Bird Netting        136                         4               544
+
+Chicken
+Netting             100                         4               400
+
+Jackal Netting      98                          4               392
+
+Pig Netting         310                         4               1240
+
+Welded Mesh         50                          4               200
+
+Total Area Needed                                               2776
+
+Table 20: Finished Goods Storage Area
+
+6.5.4) Supporting Activities and Areas
+6.5.4.1) Power Usage Calculations:
+Power consumption was calculated using average power ratings for all the listed equipment. The
+power ratings were then multiplied by the quantity of equipment and the operating hours.
+
+Power Calculations
+
+                                           Power               Total   Operating     Daily Energy
+                                           Rating              Power   Hours per     Consumption
+Department          Equipment/Process      (kW)       Quantity (kW)    Day           (kWh)
+
+                    Lighting               0.15       12      1.8      9             16.2
+Raw Material
+                    Ventilation            1.15       2       2.3      9             20.7
+Storage
+                    Overhead Crane         27500      1       27500    8             220000
+
+                    Lighting               0.15       12      1.8      9             16.2
+
+                    Ventilation            1.15       5       5.75     9             51.75
+Wire Drawing &
+               Wire Drawing
+Galvanizing
+               Machines                    37         8       296      8             2368
+
+                    Galvanizing Bath
+                    Heaters                25000      1       25000    8             200000
+                     Exhaust & Fume
+                     Extraction           1.5     2        3        8             24
+
+                     Lighting             0.15    12       1.8      9             16.2
+
+                     Ventilation          1.15    2        2.3      9             20.7
+Hex Machine
+Department           Hexagonal Weaving
+                     Machines             4       51       204      8             1632
+
+                     Conveyors            0.745   51       37.995   8             303.96
+
+                     Lighting             0.15    12       1.8      9             16.2
+
+                     Ventilation          1.15    2        2.3      9             20.7
+Welded Mesh
+Department
+                     Welding Machines     1920    9        17280    8             138240
+
+                     Conveyors            0.745   9        6.705    8             53.64
+
+                     Lighting             0.15    12       1.8      9             16.2
+
+                     Ventilation          1.15    2        2.3      9             20.7
+Packaging
+                     Strapping Machines   0.5     14       7        8             56
+
+                     Robot Arms           1.5     14       21       8             168
+
+                     Lighting             0.15    12       1.8      9             16.2
+Finished Goods
+               Ventilation                1.15    2        2.3      9             20.7
+Storage
+                     Overhead Crane       27500   1        27500    8             220000
+
+                     Lighting             0.03    5        0.15     10            1.5
+Offices
+                     Ventilation          0.024   5        0.12     10            1.2
+
+Outside
+Utilities            Floodlights          0.05    10       0.5      14            7
+
+Total Power
+Consumption                                                                       783107.75
+
+Table 21: Power Calculations
+
+
+
+6.5.4.2) Lights
+Preliminary estimates suggest that 12 LED lights per department, 1 LED light per office, and 10
+floodlights outside the building should be sufficient.
+Lighting Calculations
+
+                                  Amount Needed        Type
+
+Raw Material Storage                   12          Industrial LED
+
+Wire Drawing & Galvanizing             12          Industrial LED
+
+Hex Machine Department                 12          Industrial LED
+
+Welded Mesh Department                 12          Industrial LED
+
+Packaging                              12          Industrial LED
+
+Finished Goods Storage                 12          Industrial LED
+
+Offices                                 5          Office LED
+
+Outside                                10          LED Floodlight
+
+Table 22: Lighting Calculations
+
+6.5.4.3) Amenities
+    1. Personnel
+
+17 Management personnel oversee the day-to-day activities of the manufacturing plant
+
+Management Personnel
+
+Personnel                                   Number of people
+
+Plant Management & Operations               5
+
+Plant manager                               1
+
+Operations supervisors                      4
+
+Sales & Customer Relations                  3
+
+sales & marketing manager                   1
+
+sales representatives                       2
+
+
+Purchasing & Inventory Management 1
+
+Manager                                     1
+
+Finance & Administration                    5
+
+Finance manager                             1
+Accountants                                2
+
+Administrative Staff                       2
+
+Maintenance                                1
+
+Supervisor                                 1
+
+Logistics & Dispatch                       2
+
+Logistics manager                          1
+
+Warehouse/ dispatch Supervisor             1
+
+Table 23: Management Personnel
+
+Number of operators and supporting staff that deals with material handling
+
+Daily operations personnel Operators Material handling
+
+Wire drawing                     8         4
+
+Galvanization                    2         2
+
+Hex department                   51        19
+
+Weld department                  9         3
+
+Packaging and packing            7         35
+
+Table 24: Daily Operators
+
+2. Locker rooms
+
+Total area of the locker rooms which include rest rooms. 83 double-tier locker rooms that can
+accommodate 165 employees which is the operators and the supporting staff.
+
+Locker rooms with Rest rooms
+
+Assumptions and Knowns
+
+Employees                        165
+
+Area of Locker rooms(m^2) 0.135
+
+Total floor space                22.275
+
+Double tier locker               11.1375
+
+
+
+Component                        Area (m^2) Quantity notes & details
+Double locker                   11.1375       83         units
+
+Ailes                           15            1.2        meter between rows
+
+Changing area                   20                       open space for changing
+
+Benches                                                  Include in locker rows
+
+Toilet                          15.6          13         5 male 7 female
+
+Urinals                         4             5          male
+
+Sinks                           7.7           11
+
+Total                           73.4375
+
+Table 25: Locker Rooms
+
+
+
+
+3. Cafeteria
+
+A 50-seat cafeteria with an area of 125 m^2 for providing basic food.
+
+Cafeteria
+
+Area                      Size (m²) Details
+
+Dining Area               125         50 seats @ 2.5m²/seat
+
+Food Service Counter 15               8m long serving line
+
+Kitchenette               25          Basic food prep/storage
+
+Vending Area              8           4 vending machines
+
+Storage/Circulation       20          Supplies and movement space
+
+Total                     193
+
+Table 26:Cafeteria
+
+    5. Reception area
+
+Reception offices, to receive customers and suppliers bringing the paperwork for deliveries.
+
+Reception area & Restroom for offices
+
+Component                Size (m²) Details
+
+Waiting Area             20         8 seats + coffee table
+
+Reception Desk           10         L-shaped counter with storage
+Visitor Lockers            5    Secure storage for personal items
+
+Admin Workstation 15            For reception staff
+
+Circulation                10   Clear pathways
+
+Total                      60
+
+Table 27: Reception Area
+Appendix
+Will add everything – how tables were calculated etc.
+

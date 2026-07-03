@@ -1,0 +1,507 @@
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+Tipe Assessering/ Type of Assessment:    GA Assignment
+Kwalifikasie/ Qualification:             B Eng (Industrial)
+Modulekode/ Module code:                 INGB417           Tydsduur/ Duration:    6-13 June 2025
+
+Module beskrywing/ Module description: Facilities Design           Maks/ Max:              100
+Eksaminator(e)/ Examiner(s):             Willemien Kruger (BEng Industrial, M Eng)
+Internal Moderator:                      Marius Alberts (BEng Industrial)
+External Examiner:                       Prof Chris van Schoor (PhD Industrial Eng)
+
+
+Instructions:
+Read the DESIGN BRIEF as given below, then do appropriate and relevant research to develop your
+FACILITY DESIGN. This is to be presented in a Facility Design Report (like the Group Assignment report),
+including all relevant chapters to demonstrate your understanding of the Engineering Design process. An
+in-person Debrief session will be held on Friday 6 June 13h00-14h00 (in IE boardroom) to clarify
+expectations and answer any questions you may have.
+
+
+Your FACILITY DESIGN Report must be uploaded (pdf), to eFundi on Friday 13 June 2025 by 8h00.
+You do not have to submit a printed report.
+  The body of the report should be no longer than 40 pages. Appendices may be included and will not count
+ towards the 40 pages. Appendices will only be considered if they are appropriately referred to in the body of
+        the report. No additional files, drawings or spreadsheets will be considered by the examiners.
+ Remember that more words do not necessarily reflect better insight and since this subject is about a Layout
+         plan and the supporting key assumptions and calculations, focus on getting that right.
+
+
+No changes to the report will be accepted once it is uploaded to eFundi. No late or resubmissions will be
+accepted.
+
+
+Exit interviews will be done with an examiner panel on Wednesday 18 June (9h00-16h00) as well as
+Thursday 19 June 2025 (9h00-13h00). The detail schedule and venue have been communicated in the
+week of 20 May 2025 for individual planning purposes. Please bring only a colour PRINTED A2 (or larger
+if you wish) of the MASTER FACILITY PLAN to the interview to be part of the discussion.
+
+
+The main purpose of this assignment is to assess your ability to make use of a systematic engineering
+design approach as the Graduate Attribute (GA) 3 to graduate as an Industrial Engineer. You must obtain at
+least 50% for the exam report as well as passing GA3. Failure to demonstrate competence in this GA will
+result in failure of this assessment and the module.
+Students are expected to complete the assignment independently, and a declaration will be required when
+uploading the final report. Any ideas, conversations or content used in the design process must be credited
+and referenced. The final design must be an original piece of work that the student is solely responsible
+for developing and presenting.
+
+
+
+
+                                                                                                              1
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+DESIGN BRIEF:          TIPTOP TABLE MANUFACURING
+
+Background – TIPTOP TABLES is a manufacturer of outdoor tables and chairs supplying the local
+South African market for the past 25 years. Current sales for specifically the outdoor set including
+one lightweight 2in1 aluminium outdoor table with four chairs (to make up a complete set of one
+table and 4 chairs) have picked up such that a need for a new facility for this product series alone
+has been identified. This table also has a unique feature in that it can be a small or large table
+depending on the configuration. Sales forecasts for up to 5 000 per month of these outdoor sets
+is expected, which cannot be met within their current facilities as this is not the only product made.
+Management has asked for the plans for a new facility which will help them make strategic
+decisions on where to build it. You can assume that access to the facility from public roads will
+be a requirement. The facility must leave about 20% space available for future expansion needs.
+
+
+TIPTOP requires you, as Industrial Engineer, to apply a systematic engineering design approach
+to develop a comprehensive FACILITIES LAYOUT for the new manufacturing facility. Apart from
+providing space for the main production processes of manufacturing the tables, the facility needs
+to accept delivery vehicles/trucks from suppliers bringing raw materials to offload, it needs to
+store all materials inside the facility, as well as provide a place for customers collecting orders, or
+their own trucks loading orders for delivery to customers.
+
+
+THE PRODUCT – OUTDOOR SET OF ALUMUNIUM 3in1 TABLE and 4 CHAIRS
+
+
+
+
+These pictures indicate the look and
+dimensions of the table to be made.
+
+This patio dining table is made of naturally
+water-safe aluminium alloy with an extra protective powder coat for the charcoal grey colour.
+Aluminium makes it light to move when needed and even faster at expanding. A slatted surface
+makes the extendable outdoor dining table easy to wipe dry after rain. It is packaged as partly
+assembled, as the 4 legs can be assembled at home.
+
+
+                                                                                                          2
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+Part of the set include 4 chairs also made from aluminium alloy with the
+seat and backing made from weaved rattan. The dimensions are not
+given, as you only need to know that a standard aluminium pipe tube of
+6m length is used for the frame. The rattan seat/backing is outsourced
+to another company which take away the frames for their work daily
+and bring back completed chairs daily.
+
+
+
+PRODUCT AND MANUFACTURING INFORMATION
+
+The easiest way to understand the manufacturing process is to watch the current process where a
+variety of outdoor furniture is made: https://www.youtube.com/watch?v=b3m4THLU2Iw
+The manufacturing of the chairs can be viewed here:
+https://www.youtube.com/shorts/Je6bNHXVILQ
+[please note that the video is for background and information purposes only]
+In the new facility they will be doing things similarly, but they may need to purchase more machines
+and get more labour to fulfil demand. You are required to help management with these calculations
+on work and capacity demand. The only raw materials bought are aluminium tubes from
+https://www.aluminiumtrading.co.za/
+Rectangular tubes (40mmx20mmx1,2mm) are bought to make the frame for the tabletop as well as
+the inserted structure that allows the two tabletops to slide together for the small configuration.
+Flat bars (101,6mmx9,52mm) are bought for the tabletop (this is welded to a frame).
+Square tubes (60mmx60mm) are bought to make the table legs.
+Round tubes (25,4mmx1,6mm) are bought for making the chairs.
+
+
+The main processes to focus on are specified as follows:
+ For the TABLE manufacturing:                        Estimated processing times
+ CUTTING of the standard 6m rectangular tube 1min for all parts cut per table
+ for making the table frame (this is done by a
+ CNC laser cutting machine)
+ WELDING (automated robot) to make the 5min per sliding structure
+ structure for enabling 2 tabletops to slide into
+ each other
+ WELDING (manual) of the tabletop frame to the 10min per one tabletop frame
+ flat bars to make the tabletops (2 tops are
+ needed to make 1 table)
+ GRINDING and POLISHING is done by hand to 1min per tabletop
+ just ensure smooth finishes
+                                                                                                      3
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+ POWDER COATING only with machine in a 30sec per structure
+ chamber specially design for this activity
+ ASSEMBLY by hand to put two tabletops 5min per table
+ together with the sliding structure to make the
+ 3in1 table. 20 screws are used per table for this
+ activity.
+ Just before packing the legs, rubber levelling 1min per 4 legs
+ feet are put on which are bought from outside.
+ PACKAGING by hand to ensure quality check 5min per set.
+ and correct orders are packed. Packaging is Small orders can be collected – less than 5 sets
+ done to a maximum of 5 tables together with the Large orders are delivered to customers – more
+ legs, in one carton box.                            than 5 sets.
+
+
+The specifications of the table frame are as follows:
+
+
+
+
+ Tabletop:                                           Inserted structure for sliding:
+ Viewed from beneath, fifteen flat bars are laid Three pieces of 1m in length are welded
+ out next to each other and then welded to three together with two pieces of 0,94m.
+ pieces of 1,52m in length as well as two pieces
+ of 1m in length. Legs are put into the circular
+ holds at the corners.
+
+
+ For the CHAIRS manufacturing:                                           Processing time estimates
+ CUTTING of the round tube for the frame. A standard 6m tube will 1min per tube
+ be cut into 5 pieces for the chair frame by a CNC cutting machine.
+ BENDING of the tubes to make the frame parts                            3min per chair
+ WELDING (manual) of the tubing to make the frame                        5 min per chair
+
+
+                                                                                                     4
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+ Putting on the Rattan is outsourced.                                                                    The supplier delivers 1000
+                                                                                                         chairs per day, which is
+                                                                                                         sufficient               for         meeting
+                                                                                                         demand.
+ STACKING of chairs to await combining it with the tabletop to make 10min to stack 20 chairs
+ a complete set as a finished product. Chairs are not packaged but
+ just stacked together with tiestraps as associated with the packed
+ tables in sets of 5 for large orders.
+You should design enough space for any work-in-progress needed between processes. Also
+remember to make provision for scrap that may be made at the CUTTING stations.
+
+
+Some specific requirements management needs are to have a separate space assigned to any
+welding work done, and allow safety space where the industrial robots are working. If any other
+details are needed to determine space requirements, you can make assumptions. Process flow
+charts must form part of their Quality Management System. You may use other tools and techniques
+for better application to design a Facility Layout.
+
+
+Some limitations have been set by shopfloor workers upon workstations arrangement as follows
+due to movement safety as well as ventilation issues. These specifications must be considered
+when determining the layout. It may also be useful to complete the chart to help in planning the
+layout. The below activity relationship chart is applicable to tables.
+                                       1
+
+
+
+
+ 1   Raw materials                                                                                                                             No. of
+                                                                                                                    Value     CLOSENESS
+                                           2
+
+
+
+
+                                       A                                                                                                      Ratings
+
+                                                                                                                             Absolutely
+                                               3
+
+
+
+
+ 2   Cutting process                                                                                                 A         Necessary        5
+                                                   4
+
+
+
+
+                                       A       X
+                                                                                                                             Especially
+                                                                                                                     E
+                                                       5
+
+
+
+
+                                           X                                                                                   Important
+ 3   WIP of cut parts
+                                                           6
+
+
+
+
+                                       X                                                                                I    Important
+                                                               7
+
+
+
+
+ 4   Automated robot welding                                                                                                 Ordinary
+                                                                                                                     O
+                                                                   8
+
+
+
+
+                                       A                                                  "Closeness"                         Closeness OK
+                                                                                             Rating
+                                                                       9
+
+
+
+
+ 5   Manual welding of tabletop                                                                                      U       Unimportant
+                                                                           10
+
+
+
+
+                                               X
+                                                                                                                     X        Not desirable     7
+                                                                                11
+
+
+
+
+                                                   X
+ 6   WIP of structures and tabletops
+                                                                                     12
+
+
+
+
+                                       A               X
+                                                                                          13
+
+
+
+
+                                                           X
+ 7   Powder coating/spraying
+                                                                                               14
+                                                                                                    15
+
+
+
+
+ 8   Assembly (tables and chairs)
+                                                                                                         16
+                                                                                                              17
+
+
+
+
+ 9   Packaging (xx m2)
+                                                                                                                   18
+
+
+
+
+                                       A
+                                                                                                                        19
+
+
+
+
+ 10 Finished goods (xx m2)
+                                                                                                                             20
+
+
+
+
+                                                                                                                                                        5
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+Other policies to consider include:
+
+Manufacturing Operating Times
+The company currently operates a 9 hour shift per day, 5 days per week. Operators are given 30
+minutes for lunch and two 15 minute tea breaks per day. You can assume an average of 20
+working days per month. Overtime or a Saturday shift is possible but should only be considered
+to provide flexibility in capacity.
+
+Inventory Levels
+Inventory level policies are as follows:
+Raw materials and components: 2 weeks stock        Finished goods: 1 month/4 weeks stock as
+they are shipping overseas and need to ship big batches at a time.
+Your own assumptions can be made regarding Work-In-Process (WIP) inventory at different
+stages of production and the space needed on the shop floor.
+
+Deliveries and Collections
+Raw material and component deliveries take place throughout the week. Finished good
+collections take place daily, or when taking bulk orders TIPTOP use their own fleet. All deliveries
+and collections will take place during production hours.
+
+
+FACILITY DESIGN EXPECTATIONS
+The following provides detail expected to see in the Final Design.
+• Materials Receiving and Storage Design considerations
+    •      Clear receiving space for all suppliers,
+    •      storage of all raw materials and components including details of 3D space requirements
+           based on calculations, material flow and layout and material handling equipment
+           recommendations.
+    •      Staging of materials and components at manufacturing and assembly.
+•       Manufacturing Operations Design
+    •      Process flow charts to indicate clear understanding of the manufacturing processes
+           required, including insight into bottlenecks, workstations and departments.
+    •      Production capacity analysis (including detail calculations) compared to forecast demand
+           to improve on process design so that the manufacturing processes can meet demand.
+           Some changes will have to be made to meet future demand.
+    •      Capacity analysis for all manufacturing processes including machine and personnel
+           requirements organized in workstations.
+    •      Recommended machinery for all critical manufacturing processes.
+    •      Operator and material movement requirements including movement between
+           manufacturing processes and movement of material from raw material storage to the WIP
+           in manufacturing areas and then to finished goods storage. This can be summarised as
+           flow and should be indicated on the final layout.
+    •      Detailed layout and space planning for all workstations and WIP stations where required.
+    •      Interface design for dispatch and receiving of chairs for external rattan seat/backing.
+•       Finished Product Storage and Shipping Operations Design
+    •      Finished product and order storage capacity including details of 3D space requirements
+           based on calculations, flow and layout and equipment and materials handling
+           recommendations.
+                                                                                                      6
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+     •       Clear and logical dispatch operation space for customers getting their small orders or
+     •       Shipping operations where the company has their own trucks taking large orders to
+             distribution centres.
+•        Supporting Facilities & Services Design
+         •   Personnel facilities for all employees on site.
+         •   Offices and related facilities for: Management (1 senior and 2 middle management),
+             administrative (5 people including Purchasing and Finance and Sales) and operational
+             staff (as you have determined including supervisors).
+         •   Overall security considerations, entrance, exit and passenger and goods vehicle flow on-
+             site including parking.
+         •   Waste handling and management.
+         •   Utility requirements including water, electricity, plumbing etc.
+
+
+THE DELIVERABLES
+
+This project requires you to apply a systematic engineering design approach to develop a
+comprehensive facilities layout (Master Facility Plan) that identifies and meets the needs of the
+client.
+TIPTOP has specifically asked you to include the following in your report:
+1.           A set of detailed facility design requirements.
+2.           A thorough capacity/demand analysis to clearly demonstrate production capacity needs.
+3.           At least three alternative design solutions. All considerations must be communicated.
+4.           A detailed justification of chosen design(s) including evaluation criteria.
+5.           A detailed master facilities plan that includes sufficient details of workstation, material
+             handling, storage, receiving, dispatch and personnel space requirements to present to
+             management.
+6.           A well-prepared Facility Design Report.
+
+
+The report must include comprehensive evidence to indicate that you followed a systematic
+Engineering Design process and summarise your key assumptions and capacity calculations.
+
+
+An opportunity to explain how you approached this project will be given in an EXIT INTERVIEW
+where you will have 10 minutes to explain how you approached the design problem, what you have
+done practically to develop design options, and explain the logic of your Master Facility Plan. This
+is not a presentation, but more question and answers session with examiners to test insight. Please
+bring with the 2D layout colour printed in A2 format to use as reference.
+
+
+Attached the Rubric that will be used for marking each student individually.
+
+
+
+
+                                                                                                        7
+INGB417 FACILITIES DESIGN
+
+GA3 EXAM 2025
+
+
+     Facilities Design – INGB417 - Examiner mark sheet for use by internal and external examiner 2025
+  Student Particulars
+  Surname                          Initials                                        Student number
+
+  Examiner Particulars
+  Internal or External (circle)    Initials & Surname                              Affiliation
+
+
+
+  GA 3: Engineering Design
+  Design creative solutions for complex engineering problems and design systems, components or processes to meet
+  identified needs.
+                                                  EVALUATION CRITERIA
+
+                                                                     Weighting        Mark          Mark       Mark
+                                                                                   (Interview)    (Report)    (Final)
+ Clear interpretation of the design problem and                         /30
+ formulation/calculation of design requirements or
+ specifications. (includes appropriate use of analytical tools and
+ techniques.)
+
+
+
+ Practical insight shown during the design process and in the           /20
+ design solution
+
+
+
+ Sufficient detail provided in the solution to meet the design          /30
+ requirements (Receiving & Dispatch, Processes, Storage,
+ Offices, Support functions all in MFP)
+
+
+
+ Effective use of a structured and rigorous design process              /10
+ (Report structure corresponding to process steps
+
+
+
+ Effective communication of the design process and solution             /10
+
+
+
+ FINAL MARK (Interview 50: Report 50)                                  /100       Interview      Report      Total
+                                                                                  mark           total       mark
+
+
+
+                                       ASSESSMENT OF GA 3 (ENGINEERING DESIGN)
+GA Achieved?
+YES/NO
+Comments:
+
+
+
+
+Assessment Date:                                                     Signature:
+
+
+
+
+                                                                                                                        8
+

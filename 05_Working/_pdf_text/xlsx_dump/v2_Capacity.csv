@@ -1,0 +1,19 @@
+Per-process capacity: machines and operators,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Process,Basis,Units/shovel,Scrap?,Daily good,Scrap factor,Daily gross,Pieces/op,Ops/day,Cycle (s),Time (min/day),Prod min/mach,Machines,Util.,Operators,Note
+Cut handle,per cut,2,Yes,3638,1.052631579,3829.473684,1,3829.473684,15,957.3684211,480,2,99.7%,2,5% scrap; pipes/cut from equipment
+Internal thread (middle),per pipe,1,No,1914.736842,1,1914.736842,1,1914.736842,20,638.245614,480,2,66.5%,2,"brief; input = gross tubes surviving cut (cumulative scrap, Tompkins Eq.2.3)"
+Stamp / narrow end (grip),per pipe,1,No,1914.736842,1,1914.736842,1,1914.736842,5,159.5614035,480,1,33.2%,1,"brief; input = gross tubes surviving cut (cumulative scrap, Tompkins Eq.2.3)"
+Knurl + external thread (grip),per pipe,1,No,1914.736842,1,1914.736842,1,1914.736842,60,1914.736842,480,4,99.7%,4,thread rolling can cut this; input = gross tubes surviving cut (cumulative scrap)
+Stamp shovel head,per part,1,Yes,1819,1.052631579,1914.736842,1,1914.736842,2,63.8245614,480,1,13.3%,1,5% scrap
+Shape / bend head,per head,1,No,1819,1,1819,1,1819,2,60.63333333,480,1,12.6%,1,brief
+Sharpen blade,per shovel,1,No,1819,1,1819,1,1819,120,3638,480,8,94.7%,8,main bottleneck
+Serrate edge,per shovel,1,No,1819,1,1819,1,1819,60,1819,480,4,94.7%,4,brief
+Stamp hinge connector,per part,1,Yes,1819,1.052631579,1914.736842,1,1914.736842,2,63.8245614,480,1,13.3%,1,5% scrap
+Bend hinge connector,per part,1,No,1819,1,1819,1,1819,5,151.5833333,480,1,31.6%,1,brief
+Rivet hinge to head,per shovel,1,No,1819,1,1819,1,1819,5,151.5833333,480,1,31.6%,1,brief
+Hand polish / deburr,per head,1,No,1819,1,1819,1,1819,60,1819,480,4,94.7%,4,brief
+Final assembly,per shovel,1,No,1819,1,1819,1,1819,30,909.5,480,2,94.7%,2,brief
+Packaging (hand + check),per shovel,1,No,1819,1,1819,1,1819,30,909.5,480,2,94.7%,2,cycle is an assumption
+TOTAL (line processes),,,,,,,,,,,,34,,34,
+Average utilisation,,,,,,,,,,,,,62.5%,,

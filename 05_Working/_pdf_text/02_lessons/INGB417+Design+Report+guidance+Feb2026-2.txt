@@ -1,0 +1,136 @@
+                    INGB417 FACILITIES DESIGN – DESIGN REPORT GUIDANCE
+
+Although writing a report is a skill you will learn in many other modules, this document will
+attempt to provide you with the expected structure for a Facilities Design report.
+
+                        “Words(and pictures) sell, or they don’t”
+A report is often the only thing you will have to present and sell your idea to either customer,
+colleague, or boss.
+
+A Report is READ!!! So you must write so that your thinking logic is read, not assumed.
+
+General tips:
+Plan your report with a pen on some paper ﬁrst, by ﬁguring out what your Table of Contents (ToC)
+must/can be. The ToC must be logically structured – like telling a story, so ensure coherence.
+
+While planning the ToC, separate and list and number different sections, Tables and Figures.
+
+It will help if somebody completely objective reads the report and give feedback. If they cannot
+understand it, then neither will the examiner.
+
+
+The structure:
+Apart from the Cover page (with all relevant detail) and Appendices (declutter the report from
+too much detail)
+
+1.      Executive Summary
+Must be concise yet comprehensive. No longer than one page in length. Brief overview of the
+current state (or Needs analysis), key design requirements, chosen design and motivation as
+well as implementation estimates.
+
+2.      Background
+Provide context for your project. Distinguish between a new facility design or a current facility
+redesign, as this will inﬂuence your constraints.
+
+3.      Design Objectives
+Explain and list current needs or problems with the current facility. Your main objective of the
+project will typically be: ‘To design a xxx(type) facility that (specify what it will be able to do xxx)’
+Deﬁne the objectives (what is it that you are aiming to achieve) of the facility.
+
+4.      Design Requirement statements
+This is the speciﬁcs that can be measured for success. These have to do with capacity, process
+activities, storage policies and space requirements. The better you can quantify the
+statements at this point the better you will be able to evaluate options to choose the best one
+and measure the design success at the end.
+Make sure that you describe how you would know if your facility layout was good. If a facility
+does not meet these design requirements, then it is not a good facility.
+                  INGB417 FACILITIES DESIGN – DESIGN REPORT GUIDANCE
+
+
+5.     Assumptions and constraints
+Explain assumptions you made or were given (if appropriate) as well as the constraints you are
+limited by. These can be space, budget or time limits. Also specify environmental, health,
+procedural, regulatory speciﬁcations etc. the facility needs to adhere to.
+
+6.     Detail design speciﬁcations
+Give an overview of all the DATA that you researched, calculated, asked for or assumed. If you
+are redesigning a facility, specifying the current state is recommended to show improvement.
+You must collect data on everything as it inﬂuences decisions. Sales volumes, demand,
+production capacity, process detail activities (this is where you need to show the Production
+process ﬂow charts), interrelationships amongst activities, where is raw materials received and
+ﬁnal products dispatched, how does material ﬂow through the process, include storage areas
+speciﬁcs and policies, transport processes, specify equipment, labor etc. Also include all
+supporting processes eg. Power, water, offices, personnel, light, parking, amenities etc. See
+GETTING DATA GUIDANCE document also.
+This is the heading where a lot of calculations are done, but you only place summaries here. It
+is under this heading that you need to be strategic about what you include in your report and
+what you place in an appendix. Tables work well especially if it shows calculations logic well.
+Show DETAIL workstation designs as evidence that you understand the practical implications
+on that level of detail. These can then be used to support the bigger space requirements
+calculations especially for work AREAS or departments.
+The goal of showing data and calculations is to provide a logical traceable argument for the
+decisions that you took when designing your facility. Your data must therefore be strategic to
+convince your reader that the thinking and analysis behind your ﬁnal design is solid, rigorous,
+and trustworthy since it is based on researched data.
+
+7.     Design Alternatives
+Give an overview of the alternatives that you considered and how you evaluated them. Include
+at least 3 alternatives on some aspect of your design.
+Block layouts (indicate areas in blocks to check your dimensions relations) are very useful at
+this stage as you do not need a high degree of detail. Also indicate how you developed
+alternatives, based on what logic, criteria or method or approach (if possible). Basically – try
+and lead the reader through your thinking process. Be creative and make use of
+brainstorming techniques to develop original ideas.
+
+8.     Evaluating alternatives
+Make use of some technique in doing an evaluation, so that it shows a systematic approach,
+not just liking some ideas better than others. Refer to the Objectives and Requirements to
+measure effectiveness of the design alternatives.
+
+9.     The ﬁnal design
+Present a Master Facility layout (a full conceptual layout plan of whole plot). This must logically
+ﬂow from the Block layout chosen. Indicate scale (as line) and dimensions for the big areas such
+as Plot, buildings and outside parking. Use arrows to show material ﬂow. Highlight blocks or
+areas using colours / shapes etc. You do not need fancy software but you do need to be creative.
+                  INGB417 FACILITIES DESIGN – DESIGN REPORT GUIDANCE
+
+
+10. Business case
+In the business case for implementation the following should be included at least:
+
+Capital cost estimates of buildings (based on cost/sq m) and equipment (as calculated). No
+need to include stocking the warehouses, Procurement functions will take care of that.
+Operational costs do not need to be included as a Facility Design project is usually a Capex
+project handed over to Operations when ﬁnished. The business case heading must also
+include Risks associated with implementation (and mitigation strategies) and a high level
+Schedule.
+
+
+
+
+Below some tips on FORMATTING of your report
+
+Formatting has a signiﬁcant impact on the overall professionalism of your report.
+
+      Use a standard referencing method.
+      Please spell and grammar check your work. Don’t rely on your own eye to pick up the
+       mistakes – use the functionality in your Word processor or make use of the free version
+       of Grammarly / Writefull.
+      11 size font works well
+      1.5 line spacing works well
+      Calibri, Arial, Times New Roman are some of the more traditional fonts
+      Full justify your text – more professional
+      Make strategic use of headings and sub-headings. Not too many and not too little.
+      Avoid going more than 3 levels deep in sub-headings. If you are, restructure all your
+       headings.
+      Number Headings and sub-headings and check that it is correct when inserting the ToC
+      Very often students make unnecessary use of Smart Art type graphics. Technical
+       reports rarely have big, bold, colourful, blocked graphics like this.
+      DO make use of bulleted lists, tables and ﬁgures where ever possible but construct
+       them neatly.
+      It is a good idea to always portray your ideas using ﬁgures and tables to make it easier
+       for the reader to follow.
+      Figures and/or tables can really work well to summarize similar data and calculations
+       but refer to them in the text. Remember that a report is read, so help to draw the reader’s
+       attention to important details.
+

@@ -1,0 +1,137 @@
+                  INGB417 FACILITIES DESIGN – GETTING DATA GUIDANCE
+This work acknowledges Prof Chris van Schoor’s contribution in compiling this summary 2017
+
+Data group 1: Specify PRODUCTS and NUMBERS/Volumes to be
+manufactured or assembled
+
+
+   Specify the product design, material input and packaging requirements, etc.
+   Specify QUALITY requirements and expected SCRAP rates
+   Calculate the required DAILY OUTPUT and capacity per product and component
+    to meet customer demand (how much, how fast, when, in what form)
+   Material cost estimates
+
+(Customer demand, Daily production plans, Component and assembly drawings,
+parts list, BOMs (Bill of Materials), product structure diagram, assembly chart)
+
+
+Data group 2: Specify the Primary Manufacturing (including Material
+handling) PROCESSES ACTIVITIES as well as Support Activities
+
+
+   Determine required PROCESSES and operations activities
+   Determine ORDER and LOT sizes (what is a unit?)
+   Distinguish between Fabrication and Assembly ACTIVITIES
+   Identification and evaluation of EQUIPMENT
+   Establish personnel requirements for operating the equipment
+   Estimated time standards for set-up and operation, number of machines required,
+    cycle times, equipment and process efficiencies and utilisation, and requirements
+    for assembly line balancing
+   Estimated capital equipment costs
+   Determine manufacturing SERVICE requirements (electricity, water, fuel, gas,
+    waste disposal, etc.) for each process
+
+(Operation charts or procedures, process flow charts, route sheets, schedules,
+material handling requirements, Activity charts, Activity/Precedence diagrams)
+
+   Considering MATERIAL HANDLING and available EQUIPMENT based on weights,
+    specifications and dimensions of raw materials, products and finished goods.
+    Employ the questioning approach to develop alternative concept material
+    handling system designs.
+   Specify the equipment, unit loads, capacity, etc. of the recommended system.
+
+(Questioning approach answers, Material handling planning chart, Equipment
+specifications)
+
+
+   Determine requirements for RAW MATERIAL, WIP and FINAL PRODUCT
+    stores/STORAGE areas based on the specified inventory control and production
+    planning and control approach or policies.
+   Determine requirements for RECEIVING and DISPATCH areas. Visualize how
+    materials will flow into and through and out of the facility.
+
+                  INGB417 FACILITIES DESIGN – GETTING DATA GUIDANCE
+This work acknowledges Prof Chris van Schoor’s contribution in compiling this summary 2017
+   Determine requirements for OFFICES and PERSONNEL services, based on
+    organisation structure, direct and indirect labour and admin personnel. Also think
+    of PARKING spaces and how the flow of people into and out of the facility work.
+   Establish the scope of other SUPPORT activities such as security, maintenance,
+    tool storage and control, cleaning, etc.
+
+(Production planning, control and flow specifications, order and lot sizes, storage
+volumes and storage min/max policies, specification of requirements for offices and
+support activities)
+
+Data group 3: Determine the RELATIONSHIPS between Activities
+
+   Quantify and visualise (map) flow relationships if possible
+   Determine Activity relationships (non-quantifiable)
+
+(From-to-charts, Activity relationship chart and diagram, Space relationship diagram,
+String and/or spaghetti diagrams)
+
+
+Data group 4 : Determine the SPACE Requirements for all Activities
+
+
+   Establish the SPACE requirements for individual work
+    centres/departments/functions, considering requirements for equipment,
+    materials and personnel including assembly lines etc as determined by the
+    processes as well as all support activities and services.
+   A LAYOUT SKETCH (BLOCK LAYOUTS) of each work centre is required.
+   Combine work stations/centres in departments and design AISLES between work
+    stations/centres to optimise material and personnel movement and space
+    utilisation.
+
+(Work station/block layouts including aisles, departmental area and service
+requirements sheets)
+
+   Determine and motivate the size of storage areas for input materials, work-in
+    process and finished products, considering the type of storage equipment, store
+    location methods, etc. The layout of dedicated storage areas and storage
+    equipment must be specified.
+
+(Storage Analysis Chart, Storage equipment specifications, STORES layout)
+
+   Determine the requirements for receiving and shipping areas and specify the
+    layout and facilities, including docks, vehicle loading and holding areas, vehicle
+    manoeuvring and parking.
+
+(Receiving and Shipping Analysis Chart, RECEIVING and SHIPPING area layout)
+
+   Determine the space required for offices, rest rooms, parking and other personnel
+    services as required by the operations for these areas.
+   Functionally design each area with simple layouts.
+                  INGB417 FACILITIES DESIGN – GETTING DATA GUIDANCE
+This work acknowledges Prof Chris van Schoor’s contribution in compiling this summary 2017
+   Determine total space requirements for different areas (sum up requirements).
+
+
+Data group 5: Develop ALTERNATIVES Facilities Layout Plans, EVALUATE
+and SELECT to get to Master Facility Plan (MFP)
+
+
+   Integrate results of previous phases in a summarised format as basis for
+    assumptions
+   Develop basic layout configurations for a number of alternatives (at least 3), with
+    consideration of practical limitations and adjustments
+   Basis for alternatives can include things such as: product versus process
+    orientation, different flow patterns, alternative materials handling systems, etc.
+    Also remember that alternatives do not need to be the whole facility, it can also
+    just include certain work areas, as it makes common sense.
+
+(Block layouts alternatives,)
+
+   Evaluate alternatives against predetermined and weighed criteria.
+
+(Evaluation matrix, Weighted criteria or Pro/Con analysis, Structured motivation for
+product and process design, space requirements and relationships, equipment
+choices)
+
+   Select and motivate the proposed/preferred alternative
+       o Master plan (detailed final layouts of site and buildings)
+       o Estimated cost of facility and total manufacturing cost
+
+(Master plan of site and building layout, Summary of area requirements and
+specified equipment)
+
